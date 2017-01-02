@@ -20,6 +20,7 @@ num = numel(B);
 num3 = numel(D);
 num_flag = 0;
 num_flag2 = 0;
+
 % File is read as array. This section converts it to the matrix to read
 % corresponding sections
 for l = 1:num
@@ -44,6 +45,7 @@ busdata = zeros(m,max(myarray));
 measurementdata = zeros(m2,max(myarray2));
 
 count = 1;
+
 for l = 1:num
     a = l-sum(myarray(1:(count-1)));
     busdata(count,a)=B(l);
@@ -53,6 +55,7 @@ for l = 1:num
 end
 
 count3 =1;
+
 for l2 = 1:num3
     a2 = l2-sum(myarray2(1:(count3-1)));
     measurementdata(count3,a2)=D(l2);
