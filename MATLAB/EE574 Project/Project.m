@@ -122,4 +122,74 @@ n_c = str2double(char(measurementdata(n_v + 2 + 2*n_pi +2 + 2*n_pf +2,1:4)));
 %Therefore our Jacobian size -> (n_v + 2*n_pi +2* n_pf + n_c)X(2*n-1+n_a)
 %Initiate Jacobian H 
 
+measurements = zeros(n_v+2*n_pi+2*n_pf++n_c,4)
+
+m= n_v+2*n_pi+2*n_pf++n_c; % total measurement number 
+
+% All Measurements are read:
+
+for count = 1:n_v
+    if count <= n_v
+    measurements(count,1)=str2double(char(measurementdata(count+1,1:4)));
+    measurements(count,3)=str2double(char(measurementdata(count+1,9:16)));
+    measurements(count,4)=str2double(char(measurementdata(count+1,17:22)));
+    count = count+1;
+    end
+end
+
+for count = n_v+3:n_pi+n_v+2
+    if count <= n_pi+n_v+2
+    measurements(count-2,1)=str2double(char(measurementdata(count,1:4)));
+    measurements(count-2,3)=str2double(char(measurementdata(count,9:16)));
+    measurements(count-2,4)=str2double(char(measurementdata(count,17:22)));
+    count = count+1;
+    end
+end
+
+for count = n_pi+n_v+4:n_pi+n_v+4+n_qi
+    if count <= n_pi+n_v+3+n_qi
+    measurements(count-3,1)=str2double(char(measurementdata(count,1:4)));
+    measurements(count-3,3)=str2double(char(measurementdata(count,9:16)));
+    measurements(count-3,4)=str2double(char(measurementdata(count,17:22)));
+    count = count+1;
+    end
+end
+
+for count = n_pi+n_v+4+n_qi+2:n_pi+n_v+4+n_qi+2+n_pf
+    if count <= n_pi+n_v+4+n_qi+2+n_pf
+    measurements(count-4,1)=str2double(char(measurementdata(count,1:4)));
+    measurements(count-4,3)=str2double(char(measurementdata(count,9:16)));
+    measurements(count-4,4)=str2double(char(measurementdata(count,17:22)));
+    count = count+1;
+    end
+end
+
+
+
+% for count = 1:n_v+2*n_pi+2*n_pf+n_c+6
+%     if count < = n_v+2*n_pi+2*n_pf+n_c+6 ;
+%         measurement(count
+
+
+
+% busvoltagemeasurement(str2double(char(measurementdata(2:n_v+1,1:4))),3)=str2double(char(measurementdata(2:n_v+1,1:4)))
+
+
+
+
 H = zeros(n_v + 2*n_pi +2* n_pf + n_c , 2*busnumber+tapcounter -1);
+
+% Submatrix delVm/delVb creation
+
+% for counter = 2:n_v+1
+    
+    
+    
+
+
+
+
+
+
+
+
