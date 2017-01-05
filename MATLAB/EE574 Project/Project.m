@@ -122,7 +122,7 @@ n_c = str2double(char(measurementdata(n_v + 2 + 2*n_pi +2 + 2*n_pf +2,1:4)));
 %Therefore our Jacobian size -> (n_v + 2*n_pi +2* n_pf + n_c)X(2*n-1+n_a)
 %Initiate Jacobian H 
 
-measurements = zeros(n_v+2*n_pi+2*n_pf++n_c,4)
+measurements = zeros(n_v+2*n_pi+2*n_pf++n_c,4);
 
 m= n_v+2*n_pi+2*n_pf++n_c; % total measurement number 
 
