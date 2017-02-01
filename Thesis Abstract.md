@@ -3,7 +3,7 @@
 
 **Supervisor:** Asst.Prof. Ozan KEYSAN
 
-# Şebekeye Güç Elektroniği ile Bağlı Doğal Mıknatıslı Senkron Generatörlerlü Rüzgar Tribünlerinin Yapay Atalet Uygulanarak Şebeke Frekansına Katkısının Sağlanması #
+# Şebekeye Güç Elektroniği ile Bağlı Rüzgar Tribünlerinin Yapay Atalet Uygulanarak Şebeke Frekansına Katkısının Sağlanması #
 
 **Özet:** Konvansiyonel senkron generatörler şebekedeki karışıklıklara doğal olarak bir atalet tepkisi vermektedir. Fakat, yenilenebilir enerji kaynakları şebekeye güç elektroniği çeviricileriyle bağlı olduklarından bu önemli özelliğe sahip değildir. Bir diğer deyişle, yenilebilir enerji kaynağında bir atalet mevcut olsa bile, bu atalet, dönüş hızını arttırarak ya da azaltarak şebekedeki bir güç dengesizliği anına yardımcı olamaz. Bu problem, **Yapay Atalet** adı verilen, güç elektroniği devrelerindeki kontrol döngüsüne yapılacak değişikliklerle çözülebilir. Bu çalışmada, güç elektroniğinin makine tarafındaki çevirici ve şebeke tarafındaki çeviriciye yapılacak olan değişiklikler belirlenecek ve bu değişikliklerin SIMULINK yazılımında benzetimi yapılacaktır. Son olarak da, belirlenen değişikliklerin Rüzgar Tribünü Emülatör'ünde şebekedeki karışıklıklara karşı testi yapılacaktır. 
 
