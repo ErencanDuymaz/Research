@@ -1,0 +1,30 @@
+*.original
+*.exp
+*.lib
+*.r2013a
+*.unknown.version
+*.autosave
+*.asv
+
+\slprj\
+IET RPG 2017/Abstract/~$per abstract in word.docx
+Simulink Models/Old Models/Detailed_PMSG_one_machine.mdl
+Simulink Models/Old Models/Detailed_PMSG_one_machine_acc.mexw64
+Simulink Models/Old Models/Detailed_PMSG_one_machine_scaled.slx
+Simulink Models/Old Models/Detailed_PMSG_one_machine_scaled_acc.mexw64
+Simulink Models/Old Models/Grid Simulations/Grid.slx
+Simulink Models/Old Models/Grid Simulations/Grid_Modification.slx
+Simulink Models/Old Models/Grid Simulations/Grid_Qcontrolled.slx
+Simulink Models/Old Models/Induction Motor -PMSG/Detailed_PMSG_one_machine_acc.mexw64
+Simulink Models/Old Models/Induction Motor -PMSG/IM_PMSG_Trial.slx
+Simulink Models/Old Models/Induction Motor -PMSG/IM_PMSG_Trial_with_DTC.slx
+Simulink Models/Old Models/Induction Motor -PMSG/IM_PMSG_Trial_with_wind_speed.slx
+Simulink Models/Old Models/Induction Motor -PMSG/MSC.slx
+Simulink Models/Old Models/Induction Motor -PMSG/min160819.csv
+Simulink Models/Old Models/Siamak WTE/WT_sim_inertia.slx
+Simulink Models/Old Models/untitled.slx
+Simulink Models/Old Models/wind_turbine_emulator_model.slx
+Simulink Models/Old Models/wind_turbine_emulator_model_coupled_model_with_matlab2013a.slx
+Simulink Models/Old Models/wind_turbine_emulator_model_wind_turbine_model.slx
+Simulink Models/Old Models/wind_turbine_emulator_model_with_coupled_motor_trial.slx
+Simulink Models/wind_turbine_emulator_model_pmsg_control_to_be_continued.slx
