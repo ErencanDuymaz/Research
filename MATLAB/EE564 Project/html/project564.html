@@ -1,0 +1,237 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>project564</title><meta name="generator" content="MATLAB 8.1"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2017-05-03"><meta name="DC.source" content="project564.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, tt, code { font-size:12px; }
+pre { margin:0px 0px 20px; }
+pre.error { color:red; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><pre class="codeinput">clear <span class="string">all</span>
+clc
+<span class="comment">% Givens:</span>
+<span class="comment">% Pout=3kW &amp; n=3000 rpm</span>
+
+<span class="comment">% First, efficiency and power factor should be estimated</span>
+<span class="comment">% In order to estimate these, we need to get HP values</span>
+P = 3000;  <span class="comment">% in Watts</span>
+n = 3000;   <span class="comment">% in rpm</span>
+f = 50; <span class="comment">% in Hz</span>
+Php=3000/746;
+
+<span class="comment">%Here we need to visit Design Sheets.</span>
+<span class="comment">%Determine pf and efficiency values !!!</span>
+
+pf = 0.78;                              <span class="comment">%From DS</span>
+eta = 0.82;                             <span class="comment">%From DS</span>
+
+<span class="comment">% Then we can find S and S/n values (kVA/1000rpm)</span>
+
+S = P/(pf*eta);  <span class="comment">% in VA</span>
+S_kVA_1000rpm =  S/n ;
+fprintf(<span class="string">'S/n is %4.2f kVA/1000rpm\n'</span>,S_kVA_1000rpm)
+
+<span class="comment">% Again, we need to visit the DS to obtain a output coefficient G;</span>
+
+G = 1;                                   <span class="comment">%From DS</span>
+fprintf(<span class="string">'Output Coefficient is selected as %4.2f \n'</span>,G)
+<span class="comment">% Now, we know that S/n = G Di^2*L</span>
+<span class="comment">% Here notice that S/n is kVA/rpm (not kVA/1000rpm)</span>
+
+S_kVA_rpm = S_kVA_1000rpm / 1000;
+di_2_L = S_kVA_rpm / G ;
+
+<span class="comment">% We should also check the core length/pole pitch ratio</span>
+p = (120*f)/n;
+
+<span class="comment">% p =2 gives kr = 0.75</span>
+
+kr = 0.75;                                <span class="comment">%From DS</span>
+D_i=(di_2_L*p/(pi*kr))^(1/3);
+fprintf(<span class="string">'Di is %4.2f m\n'</span>,D_i)
+
+L = di_2_L/(D_i^2) ;
+fprintf(<span class="string">'L is %4.2f m\n'</span>,L)
+
+<span class="comment">%In order to find D_o, we need to visit DS7</span>
+Di_Do = 0.5;                           <span class="comment">%From DS</span>
+
+D_o = D_i/Di_Do;
+fprintf(<span class="string">'Do is %4.2f m\n'</span>,D_o)
+<span class="comment">%This is a small sized machine. Vph=400 V is OK.</span>
+<span class="comment">%This machine is delta connected.</span>
+<span class="comment">%Vph=eph=4.44*f*kw*N*Phi</span>
+Vph =400; <span class="comment">%in Volts</span>
+fprintf(<span class="string">'Vph is %4.2f V\n'</span>,Vph)
+<span class="comment">% In order to determine turns/phase,</span>
+<span class="comment">% we need to choose magnetic loading.</span>
+
+B = 0.45 ;  <span class="comment">%in T                    %From DS3</span>
+fprintf(<span class="string">'Magnetic Loading is %4.2f T\n'</span>,B)
+<span class="comment">%Now we can find the flux/pole</span>
+
+Phi = (B*pi*D_i*L)/p;
+fprintf(<span class="string">'Flux per pole is %4.2f Wb \n'</span>,Phi)
+<span class="comment">%Now, assume a kw=0.9</span>
+
+N = Vph/(4.44*50*0.9*Phi);   <span class="comment">%in Turns</span>
+fprintf(<span class="string">'N is %4.2f turns/phase \n'</span>,N)
+<span class="comment">%Now, check the current loading</span>
+
+I_ph = S / (3*Vph); <span class="comment">%in Amps</span>
+fprintf(<span class="string">'Iph is %4.2f A\n'</span>,I_ph)
+q = (3*2*N*I_ph)/(pi*D_i) ;
+fprintf(<span class="string">'Current Loading is %4.2f A/m\n'</span>,q)
+<span class="comment">%Current Loading is inside the limits.</span>
+</pre><pre class="codeoutput">S/n is 1.56 kVA/1000rpm
+Output Coefficient is selected as 1.00 
+Di is 0.11 m
+L is 0.13 m
+Do is 0.22 m
+Vph is 400.00 V
+Magnetic Loading is 0.45 T
+Flux per pole is 0.01 Wb 
+N is 199.07 turns/phase 
+Iph is 3.91 A
+Current Loading is 13523.01 A/m
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2013a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+clear all 
+clc
+% Givens:
+% Pout=3kW & n=3000 rpm 
+
+% First, efficiency and power factor should be estimated
+% In order to estimate these, we need to get HP values
+P = 3000;  % in Watts
+n = 3000;   % in rpm
+f = 50; % in Hz
+Php=3000/746;
+
+%Here we need to visit Design Sheets. 
+%Determine pf and efficiency values !!! 
+
+pf = 0.78;                              %From DS
+eta = 0.82;                             %From DS
+
+% Then we can find S and S/n values (kVA/1000rpm)
+
+S = P/(pf*eta);  % in VA
+S_kVA_1000rpm =  S/n ; 
+fprintf('S/n is %4.2f kVA/1000rpm\n',S_kVA_1000rpm)
+
+% Again, we need to visit the DS to obtain a output coefficient G;
+
+G = 1;                                   %From DS
+fprintf('Output Coefficient is selected as %4.2f \n',G)
+% Now, we know that S/n = G Di^2*L
+% Here notice that S/n is kVA/rpm (not kVA/1000rpm)
+
+S_kVA_rpm = S_kVA_1000rpm / 1000;
+di_2_L = S_kVA_rpm / G ;
+
+% We should also check the core length/pole pitch ratio
+p = (120*f)/n;
+
+% p =2 gives kr = 0.75 
+
+kr = 0.75;                                %From DS
+D_i=(di_2_L*p/(pi*kr))^(1/3);
+fprintf('Di is %4.2f m\n',D_i)
+
+L = di_2_L/(D_i^2) ; 
+fprintf('L is %4.2f m\n',L)
+
+%In order to find D_o, we need to visit DS7
+Di_Do = 0.5;                           %From DS
+
+D_o = D_i/Di_Do;
+fprintf('Do is %4.2f m\n',D_o)
+%This is a small sized machine. Vph=400 V is OK.
+%This machine is delta connected. 
+%Vph=eph=4.44*f*kw*N*Phi
+Vph =400; %in Volts 
+fprintf('Vph is %4.2f V\n',Vph)
+% In order to determine turns/phase, 
+% we need to choose magnetic loading. 
+
+B = 0.45 ;  %in T                    %From DS3
+fprintf('Magnetic Loading is %4.2f T\n',B)
+%Now we can find the flux/pole
+
+Phi = (B*pi*D_i*L)/p; 
+fprintf('Flux per pole is %4.2f Wb \n',Phi)
+%Now, assume a kw=0.9 
+
+N = Vph/(4.44*50*0.9*Phi);   %in Turns
+fprintf('N is %4.2f turns/phase \n',N)
+%Now, check the current loading 
+
+I_ph = S / (3*Vph); %in Amps
+fprintf('Iph is %4.2f A\n',I_ph)
+q = (3*2*N*I_ph)/(pi*D_i) ; 
+fprintf('Current Loading is %4.2f A/m\n',q)
+%Current Loading is inside the limits.
+
+
+
+##### SOURCE END #####
+--></body></html>
