@@ -5,6 +5,8 @@
 *.unknown.version
 *.autosave
 *.asv
+*.synctex
+*.aux
 
 \slprj\
 IET RPG 2017/Abstract/~$per abstract in word.docx
