@@ -1,4 +1,5 @@
-# Weekly Plan for until 30 July 
+# Weekly Plan 
 
-1. Inertia Values collection 
-2. Geared Drive WECS simulation 
+1. Complete Geared Drive Simulation 
+2. Modify Direct-Drive Simulation 
+3. DFIG WT examples on Simulink
