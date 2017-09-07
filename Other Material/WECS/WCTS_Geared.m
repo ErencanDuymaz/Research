@@ -17,3 +17,11 @@ gear = 97 ;
 Jgen = 534.116; %kgm2
 pgen = 4; 
 winit = -147.4; %initial generator speed
+kt = 4.863e-3;
+
+Jtotal= Jgen+Jtur/(gear^2);
+
+
+%DC Bus Settings 
+
+Vdcset = 600; %% De?i?ecek
