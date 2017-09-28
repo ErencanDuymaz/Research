@@ -1,4 +1,4 @@
-###How freuquency changes in electric grid?
+###How freuquency changes in electric grid?###
 One of the most important requirement of an electric grid is the constant frequency. Grid operators has to maintain grid frequency between predetermined values. Frequency in a electric grid depends on the balance between generation and the demand and changes according to the swing equation.  
 
 ![](Images/swing.JPG)  
@@ -11,10 +11,10 @@ As seen from the Figure above, the frequency falls rapidly due to an event occur
 
 Inertial support has huge importance on frequency stability.Rate of change of frequency is determined by the synchronous generator inertial support. This is achieved by the "inherently" by synchronous generators due to the fact that they rotate with synchronous speed and this speed is grid frequency dependent. As the grid frequency decreases, the synchronous speed also decreases which will slow down the generator resulting with the extraction of the kinetic energy.  
 
-###Reasons of the decrease in grid inertia
+###Reasons of the decrease in grid inertia###
 Most of the renewable energy sources are connected to grid via power electronics. Type 1 and Type 2 wind turbines are connected directly to the grid. Therefore, the grid frequency deviations will affect the power generation of these turbines. In other words, the generated power will be affected by the grid frequency deviation. Nonetheless, the Type 3 and Type 4 turbines are connected to grid with partial scale and full scale power electronics respectively. Power electronics gives freedom to user for many different applications like active and reactive power control. For example, variable speed wind turbines are able to operate in a wide speed range independent of grid frequency. This allows the wind turbine to operate in maximum power point. However, existing power electronics systems are not affected to frequency disturbances. As a result of this, their inertia is not reflected to grid. Hence, the equivalent grid inertia is getting lower with the penetration of renewable energy sources. Another reason for the decrease in the grid inertia is the **de-commitment** or **dispatch** of the conventional sources due to economical concerns(renewable sources are preferred instead of conventional generators) [ref]  
 
-###Control Diagram of the Permanent-Magnet Synchronous Generator Wind Turbines
+###Control Diagram of the Permanent-Magnet Synchronous Generator Wind Turbines###
 
 The main control diagram of the PMSG wind turbine is given below. In the figure, the aerodynamic model represents the wind turbine structure which captures power from the air. This power depends on the wind speed, pitch angle and the rotational speed. Therefore, the operator should manage speed and the pitch angle so that the operation is in the most efficient point. 
 ![](Images/controldiagram.JPG) 
@@ -28,7 +28,7 @@ GSC diagram is given in the figure below. As seen from diagram, DC link voltage 
 
 ![](Images/GSC.JPG)  
 
-###Inertia Support Methods in the literature  
+###Inertia Support Methods in the literature###
 
 The inertia support from a wind turbine should be supplied from some energy stored in the wind turbine due to the fact that the amount of energy captured from the wind is constant for momentarily. Therefore, the WT should make use of either the stored kinetic energy in the turbine inertia (blades, gearbox and generator inertia) or the stored electrostatic energy in the DC link capacitor. 
 
