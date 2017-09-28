@@ -29,7 +29,8 @@ GSC diagram is given in the figure below. As seen from diagram, DC link voltage 
 ![](Images/GSC.JPG)  
 
 ### Frequency Regulation Mechanisms ###
-With the increasing penetration of the renewable sources, system operators started to include frequency regulating mechanism from the renewable sources.  
+With the increasing penetration of the renewable sources, system operators started to include frequency regulating mechanism from the renewable sources. One of the first regulation that include WTs in frequency regulating mechanism states that WT should regulate active power with respect to the grid frequency. Even though it does not require inertial support, the regulation states that WT should curtain its active power for high frequencies [Nordic-ref]. Thereafter, Hydro Quebec utility required inertial support from the wind farm whose power is more than 100 MW. The support should be equivalent to the synchronous generator with inertia constant 3.5 seconds. The additional power should be at least 5% and it should last for 10 seconds. 
+
 ### Inertia Support Methods in the Literature ###
 
 The inertia support from a wind turbine should be supplied from some energy stored in the wind turbine due to the fact that the amount of energy captured from the wind is constant for momentarily. Therefore, the WT should make use of either the stored kinetic energy in the turbine inertia (blades, gearbox and generator inertia) or the stored electrostatic energy in the DC link capacitor.  
