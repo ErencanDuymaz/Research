@@ -1,5 +1,9 @@
 # Weekly Plan 
 
-1. Complete Geared Drive Simulation 
-2. Modify Direct-Drive Simulation 
-3. DFIG WT examples on Simulink
+1. Literature Review on Friday
+
+# Weekly Plan for Oct 9-13
+
+1. Complete Model of Bares on Simulink 
+2. Over speeding of WT trial on the model 
+3. Grid Modelling without Secondary Control
