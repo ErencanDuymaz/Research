@@ -44,7 +44,13 @@ In this type of inertial control the system slows down with the limit torque. Th
 
 #### Frequency based inertial control ####
 
-In this type of control, the torque set point of the turbine is adjusted based on the rate of change of the frequency. Additional power can also be extracted from the DC link capacitor. If the voltage set point of the DC link is also adjusted depending on the frequency deviation. However, it should be noted that the stored electrostatic energy is much lower than the kinetic energy stored in the turbine inertia. 
+In this type of control, the torque set point of the turbine is adjusted based on the rate of change of the frequency. Additional power can also be extracted from the DC link capacitor. If the voltage set point of the DC link is also adjusted depending on the frequency deviation. However, it should be noted that the stored electrostatic energy is much lower than the kinetic energy stored in the turbine inertia.  
+
+### Capacity Calculation of the Support ###
 
 ![](Images/fbic.JPG)  
 
+### Commercial Controllers ###
+Some of the wind turbine manufacturers offers additional controllers with their wind turbines. GE **WindINERTIA** controllers is one these controllers that can be used for both inertia support and the governor response. For the governor response, turbines are operated in curtailed operation. When the frequency deviates and leaves the dead-band, wind turbines increase power generation to maximum power point. Inertia support of the controller is developed for meeting the regulation expectations. The wind turbines supports the frequency same as the the synchronous machine with inertia constant 3.5 seconds with the duration of 10 seconds. **ENERCON** also facilitates its turbines with inertia emulation feature. 
+
+![](Images/enercon.JPG)  
