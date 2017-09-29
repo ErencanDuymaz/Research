@@ -33,7 +33,18 @@ With the increasing penetration of the renewable sources, system operators start
 
 ### Inertia Support Methods in the Literature ###
 
-The inertia support from a wind turbine should be supplied from some energy stored in the wind turbine due to the fact that the amount of energy captured from the wind is constant for momentarily. Therefore, the WT should make use of either the stored kinetic energy in the turbine inertia (blades, gearbox and generator inertia) or the stored electrostatic energy in the DC link capacitor.  
+The inertia support from a wind turbine should be supplied from some energy stored in the wind turbine due to the fact that the amount of energy captured from the wind is constant for momentarily. Therefore, the WT should make use of either the stored kinetic energy in the turbine inertia (blades, gearbox and generator inertia) or the stored electrostatic energy in the DC link capacitor. 
+
+There are two main methods in the literature. Both method modifies the torque set point of the generator so that the whole system slows down and extracts the kinetic energy stored in the total inertia of the wind turbine.  
+
+#### Torque limit based inertia support ####
+In this type of inertial control the system slows down with the limit torque. The limit torque is carefully selected for the secure operation. Torque limit is generally selected as 1.2 pu. The slow down operation is maintained until the pre defined minimum speed. Inertial support is activated when the frequency excursion exceeds the dead-band.  
+![](Images/sic.JPG)  
 
 
+#### Frequency based inertial control ####
+
+In this type of control, the torque set point of the turbine is adjusted based on the rate of change of the frequency. Additional power can also be extracted from the DC link capacitor. If the voltage set point of the DC link is also adjusted depending on the frequency deviation. However, it should be noted that the stored electrostatic energy is much lower than the kinetic energy stored in the turbine inertia. 
+
+![](Images/fbic.JPG)  
 
