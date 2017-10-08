@@ -1,9 +1,9 @@
+
 # Weekly Plan 
 
-1. Literature Review on Friday
-
-# Weekly Plan for Oct 9-13
-
 1. Complete Model of Bares on Simulink 
-2. Over speeding of WT trial on the model 
-3. Grid Modelling without Secondary Control
+2. Grid Modelling without Secondary Control
+3. SpeedGoat
+
+# Weekly Plan for 16-22 Oct
+1. Over speeding of WT trial on the model 
