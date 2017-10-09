@@ -1,14 +1,23 @@
+clear all
+clc
 % Support Time 
-
 sup = 15 ; 
 
-% Wind Turbine Parameters 
-R = 61.44; % m
-p = 1.225; % air density kg/m3,
-windspeed = 8 ; %m/s
-Jtur= 35444067; %kgm2
-Beta = 0;    %Pitch Angle
+%Sample Time
+Ts = 10e-6;
 
+% Initiation
+winit = -100;
+
+% Wind Turbine Parameters
+Prated =2750000;
+R = 51.5; % m
+p = 1.225; % air density kg/m3,
+windspeed = 12  ; %m/s
+windrated = 13; %m/s
+Jtur= 35444067; %kgm2
+Betainit = 0;    %Pitch Angle
+   
 %Gear Ratio
 gear = 97 ;
 
@@ -32,3 +41,8 @@ Jtotal= Jgen+Jtur/(gear^2);
 %DC Bus Settings 
 
 Vdcset = 3000; %% to be updated
+
+
+%Unnecessary
+global Bosluk
+Bosluk = 1;
