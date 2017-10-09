@@ -5,9 +5,11 @@ BARES is an Wind Farm located in Balıkesir with 52 Wind Turbines of 142.5 MW. E
 **Turbine Properties**  
 Power Rating: 2.75 MW 
 Rotor Diameter: 103m  
-Gearbox Ratio: 1:117.4 (Winergy)
-Generator Rated Speed: 550-1735 rpm  
+Gearbox Ratio: 1:117.4 (Winergy)  
+Generator Rated Speed: 550-1735 rpm  (57.6 -181.68 rad/sec)
 Rotor Rated Speed: 4.7-14.8 rpm  
+
+Rated Wind Speed =13m/s
 Generator: PM Synchronous (Winergy)  
 Generator Voltage: 690V  
 
