@@ -7,7 +7,7 @@ sup = 15 ;
 Ts = 10e-6;
 
 % Initiation
-winit = -100;
+winit = -150;
 
 % Wind Turbine Parameters
 Prated =2750000;
