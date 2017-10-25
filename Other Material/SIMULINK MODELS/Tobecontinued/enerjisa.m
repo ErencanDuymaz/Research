@@ -5,7 +5,7 @@ sup = 15 ;
 
 %Sample Time
 Ts = 10e-6;
-
+tur
 % Initiation
 winit = -150;
 
