@@ -1,14 +1,14 @@
 clear all
 clc
 
-% Support Time 
-sup = 15 ; 
+% Support Time
+sup = 15 ;
 
 %Sample Time
-Ts = 10e-6;
+Ts = 5e-6;
 drivefreq = 5e3; % The frequency of the drive
 % Initiation
-winit = -100;
+winit = -170;
 
 
 % Wind Turbine Parameters
@@ -19,19 +19,20 @@ windspeed = 10.4; %m/s
 windrated = 13; %m/s
 Jtur= 3e6; %kgm2
 
-   
+
 %Gear Ratio
 gear = 97 ;
 
-%Generator Parameters 
+%Generator Parameters
 Ld=2.48e-4;
 Lq=2.92e-4;
 Rs=0.7305e-4;
 Jgen = 200; %kgm2
-pgen = 4; 
+pgen = 4;
 
 
-fluxlinkage=5.6; % V.s
+fluxlinkage=2; % V.s
+torqueconstant=4.136; %Nm/Apeak
 Ld=2.48e-4;
 Lq=2.92e-4;
 Rs=0.7305e-3;
@@ -42,8 +43,13 @@ Rs=0.7305e-3;
 Jtotal= Jgen+Jtur/(gear^2);
 
 
-%DC Bus Settings 
-Vdcset = 3000; %% to be updated
+%DC Bus Settings
+Vdcset = 900; %% to be updated
+
+%LCL Filter
+L1f=1e-3;
+L2f=1e-4;
+Cf= 1e-6;
 
 
 %Unnecessary
