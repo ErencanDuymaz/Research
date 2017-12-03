@@ -17,7 +17,7 @@ R = 51.5; % m
 p = 1.225; % air density kg/m3,
 windspeed = 10.4; %m/s
 windrated = 13; %m/s
-Jtur= 3e6; %kgm2
+Jtur= 13e6; %kgm2   %Updated
 
 
 %Gear Ratio
@@ -44,12 +44,13 @@ Jtotal= Jgen+Jtur/(gear^2);
 
 
 %DC Bus Settings
-Vdcset = 900; %% to be updated
+Vdcset = 1073; %updated! bu asl?nda böyle de?ildir ama for the time being
+Cdc=27e-3;     %updated!
 
-%LCL Filter
-L1f=1e-3;
-L2f=1e-4;
-Cf= 1e-6;
+%LCL Filter    %updated!
+L1f=400e-6;
+L2f=800e-4;
+Cf= 185e-6;
 
 
 %Unnecessary
