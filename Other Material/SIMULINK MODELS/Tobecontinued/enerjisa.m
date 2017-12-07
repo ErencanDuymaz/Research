@@ -15,7 +15,7 @@ winit = -150;
 Prated =2750000;
 R = 51.5; % m
 p = 1.225; % air density kg/m3,
-windspeed = 10.4; %m/s
+windspeed = 14; %m/s
 windrated = 13; %m/s
 Jtur= 13e6; %kgm2   %Updated
 
