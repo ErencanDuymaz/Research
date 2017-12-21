@@ -41,4 +41,4 @@ In the very first part of the experiment, generator output voltage is observed r
 By making this experiment, the required current range for AC field excitation is obtained. This current range will be necessary for the buck converter design.
 
 **AVR Design**  
-![](/Images/AVR_Design.JPG)
+![](/Images/AVR_Design.jpg)
