@@ -58,3 +58,8 @@ All of the resistors used in the trial is 10k Ohm. The output signal is found to
 
 ![](/Images/opampoutput.JPG)
 
+Used Opamp connection Diagram (LM324N): 
+
+![](http://cosasdeingenieria.com/mystore/item/151/bb/amplificador-operacional-cuadruple-lm324n)
+
+**Note for Silker**: Connecting -15V to Ground also works. If you encounter negative voltages, you should connect -15V instead of ground. Ben öyle yaptım bu sefer :)
