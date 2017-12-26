@@ -63,3 +63,17 @@ Used Opamp connection Diagram (LM324N):
 ![](http://cosasdeingenieria.com/mystore/item/151/bb/amplificador-operacional-cuadruple-lm324n)
 
 **Note for Silker**: Connecting -15V to Ground also works. If you encounter negative voltages, you should connect -15V instead of ground. Ben öyle yaptım bu sefer :)
+
+
+**Voltage Measurement Board with output voltage 0-3.3V**  
+The output voltage of the voltage measurement circuit is arranged such that the output voltage is appropriate for ADC terminals of the DSP. The board is given below. 
+
+![](/Images/Voltagemeasurement.JPG)
+
+The output voltage for 220V is as follows: 
+
+![](/Images/220V.JPG)
+
+The output voltage for 350V is as follows: 
+
+![](/Images/350V.JPG)
