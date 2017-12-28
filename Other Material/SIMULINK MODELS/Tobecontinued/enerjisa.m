@@ -48,8 +48,8 @@ Vdcset = 1073; %updated! bu asl?nda böyle de?ildir ama for the time being
 Cdc=27e-3;     %updated!
 
 %LCL Filter    %updated!
-L1f=400e-6;
-L2f=800e-4;
+L1f=800e-6;
+L2f=400e-4;
 Cf= 185e-6;
 
 
