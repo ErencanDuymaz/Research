@@ -8,7 +8,7 @@ sup = 15 ;
 Ts = 2e-6;
 drivefreq = 5e3; % The frequency of the drive
 % Initiation
-winit = -150;
+winit = -160;
 
 
 % Wind Turbine Parameters
