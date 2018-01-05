@@ -76,4 +76,25 @@ The output voltage for 220V is as follows:
 
 The output voltage for 350V is as follows: 
 
-![](/Images/350V.JPG)
+![](/Images/350V.JPG)  
+
+Instead of using the 230V DC generator voltage, it is determined to use three-phase diode rectifier in order to create input voltage. By using variac, the DC voltage is increased gradually.
+
+![](/Images/variac.JPG) 
+
+![](/Images/DiodeRec.JPG) 
+
+![](/Images/DC_Link_Cap.JPG)
+
+By using the full-bridge topology, it is possible to create a buck converter structure with using one of the output node and one input node. Firstly, it is aimed to have a output voltage between A-N. However, the yielded output voltage is not found to be as desired. However, obtaining output voltage between Vdc+ and A gives the desiredwaveform. 
+
+![](http://lh5.ggpht.com/-9vD29K-Hc6c/UWOhOVmkSSI/AAAAAAAAQaA/x7pdREpPUgg/image_thumb%25255B6%25255D.png?imgmax=800)  
+
+Voltage between A-N: 
+
+![](/Images/VoutProblematic.JPG)
+
+Voltage between Vdc+-A: 
+
+![](/Images/Vout.JPG)
+
