@@ -5,7 +5,7 @@ clc
 sup = 15 ;
 
 %Sample Time
-Ts = 2e-6;
+Ts = 5e-6;
 drivefreq = 5e3; % The frequency of the drive
 % Initiation
 winit = -160;
@@ -15,7 +15,7 @@ winit = -160;
 Prated =2750000;
 R = 51.5; % m
 p = 1.225; % air density kg/m3,
-windspeed = 14; %m/s
+windspeed = 10; %m/s
 windrated = 13; %m/s
 Jtur= 13e6; %kgm2   %Updated
 
@@ -31,7 +31,7 @@ Jgen = 200; %kgm2
 pgen = 4;
 
 
-fluxlinkage=2; % V.s
+fluxlinkage=3; % V.s
 torqueconstant=4.136; %Nm/Apeak
 Ld=2.48e-4;
 Lq=2.92e-4;
