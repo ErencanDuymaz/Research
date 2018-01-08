@@ -1,9 +1,10 @@
 
 # Weekly Plan 
 
-1. Complete Model of Bares on Simulink 
-2. Grid Modelling without Secondary Control
-3. SpeedGoat
+1. MSC part of GE2.75-103! 
+2. Documentation of AVR(Şu ana kadar neler yapıldı)
+3. Final Implementation of AVR (Voltajı okusun duty cycle ı kendi versin)
 
-# Weekly Plan for 16-22 Oct
-1. Over speeding of WT trial on the model 
+#Bonus  
+
+Wind Energy reports so far! Tureb Ocak Raporu ne zaman? vs vs
