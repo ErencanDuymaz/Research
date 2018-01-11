@@ -31,7 +31,7 @@ Jgen = 200; %kgm2
 pgen = 4;
 
 
-fluxlinkage=3; % V.s
+fluxlinkage=4; % V.s
 torqueconstant=4.136; %Nm/Apeak
 Ld=2.48e-4;
 Lq=2.92e-4;
