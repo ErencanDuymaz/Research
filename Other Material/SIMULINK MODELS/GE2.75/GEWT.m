@@ -5,7 +5,7 @@ clc
 sup = 15 ;
 
 %Sample Time
-Ts = 2e-6;
+Ts = 10e-6;
 drivefreq = 5e3; % The frequency of the drive
 % Initiation
 winit = -160;
