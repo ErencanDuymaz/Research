@@ -5,7 +5,7 @@ clc
 sup = 15 ;
 
 %Sample Time
-Ts = 10e-6;
+Ts = 5e-6;
 drivefreq = 5e3; % The frequency of the drive
 % Initiation
 winit = -160;
@@ -49,10 +49,15 @@ Cdc=27e-3;     %updated!
 
 %LCL Filter    %updated!
 L1f=800e-6;
-L2f=400e-4;
+L2f=400e-6;
 Cf= 185e-6;
 
 
 %Unnecessary
 global Bosluk
 Bosluk = 1;
+
+Rline=0.001;
+Lline=5e-4;
+
+Vdcset=1100;
