@@ -5,10 +5,10 @@ clc
 sup = 15 ; 
 %Sample Time
 Ts = 5E-6;
-drivefreq = 3e3; % The frequency of the drive
+drivefreq = 30e3; % The frequency of the drive
 
 %Initiation
-winit=-200;
+winit=-175;
 
 % Wind Turbine Parameters
 Prated =2750000;
@@ -30,11 +30,13 @@ pgen = 2;  %Pole Pair
 Ld=2.48e-4;
 Lq=2.92e-4;
 Rs=1e-10;%0.7305e-4
+Ldf=1e-3;
+Lqf=1e-3;
 
 Jtotal= Jgen+Jtur/(gear^2);
 
 %DC Bus Settings
-Vdcset = 1200; %updated! bu asl?nda böyle de?ildir ama for the time being
+Vdcset = 3000; %updated! bu asl?nda böyle de?ildir ama for the time being
 Cdc=27e-3;     %updated!
 
 %Filter 
