@@ -5,8 +5,8 @@ clc
 sup = 15 ;
 
 %Sample Time
-Ts = 5e-6;
-drivefreq = 5e3; % The frequency of the drive
+Ts = 2E-6;
+drivefreq = 30e3; % The frequency of the drive
 % Initiation
 winit = -160;
 
@@ -21,17 +21,17 @@ Jtur= 13e6; %kgm2   %Updated
 
 
 %Gear Ratio
-gear = 97 ;
+gear = 117.4 ;
 
 %Generator Parameters
 Ld=2.48e-4;
 Lq=2.92e-4;
 Rs=0.7305e-4;
 Jgen = 200; %kgm2
-pgen = 4;
+pgen = 2; %pole pair
 
 
-fluxlinkage=4; % V.s
+fluxlinkage=1.5; % V.s
 torqueconstant=4.136; %Nm/Apeak
 Ld=2.48e-4;
 Lq=2.92e-4;
@@ -58,6 +58,6 @@ global Bosluk
 Bosluk = 1;
 
 Rline=0.001;
-Lline=5e-4;
+Lline=2e-3;
 
-Vdcset=1100;
+Vdcset=1200;
