@@ -42,5 +42,10 @@ Cdc=27e-3;     %updated!
 %Filter 
 Lfilter=1e-3;
 
+%Inertia Support
+H=3.5; %seconds
+fnom=50;
+
+
 
 
