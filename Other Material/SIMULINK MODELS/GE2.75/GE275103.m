@@ -8,7 +8,7 @@ Ts = 5E-6;
 drivefreq = 30e3; % The frequency of the drive
 
 %Initiation
-winit=-175;
+winit=-185;
 
 % Wind Turbine Parameters
 Prated =2750000;
@@ -23,7 +23,7 @@ Jtur= 13e6; %kgm2   %Updated
 gear = 117.4 ;
 
 %Generator Parameters 
-Jgen = 534.116; %kgm2
+Jgen = 115; %kgm2
 fluxlinkage=4;
 pgen = 2;  %Pole Pair
 
@@ -36,11 +36,11 @@ Lqf=1e-3;
 Jtotal= Jgen+Jtur/(gear^2);
 
 %DC Bus Settings
-Vdcset = 3000; %updated! bu asl?nda böyle de?ildir ama for the time being
+Vdcset = 2500; %updated! bu asl?nda böyle de?ildir ama for the time being
 Cdc=27e-3;     %updated!
 
 %Filter 
-Lfilter=1e-3;
+Lfilter=2e-4;
 
 %Inertia Support
 H=3.5; %seconds
