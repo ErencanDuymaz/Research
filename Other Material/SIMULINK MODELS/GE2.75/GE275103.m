@@ -45,6 +45,7 @@ Lfilter=2e-4;
 %Inertia Support
 H=3.5; %seconds
 fnom=50;
+suptime=10;
 
 
 
