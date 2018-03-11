@@ -1,8 +1,6 @@
 clear all
 clc
 
-% Support Time 
-sup = 15 ; 
 %Sample Time
 Ts = 5E-6;
 drivefreq = 30e3; % The frequency of the drive
@@ -43,7 +41,7 @@ Cdc=27e-3;     %updated!
 Lfilter=2e-4;
 
 %Inertia Support
-H=3.5; %seconds
+H=5.6; %seconds
 fnom=50;
 suptime=10;
 
