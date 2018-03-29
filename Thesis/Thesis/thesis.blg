@@ -3,4 +3,7 @@ The style file: ieeetr.bst
 Database file #1: library.bib
 Warning--empty publisher in InternationalRenewableEnergyAgency2017
 Warning--empty institution in States2016
-(There were 2 warnings)
+Warning--empty institution in EuropeanCommission2018
+Warning--empty institution in IRENA2014
+Warning--empty publisher in REN212017d
+(There were 5 warnings)

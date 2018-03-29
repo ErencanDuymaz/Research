@@ -9,6 +9,14 @@
 Eurostat, ``{Renewable energy in the EU-newsrelease},'' Tech. Rep. January,
   2018.
 
+\bibitem{EuropeanCommission2018}
+{European Commission;} and {IRENA International Renewable Energy Agency},
+  ``{Renewable Energy Prospects for the European Union},'' Tech. Rep. February,
+  2018.
+
+\bibitem{IRENA2014}
+IRENA, ``{A Renewable Energy Roadmap},'' Tech. Rep. June, 2014.
+
 \bibitem{EuropeanCommission2008}
 {European Commission}, ``{Communication from the Commission to the European
   Parliament, the Council, the European economic and social Committee and the
@@ -19,5 +27,9 @@ Eurostat, ``{Renewable energy in the EU-newsrelease},'' Tech. Rep. January,
 {European Parliament}, ``{Directive 2009/28/EC of the European Parliament and
   of the Council of 23 April 2009},'' {\em Official Journal of the European
   Union}, vol.~140, no.~16, pp.~16--62, 2009.
+
+\bibitem{REN212017d}
+REN21, {\em {Renewables Global Futures Report}}.
+\newblock 2017.
 
 \end{thebibliography}

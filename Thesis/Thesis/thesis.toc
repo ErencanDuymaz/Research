@@ -19,7 +19,8 @@
 \contentsline {section}{\numberline {1.1}Global Renewable Energy Status}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}EU 2020 Goals}{2}{section.1.2}
 \contentsline {section}{\numberline {1.3}Wind Energy Status}{3}{section.1.3}
-\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{5}{chapter*.13}
+\contentsline {section}{\numberline {1.4}Global Renewable Energy Future}{4}{section.1.4}
+\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{7}{chapter*.15}
 \numberline {}\uppercase {APPENDICES}
-\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{7}{appendix.A}
-\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{7}{section.A.1}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{9}{appendix.A}
+\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{9}{section.A.1}
