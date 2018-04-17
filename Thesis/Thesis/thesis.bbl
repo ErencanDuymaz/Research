@@ -32,4 +32,14 @@ IRENA, ``{A Renewable Energy Roadmap},'' Tech. Rep. June, 2014.
 REN21, {\em {Renewables Global Futures Report}}.
 \newblock 2017.
 
+\bibitem{Ipakchi2009}
+A.~Ipakchi and F.~Albuyeh, ``{Grid of the future},'' {\em IEEE Power and Energy
+  Magazine}, vol.~7, no.~2, pp.~52--62, 2009.
+
+\bibitem{Gautam2011}
+D.~Gautam, L.~Goel, R.~Ayyanar, V.~Vittal, and T.~Harbour, ``{Control strategy
+  to mitigate the impact of reduced inertia due to doubly fed induction
+  generators on large power systems},'' {\em IEEE Transactions on Power
+  Systems}, vol.~26, no.~1, pp.~214--224, 2011.
+
 \end{thebibliography}
