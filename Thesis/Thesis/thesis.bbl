@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{InternationalRenewableEnergyAgency2017}
 {International Renewable Energy Agency}, {\em {Renewable Energy Statistics
@@ -41,5 +41,10 @@ D.~Gautam, L.~Goel, R.~Ayyanar, V.~Vittal, and T.~Harbour, ``{Control strategy
   to mitigate the impact of reduced inertia due to doubly fed induction
   generators on large power systems},'' {\em IEEE Transactions on Power
   Systems}, vol.~26, no.~1, pp.~214--224, 2011.
+
+\bibitem{Muljadi2012}
+E.~Muljadi, V.~Gevorgian, and M.~Singh, ``{Understanding Inertial and Frequency
+  Response of Wind Power Plants Preprint},'' {\em 2012 IEEE Power Electronics
+  and Machines in Wind Applications (PEMWA)}, no.~July, pp.~1--8, 2012.
 
 \end{thebibliography}

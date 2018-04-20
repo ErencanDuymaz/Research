@@ -1,9 +1,17 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
+Repeated entry---line 16358 of file library.bib
+ : @article{Muljadi2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16861 of file library.bib
+ : @article{Muljadi2012
+ :                     ,
+I'm skipping whatever remains of this entry
 Warning--empty publisher in InternationalRenewableEnergyAgency2017
 Warning--empty institution in States2016
 Warning--empty institution in EuropeanCommission2018
 Warning--empty institution in IRENA2014
 Warning--empty publisher in REN212017d
-(There were 5 warnings)
+(There were 2 error messages)
