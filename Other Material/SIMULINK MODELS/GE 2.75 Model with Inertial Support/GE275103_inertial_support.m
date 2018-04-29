@@ -6,7 +6,7 @@ Ts = 5E-6;
 drivefreq = 10e3; % The frequency of the drive
 fnom=50;
 %Initiation
-winit=-175;
+winit=-168;
 
 % Wind Turbine Parameters
 Prated =2750000;
@@ -21,7 +21,7 @@ Jtur= 13e6; %kgm2   %Updated
 wrated=(2*pi*1735)/60;
 wmax=2*pi*(1735/60);
 %Gear Ratio
-gear = 117.4 ;
+gear = 117.4;
 
 %MPPT Speed
 %If the B=0
@@ -35,8 +35,8 @@ Tbase=Srated/((2*pi*fnom)/pgen);
 
 % Ld=2.48e-4;
 % Lq=2.92e-4;
-Ld=10.5e-4;
-Lq=10e-4;
+Ld=11e-4;
+Lq=10.5e-4;
 
 Rs=1e-10;%0.7305e-4
 Ldf=1e-3;
@@ -55,7 +55,7 @@ Lfilter=2e-4;
 %Inertia Support
 H=5; %seconds
 fnom=50;
-suptime=4;
+suptime=40;
 supduration=2;
 
 
