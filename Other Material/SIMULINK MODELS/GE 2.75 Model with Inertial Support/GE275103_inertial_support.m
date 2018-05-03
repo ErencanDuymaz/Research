@@ -6,7 +6,7 @@ Ts = 5E-6;
 drivefreq = 10e3; % The frequency of the drive
 fnom=50;
 %Initiation
-winit=-168;
+winit=-170;
 
 % Wind Turbine Parameters
 Prated =2750000;
@@ -26,6 +26,9 @@ gear = 117.4;
 %MPPT Speed
 %If the B=0
 wMPPT=(8.1*windspeed*gear)/R;
+%HighTipSpeedRation
+hightip=9.592;
+whigh=(hightip*windspeed*gear)/R;
 
 %Generator Parameters 
 Jgen = 115; %kgm2
@@ -35,8 +38,8 @@ Tbase=Srated/((2*pi*fnom)/pgen);
 
 % Ld=2.48e-4;
 % Lq=2.92e-4;
-Ld=11e-4;
-Lq=10.5e-4;
+Ld=12e-4;
+Lq=12.5e-4;
 
 Rs=1e-10;%0.7305e-4
 Ldf=1e-3;
@@ -45,7 +48,7 @@ Lqf=1e-3;
 Jtotal= Jgen+Jtur/(gear^2);
 
 %DC Bus Settings
-Vdcset = 2500; %updated! bu asl?nda böyle de?ildir ama for the time being
+Vdcset = 2400; %updated! bu asl?nda böyle de?ildir ama for the time being
 Cdc=27e-3;     %updated!
 
 %Filter 
@@ -56,6 +59,8 @@ Lfilter=2e-4;
 H=5; %seconds
 fnom=50;
 suptime=40;
+loadtrip=8;
+gendelay=1.5;
 supduration=2;
 
 
