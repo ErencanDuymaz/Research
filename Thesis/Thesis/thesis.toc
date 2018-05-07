@@ -23,8 +23,10 @@
 \contentsline {section}{\numberline {1.3}Renewable Energy Problems}{6}{section.1.3}
 \contentsline {section}{\numberline {1.4}Thesis Motivation}{7}{section.1.4}
 \contentsline {chapter}{\numberline {2}\MakeUppercase {POWER SYSTEM FREQUENCY STABILITY}}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{9}{section.2.1}
-\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{11}{chapter*.15}
+\contentsline {section}{\numberline {2.1}Frequency in a Power System}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Synchronous Generator and Synchronous Speed}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Swing Equation}{10}{subsection.2.1.2}
+\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{13}{chapter*.16}
 \numberline {}\uppercase {APPENDICES}
-\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{13}{appendix.A}
-\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{13}{section.A.1}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{15}{appendix.A}
+\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{15}{section.A.1}

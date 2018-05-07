@@ -1,11 +1,11 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
-Repeated entry---line 16358 of file library.bib
+Repeated entry---line 2708 of file library.bib
  : @article{Muljadi2012
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 16861 of file library.bib
+Repeated entry---line 16826 of file library.bib
  : @article{Muljadi2012
  :                     ,
 I'm skipping whatever remains of this entry
@@ -14,4 +14,6 @@ Warning--empty institution in States2016
 Warning--empty institution in EuropeanCommission2018
 Warning--empty institution in IRENA2014
 Warning--empty publisher in REN212017d
+Warning--can't use both author and editor fields in Kundur
+Warning--empty year in Kundur
 (There were 2 error messages)
