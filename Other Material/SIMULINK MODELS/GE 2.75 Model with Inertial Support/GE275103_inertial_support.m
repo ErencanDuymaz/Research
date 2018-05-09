@@ -13,7 +13,7 @@ Srated=3.04e6;
 
 R = 51.5; % m
 p = 1.225; % air density kg/m3,
-windspeed = 11; %m/s
+windspeed = 12; %m/s
 windrated = 13; %m/s
 Jtur= 13e6; %kgm2   %Updated
 wrated=(2*pi*1735)/60;
@@ -53,7 +53,7 @@ Vdcset = 2500; %updated! bu asl?nda böyle de?ildir ama for the time being
 Cdc=27e-3;     %updated!
 
 %Filter 
-Lfilter=2.5e-4;
+Lfilter=2e-4;
 %  Lfilter=1e-3;
 
 %Inertia Support
