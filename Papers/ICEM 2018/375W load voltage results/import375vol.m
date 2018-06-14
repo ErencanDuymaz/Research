@@ -6,10 +6,10 @@ plot(time,vol, '--k','LineWidth',2)
 
 hold on
 
-freq2=xlsread('40000 msec freq 8+1_2.xlsx','B135:B229');
-time2=xlsread('40000 msec freq 8+1_2.xlsx','F135:F229');
+time2=xlsread('voltage 8+1.xlsx','E10:E72');
+vol2=xlsread('voltage 8+1.xlsx','F10:F72');
 
-plot(time2,freq2,'k','LineWidth',2)
+plot(time2,vol2,'k','LineWidth',2)
 
 
 xlabel('Time(s)')
@@ -19,8 +19,8 @@ ax.XGrid = 'on';
 set(gca,'FontSize',14);
 % grid minor
 ax.YGrid = 'on';
-xlim([0 25])
-ylim([48 50.5])
+xlim([2.5 12.5])
+ylim([360 400])
 
 legend('Simulation Result','Experimental Result')
 

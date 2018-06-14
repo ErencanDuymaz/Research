@@ -1,12 +1,12 @@
-time=xlsread('datafreq375_ic_8.csv','A1:A2502');
-freq=xlsread('datafreq375_ic_8.csv','B1:B2502');
+time=xlsread('datafreq750_H6.csv','A1:A2502');
+freq=xlsread('datafreq750_H6.csv','B1:B2502');
 
 plot(time,freq, '--k','LineWidth',2)
 
 hold on
 
-freq2=xlsread('40000 msec freq 8+1_2.xlsx','B135:B229');
-time2=xlsread('40000 msec freq 8+1_2.xlsx','F135:F229');
+freq2=xlsread('5000 msec freq 8+1.xlsx','B56:B151');
+time2=xlsread('5000 msec freq 8+1.xlsx','D56:D151');
 
 plot(time2,freq2,'k','LineWidth',2)
 
@@ -19,7 +19,7 @@ set(gca,'FontSize',14);
 % grid minor
 ax.YGrid = 'on';
 xlim([0 25])
-ylim([48 50.5])
+ylim([47 50.5])
 
 legend('Simulation Result','Experimental Result')
 
