@@ -26,7 +26,7 @@ J.~Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
   J.~Ellis, H.~Illian, C.~Martinez, M.~O´Malley, K.~Coughlin, and
   K.~Hamachi-LaCommare, ``{Use of Frequency Response Metrics to Assess the
   Planning and Operating Requirements for Reliable Integration of Variable
-  Renewable Generation}.'' 2010.
+  Renewable Generation},'' no.~December 2010, pp.~LBNL--4142E, 2010.
 
 \bibitem{EuropeanCommission2008}
 {European Commission}, ``{Communication from the Commission to the European
@@ -57,5 +57,14 @@ D.~Gautam, L.~Goel, R.~Ayyanar, V.~Vittal, and T.~Harbour, ``{Control strategy
 E.~Muljadi, V.~Gevorgian, and M.~Singh, ``{Understanding Inertial and Frequency
   Response of Wind Power Plants Preprint},'' {\em 2012 IEEE Power Electronics
   and Machines in Wind Applications (PEMWA)}, no.~July, pp.~1--8, 2012.
+
+\bibitem{Ackermann2005a}
+T.~Ackermann, {\em {Wind Power in Power Systems Wind Power in Power Systems
+  Edited by}}, vol.~8.
+\newblock 2005.
+
+\bibitem{Heier}
+S.~Heier, {\em {Grid Integration of Wind Energy}}.
+\newblock 3~ed., 1998.
 
 \end{thebibliography}
