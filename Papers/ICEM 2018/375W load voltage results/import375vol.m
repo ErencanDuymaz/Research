@@ -1,27 +1,27 @@
-time=xlsread('datavol375.csv','A1:A1501');
-vol1=xlsread('datavol375.csv','B1:B1501');
-vol=vol1*380;
+time=xlsread('375W  voltage new new.xlsx','D2:D584');
+voltageex=xlsread('375W  voltage new new.xlsx','F2:F584');
 
-plot(time,vol, '--k','LineWidth',2)
+
+plot(time,voltageex, 'r','LineWidth',1.5)
 
 hold on
 
-time2=xlsread('voltage 8+1.xlsx','E10:E72');
-vol2=xlsread('voltage 8+1.xlsx','F10:F72');
+time2=xlsread('375W  voltage new.xlsx','G2:G6003');
+voltagesim=xlsread('375W  voltage new.xlsx','I2:I6003');
 
-plot(time2,vol2,'k','LineWidth',2)
+plot(time2,voltagesim,'--k','LineWidth',1.5)
 
 
 xlabel('Time(s)')
-ylabel('Frequency (Hz)')
+ylabel('Voltage (V)')
 ax = gca;
 ax.XGrid = 'on';
 set(gca,'FontSize',14);
-% grid minor
+grid minor
 ax.YGrid = 'on';
-xlim([2.5 12.5])
-ylim([360 400])
+xlim([0 20])
+ylim([205 225])
 
-legend('Simulation Result','Experimental Result')
+legend('Experimental Result','Simulation Result')
 
-saveas(gcf,'375vol.png')
+saveas(gcf,'375voltage.png')

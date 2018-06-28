@@ -1,21 +1,21 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
-Repeated entry---line 2148 of file library.bib
+Repeated entry---line 813 of file library.bib
  : @article{Muljadi2012
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6767 of file library.bib
+Repeated entry---line 2508 of file library.bib
+ : @techreport{Eto2010
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16034 of file library.bib
  : @unpublished{Eto2010
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13960 of file library.bib
+Repeated entry---line 16056 of file library.bib
  : @article{Muljadi2012
  :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 17941 of file library.bib
- : @article{Eto2010
- :                 ,
 I'm skipping whatever remains of this entry
 Warning--empty publisher in InternationalRenewableEnergyAgency2017
 Warning--empty institution in States2016

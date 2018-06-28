@@ -67,4 +67,21 @@ T.~Ackermann, {\em {Wind Power in Power Systems Wind Power in Power Systems
 S.~Heier, {\em {Grid Integration of Wind Energy}}.
 \newblock 3~ed., 1998.
 
+\bibitem{Polinder2013aa}
+H.~Polinder, J.~A. Ferreira, B.~B. Jensen, A.~B. Abrahamsen, K.~Atallah, and
+  R.~a. McMahon, ``{Trends in Wind Turbine Generator Systems},'' {\em IEEE
+  Journal of Emerging and Selected Topics in Power Electronics}, vol.~1, no.~3,
+  pp.~174--185, 2013.
+
+\bibitem{Kazmierkowski2002}
+M.~P. Kazmierkowski, R.~Krishnan, and F.~Blaabjerg, {\em {Control in Power
+  Electronics—Selected Problems}}.
+\newblock New York: Academic, 2002.
+
+\bibitem{Blaabjerg2006a}
+F.~Blaabjerg, R.~Teodorescu, M.~Liserre, and A.~V. Timbus, ``{Overview of
+  control and grid synchronization for distributed power generation systems},''
+  {\em IEEE Transactions on Industrial Electronics}, vol.~53, no.~5,
+  pp.~1398--1409, 2006.
+
 \end{thebibliography}

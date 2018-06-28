@@ -51,7 +51,7 @@ C_{p}(\lambda,\beta)=c_{1}(c_{2}/\lambda_{i}-c_{3}\beta-c_{4})e^{-c_{5}/\lambda{
 Variation of power coefficient $C_{p}$ is given in Figure \ref{variationofcp}. For the zero pitch angle, power coefficient has the maximum value of 0.48 for the tip speed ratio of 8.1. In order to ensure that the maximum of wind power is extracted, wind turbine should rotate a speed that gives the optimum tip speed ratio. 
 
 \subsection{Gearbox}  
-Variable speed PMSG wind turbines have a gearbox between turbine and generator except for direct-drive wind turbines. The gearbox increases angular speed and decreases the torque in the generator side.By decreasing the rated torque, generator size and cost can be reduced since the generator size is almost proportional to rated torque due to constant shear stress \cite{Polinder2013aa}.
+Variable speed PMSG wind turbines have a gearbox between turbine and generator except for direct-drive wind turbines. The gearbox increases angular speed and decreases the torque in the generator side.By decreasing the rated torque, generator size and cost can be reduced since the generator size is almost proportional to rated torque due to constant shear stress \cite{Polinder2013aa}. Moreover, turbine speed is increased to the allowable speed range of the generator which is generally much higher than that of wind turbines. Otherwise, generator should have high pole numbers. 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.45\linewidth]{gearbox.png}
@@ -59,4 +59,39 @@ Variable speed PMSG wind turbines have a gearbox between turbine and generator e
 	\label{gearboxmodel}
 \end{figure}
 
-\subsection{Permanent Magnet Synchronous Generator}  
+\subsection{Permanent Magnet Synchronous Generator}
+\label{pmsgsection}
+PMSGs are generally preferred over electrically excited synchronous generators due to high efficiency. Absence of electrical excitation on the rotor decreases losses. Besides, slip ring is not needed in the generator which also decrease the maintenance. Dynamical equations of the salient pole PMSG are projected on a reference frame which rotates synchronously with magnet flux and given in Equations \ref{v1d} and \ref{v1q} where $R_{1}$ is stator resistance in $\Omega$, $L_{sd}$ and $L_{sq}$ are d and q axis inductances in $H$, $i_{ad}$ and $i_{aq}$ are d and q axis currents in $A$, $\omega$ is the electrical angular frequency in $rad/s$ $\psi_{f}$ is magnet flux linkage in $Vs$ \cite{Ackermann2005a}. 
+\begin{equation}
+v_{1d}=R_{1} i_{ad}+L_{sd}\frac{di_{ad}}{dt}-L_{sq}\omega i_{sq}
+\label{v1d}
+\end{equation}
+\begin{equation}
+v_{1q}=R_{1} i_{aq}+L_{sq}\frac{di_{aq}}{dt}+L_{sd}\omega i_{sd}+\omega \psi_{f}
+\label{v1q}
+\end{equation}
+
+Another important PMSG parameter is the power in dq frame. The power expression is given in Equation \ref{pmsgpower}. The electromechanical torque can be found by the relation between power and angular speed. The torque expression is also given in Equation \ref{pmsgtorque} where p is the number of pole pair.
+
+\begin{equation}
+P_{elm}=\frac{3}{2}\omega i_{aq} (\psi_{f}+i_{ad}(L_{sq}-L_{sd}))
+\label{pmsgpower}
+\end{equation}
+\begin{equation}
+T_{e}=\frac{P_{elm}}{w_{m}}=\frac{P_{elm}}{w/p}=\frac{3}{2}p i_{aq} (\psi_{f}+i_{ad}(L_{sq}-L_{sd}))
+\label{pmsgtorque}
+\end{equation}
+
+Given equations are defined for salient pole machines. If the clyndrical rotor machine is used, the torque equation reduces to the Equation \ref{pmsgtorque2}.
+\begin{equation}
+T_{e}=\frac{3}{2}p i_{aq} \psi_{f}
+\label{pmsgtorque2}
+\end{equation}
+
+\subsection{Machine Side Converter}
+
+Variable speed wind turbines are equipped with the Back-to-Back converters in order to decouple grid frequency and the turbine speed. This gives wind turbine degree of freedom for the rotational speed. In this way, turbine is able to capture the maximum available power in wind. Machine Side Converter (MSC) i.e. Generator Side Converter is the converter that is connected between generator and DC-bus. The three phase generator output AC voltage is converted to DC voltage.
+Conversion from AC to DC can be achieved by three-arm full bridge converters. This converter can be equipped with uncontrolled, semi-controlled and fully-controlled switches. Fully-controlled switches such as MOSFET,IGBT are commonly used in the industry and gives two control parameters to the user. \par
+Voltages and currents are generally transformed into synchronously rotating reference frame or also called dq frame. Since the frame is rotating in synchronous speed, three-phase phasors transform into DC quantities. Therefore its control becomes easier \cite{Kazmierkowski2002}. Proportional-integral (PI) controllers are associated with the dq control structure due to their satisfactory behaviour interaction to DC variables \cite{Blaabjerg2006a}. Hence, the control in the back-to-back converter is achieved with PI controllers in the dq frame. 
+
+
