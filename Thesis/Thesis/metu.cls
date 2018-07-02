@@ -201,7 +201,7 @@
 \def\@titlepartb{\MakeUppercase{\@tdepartment}\\
 	ANA BİLİM DALI}
 \def\@approvallabel{Tezin Onayı:}
-\def\@approvaltext{{\bf Yazar Ad Soyad} tarafından, {\bf Orta Doğu Teknik Üniversitesi, \@tdepartment} ana bilim dalında {\bf \@tdegree} derecesinin gerekliliklerini kısmen yerine getirmek için teslim edilmiştir,}
+\def\@approvaltext{{\bf Erencan Duymaz} tarafından, {\bf Orta Doğu Teknik Üniversitesi, \@tdepartment} ana bilim dalında {\bf \@tdegree} derecesinin gerekliliklerini kısmen yerine getirmek için teslim edilmiştir,}
 \def\@directoraff{Enstitü Müdürü, {\bf Fen Bilimleri Enstitüsü}}
 \def\@chairlabel{Bölüm Başkanı}
 \def\@supervisorlabel{Tez Yöneticisi}
@@ -235,7 +235,7 @@ metinde orjinal olmayan tüm materyal alıntı olarak belirtilmiş ve gerekli re
        IN\\
        \MakeUppercase{\@department}}
 \def\@approvallabel{Approval of the thesis:}
-\def\@approvaltext{submitted by {\bf Yazar Ad Soyad} in partial fulfillment of the
+\def\@approvaltext{submitted by {\bf Erencan Duymaz} in partial fulfillment of the
 requirements for the degree of {\bf \@degree~ in \@department~ Department, Middle East
 Technical University} by,}
 \def\@directoraff{Dean, Graduate School of {\bf Natural and Applied Sciences}}
@@ -676,7 +676,7 @@ to\hsize{\hfil\box\@tempboxa\hfil}
 \vskip 1.85cm plus0pt minus2mm \nointerlineskip
  \vbox{\@titleseperator}
 \vskip 1.85cm plus0pt minus2mm \nointerlineskip
- \vbox{\expandafter{Yazar Ad Soyad}}
+ \vbox{\expandafter{ERENCAN DUYMAZ}}
 \vskip 5cm plus0pt minus1cm \nointerlineskip
  \vbox{\singlespacing \@titlepartb}
 \vskip 5cm plus0pt minus1cm \nointerlineskip
@@ -878,7 +878,7 @@ to\hsize{\hfil\box\@tempboxa\hfil}
 \begin{flushleft}
 \hfill{
 \begin{tabular}{l@{}ll}
-\textnormal{\@plagirismnametext} & \textnormal{:} & \textnormal\bf{Yazar Ad Soyad} \\[1cm]
+\textnormal{\@plagirismnametext} & \textnormal{:} & \textnormal\bf{Erencan Duymaz} \\[1cm]
 \textnormal{\@plagirismsignaturetext} & \textnormal{:} &
 \end{tabular}
 }

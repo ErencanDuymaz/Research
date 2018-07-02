@@ -92,6 +92,46 @@ T_{e}=\frac{3}{2}p i_{aq} \psi_{f}
 
 Variable speed wind turbines are equipped with the Back-to-Back converters in order to decouple grid frequency and the turbine speed. This gives wind turbine degree of freedom for the rotational speed. In this way, turbine is able to capture the maximum available power in wind. Machine Side Converter (MSC) i.e. Generator Side Converter is the converter that is connected between generator and DC-bus. The three phase generator output AC voltage is converted to DC voltage.
 Conversion from AC to DC can be achieved by three-arm full bridge converters. This converter can be equipped with uncontrolled, semi-controlled and fully-controlled switches. Fully-controlled switches such as MOSFET,IGBT are commonly used in the industry and gives two control parameters to the user. \par
-Voltages and currents are generally transformed into synchronously rotating reference frame or also called dq frame. Since the frame is rotating in synchronous speed, three-phase phasors transform into DC quantities. Therefore its control becomes easier \cite{Kazmierkowski2002}. Proportional-integral (PI) controllers are associated with the dq control structure due to their satisfactory behaviour interaction to DC variables \cite{Blaabjerg2006a}. Hence, the control in the back-to-back converter is achieved with PI controllers in the dq frame. 
+Voltages and currents are generally transformed into synchronously rotating reference frame or also called dq frame. Since the frame is rotating in synchronous speed, three-phase phasors transform into DC quantities. Therefore its control becomes easier \cite{Kazmierkowski2002}. Proportional-integral (PI) controllers are associated with the dq control structure due to their satisfactory behaviour interaction to DC variables \cite{Blaabjerg2006a}. Hence, the control in the back-to-back converter is achieved with PI controllers in the dq frame. \par
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.95\linewidth]{msc.png}
+	\caption{Machine Side Control Diagram}
+	\label{msc}
+\end{figure}
+The control diagram of the MSC is depicted in Figure \ref{msc} according to the study in \cite{Chinchilla2006}. In dq frame, it is possible to control two parameters. One of these parameters is the d-axis current. It can be set zero in order to decrease the stator copper losses. The other parameter is the q-axis current that is proportional to the electromagnetic torque as it can be observed in the Equation \ref{pmsgtorque2}. However, q-axis current or torque is controlled in order to regulate the turbine speed. Therefore, turbine speed is adjusted such that the turbine will capture maximum available power in the wind. 
+\subsection{Grid Side Converter}
+Grid Side Converter (GSC) or Line Side Converter (LSC) is the converter that is connected between DC-link capacitance and grid. GSC works as an inverter that injects current synchronous with grid voltage. Currents and voltages are transformed into synchronously rotating frame that is aligned with the grid voltage. Therefore, d-axis current determines the amount of current which is in phase with the grid voltage meanwhile q-axis current determines amount of current that is out of phase with the grid voltage. In other words, injecting d-axis current injects active power to grid meantime q-axis current injects reactive power to grid. \par
+The responsibility of the GSC is regulating DC voltage and the reactive power injected to grid. The control diagram of the GSC is given in Figure \ref{gsc}. As seen from the figure, DC-bus voltage is regulated by controlling the d axis current. If the DC-bus voltage increases above the reference value, d-axis current reference is increased. As a result, active power increases. Increased active power also decreases the DC-bus voltage level. Reference value of the q-axis current is set to zero in normal operation, consequently unity power factor. For Low Voltage Ride-Through studies, q-axis current is determined according to the reactive power value requirement. \cite{Orowska-Kowalska2014} \par
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.95\linewidth]{gsc.png}
+	\caption{Grid Side Control Diagram}
+	\label{gsc}
+\end{figure}
+GSC is connected to grid through an filter. Therefore, the output voltage of the converter is not equal to the that of grid. The relation between converter voltage, grid voltage and current is derived through Equations \ref{crossilk} to \ref{crosscomp2} where $v_{c}$ is the converter voltage, $v_{g}$ is the grid voltage and  $i_{g}$ is the grid current measured in the grid side. As it is observed in Equation \ref{crosscomp1} an \ref{crosscomp2}, converter side voltage includes same axis grid voltage and a term proportional to cross axis current which is called cross-coupled term. Therefore, the outputs of the inner PI regulators are compensated and forwarded to Pulse Width Modulation after transformation to three-phase voltages.
 
-
+\begin{equation}
+\overline{v_{c}}=v_{dc}+jv_{qc}
+\label{crossilk}
+\end{equation}
+\begin{equation}
+\overline{v_{g}}=v_{dg}+jv_{qg}
+\end{equation}
+\begin{equation}
+\overline{i_{g}}=i_{dg}+ji_{qg}
+\end{equation}
+\begin{equation}
+\overline{v_{c}}=\overline{v_{g}}+\overline{i_{g}}j\omega L
+\end{equation}
+\begin{equation}
+v_{dc}+jv_{qc}=v_{dg}+jv_{qg}+j\omega L (i_{dg}+ji_{qg})
+\end{equation}
+\begin{equation}
+v_{dc}=v_{dg}-\omega L i_{qg}
+\label{crosscomp1}
+\end{equation}
+\begin{equation}
+v_{qc}=v_{qg}+\omega L i_{dg}
+\label{crosscomp2}
+\end{equation}

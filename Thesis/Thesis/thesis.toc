@@ -9,7 +9,7 @@
 \contentsline {leads}{\numberline {}TABLE OF CONTENTS}{ix}{chapter*.4}
 \contentsline {leads}{\numberline {}LIST OF TABLES}{xi}{chapter*.5}
 \contentsline {leads}{\numberline {}LIST OF FIGURES}{xii}{chapter*.6}
-\contentsline {leads}{\numberline {}LIST OF ABBREVIATIONS}{xiii}{chapter*.7}
+\contentsline {leads}{\numberline {}LIST OF ABBREVIATIONS}{xiv}{chapter*.7}
 \numberline {}CHAPTERS
 \babel@toc {turkish}{}
 \babel@toc {english}{}
@@ -34,7 +34,8 @@
 \contentsline {subsection}{\numberline {3.1.2}Gearbox}{15}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}Permanent Magnet Synchronous Generator}{16}{subsection.3.1.3}
 \contentsline {subsection}{\numberline {3.1.4}Machine Side Converter}{16}{subsection.3.1.4}
-\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{19}{chapter*.20}
+\contentsline {subsection}{\numberline {3.1.5}Grid Side Converter}{18}{subsection.3.1.5}
+\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{21}{chapter*.22}
 \numberline {}\uppercase {APPENDICES}
-\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{21}{appendix.A}
-\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{21}{section.A.1}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{23}{appendix.A}
+\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{23}{section.A.1}

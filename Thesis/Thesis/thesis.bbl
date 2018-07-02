@@ -22,11 +22,12 @@ P.~Kundur, {\em {Power System Stability and Control}}.
 \newblock McGraw-Hill,Inc.
 
 \bibitem{Eto2010}
-J.~Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
-  J.~Ellis, H.~Illian, C.~Martinez, M.~O´Malley, K.~Coughlin, and
-  K.~Hamachi-LaCommare, ``{Use of Frequency Response Metrics to Assess the
-  Planning and Operating Requirements for Reliable Integration of Variable
-  Renewable Generation},'' no.~December 2010, pp.~LBNL--4142E, 2010.
+J.~H. Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
+  J.~Ellis, H.~Illian, C.~Martinez, M.~O'Malley, K.~Coughlin, and K.~H.
+  LaCommare, ``{Use of Frequency Response Metrics to Assess the Planning and
+  Operating Requirements for Reliable Integration of Variable Renewable
+  Generation},'' Tech. Rep. December 2010, Lawrence Berkeley National
+  Laboratory (LBNL), Berkeley, CA (United States), dec 2010.
 
 \bibitem{EuropeanCommission2008}
 {European Commission}, ``{Communication from the Commission to the European
@@ -83,5 +84,16 @@ F.~Blaabjerg, R.~Teodorescu, M.~Liserre, and A.~V. Timbus, ``{Overview of
   control and grid synchronization for distributed power generation systems},''
   {\em IEEE Transactions on Industrial Electronics}, vol.~53, no.~5,
   pp.~1398--1409, 2006.
+
+\bibitem{Chinchilla2006}
+M.~Chinchilla, S.~Arnaltes, and J.~C. Burgos, ``{Control of permanent-magnet
+  generators applied to variable-speed wind-energy systems connected to the
+  grid},'' {\em IEEE Transactions on Energy Conversion}, vol.~21, no.~1,
+  pp.~130--135, 2006.
+
+\bibitem{Orowska-Kowalska2014}
+T.~Or{\l}owska-Kowalska, F.~Blaabjerg, and J.~Rodr{\'{i}}guez, {\em {Advanced
+  and intelligent control in power electronics and drives}}.
+\newblock 2014.
 
 \end{thebibliography}
