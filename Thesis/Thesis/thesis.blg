@@ -1,19 +1,27 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
-Repeated entry---line 2160 of file library.bib
+Repeated entry---line 18207 of file library.bib
+ : @techreport{Eto2010
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 18337 of file library.bib
+ : @article{Morren2006a
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 18832 of file library.bib
  : @article{Muljadi2012
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3473 of file library.bib
- : @unpublished{Eto2010
- :                     ,
+Repeated entry---line 19075 of file library.bib
+ : @article{Morren2006
+ :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12587 of file library.bib
+Repeated entry---line 19820 of file library.bib
  : @article{Muljadi2012
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 20029 of file library.bib
+Repeated entry---line 19888 of file library.bib
  : @article{Eto2010
  :                 ,
 I'm skipping whatever remains of this entry
@@ -23,8 +31,9 @@ Warning--empty institution in EuropeanCommission2018
 Warning--empty institution in IRENA2014
 Warning--can't use both author and editor fields in Kundur
 Warning--empty year in Kundur
+Warning--empty note in Eto2010
 Warning--empty publisher in REN212017d
 Warning--empty publisher in Ackermann2005a
 Warning--empty publisher in Heier
 Warning--empty publisher in Orowska-Kowalska2014
-(There were 4 error messages)
+(There were 6 error messages)
