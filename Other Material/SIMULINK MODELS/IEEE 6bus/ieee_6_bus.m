@@ -1,6 +1,6 @@
 clear all
 clc
-Ts=10e-6;
+Ts=1e-5;
 
 Sbase=100e6;
 Vbase=154e3;
