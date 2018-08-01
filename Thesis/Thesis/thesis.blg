@@ -1,29 +1,29 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
-Repeated entry---line 18207 of file library.bib
+Repeated entry---line 1979 of file library.bib
+ : @unpublished{Eto2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 20364 of file library.bib
  : @techreport{Eto2010
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 18337 of file library.bib
+Repeated entry---line 20551 of file library.bib
+ : @article{Muljadi2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 20766 of file library.bib
  : @article{Morren2006a
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 18832 of file library.bib
- : @article{Muljadi2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 19075 of file library.bib
+Repeated entry---line 21345 of file library.bib
  : @article{Morren2006
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 19820 of file library.bib
+Repeated entry---line 21876 of file library.bib
  : @article{Muljadi2012
  :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 19888 of file library.bib
- : @article{Eto2010
- :                 ,
 I'm skipping whatever remains of this entry
 Warning--empty publisher in InternationalRenewableEnergyAgency2017
 Warning--empty institution in States2016
@@ -31,7 +31,7 @@ Warning--empty institution in EuropeanCommission2018
 Warning--empty institution in IRENA2014
 Warning--can't use both author and editor fields in Kundur
 Warning--empty year in Kundur
-Warning--empty note in Eto2010
+Warning--empty journal in Eto2010
 Warning--empty publisher in REN212017d
 Warning--empty publisher in Ackermann2005a
 Warning--empty publisher in Heier
