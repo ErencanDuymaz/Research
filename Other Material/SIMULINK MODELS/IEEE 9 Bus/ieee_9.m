@@ -11,5 +11,5 @@ Ybase=1/Xbase;
 
 Lbase=Xbase/(100*pi);
 Cbase=1/(100*pi*Xbase);
-startup=2;
-loadconnection=20;
+startup=2; 
+loadconnection=15;

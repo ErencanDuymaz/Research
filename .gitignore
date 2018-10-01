@@ -7,6 +7,13 @@
 *.asv
 *.synctex
 *.aux
+*.mexw64
+*.fig
+*.toc
+*.gz
+*.out
+*.lot
+*.lof
 
 \slprj\
 IET RPG 2017/Abstract/~$per abstract in word.docx

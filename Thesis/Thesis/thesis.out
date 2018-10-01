@@ -14,11 +14,11 @@
 \BOOKMARK [1][-]{section.1.4}{Literature Review}{chapter.1}% 14
 \BOOKMARK [1][-]{section.1.5}{Thesis Motivation}{chapter.1}% 15
 \BOOKMARK [0][-]{chapter.2}{POWER SYSTEM FREQUENCY STABILITY}{}% 16
-\BOOKMARK [1][-]{section.2.1}{Frequency in a Power System}{chapter.2}% 17
-\BOOKMARK [2][-]{subsection.2.1.1}{Synchronous Generator and Synchronous Speed}{section.2.1}% 18
-\BOOKMARK [2][-]{subsection.2.1.2}{Swing Equation}{section.2.1}% 19
-\BOOKMARK [2][-]{subsection.2.1.3}{Frequency in Power Systems}{section.2.1}% 20
-\BOOKMARK [3][-]{subsubsection.2.1.3.1}{Primary Frequency Controllers}{subsection.2.1.3}% 21
+\BOOKMARK [1][-]{section.2.1}{Synchronous Generator and Synchronous Speed}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.2}{Swing Equation}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.3}{Frequency in Power Systems}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.3.1}{Primary Frequency Control}{section.2.3}% 20
+\BOOKMARK [2][-]{subsection.2.3.2}{Secondary and Tertiary Control}{section.2.3}% 21
 \BOOKMARK [0][-]{chapter.3}{WIND TURBINE MODELLING}{}% 22
 \BOOKMARK [1][-]{section.3.1}{VARIABLE SPEED PMSG WIND TURBINES}{chapter.3}% 23
 \BOOKMARK [2][-]{subsection.3.1.1}{Aerodynamic Model}{section.3.1}% 24
@@ -26,6 +26,8 @@
 \BOOKMARK [2][-]{subsection.3.1.3}{Permanent Magnet Synchronous Generator}{section.3.1}% 26
 \BOOKMARK [2][-]{subsection.3.1.4}{Machine Side Converter}{section.3.1}% 27
 \BOOKMARK [2][-]{subsection.3.1.5}{Grid Side Converter}{section.3.1}% 28
-\BOOKMARK [0][-]{chapter*.22}{REFERENCES}{}% 29
-\BOOKMARK [0][-]{appendix.A}{Ek A }{}% 30
-\BOOKMARK [1][-]{section.A.1}{\326rnek K\232s\232m}{appendix.A}% 31
+\BOOKMARK [0][-]{chapter.4}{VALIDATION IN TEST CASE}{}% 29
+\BOOKMARK [1][-]{section.4.1}{\326rnek K\232s\232m}{chapter.4}% 30
+\BOOKMARK [0][-]{chapter*.22}{REFERENCES}{}% 31
+\BOOKMARK [0][-]{appendix.A}{Ek A }{}% 32
+\BOOKMARK [1][-]{section.A.1}{\326rnek K\232s\232m}{appendix.A}% 33
