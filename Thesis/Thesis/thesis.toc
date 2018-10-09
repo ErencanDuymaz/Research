@@ -37,8 +37,10 @@
 \contentsline {subsection}{\numberline {3.1.4}Machine Side Converter}{18}{subsection.3.1.4}
 \contentsline {subsection}{\numberline {3.1.5}Grid Side Converter}{20}{subsection.3.1.5}
 \contentsline {chapter}{\numberline {4}\MakeUppercase {VALIDATION IN TEST CASE}}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{23}{section.4.1}
-\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{25}{chapter*.22}
+\contentsline {section}{\numberline {4.1}P.M.Anderson 9 Bus Test Case}{23}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}System Properties}{23}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Load Flow Analysis}{24}{subsection.4.1.2}
+\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{27}{chapter*.26}
 \numberline {}\uppercase {APPENDICES}
-\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{29}{appendix.A}
-\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{29}{section.A.1}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{31}{appendix.A}
+\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{31}{section.A.1}

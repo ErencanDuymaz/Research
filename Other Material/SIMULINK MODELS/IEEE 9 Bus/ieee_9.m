@@ -7,7 +7,7 @@ Vbase=230e3;
 Ibase=Sbase/(sqrt(3)*Vbase);
 
 Xbase=(Vbase^2)/Sbase;
-Ybase=1/Xbase;
+Ybase=1/Xbase; 
 
 Lbase=Xbase/(100*pi);
 Cbase=1/(100*pi*Xbase);
