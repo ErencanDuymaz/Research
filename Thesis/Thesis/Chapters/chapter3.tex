@@ -89,7 +89,6 @@ T_{e}=\frac{3}{2}p i_{aq} \psi_{f}
 \end{equation}
 
 \subsection{Machine Side Converter}
-
 Variable speed wind turbines are equipped with the Back-to-Back converters in order to decouple grid frequency and the turbine speed. This gives wind turbine degree of freedom for the rotational speed. In this way, turbine is able to capture the maximum available power in wind. Machine Side Converter (MSC) i.e. Generator Side Converter is the converter that is connected between generator and DC-bus. The three phase generator output AC voltage is converted to DC voltage.
 Conversion from AC to DC can be achieved by three-arm full bridge converters. This converter can be equipped with uncontrolled, semi-controlled and fully-controlled switches. Fully-controlled switches such as MOSFET,IGBT are commonly used in the industry and gives two control parameters to the user. \par
 Voltages and currents are generally transformed into synchronously rotating reference frame or also called dq frame. Since the frame is rotating in synchronous speed, three-phase phasors transform into DC quantities. Therefore its control becomes easier \cite{Kazmierkowski2002}. Proportional-integral (PI) controllers are associated with the dq control structure due to their satisfactory behaviour interaction to DC variables \cite{Blaabjerg2006a}. Hence, the control in the back-to-back converter is achieved with PI controllers in the dq frame. \par
@@ -110,7 +109,6 @@ The responsibility of the GSC is regulating DC voltage and the reactive power in
 	\label{gsc}
 \end{figure}
 GSC is connected to grid through an filter. Therefore, the output voltage of the converter is not equal to the that of grid. The relation between converter voltage, grid voltage and current is derived through Equations \ref{crossilk} to \ref{crosscomp2} where $v_{c}$ is the converter voltage, $v_{g}$ is the grid voltage and  $i_{g}$ is the grid current measured in the grid side. As it is observed in Equation \ref{crosscomp1} an \ref{crosscomp2}, converter side voltage includes same axis grid voltage and a term proportional to cross axis current which is called cross-coupled term. Therefore, the outputs of the inner PI regulators are compensated and forwarded to Pulse Width Modulation after transformation to three-phase voltages.
-
 \begin{equation}
 \overline{v_{c}}=v_{dc}+jv_{qc}
 \label{crossilk}
@@ -134,4 +132,29 @@ v_{dc}=v_{dg}-\omega L i_{qg}
 \begin{equation}
 v_{qc}=v_{qg}+\omega L i_{dg}
 \label{crosscomp2}
+\end{equation}
+\section{SYNTHETIC INERTIA IMPLEMENTATION}
+As explained in Chapter \ref{chp:2} Section \ref{swing}, synchronous generators changes its speed according to the balance between input mechanical and electromechanical powers. The inverse case is also true. In other words, if the frequency changes, the electromechanical power of the generators also change. Synthetic inertia is the method that implements this behavious on the renew able energy systems. It is possible to change the active power output of the wind turbines if these are connected to grid with full scale power electronics. The increase in the active power should be proportional to change of frequency and the inertia of the renewable energy system. Even though renewable energy system does not have inertia, inertial support with desired inertia constant can be implemented in the system as long as a stored energy exists in the system.\\
+In order to implement synthetic inertia in the system, a relation between frequency and active power of the wind turbine should be constructed. Wind turbine in this study is variable speed wind turbine with full scale power electronics. The speed of the turbine is controlled by MSC such that active power is adjusted.Inertial support modification is depicted in Figure \ref{modifiedmsc}. The new value of the active power is determined according to the swing equation. However, the wind turbine in this study is operated with a reference speed rather than a reference power. Therefore, the assigned power value should be used in order to yield the q-axis current reference value. Reference q-axis current is derived between the Equation \ref{inertialsupport1} to Equation \ref{inertialsupport4}.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.95\linewidth]{msc_modified.png}
+	\caption{Modified MSC for Inertial Support}
+	\label{modifiedmsc}
+\end{figure}
+\begin{equation}
+P_{new}=(1+\Delta P) P_{pre}
+\label{inertialsupport1}
+\end{equation}
+\begin{equation}
+T_{new} \omega_{m}=(1+\Delta P) T_{pre} \omega_{pre}
+\label{inertialsupport2}
+\end{equation}
+\begin{equation}
+\frac{3}{2} p \psi_{f} i_{q,new} \omega_{m}=(1+\Delta P) \frac{3}{2} p \psi_{f} i_{q,pre} \omega_{pre}
+\label{inertialsupport3}
+\end{equation}
+\begin{equation}
+ i_{q,ref}=i_{q,new}=(1+\Delta P) \frac{i_{q,pre} \omega_{pre}}{ \omega_{m}} 
+\label{inertialsupport4}
 \end{equation}

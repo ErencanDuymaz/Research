@@ -7,9 +7,9 @@
 \babel@toc {english}{}
 \contentsline {leads}{\numberline {}ACKNOWLEDGMENTS}{viii}{chapter*.3}
 \contentsline {leads}{\numberline {}TABLE OF CONTENTS}{ix}{chapter*.4}
-\contentsline {leads}{\numberline {}LIST OF TABLES}{xi}{chapter*.5}
-\contentsline {leads}{\numberline {}LIST OF FIGURES}{xii}{chapter*.6}
-\contentsline {leads}{\numberline {}LIST OF ABBREVIATIONS}{xiv}{chapter*.7}
+\contentsline {leads}{\numberline {}LIST OF TABLES}{xii}{chapter*.5}
+\contentsline {leads}{\numberline {}LIST OF FIGURES}{xiii}{chapter*.6}
+\contentsline {leads}{\numberline {}LIST OF ABBREVIATIONS}{xv}{chapter*.7}
 \numberline {}CHAPTERS
 \babel@toc {turkish}{}
 \babel@toc {english}{}
@@ -23,24 +23,28 @@
 \contentsline {section}{\numberline {1.3}Renewable Energy Problems}{6}{section.1.3}
 \contentsline {section}{\numberline {1.4}Literature Review}{7}{section.1.4}
 \contentsline {section}{\numberline {1.5}Thesis Motivation}{8}{section.1.5}
-\contentsline {chapter}{\numberline {2}\MakeUppercase {POWER SYSTEM FREQUENCY STABILITY}}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}Synchronous Generator and Synchronous Speed}{9}{section.2.1}
-\contentsline {section}{\numberline {2.2}Swing Equation}{10}{section.2.2}
-\contentsline {section}{\numberline {2.3}Frequency in Power Systems}{11}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Primary Frequency Control}{12}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Secondary and Tertiary Control}{13}{subsection.2.3.2}
-\contentsline {chapter}{\numberline {3}\MakeUppercase {WIND TURBINE MODELLING}}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}VARIABLE SPEED PMSG WIND TURBINES}{15}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Aerodynamic Model}{16}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Gearbox}{17}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Permanent Magnet Synchronous Generator}{18}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Machine Side Converter}{18}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Grid Side Converter}{20}{subsection.3.1.5}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {VALIDATION IN TEST CASE}}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}P.M.Anderson 9 Bus Test Case}{23}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}System Properties}{23}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Load Flow Analysis}{24}{subsection.4.1.2}
-\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{27}{chapter*.26}
+\contentsline {chapter}{\numberline {2}\MakeUppercase {POWER SYSTEM FREQUENCY STABILITY}}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}Synchronous Generator and Synchronous Speed}{11}{section.2.1}
+\contentsline {section}{\numberline {2.2}Swing Equation}{12}{section.2.2}
+\contentsline {section}{\numberline {2.3}Frequency in Power Systems}{13}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Primary Frequency Control}{14}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Secondary and Tertiary Control}{15}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {3}\MakeUppercase {WIND TURBINE MODELLING}}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}VARIABLE SPEED PMSG WIND TURBINES}{17}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Aerodynamic Model}{18}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Gearbox}{19}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Permanent Magnet Synchronous Generator}{20}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Machine Side Converter}{20}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Grid Side Converter}{22}{subsection.3.1.5}
+\contentsline {section}{\numberline {3.2}SYNTHETIC INERTIA IMPLEMENTATION}{23}{section.3.2}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {VALIDATION IN TEST CASE}}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}P.M.Anderson 9 Bus Test Case}{25}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}System Properties}{25}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Load Flow Analysis for Base Case}{26}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Load Connection}{27}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Modified Case}{30}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Load Flow Analysis for Modified Case}{30}{subsection.4.2.1}
+\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{33}{chapter*.34}
 \numberline {}\uppercase {APPENDICES}
-\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{31}{appendix.A}
-\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{31}{section.A.1}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{37}{appendix.A}
+\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{37}{section.A.1}
