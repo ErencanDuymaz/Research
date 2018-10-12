@@ -1,27 +1,31 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
-Repeated entry---line 21300 of file library.bib
+Repeated entry---line 20547 of file library.bib
  : @article{Muljadi2012
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 21328 of file library.bib
+Repeated entry---line 20957 of file library.bib
  : @article{Morren2006
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 21764 of file library.bib
- : @article{Morren2006a
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 22530 of file library.bib
+Repeated entry---line 21609 of file library.bib
  : @techreport{Eto2010
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 22860 of file library.bib
+Repeated entry---line 21951 of file library.bib
+ : @article{Morren2006a
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 22541 of file library.bib
+ : @article{Gonzalez-longatt2015
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 22822 of file library.bib
  : @article{Muljadi2012
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 23114 of file library.bib
+Repeated entry---line 23019 of file library.bib
  : @article{Eto2010
  :                 ,
 I'm skipping whatever remains of this entry
@@ -36,4 +40,5 @@ Warning--empty publisher in REN212017d
 Warning--empty publisher in Ackermann2005a
 Warning--empty publisher in Heier
 Warning--empty publisher in Orowska-Kowalska2014
-(There were 6 error messages)
+Warning--empty journal in Gonzalez-longatt2015
+(There were 7 error messages)

@@ -37,14 +37,19 @@
 \contentsline {subsection}{\numberline {3.1.4}Machine Side Converter}{20}{subsection.3.1.4}
 \contentsline {subsection}{\numberline {3.1.5}Grid Side Converter}{22}{subsection.3.1.5}
 \contentsline {section}{\numberline {3.2}SYNTHETIC INERTIA IMPLEMENTATION}{23}{section.3.2}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {VALIDATION IN TEST CASE}}{25}{chapter.4}
-\contentsline {section}{\numberline {4.1}P.M.Anderson 9 Bus Test Case}{25}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}System Properties}{25}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Load Flow Analysis for Base Case}{26}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Load Connection}{27}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Modified Case}{30}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Load Flow Analysis for Modified Case}{30}{subsection.4.2.1}
-\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{33}{chapter*.34}
+\contentsline {subsection}{\numberline {3.2.1}Synthetic Inertia Activation Schemes}{25}{subsection.3.2.1}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {VALIDATION IN TEST CASE}}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}P.M.Anderson 9 Bus Test Case}{27}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}System Properties}{27}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Load Flow Analysis for Base Case}{28}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Base Case Frequency Response for Additional Load Connection}{29}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Modified Case}{32}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Load Flow Analysis for Modified Case}{32}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Modified Case Frequency Response for Additional Load Connection}{33}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Decommissioned Case}{35}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Load Flow Analysis for Decommissioned Case}{35}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Decommissioned Case Frequency Response for Additional Load Connection}{36}{subsection.4.3.2}
+\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{39}{chapter*.41}
 \numberline {}\uppercase {APPENDICES}
-\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{37}{appendix.A}
-\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{37}{section.A.1}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{43}{appendix.A}
+\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{43}{section.A.1}

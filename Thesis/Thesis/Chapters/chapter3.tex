@@ -158,3 +158,6 @@ T_{new} \omega_{m}=(1+\Delta P) T_{pre} \omega_{pre}
  i_{q,ref}=i_{q,new}=(1+\Delta P) \frac{i_{q,pre} \omega_{pre}}{ \omega_{m}} 
 \label{inertialsupport4}
 \end{equation}
+
+\subsection{Synthetic Inertia Activation Schemes}
+Another issue about inertial support is the time instant to trigger synthetic inertia. In the literature, continuous operation, under-frequency trigger and maximum-frequency gradient are discussed \cite{Gonzalez-longatt2015}. It is obvious that continuous operation would create oscillations in active power output due to the continuous deviations in grid frequency. This is an unrealistic operation and is used for comparison purposes. Under-frequency trigger is activated when the frequency decreases below a threshold value. The maximum-frequency gradient trigger uses a controller that is very similar to RoCoF relays and tracks the frequency gradient. Once the frequency gradient is below a threshold value, the synthetic inertia is activated. In this study, maximum-frequency gradient is used with a threshold value of 0.1Hz/s. 

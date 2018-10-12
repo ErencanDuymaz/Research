@@ -56,7 +56,7 @@ Successful grid operation requires a load flow analysis in order to ensure that 
 	\caption{Load Flow Results in Base Case}
 	\label{loadflow_case1}
 \end{table}
-\subsection{Load Connection}
+\subsection{Base Case Frequency Response for Additional Load Connection}
 It is obvious that power system networks experience high RoCoF when either high amount of generation trips or high amount of load connects to system. These two main event can be used in the simulation to create frequency disturbances. Since the simulation in Simulink environment slows down with the increasing amount of generators, the disturbances are created with load connections.\par
 \begin{table}[]
 	\centering
@@ -102,6 +102,7 @@ In this case, the P.M. Anderson test case is modified such that a wind farm cons
 	\label{ieee_9_bus_case2}
 \end{figure}
 \subsection{Load Flow Analysis for Modified Case}
+Load flow analysis for modified case is listed in Table \ref{loadflow_case2}. The power injected from Bus 1 is decreased as expected. This can also be seen from the phase angle between 1 and 4. Phase angle difference between these buses decreased from $2.22^{\circ}$ to $1.18^{\circ}$.
 \begin{table}[h!]
 	\centering
 	\begin{tabular}{cclccccc}
@@ -120,3 +121,74 @@ In this case, the P.M. Anderson test case is modified such that a wind farm cons
 	\caption{Load Flow Results for Modified Case}
 	\label{loadflow_case2}
 \end{table}
+\subsection{Modified Case Frequency Response for Additional Load Connection}
+The modified base is very similar to the Base Case except for a wind farm located in Bus 5. The renewable energy system in this case can be considered as a negative load. Therefore, base case with decreased load is under discussion in this subsection. The same amount of load is taken into operation at Bus 6 and the frequency of the system is shown in Figure \ref{Case1_2_freq}.\\
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.85\linewidth]{Case1_2.png}
+	\caption{Comparison of Base Case and Modified Case Frequencies}
+	\label{Case1_2_freq}
+\end{figure}
+Almost the same frequency response is observed in the system. The reason is that both systems have the same amount of stored kinetic energy. Another reason is the underutilization of the power system network. This can also be observed in the rate of change of frequencies in Figure \ref{Case1_2_rocof}. Almost the same RoCoF values are observed in the system. This concludes that renewable energy penetration does not change frequency response of the system if the only change in the system is the inclusion of renewable energy system. Note that the renewable energy systems are intermittent energy sources. However, in this study,the source of the renewable energy system is assumed as constant. Therefore, the reason of frequency disturbance is load connection rather than the change in active power output of renewable systems.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.85\linewidth]{Case1_2_rocof.png}
+	\caption{Comparison of Base Case and Modified Case Frequencies}
+	\label{Case1_2_rocof}
+\end{figure}
+\section{Decommissioned Case}
+As seen in the Modified Case, the frequency response of the system does not change with renewable energy inclusion. However, it is inevitable that renewable energy systems will replace the conventional units in future. In this case, the smallest generator, generator 3, will be decommissioned. The decommissioned case diagram is shown in Figure \ref{decommissioned_case}.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.85\linewidth]{ieee_9_bus_decommissioned.png}
+	\caption{Comparison of Base Case and Modified Case Frequencies}
+	\label{decommissioned_case}
+\end{figure}
+\\Since the generator 3 is out of service, the stored kinetic energy is decreased in the system. Decommissioned system dynamical properties are updated and given in Table \ref{systemdynamicaldatacase3}.
+\begin{table}[]
+	\centering
+	\begin{tabular}{ll}
+		\hline
+		Total System Load                      & 315 MW    \\
+		Generator Droop Settings               & 5\%       \\
+		Stored Kinetic Energy at Nominal Speed & 3.004 GWs \\
+		Gen 1 Inertia Constant                 & 9.5515 s  \\
+		Gen 2 Inertia Constant                 & 3.9216 s  \\
+		\hline
+	\end{tabular}
+	\caption{System Dynamical Properties}
+	\label{systemdynamicaldatacase3}
+\end{table}
+\subsection{Load Flow Analysis for Decommissioned Case}
+Since the generator 3 is out of service, generator 1 loading will be increased. Load flow analysis for decommissioned case is given in Table \ref{loadflow_case3}.
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{cclccccc}
+		\hline
+		Bus \# & Bus Type & \multicolumn{1}{c}{Voltage} & Angle & Pg    & Qg     & Pl  & Ql \\ \hline
+		1      & SL       & \multicolumn{1}{c}{1.04}    & 0     & 121.76& 16.26  & 0   & 0  \\
+		2      & PV       & \multicolumn{1}{c}{1.025}   & 4.18  & 163   & 0.65   & 0   & 0  \\
+		4      & PQ       & 1.0332                      & -3.74 & 0     & 0      & 0   & 0  \\
+		5      & PQ       & 1.0083                      & -5.63 & 0     & 0      & 125 & 50 \\
+		6      & PQ       & 1.0224                      & -7.65 & 0     & 0      & 90  & 30 \\
+		7      & PQ       & 1.0294                      & -1.36 & 0     & 0      & 0   & 0  \\
+		8      & PQ       & 1.0207                      & -5.82 & 0     & 0      & 100 & 35 \\
+ \hline
+	\end{tabular}
+	\caption{Load Flow Results for Decommissioned Case}
+	\label{loadflow_case3}
+\end{table}
+\subsection{Decommissioned Case Frequency Response for Additional Load Connection}
+Same amount of additional load is taken into operation from Bus 6. System frequency response is observed and compared to Base Case and Modified Case in Figure \ref{Case1_2_3_freq}. As soon from the figure, the frequency nadir decreased from 49.77Hz to 49.65Hz. This is due to the decrease in the stored kinetic energy in the system. Due to the decommission of generator 3, the frequency decreases steeper following to load connection.This can also be observed RoCoF comparison given in Figure \ref{Case1_2_3_rocof}. 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.85\linewidth]{Case1_2_3_freq.png}
+	\caption{Comparison of Base Case,Modified Case and Decommissioned Case Frequency Responses}
+	\label{Case1_2_3_freq}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.85\linewidth]{Case1_2_3_rocof.png}
+	\caption{Comparison of Base Case,Modified Case and Decommissioned Case RoCoFs}
+	\label{Case1_2_3_rocof}
+\end{figure}
