@@ -3,7 +3,7 @@
 \label{chp:2}
 \section{Synchronous Generator and Synchronous Speed}
 
-Synchronous machines produce torque only in synchronous speed. This is why they are equipped with damper windings which are basically induction machine windings. If the frequency of  grid changes, damper windings create a torque which creates a force to synchronize the speed to the grid frequency. Two type of damper windings are given in Figure \ref{damperwindings}.
+Synchronous machines produce torque only in synchronous speed. This is why they are equipped with damper windings which are basically induction machine windings. If the frequency of  grid changes, damper windings create a torque which creates a force to synchronize the speed to the grid frequency. Two type of damper windings are given in Fig. \ref{damperwindings}.
 
 \begin{figure}[h!]
 	\centering
@@ -23,7 +23,7 @@ Synchronous machines produce torque only in synchronous speed. This is why they 
 	\label{damperwindings}
 \end{figure}
 
-The synchronous machines keep their operation in the synchronous speed thanks to the damper windings in the rotor. Relation between grid frequency and the synchronous speed is given in Equation \ref{syncspeed} in terms of rpm. \cite{Kundur}. This equation can be better observed in Equation \ref{syncspeed2}
+The synchronous machines keep their operation in the synchronous speed thanks to the damper windings in the rotor. Relation between grid frequency and the synchronous speed is given in Eq. (\ref{syncspeed}) in terms of rpm. \cite{Kundur}. This equation can be better observed in Eq (\ref{syncspeed2}).
 
 \begin{equation}
  n_{s}=\frac{120f}{p_{f}}
@@ -41,18 +41,18 @@ where $n_{s}$ is the synchronous speed in rpm, $f$ is the grid frequency in Hz, 
 
 \section{Swing Equation}
 \label{swing}
-Speed in synchronous machines changes according to the net torque acting on the rotor. Therefore, the speed is maintained constant unless there is no difference between mechanical and electromechanical torque. The equation of motion is given in Eq. \ref{eqmotion} where $J$ is aggravated moment of inertia of the generator and the turbine in $kgm^{2}$,$T_{m}$ and $T_{e}$ are mechanical and electromechanical torques in $Nm$.
+Speed in synchronous machines changes according to the net torque acting on the rotor. Therefore, the speed is maintained constant unless there is no difference between mechanical and electromechanical torque. The equation of motion is given in Eq. (\ref{eqmotion}) where $J$ is aggravated moment of inertia of the generator and the turbine in $kgm^{2}$,$T_{m}$ and $T_{e}$ are mechanical and electromechanical torques in $Nm$.
 \begin{equation}
 J\frac{d\omega_{m}}{dt}=T_{m}-T_{e}=T_{a}
 \label{eqmotion}
 \end{equation}
-In power system network, the power ratings of the generators and corresponding moment of inertia values varies. Hence, it is more convenient to use inertia constant, $H$ whose unit is seconds and varies between 2 and 9 \cite{Kundur}. Inertia constant is defined as the ratio of kinetic energy stored in the inertia to the power rating of the generator as in Eq. \ref{inertiaconstant} where $\omega_{0m}$ denotes the rated angular velocity of generator in rad/s and $S_{base}$ is the rated apparent power in VA. 
+In power system network, the power ratings of the generators and corresponding moment of inertia values varies. Hence, it is more convenient to use inertia constant, $H$ whose unit is seconds and varies between 2 and 9 \cite{Kundur}. Inertia constant is defined as the ratio of kinetic energy stored in the inertia to the power rating of the generator as in Eq. (\ref{inertiaconstant}) where $\omega_{0m}$ denotes the rated angular velocity of generator in rad/s and $S_{base}$ is the rated apparent power in VA. 
 \begin{equation}
 H=\frac{{\frac{1}{2}}J\omega_{0m}^{2}}{S_{base}}
 \label{inertiaconstant}
 \end{equation}
 
-Substituting Eq.\ref{inertiaconstant} into Eq.\ref{eqmotion} and replacing units to per-unit quantities yield the relation of frequency with power and inertia constant as in Eq.\ref{eqmotion5}
+Substituting Eq. (\ref{inertiaconstant}) into Eq. (\ref{eqmotion}) and replacing units to per-unit quantities yield the relation of frequency with power and inertia constant as in Eq. (\ref{eqmotion5}).
 \begin{equation}
 J=\frac{2H}{\omega_{0m}^{2}}{S_{base}}
 \label{inertiaconstant2}
@@ -75,12 +75,12 @@ J=\frac{2H}{\omega_{0m}^{2}}{S_{base}}
 \end{equation}
 \section{Frequency in Power Systems}
 The frequency in a power system is related to the speed of the synchronous generators and changes according to the swing equation. The frequency of the each generator is not the same in the network since each generator does not have the same speed. There are always fluctuations in the power system. However, the network can be assumed as a single generating unit by neglecting this assumption. The swing equation basically investigates the relation between mechanical and electromechanical powers and the rate of change of angular speed of a generator. Therefore, the speed of an generator remains constant if the mechanical and electromechanical powers are equal.\\
-If the electricity grid is considered as a single generator, the inertia of the equivalent generator is aggravated from each generator in the network. In this case, average frequency in the network can be found as in Eq. \ref{systemswing}. 
+If the electricity grid is considered as a single generator, the inertia of the equivalent generator is aggravated from each generator in the network. In this case, average frequency in the network can be found as in Eq. (\ref{systemswing})
 \begin{equation}
 \label{systemswing}
 2H_{sys}\overline{f_{sys}}\frac{d\overline{f_{sys}}}{dt}=\overline{P_{m}}-\overline{P_{e}}
 \end{equation}
-where $P_{m}$ is the aggravated mechanical input power of the generators meanwhile $P_{e}$ is the aggravated electromechanical output power. In other words, the system frequency depends on the balance between generation and consumption. Note that generation means the input mechanical power of the generators.
+where $P_{m}$ is the aggravated mechanical input power of the generators meanwhile $P_{e}$ is the aggravated electromechanical output power. In other words, the system frequency depends on the balance between generation and consumption. Note that generation means the input mechanical power of the generators.\par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.95\linewidth]{frequencypool.png}

@@ -5,7 +5,7 @@
 clear all
 clc
 filename = 'World Renewable Capacity.xlsx';
-sheet = 3;
+sheet = 4;
 xlRange1 = 'B2:D16';
 countries = [];
 
@@ -13,14 +13,39 @@ countries = [];
 c = categorical(txt);
 c = c';
 num2=num(:,2);
-fig = bar(num2,0.5)
-xticklabels(txt) 
+fig = bar(num2,0.4,'b')
 xlabel('Countries')
-ylabel('TWh')
+ylabel('Energy Generation from Renewable (TWh)')
 ax = gca;
 ax.XGrid = 'off';
+ax.XTickLabels=[txt]; 
 set(gca,'FontSize',12);
-% grid minor
+grid minor
 ax.YGrid = 'on';
+legend('At the end of 2016')
+% saveas(gcf,'renewableproduction','epsc')
 
-saveas(gcf,'renewableproduction','epsc')
+%%
+%Production/Capacity
+clear all
+clc
+filename = 'World Renewable Capacity.xlsx';
+sheet = 5;
+xlRange1 = 'B21:C35';
+countries = [];
+
+[num,txt] = xlsread(filename,sheet,xlRange1);
+c = categorical(txt);
+c = c';
+fig = bar(num,0.4,'b')
+xlabel('Countries')
+ylabel('Renewable Generation/Capacity (TWh/MW)')
+ax = gca;
+ax.XGrid = 'off';
+ax.XTickLabels=[txt]; 
+set(gca,'FontSize',12);
+grid minor
+ax.YGrid = 'on';
+legend('At the end of 2016')
+% saveas(gcf,'renewableproduction','epsc')
+%%

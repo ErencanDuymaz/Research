@@ -6,25 +6,27 @@ clear all
 clc
 filename = 'World Renewable Capacity.xlsx';
 sheet = 1;
-xlRange1 = 'B2:D16';
-countries = [];
+xlRange1 = 'B28:D42';
+% countries = [];
 
 [num,txt] = xlsread(filename,sheet,xlRange1);
 c = categorical(txt);
 c = c';
-num2=num(:,2);
-bar(num2,0.5)
-xticklabels(txt) 
+% num2=num(:,2);
+a1=bar(num,0.8)
+
+% xtick(c)
 xlabel('Countries')
-ylabel('MW')
+ylabel('Installed Renewable Energy (MW)')
 ax = gca;
 ax.XGrid = 'off';
 set(gca,'FontSize',12);
-% grid minor
+grid minor
 ax.YGrid = 'on';
-
-saveas(gcf,'renewablecapacity','epsc')
-%print('renewableproduction','-depsc','-tiff')
-% saveas(gcf,'renewableproduction','epsc')
-% print('BarPlot','-depsc')
-% print(gcf,'-dbmp','renewablecapacity');
+ax.XTickLabels=[txt]; 
+set(a1(1),'FaceColor','blue');
+set(a1(2),'FaceColor','green');
+legend('At the end of 2016','At the end of 2017')
+% saveas(gcf,'renewablecapacity','epsc')
+% saveas(gcf,'renewablecapacity','png')
+% print('renewableproduction','-depsc','-tiff')

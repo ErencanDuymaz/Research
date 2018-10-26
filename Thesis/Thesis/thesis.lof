@@ -10,32 +10,35 @@
 \babel@toc {english}{}
 \babel@toc {english}{}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Installed Renewable Energy Capacity of Leading Countries in 2016\cite {InternationalRenewableEnergyAgency2017}\relax }}{1}{figure.caption.8}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Renewable Energy Production of Leading Countries in 2016 \cite {InternationalRenewableEnergyAgency2017}\relax }}{2}{figure.caption.9}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Renewable Targets of EU Member States\cite {States2016}\relax }}{3}{figure.caption.10}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Wind Power Capacity of Leading Countries in 2016\cite {InternationalRenewableEnergyAgency2017}\relax }}{4}{figure.caption.11}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Wind Power Production of Leading Countries in 2016\cite {InternationalRenewableEnergyAgency2017}\relax }}{4}{figure.caption.12}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Renewable energy share in total energy consumption by EU for 2015, 2020 targets and 2030 potential according to REmap \cite {EuropeanCommission2018}\relax }}{5}{figure.caption.13}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Renewable energy shares for 2010, 2030 Reference Case and 2030REmap \cite {IRENA2014}\relax }}{5}{figure.caption.14}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Installed Renewable Energy Capacity of Leading Countries in 2016\relax }}{1}{figure.caption.8}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Renewable Energy Production of Leading Countries in 2016\relax }}{2}{figure.caption.9}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Average Renewable Energy Generation per MW in 2016\relax }}{2}{figure.caption.10}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Renewable Targets of EU Member States\cite {States2016}\relax }}{3}{figure.caption.11}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Wind Power Capacity of Leading Countries in 2016\relax }}{4}{figure.caption.12}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Wind Power Production of Leading Countries in 2016\relax }}{5}{figure.caption.13}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Renewable energy share in total energy consumption by EU for 2015, 2020 targets and 2030 potential according to REmap \cite {EuropeanCommission2018}\relax }}{5}{figure.caption.14}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Renewable energy shares for 2010, 2030 Reference Case and 2030REmap \cite {IRENA2014}\relax }}{6}{figure.caption.15}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Damper windings in a synchronous generator \cite {Kundur}\relax }}{11}{figure.caption.16}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Frequency behaviour in electric grid with the water level in a container analogy \cite {Eto2010}\relax }}{14}{figure.caption.17}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Damper windings in a synchronous generator \cite {Kundur}\relax }}{11}{figure.caption.17}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Frequency behaviour in electric grid with the water level in a container analogy \cite {Eto2010}\relax }}{14}{figure.caption.18}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Variable Speed Geared Wind Turbine Model\relax }}{17}{figure.caption.18}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Power Coefficient Variation with Tip Speed Ratio under Zero Pitch Angle\relax }}{19}{figure.caption.19}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Gearbox Modelling\relax }}{20}{figure.caption.20}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Machine Side Control Diagram\relax }}{22}{figure.caption.21}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Grid Side Control Diagram\relax }}{23}{figure.caption.22}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Modified MSC for Inertial Support\relax }}{24}{figure.caption.23}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Variable Speed Geared Wind Turbine Model\relax }}{17}{figure.caption.19}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Power Coefficient Variation with Tip Speed Ratio under Zero Pitch Angle\relax }}{19}{figure.caption.20}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Power Coefficient Variation for Two Different Pitch Angle\relax }}{20}{figure.caption.21}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Pitch Angle Control Diagram\relax }}{20}{figure.caption.22}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Gearbox Modelling\relax }}{21}{figure.caption.23}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Machine Side Control Diagram\relax }}{23}{figure.caption.24}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Grid Side Control Diagram\relax }}{24}{figure.caption.25}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Modified MSC for Inertial Support\relax }}{26}{figure.caption.26}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces P.M.Anderson Test Case\relax }}{30}{figure.caption.24}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Location of the Additional Load\relax }}{32}{figure.caption.29}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Generator Frequencies for 10\% Load Connection\relax }}{33}{figure.caption.30}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Frequencies in Generator 1, Load A and Load B\relax }}{33}{figure.caption.31}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Modified System Single Line Diagram\relax }}{34}{figure.caption.32}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{36}{figure.caption.34}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{36}{figure.caption.35}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{37}{figure.caption.36}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Comparison of Base Case,Modified Case and Decommissioned Case Frequency Responses\relax }}{39}{figure.caption.39}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Comparison of Base Case,Modified Case and Decommissioned Case RoCoFs\relax }}{39}{figure.caption.40}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces P.M.Anderson Test Case\relax }}{30}{figure.caption.27}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Location of the Additional Load\relax }}{32}{figure.caption.32}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Generator Frequencies for 10\% Load Connection\relax }}{33}{figure.caption.33}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Frequencies in Generator 1, Load A and Load B\relax }}{33}{figure.caption.34}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Modified System Single Line Diagram\relax }}{34}{figure.caption.35}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{36}{figure.caption.37}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{36}{figure.caption.38}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{37}{figure.caption.39}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Comparison of Base Case,Modified Case and Decommissioned Case Frequency Responses\relax }}{39}{figure.caption.42}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Comparison of Base Case,Modified Case and Decommissioned Case RoCoFs\relax }}{39}{figure.caption.43}
 \addvspace {10pt}

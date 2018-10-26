@@ -22,24 +22,25 @@
 \BOOKMARK [0][-]{chapter.3}{WIND TURBINE MODELLING}{}% 22
 \BOOKMARK [1][-]{section.3.1}{Variable Speed PMSG Wind Turbines}{chapter.3}% 23
 \BOOKMARK [2][-]{subsection.3.1.1}{Aerodynamic Model}{section.3.1}% 24
-\BOOKMARK [2][-]{subsection.3.1.2}{Gearbox}{section.3.1}% 25
-\BOOKMARK [2][-]{subsection.3.1.3}{Permanent Magnet Synchronous Generator}{section.3.1}% 26
-\BOOKMARK [2][-]{subsection.3.1.4}{Machine Side Converter}{section.3.1}% 27
-\BOOKMARK [2][-]{subsection.3.1.5}{Grid Side Converter}{section.3.1}% 28
-\BOOKMARK [1][-]{section.3.2}{Synthetic Inertia Implementation}{chapter.3}% 29
-\BOOKMARK [2][-]{subsection.3.2.1}{Synthetic Inertia Activation Schemes}{section.3.2}% 30
-\BOOKMARK [2][-]{subsection.3.2.2}{Source of the Inertial Support}{section.3.2}% 31
-\BOOKMARK [0][-]{chapter.4}{VALIDATION IN TEST CASE}{}% 32
-\BOOKMARK [1][-]{section.4.1}{P.M.Anderson 9 Bus Test Case}{chapter.4}% 33
-\BOOKMARK [2][-]{subsection.4.1.1}{System Properties}{section.4.1}% 34
-\BOOKMARK [2][-]{subsection.4.1.2}{Load Flow Analysis for Base Case}{section.4.1}% 35
-\BOOKMARK [2][-]{subsection.4.1.3}{Base Case Frequency Response for Additional Load Connection}{section.4.1}% 36
-\BOOKMARK [1][-]{section.4.2}{Modified Case}{chapter.4}% 37
-\BOOKMARK [2][-]{subsection.4.2.1}{Load Flow Analysis for Modified Case}{section.4.2}% 38
-\BOOKMARK [2][-]{subsection.4.2.2}{Modified Case Frequency Response for Additional Load Connection}{section.4.2}% 39
-\BOOKMARK [1][-]{section.4.3}{Decommissioned Case}{chapter.4}% 40
-\BOOKMARK [2][-]{subsection.4.3.1}{Load Flow Analysis for Decommissioned Case}{section.4.3}% 41
-\BOOKMARK [2][-]{subsection.4.3.2}{Decommissioned Case Frequency Response for Additional Load Connection}{section.4.3}% 42
-\BOOKMARK [0][-]{chapter*.41}{REFERENCES}{}% 43
-\BOOKMARK [0][-]{appendix.A}{Ek A }{}% 44
-\BOOKMARK [1][-]{section.A.1}{\326rnek K\232s\232m}{appendix.A}% 45
+\BOOKMARK [3][-]{subsubsection.3.1.1.1}{Pitch Angle Control}{subsection.3.1.1}% 25
+\BOOKMARK [2][-]{subsection.3.1.2}{Gearbox}{section.3.1}% 26
+\BOOKMARK [2][-]{subsection.3.1.3}{Permanent Magnet Synchronous Generator}{section.3.1}% 27
+\BOOKMARK [2][-]{subsection.3.1.4}{Machine Side Converter}{section.3.1}% 28
+\BOOKMARK [2][-]{subsection.3.1.5}{Grid Side Converter}{section.3.1}% 29
+\BOOKMARK [1][-]{section.3.2}{Synthetic Inertia Implementation}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.2.1}{Synthetic Inertia Activation Schemes}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.2}{Source of the Inertial Support}{section.3.2}% 32
+\BOOKMARK [0][-]{chapter.4}{VALIDATION IN TEST CASE}{}% 33
+\BOOKMARK [1][-]{section.4.1}{P.M.Anderson 9 Bus Test Case}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.1.1}{System Properties}{section.4.1}% 35
+\BOOKMARK [2][-]{subsection.4.1.2}{Load Flow Analysis for Base Case}{section.4.1}% 36
+\BOOKMARK [2][-]{subsection.4.1.3}{Base Case Frequency Response for Additional Load Connection}{section.4.1}% 37
+\BOOKMARK [1][-]{section.4.2}{Modified Case}{chapter.4}% 38
+\BOOKMARK [2][-]{subsection.4.2.1}{Load Flow Analysis for Modified Case}{section.4.2}% 39
+\BOOKMARK [2][-]{subsection.4.2.2}{Modified Case Frequency Response for Additional Load Connection}{section.4.2}% 40
+\BOOKMARK [1][-]{section.4.3}{Decommissioned Case}{chapter.4}% 41
+\BOOKMARK [2][-]{subsection.4.3.1}{Load Flow Analysis for Decommissioned Case}{section.4.3}% 42
+\BOOKMARK [2][-]{subsection.4.3.2}{Decommissioned Case Frequency Response for Additional Load Connection}{section.4.3}% 43
+\BOOKMARK [0][-]{chapter*.44}{REFERENCES}{}% 44
+\BOOKMARK [0][-]{appendix.A}{Ek A }{}% 45
+\BOOKMARK [1][-]{section.A.1}{\326rnek K\232s\232m}{appendix.A}% 46
