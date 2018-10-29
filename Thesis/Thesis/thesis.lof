@@ -31,15 +31,26 @@
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Grid Side Control Diagram\relax }}{24}{figure.caption.25}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Modified MSC for Inertial Support\relax }}{26}{figure.caption.26}
 \addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Active Power Output of the Wind Turbine for Low Wind Scenario\relax }}{30}{figure.caption.27}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Generator Speeds of the Wind Turbine for Low Wind Scenario\relax }}{31}{figure.caption.28}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Turbine Torque, Generator Speed and Torque for 5 Seconds Support under Low Wind Speed\relax }}{31}{figure.caption.29}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Turbine Torque, Generator Speed and Torque for 10 Seconds Support under Low Wind Speed\relax }}{32}{figure.caption.30}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Turbine Torque, Generator Speed and Torque for 20 Seconds support under Low Wind Speed\relax }}{32}{figure.caption.31}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces DC-Link Voltage for 20 Seconds Support in Low Wind Speed\relax }}{33}{figure.caption.32}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Active Power Output of the Wind Turbine for High Wind Scenario\relax }}{34}{figure.caption.33}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Pitch Angle, Generator Speed, Generator and Turbine Torques for High Wind Scenario for 5 Seconds Support\relax }}{35}{figure.caption.34}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Pitch Angle, Generator Speed, Generator and Turbine Torques for High Wind Scenario for 10 Seconds Support\relax }}{35}{figure.caption.35}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Pitch Angle, Generator Speed, Generator and Turbine Torques for High Wind Scenario for 20 Seconds Support\relax }}{36}{figure.caption.36}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces DC-Link Voltage for 20 Seconds Support in High Wind Speed\relax }}{37}{figure.caption.37}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces P.M.Anderson Test Case\relax }}{32}{figure.caption.27}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Location of the Additional Load\relax }}{34}{figure.caption.32}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Generator Frequencies for 10\% Load Connection\relax }}{35}{figure.caption.33}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Frequencies in Generator 1, Load A and Load B\relax }}{35}{figure.caption.34}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Modified System Single Line Diagram\relax }}{36}{figure.caption.35}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{38}{figure.caption.37}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{38}{figure.caption.38}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{39}{figure.caption.39}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Comparison of Base Case,Modified Case and Decommissioned Case Frequency Responses\relax }}{41}{figure.caption.42}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Comparison of Base Case,Modified Case and Decommissioned Case RoCoFs\relax }}{41}{figure.caption.43}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces P.M.Anderson Test Case\relax }}{40}{figure.caption.38}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Location of the Additional Load\relax }}{42}{figure.caption.43}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Generator Frequencies for 10\% Load Connection\relax }}{43}{figure.caption.44}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Frequencies in Generator 1, Load A and Load B\relax }}{43}{figure.caption.45}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Modified System Single Line Diagram\relax }}{44}{figure.caption.46}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{46}{figure.caption.48}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{46}{figure.caption.49}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{47}{figure.caption.50}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Comparison of Base Case,Modified Case and Decommissioned Case Frequency Responses\relax }}{49}{figure.caption.53}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Comparison of Base Case,Modified Case and Decommissioned Case RoCoFs\relax }}{49}{figure.caption.54}
 \addvspace {10pt}
