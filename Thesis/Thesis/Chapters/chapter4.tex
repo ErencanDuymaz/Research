@@ -39,7 +39,7 @@ The decrease in the generator speed is obtained with an increase in the generato
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1.0\linewidth]{low_s20.png}
-	\caption{Turbine Torque, Generator Speed and Torque for 20 Seconds support under Low Wind Speed}
+	\caption{Turbine Torque, Generator Speed and Torque for 20 Seconds Support under Low Wind Speed}
 	\label{low_torques3}
 \end{figure}
 \subsection{DC-Link Voltage in Low Wind Scenario}
@@ -51,6 +51,44 @@ Another important criteria on inertial support studies is the DC-Link voltage. W
 	\label{low_vdc_s20}
 \end{figure}
 \section{Medium Wind Scenario}
+In the medium wind scenario, wind turbine operated in the middle of the generator speed range. The wind speed is selected as 6m/s in this scenario. 
+\subsection{Active Power in Medium Wind Scenario}
+The active power of the wind turbine is increased by 10\% to provide an inertial support and it is shown in Fig. \ref{midpowers}. The recovery period of shortest support case is much more smoother than the longer ones. When the support time is increased, active power of the wind turbine is almost halved that might cause also problems in frequency stability of the power systems.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1.0\linewidth]{medium_powers.png}
+	\caption{Active Power Output of the Wind Turbine for Medium Wind Scenario}
+	\label{midpowers}
+\end{figure}
+\subsection{Generator Speed, Turbine and Generator Torques in Medium Wind Scenario}
+In medium wind scenario, higher support time causes decreased active power after the support is ended. The reason is the lower speed value obtained with higher support time. Generator torque is decreased much higher for this case in order to recover the speed. \par
+The generator speed, turbine and generator torques are shown in Fig. \ref{mid_torques1}, Fig. \ref{mid_torques2} and Fig.\ref{mid_torques3}. This can be better observed in Fig.\ref{mid_torques3} when the support is ended time at 30 seconds. The negative jump in generator torque crates a negative jump in the active power of the wind turbine since the transferred power is the multiplication of generator torque and generator speed.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1.0\linewidth]{medium_s5.png}
+	\caption{Generator Speed, Generator and Turbine Torques for Medium Wind Scenario for 5 Seconds Support}
+	\label{mid_torques1}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1.0\linewidth]{medium_s10.png}
+	\caption{Generator Speed, Generator and Turbine Torques for Medium Wind Scenario for 10 Seconds Support}
+	\label{mid_torques2}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1.0\linewidth]{medium_s20.png}
+	\caption{Generator Speed, Generator and Turbine Torques for Medium Wind Scenario for 20 Seconds Support}
+	\label{mid_torques3}
+\end{figure}
+\subsection{DC-Link Voltage in Medium Wind Scenario}
+The variation of DC-bus voltage with inertial support is shown in Fig. \ref{med_vdc_s20}. The support is activated in time 10 seconds. The rise on the DC-bus voltage is negligible as in the case of low wind scenario. However, the voltage drop at the end of support is much more significant than that of low wind scenario. 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1.0\linewidth]{medium_s20_vdc.png}
+	\caption{DC-Link Voltage for 20 Seconds Support in Medium Wind Speed}
+	\label{med_vdc_s20}
+\end{figure}
 \section{High Wind Scenario}
 In this section, wind turbine operation with high wind speed is investigated. In the high speed operation, the wind turbine injects its maximum power to grid. However, the generator reference speed is the maximum wind speed. Therefore, wind turbine operation is from MPPT operation. Another difference in this section is the pitch angle that curtail wind power and ensure that the generator speed is kept at its maximum. The wind speed in this scenario is selected as 11.4m/s.\par
 \subsection{Active Power in High Wind Scenario}
@@ -61,7 +99,7 @@ Wind turbines are able to provide inertial support in high wind speed as long as
 	\caption{Active Power Output of the Wind Turbine for High Wind Scenario}
 	\label{high_powers}
 \end{figure}
-An interesting observation in high wind scenario is that there is no speed recovery process. As soon as the speed is decreased, the pitch controller decreases the blade angle that increases the turbine torque. Therefore, in this case, turbine power decreases back to normal rather than a lower power value as in the other scenarios.
+An interesting observation in high wind scenario is that there is no speed recovery process. As soon as the speed is decreased, the pitch controller decreases the blade angle which causes an increase in turbine torque. Therefore, in this case, turbine power decreases back to normal rather than a lower power value as in the other scenarios.
 \subsection{Generator Speed, Turbine and Generator Torques in High Wind Scenario}
 In the high wind case, the generator torque hits the limit defined for normal operating conditions. This is why generator speed is regulated with the help of blade angle. Therefore, pitch angle is also important in this section. Generator speed, turbine and generator torques as well as pitch angle for 5, 10 and 20 seconds support cases are shown in Fig. \ref{high_s5}, Fig. \ref{high_s10} and Fig. \ref{high_s20}. Generator speed starts decreasing when the generator torque is increased. However, the pitch controller decreases the blade angle since the generator speed is below the maximum speed. Therefore, the generator speed rises when the pitch angle is decreased. Note that pitch servo acts slower than the generator torque increase time. This is why the generator speed decreases until the pitch angle is decreased. Generator speed might not be disturbed if the pitch controller is able act fast enough.\par
 \begin{figure}[h!]
