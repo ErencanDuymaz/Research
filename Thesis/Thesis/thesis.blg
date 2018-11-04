@@ -1,46 +1,46 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
-Repeated entry---line 1301 of file library.bib
+Repeated entry---line 20994 of file library.bib
  : @techreport{Eto2010
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5195 of file library.bib
- : @article{Morren2006
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5876 of file library.bib
- : @unpublished{Eto2010
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 6756 of file library.bib
+Repeated entry---line 21215 of file library.bib
  : @article{Gonzalez-longatt2015
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6882 of file library.bib
- : @article{Chen2009b
- :                   ,
+Repeated entry---line 21591 of file library.bib
+ : @article{Morren2006
+ :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10502 of file library.bib
+Repeated entry---line 21855 of file library.bib
  : @article{Muljadi2012
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 17589 of file library.bib
+Repeated entry---line 21954 of file library.bib
  : @article{Morren2006a
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 23302 of file library.bib
+Repeated entry---line 22333 of file library.bib
+ : @article{Chen2009b
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 23118 of file library.bib
  : @article{Muljadi2012
  :                     ,
 I'm skipping whatever remains of this entry
-Warning--empty publisher in InternationalRenewableEnergyAgency2017
+Repeated entry---line 23340 of file library.bib
+ : @article{Eto2010
+ :                 ,
+I'm skipping whatever remains of this entry
 Warning--empty institution in States2016
 Warning--empty institution in EuropeanCommission2018
 Warning--empty institution in IRENA2014
 Warning--can't use both author and editor fields in Kundur
 Warning--empty year in Kundur
-Warning--empty journal in Eto2010
+Warning--empty note in Eto2010
 Warning--empty publisher in InternationalRenewableEnergyAgencyIRENA2018
+Warning--empty publisher in InternationalRenewableEnergyAgency2017
 Warning--empty publisher in REN212017d
 Warning--empty publisher in Ackermann2005a
 Warning--empty publisher in Heier
