@@ -447,18 +447,39 @@ original to this work.}
  \twocolumn\fi\newpage }
 \def\l@table{\@mytabledottedtocline{1}{0em}{2.0em}}
 
-\def\theglossary#1{\def\he@dgl@{\oneandhalfspacing
-\@restonecoltrue \if@twocolumn\@restonecolfalse
- \fi\columnseprule \z@ \columnsep 35pt
- \prechapter*{\vskip -2mm \uppercase\expandafter{\@symb@l}%
-\@mkboth{\uppercase{\@symb@l}}{\uppercase{\@symb@l}}}%
-\parindent \z@ \parskip \z@ plus .3pt\relax }%
- \def\symb@l[##1]{\def\@symb@l{##1}\he@dgl@}%
-\@ifnextchar[{\symb@l}{\symb@l[\@loab]}%
-\addcontentsline{toc}{leads}{\protect\numberline {}\@loab}
-\begin{list}{}{\settowidth\labelwidth{[#1]}\leftmargin\labelwidth %labelsep 0.1cm
- \advance\leftmargin\labelsep \itemsep \z@}\def\makelabel##1{##1 \hfil}}%
-\def\endtheglossary{\end{list}\if@restonecol\onecolumn\else\clearpage\fi}
+\def\glossary{\@ifnextchar[\gl@ssary{\gl@ssary[ABBREVIATIONS]}}
+\def\endglossary{\endgl@ssary}
+\def\gl@ssary[ABBREVIATIONS]{\@restonecoltrue\if@twocolumn\@restonecolfalse\fi\columnseprule
+\z@
+\columnsep 35pt%\twocolumn
+\prechapter*{\vskip-5mm LIST OF ABBREVIATIONS}
+\@mkboth {ABBREVIATIONS}{ABBREVIATIONS}
+\addcontentsline{toc}{leads}{\protect\numberline {}LIST OF
+ABBREVIATIONS}\singlespacing}
+\def\endgl@ssary{\if@restonecol\onecolumn\else\clearpage\fi}
+
+\def\theglossary{\@ifnextchar[\thegl@ssary{\thegl@ssary[SYMBOLS]}}
+\def\endtheglossary{\endthegl@ssary}
+\def\thegl@ssary[SYMBOLS]{\@restonecoltrue\if@twocolumn\@restonecolfalse\fi\columnseprule
+\z@
+\columnsep 35pt%\twocolumn
+\prechapter*{\vskip-5mm LIST OF SYMBOLS}
+\@mkboth {SYMBOLS}{SYMBOLS}
+\addcontentsline{toc}{leads}{\protect\numberline {}LIST OF SYMBOLS}\singlespacing}
+\def\endthegl@ssary{\if@restonecol\onecolumn\else\clearpage\fi}
+
+%\def\theglossary#1{\def\he@dgl@{\oneandhalfspacing
+%\@restonecoltrue \if@twocolumn\@restonecolfalse
+ %\fi\columnseprule \z@ \columnsep 35pt
+ %\prechapter*{\vskip -2mm \uppercase\expandafter{\@symb@l}%
+%\@mkboth{\uppercase{\@symb@l}}{\uppercase{\@symb@l}}}%
+%\parindent \z@ \parskip \z@ plus .3pt\relax }%
+ %\def\symb@l[##1]{\def\@symb@l{##1}\he@dgl@}%
+%\@ifnextchar[{\symb@l}{\symb@l[\@loab]}%
+%\addcontentsline{toc}{leads}{\protect\numberline {}\@loab}
+%\begin{list}{}{\settowidth\labelwidth{[#1]}\leftmargin\labelwidth %labelsep 0.1cm
+ %\advance\leftmargin\labelsep \itemsep \z@}\def\makelabel##1{##1 \hfil}}%
+%\def\endtheglossary{\end{list}\if@restonecol\onecolumn\else\clearpage\fi}
 
 %If you have problems with the position of ABBREVATIONS title, you may try to 
 %(1) commenting out the above lines, and

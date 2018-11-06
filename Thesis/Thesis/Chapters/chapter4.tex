@@ -2,7 +2,32 @@
 \chapter{INVESTIGATION OF INERTIAL SUPPORT PRACTICAL LIMITS}
 \label{chp:4}
 \section{Inertial Support Limits}
-
+The source of power in a wind turbine is the aerodynamic wind power, $P_{wind}$ which is constant for a constant wind speed, pitch angle and generator speed. In the steady state, this power is transferred through MSC as $P_{gen}$. If there is a difference between $P_{wind}$ and $P_{gen}$, the difference is either stored in or extracted from the turbine and generator inertia as in the form of kinetic energy. Grid power, $P_{grid}$ is received from MSC and injected grid. The difference between $P_{gen}$ and $P_{grid}$ is stored in or extracted from DC-bus capacitance. The active power flow diagram is depicted in Fig. \ref{power_flow}. As mentioned in Chapter \ref{chp:3}, stored energy exists in turbine and generator inertia and DC-bus capacitance. However, it is also stated that the $E_{kin}$ is much larger than $E_{DC}$ even in the lowest generator speed. Therefore, the source of the inertial support studies is the kinetic energy stored in the inertia. \par
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.95\linewidth]{power_flow.pdf}
+	\caption{Active Power Flow Diagram}
+	\label{power_flow}
+\end{figure}
+Wind turbine active power can be increased by increasing the generator power $P_{gen}$. This can be achieved by adjusting the generator torque since the active power is proportional to electromagnetic torque. However, the active power is also dependent on the generator rotational speed as in Eq. (\ref{genpower}). The active power can be increased by increasing the torbine torque but the increase is limited by the generator speed. Therefore, the active power increase is also dependent on the wind speed which determines MPPT speed in the steady state.
+\begin{equation}
+P_{gen}=T_{e} \omega_{m}
+\label{genpower}
+\end{equation}
+Note that the source of the additional power is the kinetic energy stored in the turbine equivalent inertia. Therefore, as soon as the power is increased, the turbine and generator speeds start decreasing. Therefore, the electromagnetic torque should be increased to keep the generator power constant. The time duration that generator power is increased and the initial generator speed will determine the final generator speed as in the Eq. (\ref{finalspeed}).
+\begin{equation}
+ \int_{t_{i}}^{t_{f}}P_{wind}- \int_{t_{i}}^{t_{f}}P_{gen}=\Delta E_{kin}=\frac{1}{2}J_{tur}(\omega_{f}^2-\omega_{i}^2)
+\label{finalspeed}
+\end{equation}
+As seen from the Eq. (\ref{genpower}), the generator power is the multiplication of generator torque and speed. In the high speeds, the generator speed $\omega_{m}$, cannot be controlled with only the generator torque but also with the pitch angle. In this way, the rated power is not exceeded as in the Eq. (\ref{maxpower}) by maintaining the maximum generator speed and maximum generator torque. However, general practive is employing higher power rating converter than generator active power rating in the variable speed wind turbines. Therefore, higher limit torque can be used in such wind turbine applications by considering the apparent power of the back-to-back converters. Therefore, the maximum power for a wind speed can be defined as in Eq. (\ref{maxxpower}).
+\begin{equation}
+P_{rated}=T_{P-lim} \omega_{max}
+\label{maxpower}
+\end{equation}
+\begin{equation}
+P_{max}=T_{S-lim} \omega_{max}
+\label{maxxpower}
+\end{equation}
 \section{Inertial Support Under Different Wind Speeds}
 Active power of the wind turbines is determined by parameters such as wind speed, pitch angle and turbine speed. Therefore, combination of these parameters have importance for a possible inertial support. In other words, wind turbine under high wind scenario has different potential than that under low wind scenario. Likewise, the resultant states of wind turbines for inertial support would be much different. In this chapter, the effect of wind speed will be investigated for inertial support. Active power of wind turbines will be increased by 10\% for different time durations. The change in generator speed, turbine and generator torques, DC-link voltage and pitch angle, if any, will be observed. Wind turbine used in this study is GE 2.75-103 model, variable speed PMSG.
 \subsection{Low Wind Scenario}

@@ -2,14 +2,15 @@
 \babel@toc {english}{}
 \contentsline {leads}{\numberline {}ABSTRACT}{v}{Doc-Start}
 \babel@toc {english}{}
-\contentsline {leads}{\numberline {}\"OZ}{vi}{chapter*.1}
+\contentsline {leads}{\numberline {}\"OZ}{vii}{chapter*.1}
 \babel@toc {turkish}{}
 \babel@toc {english}{}
-\contentsline {leads}{\numberline {}ACKNOWLEDGMENTS}{viii}{chapter*.3}
-\contentsline {leads}{\numberline {}TABLE OF CONTENTS}{ix}{chapter*.4}
-\contentsline {leads}{\numberline {}LIST OF TABLES}{xiii}{chapter*.5}
-\contentsline {leads}{\numberline {}LIST OF FIGURES}{xiv}{chapter*.6}
-\contentsline {leads}{\numberline {}LIST OF ABBREVIATIONS}{xvii}{chapter*.7}
+\contentsline {leads}{\numberline {}ACKNOWLEDGMENTS}{ix}{chapter*.3}
+\contentsline {leads}{\numberline {}TABLE OF CONTENTS}{x}{chapter*.4}
+\contentsline {leads}{\numberline {}LIST OF TABLES}{xiv}{chapter*.5}
+\contentsline {leads}{\numberline {}LIST OF FIGURES}{xv}{chapter*.6}
+\contentsline {leads}{\numberline {}LIST OF ABBREVIATIONS}{xviii}{chapter*.7}
+\contentsline {leads}{\numberline {}LIST OF SYMBOLS}{xix}{chapter*.8}
 \numberline {}CHAPTERS
 \babel@toc {turkish}{}
 \babel@toc {english}{}
@@ -42,31 +43,31 @@
 \contentsline {subsection}{\numberline {3.2.2}Source of the Inertial Support}{27}{subsection.3.2.2}
 \contentsline {chapter}{\numberline {4}\MakeUppercase {INVESTIGATION OF INERTIAL SUPPORT PRACTICAL LIMITS}}{29}{chapter.4}
 \contentsline {section}{\numberline {4.1}Inertial Support Limits}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}Inertial Support Under Different Wind Speeds}{29}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Low Wind Scenario}{29}{subsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Active Power in Low Wind Scenario}{30}{subsubsection.4.2.1.1}
-\contentsline {subsubsection}{\numberline {4.2.1.2}Generator Speed, Turbine and Generator Torques in Low Wind Scenario}{30}{subsubsection.4.2.1.2}
-\contentsline {subsubsection}{\numberline {4.2.1.3}DC-Link Voltage in Low Wind Scenario}{32}{subsubsection.4.2.1.3}
-\contentsline {subsection}{\numberline {4.2.2}Medium Wind Scenario}{33}{subsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.2.1}Active Power in Medium Wind Scenario}{33}{subsubsection.4.2.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2.2}Generator Speed, Turbine and Generator Torques in Medium Wind Scenario}{34}{subsubsection.4.2.2.2}
-\contentsline {subsubsection}{\numberline {4.2.2.3}DC-Link Voltage in Medium Wind Scenario}{34}{subsubsection.4.2.2.3}
-\contentsline {subsection}{\numberline {4.2.3}High Wind Scenario}{35}{subsection.4.2.3}
-\contentsline {subsubsection}{\numberline {4.2.3.1}Active Power in High Wind Scenario}{37}{subsubsection.4.2.3.1}
-\contentsline {subsubsection}{\numberline {4.2.3.2}Generator Speed, Turbine and Generator Torques in High Wind Scenario}{37}{subsubsection.4.2.3.2}
-\contentsline {subsubsection}{\numberline {4.2.3.3}DC-Link Voltage in High Wind Scenario}{38}{subsubsection.4.2.3.3}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {VALIDATION IN TEST CASE}}{41}{chapter.5}
-\contentsline {section}{\numberline {5.1}P.M.Anderson 9 Bus Test Case}{41}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}System Properties}{41}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Load Flow Analysis for Base Case}{42}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Base Case Frequency Response for Additional Load Connection}{43}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Modified Case}{46}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Load Flow Analysis for Modified Case}{46}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Modified Case Frequency Response for Additional Load Connection}{47}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Decommissioned Case}{49}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Load Flow Analysis for Decommissioned Case}{49}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Decommissioned Case Frequency Response for Additional Load Connection}{50}{subsection.5.3.2}
-\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{53}{chapter*.60}
+\contentsline {section}{\numberline {4.2}Inertial Support Under Different Wind Speeds}{30}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Low Wind Scenario}{31}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Active Power in Low Wind Scenario}{31}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.2}Generator Speed, Turbine and Generator Torques in Low Wind Scenario}{31}{subsubsection.4.2.1.2}
+\contentsline {subsubsection}{\numberline {4.2.1.3}DC-Link Voltage in Low Wind Scenario}{33}{subsubsection.4.2.1.3}
+\contentsline {subsection}{\numberline {4.2.2}Medium Wind Scenario}{35}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Active Power in Medium Wind Scenario}{35}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}Generator Speed, Turbine and Generator Torques in Medium Wind Scenario}{35}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.3}DC-Link Voltage in Medium Wind Scenario}{37}{subsubsection.4.2.2.3}
+\contentsline {subsection}{\numberline {4.2.3}High Wind Scenario}{38}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}Active Power in High Wind Scenario}{38}{subsubsection.4.2.3.1}
+\contentsline {subsubsection}{\numberline {4.2.3.2}Generator Speed, Turbine and Generator Torques in High Wind Scenario}{39}{subsubsection.4.2.3.2}
+\contentsline {subsubsection}{\numberline {4.2.3.3}DC-Link Voltage in High Wind Scenario}{41}{subsubsection.4.2.3.3}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {VALIDATION IN TEST CASE}}{43}{chapter.5}
+\contentsline {section}{\numberline {5.1}P.M.Anderson 9 Bus Test Case}{43}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}System Properties}{43}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Load Flow Analysis for Base Case}{44}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Base Case Frequency Response for Additional Load Connection}{45}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Modified Case}{48}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Load Flow Analysis for Modified Case}{48}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Modified Case Frequency Response for Additional Load Connection}{49}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Decommissioned Case}{51}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Load Flow Analysis for Decommissioned Case}{51}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Decommissioned Case Frequency Response for Additional Load Connection}{52}{subsection.5.3.2}
+\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{55}{chapter*.62}
 \numberline {}\uppercase {APPENDICES}
-\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{57}{appendix.A}
-\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{57}{section.A.1}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{59}{appendix.A}
+\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{59}{section.A.1}
