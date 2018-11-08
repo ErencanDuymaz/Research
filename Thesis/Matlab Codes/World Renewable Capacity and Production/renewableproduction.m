@@ -4,48 +4,49 @@
 
 clear all
 clc
-filename = 'World Renewable Capacity.xlsx';
-sheet = 4;
-xlRange1 = 'B2:D16';
-countries = [];
+filename = 'wind speeds.xlsx';
+sheet = 1;
+xlRange = 'B2:B33160';
 
-[num,txt] = xlsread(filename,sheet,xlRange1);
-c = categorical(txt);
-c = c';
-num2=num(:,2);
-fig = bar(num2,0.4,'b')
+[num,txt] = xlsread(filename,sheet,xlRange);
+windspeeds=num;
+clear vars filename shhet txt xlRange num sheet
+
+meancik=mean(windspeeds);
+varcik=sqrt(var(windspeeds));
+x=min(windspeeds):0.0001:max(windspeeds);
+
+pd=fitdist(windspeeds,'Normal')
+y=pdf(pd,x);
+plot(x,y)
+sum=0;
+
+%Low wind için
+x1=min(windspeeds):0.001:meancik-varcik;
+y=pdf(pd,x1);
+Q_low = trapz(x1,y)
+
+
+%Low wind için
+x2=meancik-varcik:0.001:meancik+varcik;
+y=pdf(pd,x2);
+Q_med = trapz(x2,y)
+
+
+%Low wind için
+x3=meancik+varcik:0.001:max(windspeeds);
+y=pdf(pd,x3);
+Q_max = trapz(x3,y)
+
+
+
 xlabel('Countries')
-ylabel('Energy Generation from Renewable (TWh)')
+ylabel('Wind Speeds (m/s)')
 ax = gca;
-ax.XGrid = 'off';
-ax.XTickLabels=[txt]; 
-set(gca,'FontSize',12);
-grid minor
+ax.XGrid = 'on';
 ax.YGrid = 'on';
-legend('At the end of 2016')
-% saveas(gcf,'renewableproduction','epsc')
-
-%%
-%Production/Capacity
-clear all
-clc
-filename = 'World Renewable Capacity.xlsx';
-sheet = 5;
-xlRange1 = 'B21:C35';
-countries = [];
-
-[num,txt] = xlsread(filename,sheet,xlRange1);
-c = categorical(txt);
-c = c';
-fig = bar(num,0.4,'b')
-xlabel('Countries')
-ylabel('Renewable Generation/Capacity (TWh/MW)')
-ax = gca;
-ax.XGrid = 'off';
-ax.XTickLabels=[txt]; 
-set(gca,'FontSize',12);
 grid minor
-ax.YGrid = 'on';
-legend('At the end of 2016')
-% saveas(gcf,'renewableproduction','epsc')
-%%
+
+% set(gca,'FontSize',12);
+% ax.YGrid = 'on';
+% legend('At the end of 2016')

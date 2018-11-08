@@ -29,10 +29,19 @@ P_{max}=T_{S-lim} \omega_{max}
 \label{maxxpower}
 \end{equation}
 \section{Inertial Support Under Different Wind Speeds}
-Active power of the wind turbines is determined by parameters such as wind speed, pitch angle and turbine speed. Therefore, combination of these parameters have importance for a possible inertial support. In other words, wind turbine under high wind scenario has different potential than that under low wind scenario. Likewise, the resultant states of wind turbines for inertial support would be much different. In this chapter, the effect of wind speed will be investigated for inertial support. Active power of wind turbines will be increased by 10\% for different time durations. The change in generator speed, turbine and generator torques, DC-link voltage and pitch angle, if any, will be observed. Wind turbine used in this study is GE 2.75-103 model, variable speed PMSG.
+Active power of the wind turbines is determined by parameters such as wind speed, pitch angle and turbine speed. Therefore, combination of these parameters have importance for a possible inertial support. In other words, wind turbine under high wind scenario has different potential than that under low wind scenario. Likewise, the resultant states of wind turbines for inertial support would be much different. In this chapter, the effect of wind speed will be investigated for inertial support. Active power of wind turbines will be increased by different percentages. The change in generator speed, turbine and generator torques, DC-link voltage and pitch angle, if any, will be observed. Wind turbine used in this study is GE 2.75-103 model, variable speed PMSG.
 \subsection{Low Wind Scenario}
 \label{sec:lowwind}
 The minimum speed of the wind turbine in this scenario is 550 rpm in the high speed side. Wind speed that will capture the maximum power from wind in this generator speed is found out to be 3.12m/s. In this scenario, the kinetic energy stored in the turbine inertia is minimum and calculated in Chapter \ref{chp:4} in Eq. (\ref{kineticenergymin}). This scenario investigates the case where the least amount of kinetic energy exists in the turbine equivalent inertia.\par
+\subsubsection{Active Power Limit in Low Wind Scenario}
+The electricity grid in the upcoming future might require sudden active power release from wind farms for short time durations. Therefore, it is important to observe the maximum achievable power for inertial support studies. The equation Eq. (\ref{maxxpower}) implies that wind turbine in the low wind speed scenario cannot reach rated active power since the generator speed is much lower than the maximum generator speed. However, the electromagnetic torque in steady state is much lower than the limit torque, $T_{S-lim}$. Therefore, the wind turbine in low speed scenario has the potential for increasing its active power to a significant value. Fig. \ref{low_limit_power} shows the increase of active power to maximum value. The increase is obtained by ensuring the limit torque, $T_{S-lim}$. However, since the generator speed is decreasing, the active power is also decreasing. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1\linewidth]{power_torque_low_limit.png}
+	\caption{Active Power Output of the Wind Turbine for Low Wind Scenario}
+	\label{low_limit_power}
+\end{figure}
 \subsubsection{Active Power in Low Wind Scenario}
 The active power of the wind turbine is increased 10\% for three different time intervals as 5, 10 and 20 seconds. The active power output of the wind turbine is given in Fig. \ref{lowactivepowers}. It is observed that turbine power decreases below the nominal value after the support period in order to recover the generator speed. Another observation is the fact that higher support time creates higher dip in the active power in the speed recovery period.\par
 \begin{figure}[h!]
@@ -41,7 +50,6 @@ The active power of the wind turbine is increased 10\% for three different time 
 	\caption{Active Power Output of the Wind Turbine for Low Wind Scenario}
 	\label{lowactivepowers}
 \end{figure}
-\subsubsection{Generator Speed, Turbine and Generator Torques in Low Wind Scenario}
 The source of the increased active power in this study is the kinetic energy in the turbine inertia. Therefore, additional active power is extracted from this energy causing a decrease in the wind turbine generator. Generator speed decreases continuously until the support is ended. The generator speeds are shown in Fig. \ref{low_speeds} for three support times.\par
 \begin{figure}[h!]
 	\centering
@@ -56,21 +64,18 @@ The decrease in the generator speed is obtained with an increase in the generato
 	\caption{Turbine Torque, Generator Speed and Torque for 5 Seconds Support under Low Wind Speed}
 	\label{low_torques}
 \end{figure}
-
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1.0\linewidth]{low_s10.png}
 	\caption{Turbine Torque, Generator Speed and Torque for 10 Seconds Support under Low Wind Speed}
 	\label{low_torques2}
 \end{figure}
-
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1.0\linewidth]{low_s20.png}
 	\caption{Turbine Torque, Generator Speed and Torque for 20 Seconds Support under Low Wind Speed}
 	\label{low_torques3}
 \end{figure}
-\subsubsection{DC-Link Voltage in Low Wind Scenario}
 Another important criteria on inertial support studies is the DC-Link voltage. When the active power is increased, increased amount of active power is transferred from MSC to GSC. Increased active power should be injected to grid without causing excessive voltage rise on the DC-bus. Note that the voltage rise in the very first seconds in inertial support activation is same for all three support cases. However, the voltage drop will be highest in the 20 seconds case. DC-link voltage for 20 seconds support case is given in Fig. \ref{low_vdc_s20}. The rise on DC-bus voltage can be considered as negligible meanwhile the voltage drops to 0.9995 pu in 20 seconds support case.
 \begin{figure}[h!]
 	\centering

@@ -33,30 +33,31 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Active Power Flow Diagram\relax }}{29}{figure.caption.28}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Active Power Output of the Wind Turbine for Low Wind Scenario\relax }}{32}{figure.caption.29}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Generator Speeds of the Wind Turbine for Low Wind Scenario\relax }}{32}{figure.caption.30}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Turbine Torque, Generator Speed and Torque for 5 Seconds Support under Low Wind Speed\relax }}{33}{figure.caption.31}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Turbine Torque, Generator Speed and Torque for 10 Seconds Support under Low Wind Speed\relax }}{33}{figure.caption.32}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Turbine Torque, Generator Speed and Torque for 20 Seconds Support under Low Wind Speed\relax }}{34}{figure.caption.33}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces DC-Link Voltage for 20 Seconds Support in Low Wind Speed\relax }}{34}{figure.caption.34}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Active Power Output of the Wind Turbine for Medium Wind Scenario\relax }}{35}{figure.caption.35}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Generator Speed, Generator and Turbine Torques for Medium Wind Scenario for 5 Seconds Support\relax }}{36}{figure.caption.36}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Generator Speed, Generator and Turbine Torques for Medium Wind Scenario for 10 Seconds Support\relax }}{36}{figure.caption.37}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Generator Speed, Generator and Turbine Torques for Medium Wind Scenario for 20 Seconds Support\relax }}{37}{figure.caption.38}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces DC-Link Voltage for 20 Seconds Support in Medium Wind Speed\relax }}{37}{figure.caption.39}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Active Power Output of the Wind Turbine for High Wind Scenario\relax }}{38}{figure.caption.40}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Pitch Angle, Generator Speed, Generator and Turbine Torques for High Wind Scenario for 5 Seconds Support\relax }}{39}{figure.caption.41}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Pitch Angle, Generator Speed, Generator and Turbine Torques for High Wind Scenario for 10 Seconds Support\relax }}{40}{figure.caption.42}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Pitch Angle, Generator Speed, Generator and Turbine Torques for High Wind Scenario for 20 Seconds Support\relax }}{40}{figure.caption.43}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces DC-Link Voltage for 20 Seconds Support in High Wind Speed\relax }}{41}{figure.caption.44}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Active Power Output of the Wind Turbine for Low Wind Scenario\relax }}{32}{figure.caption.30}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Generator Speeds of the Wind Turbine for Low Wind Scenario\relax }}{33}{figure.caption.31}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Turbine Torque, Generator Speed and Torque for 5 Seconds Support under Low Wind Speed\relax }}{34}{figure.caption.32}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Turbine Torque, Generator Speed and Torque for 10 Seconds Support under Low Wind Speed\relax }}{34}{figure.caption.33}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Turbine Torque, Generator Speed and Torque for 20 Seconds Support under Low Wind Speed\relax }}{35}{figure.caption.34}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces DC-Link Voltage for 20 Seconds Support in Low Wind Speed\relax }}{35}{figure.caption.35}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Active Power Output of the Wind Turbine for Medium Wind Scenario\relax }}{36}{figure.caption.36}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Generator Speed, Generator and Turbine Torques for Medium Wind Scenario for 5 Seconds Support\relax }}{37}{figure.caption.37}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Generator Speed, Generator and Turbine Torques for Medium Wind Scenario for 10 Seconds Support\relax }}{37}{figure.caption.38}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Generator Speed, Generator and Turbine Torques for Medium Wind Scenario for 20 Seconds Support\relax }}{38}{figure.caption.39}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces DC-Link Voltage for 20 Seconds Support in Medium Wind Speed\relax }}{38}{figure.caption.40}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Active Power Output of the Wind Turbine for High Wind Scenario\relax }}{39}{figure.caption.41}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Pitch Angle, Generator Speed, Generator and Turbine Torques for High Wind Scenario for 5 Seconds Support\relax }}{40}{figure.caption.42}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Pitch Angle, Generator Speed, Generator and Turbine Torques for High Wind Scenario for 10 Seconds Support\relax }}{41}{figure.caption.43}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Pitch Angle, Generator Speed, Generator and Turbine Torques for High Wind Scenario for 20 Seconds Support\relax }}{41}{figure.caption.44}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces DC-Link Voltage for 20 Seconds Support in High Wind Speed\relax }}{42}{figure.caption.45}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces P.M.Anderson Test Case\relax }}{44}{figure.caption.45}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Location of the Additional Load\relax }}{46}{figure.caption.50}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Generator Frequencies for 10\% Load Connection\relax }}{47}{figure.caption.51}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Frequencies in Generator 1, Load A and Load B\relax }}{47}{figure.caption.52}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Modified System Single Line Diagram\relax }}{48}{figure.caption.53}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{50}{figure.caption.55}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{50}{figure.caption.56}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{51}{figure.caption.57}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Comparison of Base Case,Modified Case and Decommissioned Case Frequency Responses\relax }}{53}{figure.caption.60}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Comparison of Base Case,Modified Case and Decommissioned Case RoCoFs\relax }}{53}{figure.caption.61}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces P.M.Anderson Test Case\relax }}{44}{figure.caption.46}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Location of the Additional Load\relax }}{46}{figure.caption.51}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Generator Frequencies for 10\% Load Connection\relax }}{47}{figure.caption.52}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Frequencies in Generator 1, Load A and Load B\relax }}{47}{figure.caption.53}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Modified System Single Line Diagram\relax }}{48}{figure.caption.54}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{50}{figure.caption.56}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{50}{figure.caption.57}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparison of Base Case and Modified Case Frequencies\relax }}{51}{figure.caption.58}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Comparison of Base Case,Modified Case and Decommissioned Case Frequency Responses\relax }}{53}{figure.caption.61}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Comparison of Base Case,Modified Case and Decommissioned Case RoCoFs\relax }}{53}{figure.caption.62}
 \addvspace {10pt}
