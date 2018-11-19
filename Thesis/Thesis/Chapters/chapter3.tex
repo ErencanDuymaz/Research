@@ -5,26 +5,26 @@
 The share of variable speed PMSG wind turbines is increasing worldwide due to the high efficiency and torque density. This type of wind turbines are equipped with full-scale power electronics which enable the turbine to have wide speed range. Even though the price of the permanent magnet fluctuates with time, the reliability and high efficiency of this type of turbine increase its share in the market.\par
  \begin{figure}[h!]
 	\centering
-	\includegraphics[width=1\linewidth]{windmodel2.png}
+	\includegraphics[width=.95\linewidth]{windmodel2.pdf}
 	\caption{Variable Speed Geared Wind Turbine Model}
 	\label{varspeedpmsg}
 \end{figure} 
 Fig. \ref{varspeedpmsg} shows the modelling of variable speed PMSG wind turbine. The source of the power in these systems is the wind itself. The power is captured from the wind with the help of three-blade turbine. Three-blade turbine is the aerodynamic part of the system and it applies a aerodynamic torque to gearbox. In fact, this torque is the source of the movement and dictates the direction of the movement. Aerodynamic torque is applied to gearbox which establishes the connection between turbine and generator. In variable speed wind turbines, stator of the PMSG is not directly connected to grid. A back-to-back converter is used between generator and the electrical grid to ensure that the turbine speed is independent from the grid frequency. The converter which is connected to PMSG is called Machine Side Converter (MSC) meanwhile the one connected to grid is called Grid Side Converter(GSC). Moreover, GSC is connected to grid with a filter in order to filter out high frequency currents due to switching action. 
 \subsection{Aerodynamic Model}
 Aerodynamic model is the sub-model that captures power from the wind. The output of this block is the aerodynamic torque that rotates the turbine. However, the wind speed is not the only input. Turbine speed and pitch angle are also the inputs of the system since they affect the mechanical power that is captured from the wind.\par
-The aerodynamic power of wind is given in Eq. (\ref{windpower}) where $\rho_{air}$ is air density in $kg/cm^{3}$, $R$ is the blade radius in $m$ abd $v_{WIND}$ is the wind speed in $m/s$. Note that this is the available power of the air that is striking the turbine swept area and it is not possible to extract that amount of energy. Otherwise, the air would be standstill behind the wind turbine \cite{Ackermann2005a}.
+The aerodynamic power of wind is given in Eq. (\ref{windpower}) where $\rho_{air}$ is air density in $kg/cm^{3}$, $R$ is the blade radius in $m$ abd $v_{wind}$ is the wind speed in $m/s$. Note that this is the available power of the air that is striking the turbine swept area and it is not possible to extract that amount of energy. Otherwise, the air would be standstill behind the wind turbine \cite{Ackermann2005a}.
 \begin{equation}
 P_{WIND}=0.5\rho_{air}\pi R^{2} v_{WIND}^{3}
 \label{windpower}
 \end{equation}
 The wind turbine captures a fraction of the available wind power that is denominated as power coefficient $C_{p}$. Therefore, turbine power captured from wind can be found with the Eq. (\ref{turbinepower}).
 \begin{equation}
-P_{TUR}=C_{P}P_{WIND}
+P_{TUR}=C_{p}P_{wind}
 \label{turbinepower}
 \end{equation}
-Power coefficient determines the amount of power and it is a non-linear function of the tip speed ratio, $\lambda$ and pitch angle, $\beta$. Tip speed ratio is a parameter proportional with turbine speed. It can be defined as the ratio of the speed in the turbine tip to the wind speed as in the Eq. (\ref{tipspeed}). Power coefficient for a specific tip speed ratio and pitch angle can be found with the Eq. (\ref{cp}) and (\ref{lambdai}) where $c_{1}$ is 0.5176, $c_{2}$ is 116, $c_{3}$ is 0.4, $c_{4}$ is 5, $c_{5}$ is 21 and $c_{6}$ is 0.0068 \cite{Heier}.\par
+Power coefficient determines the amount of power to be captured from wind and it is a non-linear function of the tip speed ratio, $\lambda$ and pitch angle, $\beta$. Tip speed ratio is a parameter proportional with turbine speed. It can be defined as the ratio of the speed in the turbine tip to the wind speed as in the Eq. (\ref{tipspeed}). Power coefficient for a specific tip speed ratio and pitch angle can be found with the Eq. (\ref{cp}) and (\ref{lambdai}) where $c_{1}$ is 0.5176, $c_{2}$ is 116, $c_{3}$ is 0.4, $c_{4}$ is 5, $c_{5}$ is 21 and $c_{6}$ is 0.0068 \cite{Heier}.\par
 \begin{equation}
-\lambda=\frac{\omega_{tur}R}{v_{WIND}}
+\lambda=\frac{\omega_{tur}R}{v_{wind}}
 \label{tipspeed}
 \end{equation}
 \begin{equation}
@@ -37,28 +37,37 @@ C_{p}(\lambda,\beta)=c_{1}(c_{2}/\lambda_{i}-c_{3}\beta-c_{4})e^{-c_{5}/\lambda{
 \end{equation}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.65\linewidth]{PowerCoefficient.png}
+	\includegraphics[width=.95\linewidth]{PowerCoefficient.pdf}
 	\caption{Power Coefficient Variation with Tip Speed Ratio under Zero Pitch Angle}
 	\label{variationofcp}
 \end{figure} 
 \par
-Variation of power coefficient $C_{p}$ is given in Fig. \ref{variationofcp}. For the zero pitch angle, power coefficient has the maximum value of 0.48 for the tip speed ratio of 8.1. In order to ensure that the maximum of wind power is extracted, wind turbine should rotate a speed that gives the optimum tip speed ratio. 
+Variation of power coefficient $C_{p}$ is given in Fig. \ref{variationofcp} for varying tip speed ratio. For the zero pitch angle, power coefficient has the maximum value of 0.48 for the tip speed ratio of 8.1. In order to ensure that the maximum of wind power is extracted, wind turbine should rotate a speed that gives the optimum tip speed ratio. This is ensured by the Maximum Power Point Tracking (MPPT) algorithms. 
+\subsubsection{Maximum Power Point Tracking Algorithms}
+In the literature, numerous different methods are presented in order to operate in the Maximum Power Point. Perturb\&Obserb (P\&O) is the most common MPPT method in the literature \cite{Wang2004}, \cite{Barakati2009}. The methods simply creates a perturbation in the generator speed. The change in the generator speed creates also change in the active power output. If the power is increased with this perturbation, the generator speed is again perturbed in the same direction until a decrease in the active power is observed. This methods is the simplest method and does not require any calculation or wind speed measurement. However, the algorithm creates oscillations in the generator speed and active power. This method is also called as Hill-Climb Search (HCS) method in the literature.\par
+Another MPPT algorithm is the wind speed measurement method \cite{Thriringer1993}, \cite{C.A.2013}. If the wind speed is estimated accurately, the optimal generator speed can be calculated. However, wind speed estimation is complicated and increases the cost. One other commonly used MPPT algorith is the power-signal feedback (PSF) control \cite{C.A.2013},\cite{Wang2004}, \cite{Lu2002}. This method requires maximum power curve of the wind turbine based on the experimental results. A look-up table is constructed with obtained wind turbine speed and active output power values. However, using generator speed and active power measurements is the main drawback of this algorithm. Finally, there are numerous number of much complex MPPT algorithms based on fuzzy-logic \cite{Zeng2008} or neural-network \cite{Lin2011}. However, these MPPT algorithms are out of scope of this thesis. Therefore, optimal generator speed is provided in this study according to the wind speed. 
 \subsubsection{Pitch Angle Control}
 According to Eq. (\ref{windpower}), wind power increases with the cube of the wind speed. Hence, wind power increases dramatically for the high wind speeds. In order to decrease power, pitch angle i.e. blade angle is increased. Since the power coefficient, $C_{p}$ is a function of the pitch angle, $\beta$, wind power can be curtailed with increased blade angle. Variation of power coefficient for two different pitch angle is shown in Fig. \ref{cpwithtwopitchangle}. Increasing pitch angle by $1.176^{\circ}$ decreases power coefficient by 10\%.\par
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.95\linewidth]{PowerCoefficient_with_varying_pitch.png}
+	\includegraphics[width=.95\linewidth]{powercoefficient_with_varying_pitch.pdf}
 	\caption{Power Coefficient Variation for Two Different Pitch Angle}
 	\label{cpwithtwopitchangle}
 \end{figure} 
-As long as wind power is below the rated power, the wind turbine is operated in MPPT speed. This is ensured by obtaining optimal tip speed ratio. This means that for zero pitch angle, MPPT speed is increased linearly with wind speed. Before reaching rated power, MPPT speed might reach maximum generator speed. In this case, wind turbine reference speed will be the maximum generator speed. However, turbine speed cannot be decreased down to reference speed when the torque limit is reached. Hence, the pitch angle should be increased to regulate the turbine speed. Pitch angle controller is depicted in Fig. \ref{pitchcontroller}. Note that the pitch angle is increased when the speed exceeds maximum generator speed. Otherwise, the pitch angle kept as zero. 
+As long as wind power is below the rated power, the wind turbine is operated in MPPT speed. This is ensured by obtaining optimal tip speed ratio. This means that for zero pitch angle, MPPT speed is increased linearly with wind speed. Before reaching rated power, MPPT speed might reach maximum generator speed. In this case, wind turbine reference speed will be the maximum generator speed. However, turbine speed cannot be decreased down to reference speed when the torque limit is reached. Hence, the pitch angle should be increased to regulate the turbine speed. Pitch angle controller is depicted in Fig. \ref{pitchcontroller}. Note that the pitch angle is increased when the speed exceeds maximum generator speed. Otherwise, the pitch angle kept as zero. \par
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.9\linewidth]{pitchcontroller.png}
+	\includegraphics[width=.7\linewidth]{pitchcontroller.pdf}
 	\caption{Pitch Angle Control Diagram}
 	\label{pitchcontroller}
 \end{figure}
-
+It is to note that the pitch angle controller takes action as soon as the maximum generator speed is exceeded. Therefore, wind turbine operation deviates from optimal tip speed ratio. This can also be observed from the variation of power coefficient, $C_{p}$ with the wind speed for the wind turbine GE 2.75-103 used in this study. Variation of the $C_{p}$ is shown in Fig. \ref{powercoefficientge}.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.99\linewidth]{cp_wind.pdf}
+	\caption{Power Coefficient Varion for GE 2.75-103}
+	\label{powercoefficientge}
+\end{figure}
 \subsection{Gearbox}  
 Variable speed PMSG wind turbines have a gearbox between turbine and generator except for direct-drive wind turbines. The gearbox increases angular speed and decreases the torque in the generator side.By decreasing the rated torque, generator size and cost can be reduced since the generator size is almost proportional to rated torque due to constant shear stress \cite{Polinder2013aa}. Moreover, turbine speed is increased to the allowable speed range of the generator which is generally much higher than that of wind turbines. Otherwise, generator should have high pole numbers. \par
 A gearbox model is depicted in Fig. \ref{gearboxmodel}. They are mainly used for speed and torque conversion. It should be noted that the gearboxes are not full efficient systems. Therefore, the output torque of the gearbox would be lower than the ratio of input torque to gearbox conversion ratio. Direct-drive systems are based on the elimination of the gearbox systems by direct connection between turbine and generator in order to increase efficiency and reliability \cite{Chen2009b}. In this study, gearbox system is modelled with 100\% efficiency. 

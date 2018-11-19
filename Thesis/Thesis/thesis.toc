@@ -33,40 +33,41 @@
 \contentsline {chapter}{\numberline {3}\MakeUppercase {WIND TURBINE MODELLING}}{17}{chapter.3}
 \contentsline {section}{\numberline {3.1}Variable Speed PMSG Wind Turbines}{17}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Aerodynamic Model}{18}{subsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.1}Pitch Angle Control}{19}{subsubsection.3.1.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Gearbox}{20}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Permanent Magnet Synchronous Generator}{21}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Machine Side Converter}{22}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Grid Side Converter}{23}{subsection.3.1.5}
-\contentsline {section}{\numberline {3.2}Synthetic Inertia Implementation}{25}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Synthetic Inertia Activation Schemes}{26}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Source of the Inertial Support}{27}{subsection.3.2.2}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {INVESTIGATION OF INERTIAL SUPPORT PRACTICAL LIMITS}}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}Inertial Support Limits}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}Inertial Support Under Different Wind Speeds}{30}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Low Wind Scenario}{31}{subsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Active Power Limit in Low Wind Scenario}{31}{subsubsection.4.2.1.1}
-\contentsline {subsubsection}{\numberline {4.2.1.2}Active Power in Low Wind Scenario}{32}{subsubsection.4.2.1.2}
-\contentsline {subsection}{\numberline {4.2.2}Medium Wind Scenario}{34}{subsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.2.1}Active Power in Medium Wind Scenario}{35}{subsubsection.4.2.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2.2}Generator Speed, Turbine and Generator Torques in Medium Wind Scenario}{36}{subsubsection.4.2.2.2}
-\contentsline {subsubsection}{\numberline {4.2.2.3}DC-Link Voltage in Medium Wind Scenario}{36}{subsubsection.4.2.2.3}
-\contentsline {subsection}{\numberline {4.2.3}High Wind Scenario}{37}{subsection.4.2.3}
-\contentsline {subsubsection}{\numberline {4.2.3.1}Active Power in High Wind Scenario}{39}{subsubsection.4.2.3.1}
-\contentsline {subsubsection}{\numberline {4.2.3.2}Generator Speed, Turbine and Generator Torques in High Wind Scenario}{39}{subsubsection.4.2.3.2}
-\contentsline {subsubsection}{\numberline {4.2.3.3}DC-Link Voltage in High Wind Scenario}{40}{subsubsection.4.2.3.3}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {VALIDATION IN TEST CASE}}{43}{chapter.5}
-\contentsline {section}{\numberline {5.1}P.M.Anderson 9 Bus Test Case}{43}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}System Properties}{43}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Load Flow Analysis for Base Case}{44}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Base Case Frequency Response for Additional Load Connection}{45}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Modified Case}{48}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Load Flow Analysis for Modified Case}{48}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Modified Case Frequency Response for Additional Load Connection}{49}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Decommissioned Case}{51}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Load Flow Analysis for Decommissioned Case}{51}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Decommissioned Case Frequency Response for Additional Load Connection}{52}{subsection.5.3.2}
-\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{55}{chapter*.63}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Maximum Power Point Tracking Algorithms}{19}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Pitch Angle Control}{20}{subsubsection.3.1.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Gearbox}{22}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Permanent Magnet Synchronous Generator}{23}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Machine Side Converter}{24}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Grid Side Converter}{25}{subsection.3.1.5}
+\contentsline {section}{\numberline {3.2}Synthetic Inertia Implementation}{27}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Synthetic Inertia Activation Schemes}{28}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Source of the Inertial Support}{29}{subsection.3.2.2}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {INVESTIGATION OF INERTIAL SUPPORT PRACTICAL LIMITS}}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Inertial Support Limits}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}Inertial Support Under Different Wind Speeds}{32}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Low Wind Scenario}{33}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Active Power Limit in Low Wind Scenario}{33}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.2}Active Power in Low Wind Scenario}{34}{subsubsection.4.2.1.2}
+\contentsline {subsection}{\numberline {4.2.2}Medium Wind Scenario}{36}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Active Power in Medium Wind Scenario}{37}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}Generator Speed, Turbine and Generator Torques in Medium Wind Scenario}{38}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.3}DC-Link Voltage in Medium Wind Scenario}{38}{subsubsection.4.2.2.3}
+\contentsline {subsection}{\numberline {4.2.3}High Wind Scenario}{39}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}Active Power in High Wind Scenario}{41}{subsubsection.4.2.3.1}
+\contentsline {subsubsection}{\numberline {4.2.3.2}Generator Speed, Turbine and Generator Torques in High Wind Scenario}{41}{subsubsection.4.2.3.2}
+\contentsline {subsubsection}{\numberline {4.2.3.3}DC-Link Voltage in High Wind Scenario}{42}{subsubsection.4.2.3.3}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {VALIDATION IN TEST CASE}}{45}{chapter.5}
+\contentsline {section}{\numberline {5.1}P.M.Anderson 9 Bus Test Case}{45}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}System Properties}{45}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Load Flow Analysis for Base Case}{46}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Base Case Frequency Response for Additional Load Connection}{47}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Modified Case}{50}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Load Flow Analysis for Modified Case}{50}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Modified Case Frequency Response for Additional Load Connection}{51}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Decommissioned Case}{53}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Load Flow Analysis for Decommissioned Case}{53}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Decommissioned Case Frequency Response for Additional Load Connection}{54}{subsection.5.3.2}
+\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{57}{chapter*.64}
 \numberline {}\uppercase {APPENDICES}
-\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{59}{appendix.A}
-\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{59}{section.A.1}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{61}{appendix.A}
+\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{61}{section.A.1}

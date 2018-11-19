@@ -1,35 +1,35 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
-Repeated entry---line 20994 of file library.bib
+Repeated entry---line 18591 of file library.bib
+ : @article{Muljadi2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 21641 of file library.bib
  : @techreport{Eto2010
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 21215 of file library.bib
- : @article{Gonzalez-longatt2015
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 21591 of file library.bib
+Repeated entry---line 22511 of file library.bib
  : @article{Morren2006
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 21855 of file library.bib
- : @article{Muljadi2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 21954 of file library.bib
- : @article{Morren2006a
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 22333 of file library.bib
+Repeated entry---line 22617 of file library.bib
  : @article{Chen2009b
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 23118 of file library.bib
+Repeated entry---line 22848 of file library.bib
+ : @article{Gonzalez-longatt2015
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 23362 of file library.bib
  : @article{Muljadi2012
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 23340 of file library.bib
+Repeated entry---line 23401 of file library.bib
+ : @article{Morren2006a
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 23752 of file library.bib
  : @article{Eto2010
  :                 ,
 I'm skipping whatever remains of this entry
@@ -44,6 +44,7 @@ Warning--empty publisher in InternationalRenewableEnergyAgency2017
 Warning--empty publisher in REN212017d
 Warning--empty publisher in Ackermann2005a
 Warning--empty publisher in Heier
+Warning--empty journal in Barakati2009
 Warning--empty publisher in Orowska-Kowalska2014
 Warning--empty journal in Gonzalez-longatt2015
 (There were 8 error messages)

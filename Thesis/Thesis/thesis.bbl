@@ -113,6 +113,42 @@ T.~Ackermann, {\em {Wind Power in Power Systems Wind Power in Power Systems
 S.~Heier, {\em {Grid Integration of Wind Energy}}.
 \newblock 3~ed., 1998.
 
+\bibitem{Wang2004}
+Q.~Wang and L.~Chang, ``{An Intelligent Maximum Power Extraction Algorithm for
+  Inverter-Based Variable SpeedWind Turbine Systems},'' {\em IEEE Transactions
+  on Power Electronics}, vol.~19, no.~5, pp.~1242--1249, 2004.
+
+\bibitem{Barakati2009}
+M.~Barakati, M.~Kazerani, and D.~Aplevich, ``{Maximum Power Tracking Control
+  for a Wind Turbine System Including a Matrix},'' vol.~24, no.~Mc, p.~4244,
+  2009.
+
+\bibitem{Thriringer1993}
+T.~Thriringer and J.~Linders, ``{Control by Variable Rotor Speed of a Fixed
+  Pitch Wind},'' {\em IEEE Transactions on Energy}, vol.~8, no.~3,
+  pp.~520--526, 1993.
+
+\bibitem{C.A.2013}
+R.~C.A., V.~G., A.~D., A.~A., and M.~M., ``{Prophylaxis in adults hemophiliac
+  patients with severe arthropathy},'' {\em Journal of Thrombosis and
+  Haemostasis}, vol.~11, p.~1081, 2013.
+
+\bibitem{Lu2002}
+W.~Lu and B.~T. Ooi, ``{Multiterminal LVDC system for optimal acquisition of
+  power in wind-farm using induction generators},'' {\em IEEE Transactions on
+  Power Electronics}, vol.~17, no.~4, pp.~558--563, 2002.
+
+\bibitem{Zeng2008}
+Q.~Zeng, L.~Chang, and R.~Shao, ``{Fuzzy-logic-based maximum power point
+  tracking strategy for PMSG variable-speed wind turbine generation systems},''
+  {\em Canadian Conference on Electrical and Computer Engineering}, no.~1,
+  pp.~405--409, 2008.
+
+\bibitem{Lin2011}
+W.~M. Lin, C.~M. Hong, and C.~H. Chen, ``{Neural-network-based MPPT control of
+  a stand-alone hybrid power generation system},'' {\em IEEE Transactions on
+  Power Electronics}, vol.~26, no.~12, pp.~3571--3581, 2011.
+
 \bibitem{Polinder2013aa}
 H.~Polinder, J.~A. Ferreira, B.~B. Jensen, A.~B. Abrahamsen, K.~Atallah, and
   R.~a. McMahon, ``{Trends in Wind Turbine Generator Systems},'' {\em IEEE
