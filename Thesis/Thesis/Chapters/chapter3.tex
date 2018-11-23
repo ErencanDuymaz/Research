@@ -111,7 +111,7 @@ Conversion from AC to DC can be achieved by three-arm full bridge converters. Th
 Voltages and currents are generally transformed into synchronously rotating reference frame or also called dq frame. Since the frame is rotating in synchronous speed, three-phase phasors are transformed to DC quantities. Therefore, its control becomes easier \cite{Kazmierkowski2002}. Proportional-integral (PI) controllers are associated with the dq control structure due to their satisfactory behaviour interaction to DC variables \cite{Blaabjerg2006a}. Hence, the control in the back-to-back converter is achieved with PI controllers in the dq frame. \par
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.95\linewidth]{msc.png}
+	\includegraphics[width=.95\linewidth]{msc.pdf}
 	\caption{Machine Side Control Diagram}
 	\label{msc}
 \end{figure}
@@ -121,7 +121,7 @@ Grid Side Converter (GSC) or Line Side Converter (LSC) is the converter that is 
 The responsibility of the GSC is regulating DC voltage and the reactive power injected to grid. The control diagram of the GSC is given in Fig. \ref{gsc}. As seen from the figure, DC-bus voltage is regulated by controlling the d axis current. If the DC-bus voltage increases above the reference value, d-axis current reference is increased. As a result, active power increases. Increased active power also decreases the DC-bus voltage level. Reference value of the q-axis current is set to zero in normal operation, consequently unity power factor. For Low Voltage Ride-Through studies, q-axis current is determined according to the reactive power value requirement. \cite{Orowska-Kowalska2014} \par
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.98\linewidth]{gsc.png}
+	\includegraphics[width=.98\linewidth]{gsc.pdf}
 	\caption{Grid Side Control Diagram}
 	\label{gsc}
 \end{figure}
@@ -155,7 +155,7 @@ As explained in Chapter \ref{chp:2} Section \ref{swing}, synchronous generators 
 In order to implement synthetic inertia in the system, a relation between frequency and active power of the wind turbine should be constructed. Wind turbine in this study is variable speed wind turbine with full scale power electronics. The speed of the turbine is controlled by MSC such that active power is adjusted.Inertial support modification is depicted in Fig. \ref{modifiedmsc}. The new value of the active power is determined according to the swing equation. However, the wind turbine in this study is operated with a reference speed rather than a reference power. Therefore, the assigned power value should be used in order to yield the q-axis current reference value. Reference q-axis current is derived between the Eq. (\ref{inertialsupport1}) to Eq. (\ref{inertialsupport4}).
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.98\linewidth]{msc_modified.png}
+	\includegraphics[width=.98\linewidth]{msc_modified.pdf}
 	\caption{Modified MSC for Inertial Support}
 	\label{modifiedmsc}
 \end{figure}

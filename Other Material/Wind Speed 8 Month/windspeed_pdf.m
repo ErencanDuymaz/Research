@@ -8,16 +8,17 @@ xlRange = 'B2:B33160';
 windspeeds=num;
 clear vars filename shhet txt xlRange num sheet
 
+%%
 meancik=mean(windspeeds);
 varcik=sqrt(var(windspeeds));
-x=min(windspeeds):0.001:max(windspeeds);
-
+% x=min(windspeeds):0.001:max(windspeeds);
+x=sort(windspeeds);
 pd=fitdist(windspeeds,'Normal')
 % y=pdf(pd,x);
 % plot(x,y,'LineWidth',2)
 
-y2 = cdf(pd,x); 
-plot(x,y2,'LineWidth',2)
+y2 = pdf(pd,x); 
+plot(x,y2,'k','LineWidth',2)
 
 % %Low wind için
 % x1=3:0.001:7.5;
@@ -47,12 +48,19 @@ plot(x,y2,'LineWidth',2)
 
 
 xlabel('Wind Speeds (m/s)')
-ylabel('Cumulative Distribution Function')
+% ylabel('Cumulative Probability (CDF)')
+ylabel('Probability Density Function (PDF)')
+
 ax = gca;
 ax.XGrid = 'on';
 ax.YGrid = 'on';
+ax.XColor = 'k'; % Red
+ax.YColor = 'k'; % Blue
+xlim([min(x) max(x)])
 grid minor
-set(gca,'FontSize',20);
+set(gca,'FontSize',12);
+saveas(gcf,'pdf_windspeed3','pdf')
+
 % 
 
 
