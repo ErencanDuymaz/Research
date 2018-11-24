@@ -23,10 +23,12 @@ ax.XGrid = 'off';
 set(gca,'FontSize',12);
 grid minor
 ax.YGrid = 'on';
-ax.XTickLabels=[txt]; 
+ax.XTickLabels=[txt];
+ax.XTickLabelRotation = 45;
+ax.XColor = 'k'; % Red
+ax.YColor = 'k'; % Blue
 set(a1(1),'FaceColor','blue');
 set(a1(2),'FaceColor','green');
 legend('At the end of 2016','At the end of 2017')
-% saveas(gcf,'renewablecapacity','epsc')
+saveas(gcf,'renewablecapacity','pdf')
 % saveas(gcf,'renewablecapacity','png')
-% print('renewableproduction','-depsc','-tiff')
