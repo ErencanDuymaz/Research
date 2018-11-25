@@ -179,10 +179,17 @@ In the Section \ref{sec:klimit}, the inertial support limits are investigated fo
 	\caption{Probability Density Function of Measured Wind Speeds}
 	\label{windpdf}
 \end{figure}
-For a defined wind speed, the active power increase can be calculated by considering the Section \ref{sec:klimit}. However, likelihood of such an increase can be calculated by integrating PDF over desired the wind speed range. This can also be calculated from the cumulative distribution function (CDF) of the measurements. In this case, CDFs of the wind speed range limits will be used. Wind Speed CDF is given in Fig. \ref{windcdf}.
+For a defined wind speed, the active power increase can be calculated by considering the Section \ref{sec:klimit}. However, likelihood of such an increase can be calculated by integrating PDF over desired the wind speed range. This can also be calculated from the cumulative distribution function (CDF) of the measurements. In this case, CDFs of the wind speed range limits will be used. Wind Speed CDF is given in Fig. \ref{windcdf}. \par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.75\linewidth]{cdf_wind.pdf}
 	\caption{Cumulative Distribution Function of Measured Wind Speeds}
 	\label{windcdf}
+\end{figure}
+By utilizing the wind speed measurements and the possible increase in the active output power, it is possible to define availability of the wind turbine for a possible inertial support. For example, the probability of the wind speed to be below the 3m/s is found to be 14.16\%. Therefore, it is possible to conclude that no inertial support can be provided at 14.16\% of all operational time since the turbine will be in cut-off. Moreover, the probability of having rated power is found out to be 19.05\%. Therefore, it is possible to increase active power by 10\% in this interval as long as the converter rating is sufficient. The possibility of fast inertial support is shown in the Fig. \ref{wind_pie}.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.75\linewidth]{wind_pie.pdf}
+	\caption{Distribution of Fast Inertial Support}
+	\label{wind_pie}
 \end{figure}
