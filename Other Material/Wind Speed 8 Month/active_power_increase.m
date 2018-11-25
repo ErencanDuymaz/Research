@@ -14,7 +14,7 @@ clear vars filename shhet txt xlRange num sheet
 
 %%
 
-plot(windspeeds,powerw,'k','LineWidth',2)
+plot(windspeeds,powerpu,'k','LineWidth',2)
 
 xlabel('Wind Speeds (m/s)')
 % ylabel('Cumulative Probability (CDF) ')
@@ -28,4 +28,4 @@ ax.YColor = 'k'; % Blue
 xlim([min(windspeeds) 12])
 grid minor
 set(gca,'FontSize',12);
-saveas(gcf,'power_increasew2','pdf')
+% saveas(gcf,'power_increasew2','pdf')

@@ -17,34 +17,8 @@ pd=fitdist(windspeeds,'Normal')
 % y=pdf(pd,x);
 % plot(x,y,'LineWidth',2)
 
-y2 = pdf(pd,x); 
+y2 = cdf(pd,x); 
 plot(x,y2,'k','LineWidth',2)
-
-% %Low wind için
-% x1=3:0.001:7.5;
-% y=pdf(pd,x1);
-% Q_low = trapz(x1,y)
-
-
-% %Medium wind için
-% x2=7.5:0.001:10.5;
-% y=pdf(pd,x2);
-% Q_med = trapz(x2,y)
-% 
-% 
-% %High wind için
-% x3=10.5:0.001:max(windspeeds);
-% y=pdf(pd,x3);
-% Q_max = trapz(x3,y)
-
-
-% x=min(windspeeds):0.001:max(windspeeds);
-% y=pdf(pd,x);
-% Q=trapz(x,y)
-
-% x_cutoff=min(windspeeds):0.001:3;
-% y=pdf(pd,x_cutoff);
-% Q_cutoff=trapz(x_cutoff,y)
 
 
 xlabel('Wind Speeds (m/s)')
@@ -59,10 +33,10 @@ ax.YColor = 'k'; % Blue
 xlim([min(x) max(x)])
 grid minor
 set(gca,'FontSize',12);
-saveas(gcf,'pdf_windspeed3','pdf')
+% saveas(gcf,'pdf_windspeed3','pdf')
 
 % 
-
+Q_low = trapz(x,y2)
 
 %%
 clear all
