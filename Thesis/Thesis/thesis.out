@@ -47,7 +47,7 @@
 \BOOKMARK [3][-]{subsubsection.4.2.3.1}{Active Power in High Wind Scenario}{subsection.4.2.3}% 47
 \BOOKMARK [3][-]{subsubsection.4.2.3.2}{Generator Speed, Turbine and Generator Torques in High Wind Scenario}{subsection.4.2.3}% 48
 \BOOKMARK [3][-]{subsubsection.4.2.3.3}{DC-Link Voltage in High Wind Scenario}{subsection.4.2.3}% 49
-\BOOKMARK [1][-]{section.4.3}{Probabilistic Approach for Different Wind Speeds}{chapter.4}% 50
+\BOOKMARK [1][-]{section.4.3}{Probabilistic Approach for Fast Inertial Support}{chapter.4}% 50
 \BOOKMARK [0][-]{chapter.5}{VALIDATION IN TEST CASE}{}% 51
 \BOOKMARK [1][-]{section.5.1}{P.M.Anderson 9 Bus Test Case}{chapter.5}% 52
 \BOOKMARK [2][-]{subsection.5.1.1}{System Properties}{section.5.1}% 53
@@ -63,6 +63,6 @@
 \BOOKMARK [1][-]{section.6.1}{FAST INERTIAL RESPONSE}{chapter.6}% 63
 \BOOKMARK [1][-]{section.6.2}{SYNTHETIC INERTIA IMPLEMENTATION}{chapter.6}% 64
 \BOOKMARK [1][-]{section.6.3}{FUTURE WORK}{chapter.6}% 65
-\BOOKMARK [0][-]{chapter*.68}{REFERENCES}{}% 66
+\BOOKMARK [0][-]{chapter*.69}{REFERENCES}{}% 66
 \BOOKMARK [0][-]{appendix.A}{Ek A }{}% 67
 \BOOKMARK [1][-]{section.A.1}{\326rnek K\232s\232m}{appendix.A}% 68

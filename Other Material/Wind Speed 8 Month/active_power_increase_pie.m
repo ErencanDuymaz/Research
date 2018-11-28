@@ -14,5 +14,6 @@ a(4).FontSize=14;
 a(6).FontSize=14;
 a(8).FontSize=14;
 labels=txt';
-lgd=legend(labels,'Location','southoutside','Orientation','horizontal');
+lgd=legend(labels,'Location','westoutside','Orientation','vertical');
 lgd.FontSize=14;
+saveas(gcf,'prob_pie','pdf')
