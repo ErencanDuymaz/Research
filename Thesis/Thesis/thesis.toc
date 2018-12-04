@@ -5,12 +5,12 @@
 \contentsline {leads}{\numberline {}\"OZ}{vii}{chapter*.1}
 \babel@toc {turkish}{}
 \babel@toc {english}{}
-\contentsline {leads}{\numberline {}ACKNOWLEDGMENTS}{ix}{chapter*.3}
-\contentsline {leads}{\numberline {}TABLE OF CONTENTS}{x}{chapter*.4}
-\contentsline {leads}{\numberline {}LIST OF TABLES}{xiv}{chapter*.5}
-\contentsline {leads}{\numberline {}LIST OF FIGURES}{xv}{chapter*.6}
-\contentsline {leads}{\numberline {}LIST OF ABBREVIATIONS}{xix}{chapter*.7}
-\contentsline {leads}{\numberline {}LIST OF SYMBOLS}{xx}{chapter*.8}
+\contentsline {leads}{\numberline {}ACKNOWLEDGMENTS}{x}{chapter*.3}
+\contentsline {leads}{\numberline {}TABLE OF CONTENTS}{xi}{chapter*.4}
+\contentsline {leads}{\numberline {}LIST OF TABLES}{xv}{chapter*.5}
+\contentsline {leads}{\numberline {}LIST OF FIGURES}{xvi}{chapter*.6}
+\contentsline {leads}{\numberline {}LIST OF ABBREVIATIONS}{xx}{chapter*.7}
+\contentsline {leads}{\numberline {}LIST OF SYMBOLS}{xxi}{chapter*.8}
 \numberline {}CHAPTERS
 \babel@toc {turkish}{}
 \babel@toc {english}{}
@@ -58,22 +58,23 @@
 \contentsline {subsubsection}{\numberline {4.2.3.2}Generator Speed, Turbine and Generator Torques in High Wind Scenario}{44}{subsubsection.4.2.3.2}
 \contentsline {subsubsection}{\numberline {4.2.3.3}DC-Link Voltage in High Wind Scenario}{45}{subsubsection.4.2.3.3}
 \contentsline {section}{\numberline {4.3}Probabilistic Approach for Fast Inertial Support}{47}{section.4.3}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {VALIDATION IN TEST CASE}}{51}{chapter.5}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {EFFECTS OF SYNTHETIC INERTIA IMPLEMENTATION}}{51}{chapter.5}
 \contentsline {section}{\numberline {5.1}P.M.Anderson 9 Bus Test Case}{51}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}System Properties}{51}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Load Flow Analysis for Base Case}{52}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.2}Load Flow Analysis for Base Case}{53}{subsection.5.1.2}
 \contentsline {subsection}{\numberline {5.1.3}Base Case Frequency Response for Additional Load Connection}{53}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Modified Case}{56}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Load Flow Analysis for Modified Case}{56}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.2}Modified Case}{55}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Load Flow Analysis for Modified Case}{57}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Modified Case Frequency Response for Additional Load Connection}{57}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Decommissioned Case}{59}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Load Flow Analysis for Decommissioned Case}{59}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Decommissioned Case Frequency Response for Additional Load Connection}{60}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.3}Decommissioned Case}{58}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Load Flow Analysis for Decommissioned Case}{60}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Decommissioned Case Frequency Response for Additional Load Connection}{61}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Modified Case with Synthetic Inertia}{61}{section.5.4}
 \contentsline {chapter}{\numberline {6}\MakeUppercase {EVALUATION OF FAST INERTIAL RESPONSE AND SYNTHETIC INERTIA IMPLEMENTATION}}{63}{chapter.6}
 \contentsline {section}{\numberline {6.1}FAST INERTIAL RESPONSE}{64}{section.6.1}
 \contentsline {section}{\numberline {6.2}SYNTHETIC INERTIA IMPLEMENTATION}{65}{section.6.2}
 \contentsline {section}{\numberline {6.3}FUTURE WORK}{65}{section.6.3}
-\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{67}{chapter*.69}
+\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{67}{chapter*.70}
 \numberline {}\uppercase {APPENDICES}
 \contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{71}{appendix.A}
 \contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{71}{section.A.1}
