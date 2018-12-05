@@ -138,6 +138,7 @@ Almost the same frequency response is observed in the system. The reason is that
 	\label{Case1_2_rocof}
 \end{figure}
 \section{Decommissioned Case}
+\label{sec:kdecommissioned}
 As seen in the Modified Case, the frequency response of the system does not change with renewable energy inclusion. However, it is inevitable that renewable energy systems will replace the conventional units in future. In this case, the smallest generator, generator 3, will be decommissioned due to economical concerns. The decommissioned case diagram is shown in Fig. \ref{decommissioned_case}.\par
 \begin{figure}[h!]
 	\centering
@@ -194,11 +195,40 @@ Decommissioned system is also subjected to the same frequency disturbance which 
 	\label{Case1_2_3_rocof}
 \end{figure}
 \section{Modified Case with Synthetic Inertia}
-The frequency response of the modified system is invesigated in Section \ref{sec:kmodified} and the system frequency was almost the same with test system base case. However, the response of the system can be improved by provision of synthetic inertia. The wind turbines in the system is equipped with synthetic inertia that emulates inertia constants of 5s, 10s and 15s. The system response with inertial support provision is given in the Fig. \ref{Case4_freq}.\par
+The frequency response of the modified system is investigated in Section \ref{sec:kmodified} and the system frequency was almost the same with test system base case. However, the response of the system can be improved by provision of synthetic inertia. The wind turbines in the system is equipped with synthetic inertia that emulates inertia constants of 5s, 10s and 15s. The system response with inertial support provision is given in the Fig. \ref{Case4_freq}.\par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.9\linewidth]{case4_frequencies.png}
 	\caption{Emulation of the Different Inertia Constants for the Modified Case}
 	\label{Case4_freq}
 \end{figure}
-Since the modified case frequency response is almost the same with the base case, the synthetic inertia implementation is improved the system frequency response. In other words, the wind turbines are integrated to the system by emulating the synchronous generator behaviour. It is to note that huge amount of kinetic energy exists in the wind turbine systems, that energy can be utilized with the synthetic inertia method in order to improve frequency dynamics of the system. 
+Since the modified case frequency response is almost the same with the base case, the synthetic inertia implementation is improved the system frequency response. In other words, the wind turbines are integrated to the system by emulating the synchronous generator behaviour. It is to note that huge amount of kinetic energy exists in the wind turbine systems. That stored energy can be utilized with the synthetic inertia method in order to improve frequency dynamics of the system.\par
+Emulation of synchronous generator behaviour is basically increasing the amount of active power depending on the RoCoF of the grid and the inertia constant to be emulated. Since the higher inertia constant requires higher active power increase, the inertia constants of 10s and 15s result in better frequency dynamics. The frequency nadir of the base case is slightly increased. The effect of the synthetic inertia provision can also be observed in the system RoCoF values that is given in Fig. \ref{Case4_rocof}.\par
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{case4_rocof.png}
+	\caption{RoCoF of the Different Inertia Constants for the Modified Case}
+	\label{Case4_rocof}
+\end{figure}
+It is obvious that the base case experience the highest RoCoF in the very first second of the frequency disturbance. While the remaining cases is subjected to lower RoCoF at first, the base case RoCoF is the lowest following seconds. The reason is that the base case active power contribution in the first second is much higher than others. Hence, the case subjected to severe conditions react higher and faster resulting quick restoration of the system. Another observation is that all cases converges to the same steady state frequency due to the fact that inertial support affects the transient rather than the steady state values. The steady state frequency is dependent on the capacity of conventional synchronous generators and their droop constants. This is why the decommissioned case steady state frequency is lower than that of modified case.
+\section{Decommissioned Case with Synthetic Inertia}
+Decommissioned case frequency response for 10\% additional load connection is studied in the Section \ref{sec:kdecommissioned}. System frequency experiences high RoCoF and lower steady state frequency because of the removal of the generator 3. In this section, synthetic inertia method  is implemented on the decommissioned case wind farm with different inertia constants. The resultant frequency responses are shown in the Fig. \ref{Case5_freq}. As in the case of modified case, base case frequency response experiences steepest decline in the frequency meanwhile the higher inertia constant synthetic inertia implementations have smoother frequency decrease.\par
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{case5_frequency.png}
+	\caption{RoCoF of the Different Inertia Constants for the Decommissioned Case}
+	\label{Case5_freq}
+\end{figure}
+The active power of the wind turbine for the different inertia constants is given in Fig. \ref{Case5_power}. It should be noted that the active power of the wind turbine is proportional with the RoCoF that is also given in Fig. \ref{Case5_rocof}. Note that 15s inertia constant is also emulated. It is stated that conventional generator inertia constants lie between 2-9s \cite{Kundur}. Nonetheless, synchronous generators have constant kinetic energy in the nominal frequency. However, the kinetic energy stored in the turbine inertia fluctuates with the generator speed. Moreover, wind turbine is able to emulate different inertia constant as soon as it has the capacity to increase its power. Even with the inertia constant of 15s, the wind turbine is far away from its maximum allowable power. Therefore, higher inertia constants can also be tested in the expense of longer speed recovery process whose decreased power might also affect the RoCoF further. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{case5_powers.png}
+	\caption{Wind Turbine Active Power for the Different Inertia Constants in the Decommissioned Case}
+	\label{Case5_power}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{case5_rocof.png}
+	\caption{Wind Turbine Active Power for the Different Inertia Constants in the Decommissioned Case}
+	\label{Case5_rocof}
+\end{figure}
