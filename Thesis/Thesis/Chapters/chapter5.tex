@@ -219,16 +219,31 @@ Decommissioned case frequency response for 10\% additional load connection is st
 	\caption{RoCoF of the Different Inertia Constants for the Decommissioned Case}
 	\label{Case5_freq}
 \end{figure}
-The active power of the wind turbine for the different inertia constants is given in Fig. \ref{Case5_power}. It should be noted that the active power of the wind turbine is proportional with the RoCoF that is also given in Fig. \ref{Case5_rocof}. Note that 15s inertia constant is also emulated. It is stated that conventional generator inertia constants lie between 2-9s \cite{Kundur}. Nonetheless, synchronous generators have constant kinetic energy in the nominal frequency. However, the kinetic energy stored in the turbine inertia fluctuates with the generator speed. Moreover, wind turbine is able to emulate different inertia constant as soon as it has the capacity to increase its power. Even with the inertia constant of 15s, the wind turbine is far away from its maximum allowable power. Therefore, higher inertia constants can also be tested in the expense of longer speed recovery process whose decreased power might also affect the RoCoF further. 
+The active power of the wind turbine for the different inertia constants is given in Fig. \ref{Case5_power}. It should be noted that the active power of the wind turbine is proportional with the RoCoF that is also given in Fig. \ref{Case5_rocof}. Note that 15s inertia constant is also emulated. It is stated that conventional generator inertia constants lie between 2-9s \cite{Kundur}. Nonetheless, synchronous generators have constant kinetic energy in the nominal frequency. However, the kinetic energy stored in the turbine inertia fluctuates with the generator speed. Moreover, wind turbine is able to emulate different inertia constant as soon as it has the capacity to increase its power. Even with the inertia constant of 15s, the wind turbine is far away from its maximum allowable power. Therefore, higher inertia constants can also be tested in the expense of longer speed recovery process whose resultant decreased power might also affect the RoCoF further. 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{case5_powers.png}
 	\caption{Wind Turbine Active Power for the Different Inertia Constants in the Decommissioned Case}
 	\label{Case5_power}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.9\linewidth]{case5_rocof.png}
 	\caption{Wind Turbine Active Power for the Different Inertia Constants in the Decommissioned Case}
 	\label{Case5_rocof}
+\end{figure}
+\section{Comparison of the Synthetic Inertia and Fast Inertial Support}
+In the Chapter \ref{chp:4}, it is stated that the wind turbines have more than sufficient capacity in order to increase its active power. The fast inertial support concept is studied with different increase rates. The exaggerated inertial supports are studied to observe the turbine internal dynamics. In this section, the fast inertial support will be compared with the synthetic inertia. In other words, increasing active power by a defined percentage will be compared to a rise in the active power proportional to RoCoF. For this reason, the same frequency disturbance is tested on the base case decommissioned case, the case where inertia constant of 10s is emulated and also the one with fast inertial support with 5\% increased power by 5 seconds. Fig. \ref{Comp_power} shows the variation of the active power. In order to increase the effectiveness of the fast inertial support, it is activated with a delay of 0.25s. In this interval, the synchronous generators take action for the upcoming disturbance. It should be underlined that the active power of the inertia emulated case is increased proportional to the RoCoF. Therefore, it declines as the RoCoF declines. Therefore, in the other half of the support time, it is below of the fast inertial support case. This phenomena can be clearly observed in the frequency response.\par
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{comparison_power.png}
+	\caption{Comparison of the Frequency Responses for the Base, Fast Inertial Support and Synthetic Inertia Cases}
+	\label{Comp_power}
+\end{figure}
+The frequency response of these three cases is shown in Fig. \ref{Comp_freq}. It is obvious that the base case frequency response has the poorest transient frequency. Besides, the synthetic inertia implemented case has the best transient behaviour for the very first seconds. Nonetheless, the fast inertial support case first converges to higher steady state frequency until the end of the support period. However, as soon as the support ends, the sharp decrease in the active power results a second dip in the frequency. In contrary, the synthetic inertia case active power is decreased down to lower values as the RoCoF is positive. Than means that the recovery process is already started inside the support. Hence, the secondary dip is not observed in this case. 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.9\linewidth]{comparison_freq.png}
+	\caption{Comparison of the Active Power Increase in Fast Inertial Support Case and Synthetic Inertia Case}
+	\label{Comp_freq}
 \end{figure}
