@@ -16,3 +16,4 @@ ax.XGrid = 'on';
 set(gca,'FontSize',15);
 grid minor
 ylim([0 1.05])
+saveas(gcf,'torquevariation','pdf')

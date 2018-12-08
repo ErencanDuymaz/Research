@@ -16,4 +16,4 @@ a(8).FontSize=14;
 labels=txt';
 lgd=legend(labels,'Location','westoutside','Orientation','vertical');
 lgd.FontSize=14;
-saveas(gcf,'prob_pie','pdf')
+% saveas(gcf,'prob_pie','pdf')

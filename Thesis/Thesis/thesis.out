@@ -35,37 +35,35 @@
 \BOOKMARK [2][-]{subsection.3.2.2}{Source of the Inertial Support}{section.3.2}% 35
 \BOOKMARK [0][-]{chapter.4}{INVESTIGATION OF INERTIAL SUPPORT PRACTICAL LIMITS}{}% 36
 \BOOKMARK [1][-]{section.4.1}{Inertial Support Limits}{chapter.4}% 37
-\BOOKMARK [1][-]{section.4.2}{Inertial Support Under Different Wind Speeds}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.2}{Fast Inertial Support Under Different Wind Speeds}{chapter.4}% 38
 \BOOKMARK [2][-]{subsection.4.2.1}{Low Wind Scenario}{section.4.2}% 39
-\BOOKMARK [3][-]{subsubsection.4.2.1.1}{Active Power Limit in Low Wind Scenario}{subsection.4.2.1}% 40
-\BOOKMARK [3][-]{subsubsection.4.2.1.2}{Active Power in Low Wind Scenario}{subsection.4.2.1}% 41
+\BOOKMARK [3][-]{subsubsection.4.2.1.1}{Fast Inertial Support Limit in Low Wind Scenario}{subsection.4.2.1}% 40
+\BOOKMARK [3][-]{subsubsection.4.2.1.2}{Moderate Fast Inertial Support for in Low Wind Scenario}{subsection.4.2.1}% 41
 \BOOKMARK [2][-]{subsection.4.2.2}{Medium Wind Scenario}{section.4.2}% 42
-\BOOKMARK [3][-]{subsubsection.4.2.2.1}{Active Power in Medium Wind Scenario}{subsection.4.2.2}% 43
-\BOOKMARK [3][-]{subsubsection.4.2.2.2}{Generator Speed, Turbine and Generator Torques in Medium Wind Scenario}{subsection.4.2.2}% 44
-\BOOKMARK [3][-]{subsubsection.4.2.2.3}{DC-Link Voltage in Medium Wind Scenario}{subsection.4.2.2}% 45
-\BOOKMARK [2][-]{subsection.4.2.3}{High Wind Scenario}{section.4.2}% 46
-\BOOKMARK [3][-]{subsubsection.4.2.3.1}{Active Power in High Wind Scenario}{subsection.4.2.3}% 47
-\BOOKMARK [3][-]{subsubsection.4.2.3.2}{Generator Speed, Turbine and Generator Torques in High Wind Scenario}{subsection.4.2.3}% 48
-\BOOKMARK [3][-]{subsubsection.4.2.3.3}{DC-Link Voltage in High Wind Scenario}{subsection.4.2.3}% 49
-\BOOKMARK [1][-]{section.4.3}{Probabilistic Approach for Fast Inertial Support}{chapter.4}% 50
-\BOOKMARK [0][-]{chapter.5}{EFFECTS OF SYNTHETIC INERTIA IMPLEMENTATION}{}% 51
-\BOOKMARK [1][-]{section.5.1}{P.M.Anderson 9 Bus Test Case}{chapter.5}% 52
-\BOOKMARK [2][-]{subsection.5.1.1}{System Properties}{section.5.1}% 53
-\BOOKMARK [2][-]{subsection.5.1.2}{Load Flow Analysis for Base Case}{section.5.1}% 54
-\BOOKMARK [2][-]{subsection.5.1.3}{Base Case Frequency Response for Additional Load Connection}{section.5.1}% 55
-\BOOKMARK [1][-]{section.5.2}{Modified Case}{chapter.5}% 56
-\BOOKMARK [2][-]{subsection.5.2.1}{Load Flow Analysis for Modified Case}{section.5.2}% 57
-\BOOKMARK [2][-]{subsection.5.2.2}{Modified Case Frequency Response for Additional Load Connection}{section.5.2}% 58
-\BOOKMARK [1][-]{section.5.3}{Decommissioned Case}{chapter.5}% 59
-\BOOKMARK [2][-]{subsection.5.3.1}{Load Flow Analysis for Decommissioned Case}{section.5.3}% 60
-\BOOKMARK [2][-]{subsection.5.3.2}{Decommissioned Case Frequency Response for Additional Load Connection}{section.5.3}% 61
-\BOOKMARK [1][-]{section.5.4}{Modified Case with Synthetic Inertia}{chapter.5}% 62
-\BOOKMARK [1][-]{section.5.5}{Decommissioned Case with Synthetic Inertia}{chapter.5}% 63
-\BOOKMARK [1][-]{section.5.6}{Comparison of the Synthetic Inertia and Fast Inertial Support}{chapter.5}% 64
-\BOOKMARK [0][-]{chapter.6}{EVALUATION OF FAST INERTIAL RESPONSE AND SYNTHETIC INERTIA IMPLEMENTATION}{}% 65
-\BOOKMARK [1][-]{section.6.1}{FAST INERTIAL RESPONSE}{chapter.6}% 66
-\BOOKMARK [1][-]{section.6.2}{SYNTHETIC INERTIA IMPLEMENTATION}{chapter.6}% 67
-\BOOKMARK [1][-]{section.6.3}{FUTURE WORK}{chapter.6}% 68
-\BOOKMARK [0][-]{chapter*.76}{REFERENCES}{}% 69
-\BOOKMARK [0][-]{appendix.A}{Ek A }{}% 70
-\BOOKMARK [1][-]{section.A.1}{\326rnek K\232s\232m}{appendix.A}% 71
+\BOOKMARK [3][-]{subsubsection.4.2.2.1}{Fast Inertial Support Limit in Medium Wind Scenario}{subsection.4.2.2}% 43
+\BOOKMARK [3][-]{subsubsection.4.2.2.2}{Moderate Fast Inertial Support for in Medium Wind Scenario}{subsection.4.2.2}% 44
+\BOOKMARK [2][-]{subsection.4.2.3}{High Wind Scenario}{section.4.2}% 45
+\BOOKMARK [3][-]{subsubsection.4.2.3.1}{Fast Inertial Support Limit in High Wind Scenario}{subsection.4.2.3}% 46
+\BOOKMARK [3][-]{subsubsection.4.2.3.2}{Moderate Inertial Support Limit in High Wind Scenario}{subsection.4.2.3}% 47
+\BOOKMARK [1][-]{section.4.3}{Probabilistic Approach for Fast Inertial Support}{chapter.4}% 48
+\BOOKMARK [0][-]{chapter.5}{EFFECTS OF SYNTHETIC INERTIA IMPLEMENTATION}{}% 49
+\BOOKMARK [1][-]{section.5.1}{P.M.Anderson 9 Bus Test Case}{chapter.5}% 50
+\BOOKMARK [2][-]{subsection.5.1.1}{System Properties}{section.5.1}% 51
+\BOOKMARK [2][-]{subsection.5.1.2}{Load Flow Analysis for Base Case}{section.5.1}% 52
+\BOOKMARK [2][-]{subsection.5.1.3}{Base Case Frequency Response for Additional Load Connection}{section.5.1}% 53
+\BOOKMARK [1][-]{section.5.2}{Modified Case}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.2.1}{Load Flow Analysis for Modified Case}{section.5.2}% 55
+\BOOKMARK [2][-]{subsection.5.2.2}{Modified Case Frequency Response for Additional Load Connection}{section.5.2}% 56
+\BOOKMARK [1][-]{section.5.3}{Decommissioned Case}{chapter.5}% 57
+\BOOKMARK [2][-]{subsection.5.3.1}{Load Flow Analysis for Decommissioned Case}{section.5.3}% 58
+\BOOKMARK [2][-]{subsection.5.3.2}{Decommissioned Case Frequency Response for Additional Load Connection}{section.5.3}% 59
+\BOOKMARK [1][-]{section.5.4}{Modified Case with Synthetic Inertia}{chapter.5}% 60
+\BOOKMARK [1][-]{section.5.5}{Decommissioned Case with Synthetic Inertia}{chapter.5}% 61
+\BOOKMARK [1][-]{section.5.6}{Comparison of the Synthetic Inertia and Fast Inertial Support}{chapter.5}% 62
+\BOOKMARK [0][-]{chapter.6}{EVALUATION OF FAST INERTIAL RESPONSE AND SYNTHETIC INERTIA IMPLEMENTATION}{}% 63
+\BOOKMARK [1][-]{section.6.1}{FAST INERTIAL RESPONSE}{chapter.6}% 64
+\BOOKMARK [1][-]{section.6.2}{SYNTHETIC INERTIA IMPLEMENTATION}{chapter.6}% 65
+\BOOKMARK [1][-]{section.6.3}{FUTURE WORK}{chapter.6}% 66
+\BOOKMARK [0][-]{chapter*.78}{REFERENCES}{}% 67
+\BOOKMARK [0][-]{appendix.A}{Ek A }{}% 68
+\BOOKMARK [1][-]{section.A.1}{\326rnek K\232s\232m}{appendix.A}% 69
