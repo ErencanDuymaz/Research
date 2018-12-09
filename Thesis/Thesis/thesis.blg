@@ -1,29 +1,37 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
-Repeated entry---line 910 of file library.bib
+Repeated entry---line 912 of file library.bib
  : @techreport{Eto2010
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4733 of file library.bib
+Repeated entry---line 4748 of file library.bib
  : @unpublished{Eto2010
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5182 of file library.bib
+Repeated entry---line 5197 of file library.bib
  : @article{Chen2009b
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12602 of file library.bib
+Repeated entry---line 6750 of file library.bib
+ : @article{Conroy2008
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12617 of file library.bib
  : @article{Morren2006
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 16087 of file library.bib
+Repeated entry---line 16102 of file library.bib
  : @article{Muljadi2012
  :                     ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 16595 of file library.bib
  : @article{Gonzalez-longatt2015
  :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 20957 of file library.bib
+ : @article{Zhu2013a
+ :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 21262 of file library.bib
  : @article{Morren2006a
@@ -43,6 +51,7 @@ Warning--empty publisher in InternationalRenewableEnergyAgencyIRENA2018
 Warning--empty publisher in InternationalRenewableEnergyAgency2017
 Warning--empty publisher in REN212017d
 Warning--empty journal in Wang2016
+Warning--empty journal in Hernandez2017
 Warning--empty publisher in Ackermann2005a
 Warning--empty publisher in Heier
 Warning--empty journal in Barakati2009
@@ -50,4 +59,4 @@ Warning--empty publisher in Orowska-Kowalska2014
 Warning--empty journal in Gonzalez-longatt2015
 Warning--empty journal in Papathanassiou
 Warning--empty year in Papathanassiou
-(There were 8 error messages)
+(There were 10 error messages)
