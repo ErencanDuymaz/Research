@@ -1,37 +1,37 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
-Repeated entry---line 561 of file library.bib
+Repeated entry---line 910 of file library.bib
  : @techreport{Eto2010
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1451 of file library.bib
- : @article{Muljadi2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4509 of file library.bib
- : @article{Gonzalez-longatt2015
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5142 of file library.bib
- : @article{Morren2006a
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5564 of file library.bib
- : @article{Muljadi2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 7490 of file library.bib
+Repeated entry---line 4733 of file library.bib
  : @unpublished{Eto2010
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 14801 of file library.bib
+Repeated entry---line 5182 of file library.bib
+ : @article{Chen2009b
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12602 of file library.bib
  : @article{Morren2006
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 23836 of file library.bib
- : @article{Chen2009b
- :                   ,
+Repeated entry---line 16087 of file library.bib
+ : @article{Muljadi2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16595 of file library.bib
+ : @article{Gonzalez-longatt2015
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 21262 of file library.bib
+ : @article{Morren2006a
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 23906 of file library.bib
+ : @article{Muljadi2012
+ :                     ,
 I'm skipping whatever remains of this entry
 Warning--empty institution in States2016
 Warning--empty institution in EuropeanCommission2018
@@ -42,6 +42,7 @@ Warning--empty journal in Eto2010
 Warning--empty publisher in InternationalRenewableEnergyAgencyIRENA2018
 Warning--empty publisher in InternationalRenewableEnergyAgency2017
 Warning--empty publisher in REN212017d
+Warning--empty journal in Wang2016
 Warning--empty publisher in Ackermann2005a
 Warning--empty publisher in Heier
 Warning--empty journal in Barakati2009

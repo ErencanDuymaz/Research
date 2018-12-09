@@ -104,6 +104,25 @@ J.~Morren, J.~Pierik, and S.~W. de~Haan, ``{Inertial response of variable speed
   wind turbines},'' {\em Electric Power Systems Research}, vol.~76, no.~11,
   pp.~980--987, 2006.
 
+\bibitem{Wang2016b}
+X.~Wang, W.~Gao, J.~Wang, Z.~Wu, W.~Yan, V.~Gevorgian, Y.~Zhang, E.~Muljadi,
+  M.~Kang, M.~Hwang, and Y.~C. Kang, ``{Assessment of system frequency support
+  effect of PMSG-WTG using torque-limit-based inertial control},'' in {\em 2016
+  IEEE Energy Conversion Congress and Exposition (ECCE)}, pp.~1--6, IEEE, sep
+  2016.
+
+\bibitem{Wang2016}
+X.~Wang, S.~Member, W.~Gao, S.~Member, J.~Wang, S.~Yan, M.~Kang, S.~Member,
+  M.~Hwang, S.~Member, Y.~Kang, S.~Member, and E.~Muljadi, ``{Inertial Response
+  of Wind Power Plants : A Comparison of Frequency-based Inertial Control and
+  Stepwise Inertial Control},'' pp.~0--5, 2016.
+
+\bibitem{Gonzalez-Longatt2016}
+F.~Gonzalez-Longatt, A.~Bonfiglio, R.~Procopio, and D.~Bogdanov, ``{Practical
+  limit of synthetic inertia in full converter wind turbine generators:
+  Simulation approach},'' in {\em 2016 19th International Symposium on
+  Electrical Apparatus and Technologies, SIELA 2016}, 2016.
+
 \bibitem{Ackermann2005a}
 T.~Ackermann, {\em {Wind Power in Power Systems Wind Power in Power Systems
   Edited by}}, vol.~8.
