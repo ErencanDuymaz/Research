@@ -71,10 +71,10 @@
 \contentsline {section}{\numberline {5.5}Decommissioned Case with Synthetic Inertia}{66}{section.5.5}
 \contentsline {section}{\numberline {5.6}Comparison of the Synthetic Inertia and Fast Inertial Support}{67}{section.5.6}
 \contentsline {chapter}{\numberline {6}\MakeUppercase {EVALUATION OF FAST INERTIAL RESPONSE AND SYNTHETIC INERTIA IMPLEMENTATION}}{71}{chapter.6}
-\contentsline {section}{\numberline {6.1}FAST INERTIAL RESPONSE}{72}{section.6.1}
-\contentsline {section}{\numberline {6.2}SYNTHETIC INERTIA IMPLEMENTATION}{73}{section.6.2}
-\contentsline {section}{\numberline {6.3}FUTURE WORK}{73}{section.6.3}
-\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{75}{chapter*.78}
+\contentsline {section}{\numberline {6.1}Fast Inertial Support}{72}{section.6.1}
+\contentsline {section}{\numberline {6.2}Synthetic Inertia Implementation}{73}{section.6.2}
+\contentsline {section}{\numberline {6.3}FUTURE WORK}{75}{section.6.3}
+\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{77}{chapter*.78}
 \numberline {}\uppercase {APPENDICES}
-\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{79}{appendix.A}
-\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{79}{section.A.1}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {Ek A }}{81}{appendix.A}
+\contentsline {section}{\numberline {A.1}\IeC {\"O}rnek K\IeC {\i }s\IeC {\i }m}{81}{section.A.1}
