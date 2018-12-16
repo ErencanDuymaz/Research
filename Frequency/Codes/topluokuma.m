@@ -131,7 +131,7 @@ vars(k)=sqrt(varyanscik);
 written= [cellstr(filename) mincik meancik vars(k)]; 
 xlRange=['A' int2str(k+1) ':D' int2str(k+1)]
 xlswrite('dec_to_march_2013.xlsx',written,xlRange);
-clearvars VarName1 VarName2 VarName3 time freq delimiter formatSpec fileID dataArray ans raw col numericData rawData row regexstr result numbers invalidThousandsSeparator thousandsRegExp me dates blankDates anyBlankDates invalidDates anyInvalidDates rawNumericColumns R;
+clearvars VarName1 VarName2 VarName3 delimiter formatSpec fileID dataArray ans raw col numericData rawData row regexstr result numbers invalidThousandsSeparator thousandsRegExp me dates blankDates anyBlankDates invalidDates anyInvalidDates rawNumericColumns R;
  
 
         
@@ -147,8 +147,18 @@ xlRange='E2:E182';
 [a b c] = xlsread('dec_to_march_2013.xlsx','E2:E182');
 
 
-% num = datenum( b, 'DD/MM/YYYY' );
+num = datenum( b, 'DD/MM/YYYY' );
 
 time = datetime(b,'InputFormat','dd/MM/yyyy')
 
-plot(time,mean_freq)
+t1 = datetime(2013,12,23,00,00,0);
+t2 = datetime(2013,12,23,23,59,59);
+t = t1:seconds(1):t2 ;
+
+t3 = datetime(2013,12,23,22,14,30);
+t4 = datetime(2013,12,23,22,20,0);
+
+plot(t,freq,'k','LineWidth',2)
+
+xlim([41630.926389, 41630.930556])
+ylim([49 50])

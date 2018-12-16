@@ -15,12 +15,18 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {5.1}{\ignorespaces Generator Properties of Test System\relax }}{56}{table.caption.54}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Load Properties of Test System\relax }}{56}{table.caption.56}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Load Flow Results in Base Case\relax }}{57}{table.caption.57}
-\contentsline {table}{\numberline {5.4}{\ignorespaces System Dynamical Properties\relax }}{58}{table.caption.58}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Load Flow Results for Modified Case\relax }}{61}{table.caption.63}
-\contentsline {table}{\numberline {5.6}{\ignorespaces System Dynamical Properties\relax }}{64}{table.caption.67}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Load Flow Results for Decommissioned Case\relax }}{64}{table.caption.68}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Generator Properties of Test System\relax }}{58}{table.caption.55}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Load Properties of Test System\relax }}{58}{table.caption.57}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Load Flow Results in Base Case\relax }}{59}{table.caption.58}
+\contentsline {table}{\numberline {5.4}{\ignorespaces System Dynamical Properties\relax }}{60}{table.caption.59}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Load Flow Results for Modified Case\relax }}{63}{table.caption.64}
+\contentsline {table}{\numberline {5.6}{\ignorespaces System Dynamical Properties\relax }}{66}{table.caption.68}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Load Flow Results for Decommissioned Case\relax }}{66}{table.caption.69}
 \addvspace {10pt}
 \addvspace {10pt}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Wind Turbine Parameters Used in the Thesis\relax }}{87}{table.caption.80}
+\addvspace {10pt}
+\contentsline {table}{\numberline {B.1}{\ignorespaces Load Data of the P.M. Anderson Test System\relax }}{89}{table.caption.81}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Line Data of the P.M. Anderson Test System\relax }}{89}{table.caption.82}
+\contentsline {table}{\numberline {B.3}{\ignorespaces Generator Data of the P.M. Anderson Test System\relax }}{90}{table.caption.83}
+\contentsline {table}{\numberline {B.4}{\ignorespaces Transformer Data of the P.M. Anderson Test System\relax }}{91}{table.caption.84}

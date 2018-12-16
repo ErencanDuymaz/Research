@@ -72,4 +72,4 @@ grid minor
 xlim([min(x) max(x)])
 set(gca,'FontSize',10);
 % saveas(gcf,'netcontribution','pdf')
-area=trapz(x,new_var)
+area=trapz(x,new_var);

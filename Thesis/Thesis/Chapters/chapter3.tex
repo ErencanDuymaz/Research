@@ -150,9 +150,16 @@ v_{dc}=v_{dg}-\omega L i_{qg}
 v_{qc}=v_{qg}+\omega L i_{dg}
 \label{crosscomp2}
 \end{equation}
+The PI regulators of the wind turbine model is tuned with trial error method. In this study, the modelled wind turbine is connected to grid with an L filter even though the actual turbine is connected to grid with an LCL filter. However, the actual system would operate better than the modelled case since the the LCL filter has superior performance than L filters \cite{Brantsater2015}. Nonetheless, L filter has provided sufficient performance for the successful operation of the wind turbine in this study regardless from the power quality standards in the output current. The active power of the wind turbine under varying wind speed is given in the Fig. \ref{powerdata}. 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.98\linewidth]{powerdata.pdf}
+	\caption{Variation of the Active Power of the Wind Turbine}
+	\label{powerdata}
+\end{figure}
 \section{Synthetic Inertia Implementation}
 As explained in Chapter \ref{chp:2} Section \ref{swing}, synchronous generators changes its speed according to the balance between input mechanical and electromechanical powers. The inverse case is also true. In other words, if the frequency changes, the electromechanical power of the generators also change. Synthetic inertia is the method that implements this behaviour on the renew able energy systems. It is possible to change the active power output of the wind turbines if these are connected to grid with full scale power electronics. The increase in the active power should be proportional to change of frequency and the inertia of the renewable energy system. Even though renewable energy system does not have inertia, inertial support with desired inertia constant can be implemented in the system as long as a stored energy exists in the system.\\
-In order to implement synthetic inertia in the system, a relation between frequency and active power of the wind turbine should be constructed. Wind turbine in this study is variable speed wind turbine with full scale power electronics. The speed of the turbine is controlled by MSC such that active power is adjusted.Inertial support modification is depicted in Fig. \ref{modifiedmsc}. The new value of the active power is determined according to the swing equation. However, the wind turbine in this study is operated with a reference speed rather than a reference power. Therefore, the assigned power value should be used in order to yield the q-axis current reference value. Reference q-axis current is derived between the Eq. (\ref{inertialsupport1}) to Eq. (\ref{inertialsupport4}).
+In order to implement synthetic inertia in the system, a relation between frequency and active power of the wind turbine should be constructed. Wind turbine in this study is variable speed wind turbine with full scale power electronics. The speed of the turbine is controlled by MSC such that active power is adjusted.Inertial support modification is depicted in Fig. \ref{modifiedmsc}. The new value of the active power is determined according to the swing equation. However, the wind turbine in this study is operated with a reference speed rather than a reference power. Therefore, the assigned power value should be used in order to yield the q-axis current reference value. Reference q-axis current is derived between the Eq. (\ref{inertialsupport1}) to Eq. (\ref{inertialsupport4}).\par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.98\linewidth]{msc_modified.pdf}
@@ -175,7 +182,6 @@ T_{new} \omega_{m}=(1+\Delta P) T_{pre} \omega_{pre}
  i_{q,ref}=i_{q,new}=(1+\Delta P) \frac{i_{q,pre} \omega_{pre}}{ \omega_{m}} 
 \label{inertialsupport4}
 \end{equation}
-
 \subsection{Synthetic Inertia Activation Schemes}
 Another issue about inertial support is the time instant to trigger synthetic inertia. In the literature, continuous operation, under-frequency trigger and maximum-frequency gradient are discussed \cite{Gonzalez-longatt2015}. It is obvious that continuous operation would create oscillations in active power output due to the continuous deviations in grid frequency. This is an unrealistic operation and is used for comparison purposes.\par
 Second activation method is the under-frequency trigger which is the activation when the frequency decreases below a threshold value. It can be used for capturing the time instant for the inertial support. However, power grid might be in a stable point even if the frequency is 49.8Hz. Therefore, this method would be unsuccessful depending on the disturbance event. \par 
