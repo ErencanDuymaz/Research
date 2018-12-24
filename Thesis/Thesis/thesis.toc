@@ -31,6 +31,10 @@
 \contentsline {section}{\numberline {2.3}Frequency in Power Systems}{17}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Primary Frequency Control}{18}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Secondary and Tertiary Control}{19}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Energy Market}{19}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Day Ahead Market}{19}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Intra-Day Market}{20}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Balancing Market}{20}{subsection.2.4.3}
 \contentsline {chapter}{\numberline {3}\MakeUppercase {WIND TURBINE MODELLING}}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Variable Speed PMSG Wind Turbines}{21}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Aerodynamic Model}{22}{subsection.3.1.1}
