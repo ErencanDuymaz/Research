@@ -17,12 +17,11 @@ P.~Kundur, {\em {Power System Stability and Control}}.
 \newblock McGraw-Hill,Inc.
 
 \bibitem{Eto2010}
-J.~H. Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
-  J.~Ellis, H.~Illian, C.~Martinez, M.~O'Malley, K.~Coughlin, and K.~H.
-  LaCommare, ``{Use of Frequency Response Metrics to Assess the Planning and
-  Operating Requirements for Reliable Integration of Variable Renewable
-  Generation},'' Tech. Rep. December 2010, Lawrence Berkeley National
-  Laboratory (LBNL), Berkeley, CA (United States), dec 2010.
+J.~Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
+  J.~Ellis, H.~Illian, C.~Martinez, M.~O´Malley, K.~Coughlin, and
+  K.~Hamachi-LaCommare, ``{Use of Frequency Response Metrics to Assess the
+  Planning and Operating Requirements for Reliable Integration of Variable
+  Renewable Generation},'' no.~December 2010, pp.~LBNL--4142E, 2010.
 
 \bibitem{InternationalRenewableEnergyAgencyIRENA2018}
 {International Renewable Energy Agency (IRENA)}, {\em {IRENA (2018), Renewable
@@ -139,6 +138,11 @@ F.~Gonzalez-Longatt, A.~Bonfiglio, R.~Procopio, and D.~Bogdanov, ``{Practical
   Simulation approach},'' in {\em 2016 19th International Symposium on
   Electrical Apparatus and Technologies, SIELA 2016}, 2016.
 
+\bibitem{yasa}
+``{ENERJİ KAYNAKLARININ ELEKTRİK ENERJİSİ {\"{U}}RETİMİ AMA{\c{C}}LI
+  KULLANIMINA İLİŞKİN KANUNDA DEĞİŞİKLİK YAPILMASINA DAİR KANUN},''
+  2011.
+
 \bibitem{Ackermann2005a}
 T.~Ackermann, {\em {Wind Power in Power Systems Wind Power in Power Systems
   Edited by}}, vol.~8.
@@ -191,9 +195,9 @@ H.~Polinder, J.~A. Ferreira, B.~B. Jensen, A.~B. Abrahamsen, K.~Atallah, and
   pp.~174--185, 2013.
 
 \bibitem{Chen2009b}
-Z.~Chen, J.~M. Guerrero, F.~Blaabjerg, and S.~Member, ``{A Review of the State
-  of the Art of Power Electronics for Wind Turbines},'' {\em IEEE Transactions
-  on Power Electronics}, vol.~24, no.~8, pp.~1859--1875, 2009.
+T.~P. Chen, ``{Dual-modulator compensation technique for parallel inverters
+  using space-vector modulation},'' {\em IEEE Transactions on Industrial
+  Electronics}, vol.~56, no.~8, pp.~3004--3012, 2009.
 
 \bibitem{Kazmierkowski2002}
 M.~P. Kazmierkowski, R.~Krishnan, and F.~Blaabjerg, {\em {Control in Power
