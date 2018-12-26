@@ -8,9 +8,9 @@
 \contentsline {leads}{\numberline {}ACKNOWLEDGMENTS}{x}{chapter*.3}
 \contentsline {leads}{\numberline {}TABLE OF CONTENTS}{xi}{chapter*.4}
 \contentsline {leads}{\numberline {}LIST OF TABLES}{xv}{chapter*.5}
-\contentsline {leads}{\numberline {}LIST OF FIGURES}{xvi}{chapter*.6}
-\contentsline {leads}{\numberline {}LIST OF ABBREVIATIONS}{xx}{chapter*.7}
-\contentsline {leads}{\numberline {}LIST OF SYMBOLS}{xxi}{chapter*.8}
+\contentsline {leads}{\numberline {}LIST OF FIGURES}{xvii}{chapter*.6}
+\contentsline {leads}{\numberline {}LIST OF ABBREVIATIONS}{xxi}{chapter*.7}
+\contentsline {leads}{\numberline {}LIST OF SYMBOLS}{xxii}{chapter*.8}
 \numberline {}CHAPTERS
 \babel@toc {turkish}{}
 \babel@toc {english}{}
@@ -79,7 +79,7 @@
 \contentsline {section}{\numberline {6.1}Fast Inertial Support}{78}{section.6.1}
 \contentsline {section}{\numberline {6.2}Synthetic Inertia Implementation}{79}{section.6.2}
 \contentsline {section}{\numberline {6.3}Economical Motivations for Energy Providers}{81}{section.6.3}
-\contentsline {section}{\numberline {6.4}FUTURE WORK}{81}{section.6.4}
-\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{83}{chapter*.81}
-\contentsline {chapter}{\numberline {A}\MakeUppercase {Wind Turbine Parameters}}{89}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}\MakeUppercase {P.M. Anderson Test Case Properties}}{91}{Appendix.a.B}
+\contentsline {section}{\numberline {6.4}FUTURE WORK}{82}{section.6.4}
+\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{85}{chapter*.82}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {Wind Turbine Parameters}}{91}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}\MakeUppercase {P.M. Anderson Test Case Properties}}{93}{Appendix.a.B}

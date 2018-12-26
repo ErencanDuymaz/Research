@@ -16,6 +16,31 @@ The common concern in the frequency stability reports is not the renewable energ
 The most important feature of the synthetic inertia implementation is the RoCoF dependency of the support. The support in this method does increase and decrease the power value according to the pre-disturbance value. For instance, the power is above the pre-disturbance power value when the RoCoF is negative. In contrast, the lower amount of power injected to grid as soon as the RoCoF is positive. In this way,turbine recover its speed by injecting lower power to grid.\par
 The synthetic inertia implementation is used for improving the transient behaviour of the frequency. In the literature variety of inertia constants are emulated in variable speed wind turbines. However, the emulated inertia constant are generally inside 2 and 10. Nonetheless, it is observed that the wind turbines have enormous capacity to increase their power. Therefore, in this study inertia constants more than 10s are also tested. However, further increasing inertia constants to be emulated would extract high amount of active power which increases the restoration time. Since the wind speed would not be constant for long time, increased inertia constants might cause problems.\par 
 \section{Economical Motivations for Energy Providers}
+As explained in Section \ref{section-price}, renewable energy systems in Turkey and most of the EU countries sell electricity with feed-in tariff. It basically means that all the generated energy will be bought for sure without trading inside the market. Even though the problems are arising with renewable energy systems, the energy providers would not be a volunteer for ancillary services unless the regulations impose sanctions or additional payments. Hence, the system operator should prepare more advantageous paying mechanisms in order to persuade energy providers to implement grid supporting methods. \par
+The system operators start preparing new mechanisms for frequency regulations. One of the examples is the Firm Frequency Response (FFR) by National Grid. FFR is basically frequency support method that is activated with the frequency thresholds. As the frequency falls below a pre-determined value, the response is needed from energy providers (either from synchronous generator or energy storage units). These energy providers are taken into operation according to their tenders. The response is either non-dynamic (independent from the frequency shift) or dynamic (pre-determined percentage increase according to frequency). Moreover, the  support should be continuous for 30 seconds in primary response \cite{Smethurst2017}. This is why the response is provided by synchronous generators and energy storage systems. It is to note that this mechanism is not appropriate for the renewable energy systems whose output power is increased for shortest time intervals. Thus, the energy storage systems are encouraged for such applications. \par
+Another frequency regulating mechanism is applied in USA according to the FERC 755 regulation. The frequency regulation includes different metrics for payment such as capacity, performance and mileage. Based on this regulation, energy price by high performance frequency regulation resources is increased over three times of the old price of the PJM which is a regional transmission company \cite{NECEnergySolutions2014}.\par
+When the wind turbine is used for inertial support mechanisms, shortest time periods and smaller energy is provided. Therefore, the payment to energy provider for the additional amount of energy would not be beneficial.
+
+\begin{table}[]
+	\centering
+	\begin{tabular}{ccc}
+		\hline
+		\multicolumn{3}{c}{\textbf{Base Case Profit}}                                                          \\
+		Generated Energy                                                                      & 23    & MWh    \\
+		Feed-In Tariff                                                                        & 73    & \$/MWh \\
+		Daily Generation                                                                      & 1679  & \$     \\ \hline
+		\multicolumn{3}{c}{\textbf{Profit by Additional Energy}}                                               \\
+		\multicolumn{1}{l}{Energy From Support Period}                                        & 22.15 & kWh    \\
+		\begin{tabular}[c]{@{}c@{}}Supported Energy Price\\ (3.4xFeed-In Tariff)\end{tabular} & 248.2 & \$/MWh \\
+		\multicolumn{1}{l}{Additional Profit}                                                 & 5.5   & \$     \\ \hline
+		\multicolumn{3}{c}{\textbf{Profit with Incentive}}                                                     \\
+		\multicolumn{1}{l}{Generated Energy}                                                  & 23    & MWh    \\
+		\multicolumn{1}{l}{Supported Feed-In Tariff}                                          & 79    & \$/MWh \\
+		\multicolumn{1}{l}{Additional Profit}                                                 & 138   & \$     \\ \hline
+	\end{tabular}
+	\caption{Comparison of the Frequency Support Pricing Methods}
+	\label{new_price}
+\end{table}
 
 \section{FUTURE WORK}
 \begin{itemize}
