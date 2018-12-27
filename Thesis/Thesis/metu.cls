@@ -201,7 +201,7 @@
 \def\@titlepartb{\MakeUppercase{\@tdepartment}\\
 	ANA BİLİM DALI}
 \def\@approvallabel{Tezin Onayı:}
-\def\@approvaltext{{\bf Erencan Duymaz} tarafından, {\bf Orta Doğu Teknik Üniversitesi, \@tdepartment} ana bilim dalında {\bf \@tdegree} derecesinin gerekliliklerini kısmen yerine getirmek için teslim edilmiştir,}
+\def\@approvaltext{{\bf ERENCAN DUYMAZ} tarafından, {\bf Orta Doğu Teknik Üniversitesi, \@tdepartment} ana bilim dalında {\bf \@tdegree} derecesinin gerekliliklerini kısmen yerine getirmek için teslim edilmiştir,}
 \def\@directoraff{Enstitü Müdürü, {\bf Fen Bilimleri Enstitüsü}}
 \def\@chairlabel{Bölüm Başkanı}
 \def\@supervisorlabel{Tez Yöneticisi}
@@ -235,7 +235,7 @@ metinde orjinal olmayan tüm materyal alıntı olarak belirtilmiş ve gerekli re
        IN\\
        \MakeUppercase{\@department}}
 \def\@approvallabel{Approval of the thesis:}
-\def\@approvaltext{submitted by {\bf Erencan Duymaz} in partial fulfillment of the
+\def\@approvaltext{submitted by {\bf ERENCAN DUYMAZ} in partial fulfillment of the
 requirements for the degree of {\bf \@degree~ in \@department~ Department, Middle East
 Technical University} by,}
 \def\@directoraff{Dean, Graduate School of {\bf Natural and Applied Sciences}}
