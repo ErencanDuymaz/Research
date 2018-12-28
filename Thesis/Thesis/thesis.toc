@@ -77,7 +77,7 @@
 \contentsline {section}{\numberline {6.1}Fast Inertial Support}{74}{section.6.1}
 \contentsline {section}{\numberline {6.2}Synthetic Inertia Implementation}{75}{section.6.2}
 \contentsline {section}{\numberline {6.3}Economical Motivations for Energy Providers}{77}{section.6.3}
-\contentsline {section}{\numberline {6.4}FUTURE WORK}{78}{section.6.4}
+\contentsline {section}{\numberline {6.4}FUTURE WORK}{79}{section.6.4}
 \contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{81}{chapter*.78}
 \contentsline {chapter}{\numberline {A}\MakeUppercase {Wind Turbine Parameters}}{87}{Appendix.a.A}
 \contentsline {chapter}{\numberline {B}\MakeUppercase {P.M. Anderson Test Case Properties}}{89}{Appendix.a.B}
