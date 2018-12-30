@@ -31,8 +31,8 @@ grid minor
 xlim([3 20])
 ylim([0 0.5])
 title('')
-set(gca,'FontSize',12);
-% saveas(gcf,'cp_wind','pdf')
+set(gca,'FontSize',14);
+saveas(gcf,'cp_wind','pdf')
 
 %%
 clear all
@@ -64,10 +64,10 @@ clear vars filename sheet txt xlRange num sheet
 % grid minor
 % set(gca,'FontSize',20);
 
-plot(windspeeds,cp,'k','LineWidth',2)
+plot(windspeeds,cp/(1e6),'k','LineWidth',2)
 
 xlabel('Wind Speed (m/s)')
-ylabel('Output Power (W)')
+ylabel('Output Power (MW)')
 ax = gca;
 ax.XGrid = 'on';
 ax.YGrid = 'on';
@@ -75,8 +75,8 @@ ax.XColor = 'k'; % Red
 ax.YColor = 'k'; % Blue
 grid minor
 xlim([3 20])
-ylim([0 3e6])
+ylim([0 3])
 title('')
-set(gca,'FontSize',12);
+set(gca,'FontSize',14);
 
 % saveas(gcf,'powerdata','pdf')

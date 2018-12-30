@@ -1,8 +1,14 @@
 \begin{thebibliography}{10}
 
-\bibitem{States2016}
-Eurostat, ``{Renewable energy in the EU-newsrelease},'' Tech. Rep. January,
-  2018.
+\bibitem{InternationalRenewableEnergyAgencyIRENA2018}
+{International Renewable Energy Agency (IRENA)}, {\em {IRENA (2018), Renewable
+  capacity statistics 2018}}.
+\newblock 2018.
+
+\bibitem{InternationalRenewableEnergyAgency2017}
+{International Renewable Energy Agency}, {\em {Renewable Energy Statistics
+  2017}}.
+\newblock 2017.
 
 \bibitem{EuropeanCommission2018}
 {European Commission;} and {IRENA International Renewable Energy Agency},
@@ -11,6 +17,11 @@ Eurostat, ``{Renewable energy in the EU-newsrelease},'' Tech. Rep. January,
 
 \bibitem{IRENA2014}
 IRENA, ``{A Renewable Energy Roadmap},'' Tech. Rep. June, 2014.
+
+\bibitem{Muljadi2012}
+E.~Muljadi, V.~Gevorgian, and M.~Singh, ``{Understanding Inertial and Frequency
+  Response of Wind Power Plants Preprint},'' {\em 2012 IEEE Power Electronics
+  and Machines in Wind Applications (PEMWA)}, no.~July, pp.~1--8, 2012.
 
 \bibitem{Kundur}
 P.~Kundur, {\em {Power System Stability and Control}}.
@@ -21,17 +32,7 @@ J.~Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
   J.~Ellis, H.~Illian, C.~Martinez, M.~O´Malley, K.~Coughlin, and
   K.~Hamachi-LaCommare, ``{Use of Frequency Response Metrics to Assess the
   Planning and Operating Requirements for Reliable Integration of Variable
-  Renewable Generation}.'' 2010.
-
-\bibitem{InternationalRenewableEnergyAgencyIRENA2018}
-{International Renewable Energy Agency (IRENA)}, {\em {IRENA (2018), Renewable
-  capacity statistics 2018}}.
-\newblock 2018.
-
-\bibitem{InternationalRenewableEnergyAgency2017}
-{International Renewable Energy Agency}, {\em {Renewable Energy Statistics
-  2017}}.
-\newblock 2017.
+  Renewable Generation},'' no.~December 2010, pp.~LBNL--4142E, 2010.
 
 \bibitem{EuropeanCommission2008}
 {European Commission}, ``{Communication from the Commission to the European
@@ -43,6 +44,10 @@ J.~Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
 {European Parliament}, ``{Directive 2009/28/EC of the European Parliament and
   of the Council of 23 April 2009},'' {\em Official Journal of the European
   Union}, vol.~140, no.~16, pp.~16--62, 2009.
+
+\bibitem{States2016}
+Eurostat, ``{Renewable energy in the EU-newsrelease},'' Tech. Rep. January,
+  2018.
 
 \bibitem{REN212017d}
 REN21, {\em {Renewables Global Futures Report}}.
@@ -67,11 +72,6 @@ D.~Gautam, L.~Goel, R.~Ayyanar, V.~Vittal, and T.~Harbour, ``{Control strategy
   to mitigate the impact of reduced inertia due to doubly fed induction
   generators on large power systems},'' {\em IEEE Transactions on Power
   Systems}, vol.~26, no.~1, pp.~214--224, 2011.
-
-\bibitem{Muljadi2012}
-E.~Muljadi, V.~Gevorgian, and M.~Singh, ``{Understanding Inertial and Frequency
-  Response of Wind Power Plants Preprint},'' {\em 2012 IEEE Power Electronics
-  and Machines in Wind Applications (PEMWA)}, no.~July, pp.~1--8, 2012.
 
 \bibitem{VanDeVyver2016}
 J.~{Van De Vyver}, J.~D.~M. {De Kooning}, B.~Meersman, L.~Vandevelde, and T.~L.
@@ -143,6 +143,11 @@ F.~Gonzalez-Longatt, A.~Bonfiglio, R.~Procopio, and D.~Bogdanov, ``{Practical
   KULLANIMINA İLİŞKİN KANUNDA DEĞİŞİKLİK YAPILMASINA DAİR KANUN},''
   2011.
 
+\bibitem{Chen2009b}
+T.~P. Chen, ``{Dual-modulator compensation technique for parallel inverters
+  using space-vector modulation},'' {\em IEEE Transactions on Industrial
+  Electronics}, vol.~56, no.~8, pp.~3004--3012, 2009.
+
 \bibitem{Ackermann2005a}
 T.~Ackermann, {\em {Wind Power in Power Systems Wind Power in Power Systems
   Edited by}}, vol.~8.
@@ -194,11 +199,6 @@ H.~Polinder, J.~A. Ferreira, B.~B. Jensen, A.~B. Abrahamsen, K.~Atallah, and
   Journal of Emerging and Selected Topics in Power Electronics}, vol.~1, no.~3,
   pp.~174--185, 2013.
 
-\bibitem{Chen2009b}
-T.~P. Chen, ``{Dual-modulator compensation technique for parallel inverters
-  using space-vector modulation},'' {\em IEEE Transactions on Industrial
-  Electronics}, vol.~56, no.~8, pp.~3004--3012, 2009.
-
 \bibitem{Kazmierkowski2002}
 M.~P. Kazmierkowski, R.~Krishnan, and F.~Blaabjerg, {\em {Control in Power
   Electronics—Selected Problems}}.
@@ -226,6 +226,11 @@ H.~Brants{\ae}ter, {\L}.~Kocewiak, A.~R. {\AA}rdal, and E.~Tedeschi, {\em
   {Passive filter design and offshore wind turbine modelling for system level
   harmonic studies}}, vol.~80.
 \newblock Elsevier B.V., 2015.
+
+\bibitem{Eriksson2017}
+R.~Eriksson, N.~Modig, and K.~Elkington, ``{Synthetic inertia versus fast
+  frequency response: a definition},'' {\em IET Renewable Power Generation},
+  vol.~12, pp.~507--514, 2017.
 
 \bibitem{Gonzalez-longatt2015}
 F.~M. Gonzalez-longatt, ``{Activation Schemes of Synthetic Inertia Controller

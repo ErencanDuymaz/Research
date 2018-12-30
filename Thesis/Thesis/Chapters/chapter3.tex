@@ -1,25 +1,26 @@
 % CHAPTER 1
 \chapter{WIND TURBINE MODELLING}
 \label{chp:3}
-\section{Variable Speed PMSG Wind Turbines}
-The share of variable speed PMSG wind turbines is increasing worldwide due to the high efficiency and torque density. This type of wind turbines are equipped with full-scale power electronics which enable the turbine to have wide speed range. Even though the price of the permanent magnet fluctuates with time, the reliability and high efficiency of this type of turbine increase its share in the market.\par
- \begin{figure}[h!]
+Frequency regulating mechanisms are getting attention especially for renewable energy systems. Hence, the detailed modelling of renewable energy systems are essential for grid supporting implementations. In this chapter, detailed modelling for wind turbines is investigated.
+\section{Wind Turbines with Full Scale Power Electronics}
+The share of variable speed wind turbines with full scale power electronics is increasing worldwide due to the high efficiency. Full-scale power electronics enables the turbine to have wide speed range. The wind turbines in this type are able to adjust its speed according to the variation in the wind speed and torque \cite{Chen2009b}. PMSG wind turbines are one of the most common type of these turbines. Even though the price of the permanent magnet fluctuates with time, the reliability and high efficiency of this type of turbine increase its share in the market. The wind turbine modelling in this study is based on PMSG wind turbines. However, the ability to control the wind turbine output power is not just specific to PMSG wind turbines but the ones with full-scale power electronics. \par
+Fig. \ref{varspeedpmsg} shows the modelling of variable speed PMSG wind turbine. In variable speed wind turbines, stator of the PMSG is not directly connected to grid. A back-to-back converter is used between generator and the electrical grid to ensure that the turbine speed is independent from the grid frequency. The back-to-back converter is composed of two converters to perform the AC/DC and DC/AC conversion. The converter which is connected to PMSG is called Machine Side Converter (MSC) meanwhile the one connected to grid is called Grid Side Converter(GSC). Moreover, GSC is connected to grid with a filter in order to filter out high frequency currents due to switching action. The PMSG wind turbine model is composed of sub-models such as aerodynamic model, gearbox, PMSG, MSC and GSC whose details are given in the following sections.\par
+ \begin{figure}[h]
 	\centering
 	\includegraphics[width=.95\linewidth]{windmodel2.pdf}
 	\caption{Variable Speed Geared Wind Turbine Model}
 	\label{varspeedpmsg}
 \end{figure} 
-Fig. \ref{varspeedpmsg} shows the modelling of variable speed PMSG wind turbine. The source of the power in these systems is the wind itself. The power is captured from the wind with the help of three-blade turbine. Three-blade turbine is the aerodynamic part of the system and it applies a aerodynamic torque to gearbox. In fact, this torque is the source of the movement and dictates the direction of the movement. Aerodynamic torque is applied to gearbox which establishes the connection between turbine and generator. In variable speed wind turbines, stator of the PMSG is not directly connected to grid. A back-to-back converter is used between generator and the electrical grid to ensure that the turbine speed is independent from the grid frequency. The converter which is connected to PMSG is called Machine Side Converter (MSC) meanwhile the one connected to grid is called Grid Side Converter(GSC). Moreover, GSC is connected to grid with a filter in order to filter out high frequency currents due to switching action. 
 \subsection{Aerodynamic Model}
 Aerodynamic model is the sub-model that captures power from the wind. The output of this block is the aerodynamic torque that rotates the turbine. However, the wind speed is not the only input. Turbine speed and pitch angle are also the inputs of the system since they affect the mechanical power that is captured from the wind.\par
 The aerodynamic power of wind is given in Eq. (\ref{windpower}) where $\rho_{air}$ is air density in $kg/cm^{3}$, $R$ is the blade radius in $m$ abd $v_{wind}$ is the wind speed in $m/s$. Note that this is the available power of the air that is striking the turbine swept area and it is not possible to extract that amount of energy. Otherwise, the air would be standstill behind the wind turbine \cite{Ackermann2005a}.
 \begin{equation}
-P_{WIND}=0.5\rho_{air}\pi R^{2} v_{WIND}^{3}
+P_{wind}=0.5\rho_{air}\pi R^{2} v_{wind}^{3}
 \label{windpower}
 \end{equation}
 The wind turbine captures a fraction of the available wind power that is denominated as power coefficient $C_{p}$. Therefore, turbine power captured from wind can be found with the Eq. (\ref{turbinepower}).
 \begin{equation}
-P_{TUR}=C_{p}P_{wind}
+P_{tur}=C_{p}P_{wind}
 \label{turbinepower}
 \end{equation}
 Power coefficient determines the amount of power to be captured from wind and it is a non-linear function of the tip speed ratio, $\lambda$ and pitch angle, $\beta$. Tip speed ratio is a parameter proportional with turbine speed. It can be defined as the ratio of the speed in the turbine tip to the wind speed as in the Eq. (\ref{tipspeed}). Power coefficient for a specific tip speed ratio and pitch angle can be found with the Eq. (\ref{cp}) and (\ref{lambdai}) where $c_{1}$ is 0.5176, $c_{2}$ is 116, $c_{3}$ is 0.4, $c_{4}$ is 5, $c_{5}$ is 21 and $c_{6}$ is 0.0068 \cite{Heier}.\par
@@ -44,8 +45,8 @@ C_{p}(\lambda,\beta)=c_{1}(c_{2}/\lambda_{i}-c_{3}\beta-c_{4})e^{-c_{5}/\lambda{
 \par
 Variation of power coefficient $C_{p}$ is given in Fig. \ref{variationofcp} for varying tip speed ratio. For the zero pitch angle, power coefficient has the maximum value of 0.48 for the tip speed ratio of 8.1. In order to ensure that the maximum of wind power is extracted, wind turbine should rotate a speed that gives the optimum tip speed ratio. This is ensured by the Maximum Power Point Tracking (MPPT) algorithms. 
 \subsubsection{Maximum Power Point Tracking Algorithms}
-In the literature, numerous different methods are presented in order to operate in the Maximum Power Point. Perturb\&Obserb (P\&O) is the most common MPPT method in the literature \cite{Wang2004}, \cite{Barakati2009}. The methods simply creates a perturbation in the generator speed. The change in the generator speed creates also change in the active power output. If the power is increased with this perturbation, the generator speed is again perturbed in the same direction until a decrease in the active power is observed. This methods is the simplest method and does not require any calculation or wind speed measurement. However, the algorithm creates oscillations in the generator speed and active power. This method is also called as Hill-Climb Search (HCS) method in the literature.\par
-Another MPPT algorithm is the wind speed measurement method \cite{Thriringer1993}, \cite{C.A.2013}. If the wind speed is estimated accurately, the optimal generator speed can be calculated. However, wind speed estimation is complicated and increases the cost. One other commonly used MPPT algorith is the power-signal feedback (PSF) control \cite{C.A.2013},\cite{Wang2004}, \cite{Lu2002}. This method requires maximum power curve of the wind turbine based on the experimental results. A look-up table is constructed with obtained wind turbine speed and active output power values. However, using generator speed and active power measurements is the main drawback of this algorithm. Finally, there are numerous number of much complex MPPT algorithms based on fuzzy-logic \cite{Zeng2008} or neural-network \cite{Lin2011}. However, these MPPT algorithms are out of scope of this thesis. Therefore, optimal generator speed is provided in this study according to the wind speed. 
+In the literature, different methods are presented in order to operate in the Maximum Power Point. Perturb\&Obserb (P\&O) is the most common MPPT method in the literature \cite{Wang2004}, \cite{Barakati2009}. The methods simply creates a perturbation in the generator speed. The change in the generator speed creates also change in the active power output. If the power is increased with this perturbation, the generator speed is again perturbed in the same direction until a decrease in the active power is observed. This methods is the simplest method and does not require any calculation or wind speed measurement. However, the algorithm creates oscillations in the generator speed and active power. This method is also called as Hill-Climb Search (HCS) method in the literature.\par
+Another MPPT algorithm is the wind speed measurement method \cite{Thriringer1993}, \cite{C.A.2013}. If the wind speed is estimated accurately, the optimal generator speed can be calculated. However, wind speed estimation is complicated and increases the cost. Another commonly used MPPT algorithm is the power-signal feedback (PSF) control \cite{C.A.2013},\cite{Wang2004}, \cite{Lu2002}. This method requires maximum power curve of the wind turbine based on the experimental results. A look-up table is constructed with obtained wind turbine speed and active output power values. However, using generator speed and active power measurements is the main drawback of this algorithm. Finally, there are numerous number of much complex MPPT algorithms based on fuzzy-logic \cite{Zeng2008} or neural-network \cite{Lin2011}. However, these MPPT algorithms are out of scope of this thesis. Therefore, optimal generator speed is provided in this study according to the wind speed. 
 \subsubsection{Pitch Angle Control}
 According to Eq. (\ref{windpower}), wind power increases with the cube of the wind speed. Hence, wind power increases dramatically for the high wind speeds. In order to decrease power, pitch angle i.e. blade angle is increased. Since the power coefficient, $C_{p}$ is a function of the pitch angle, $\beta$, wind power can be curtailed with increased blade angle. Variation of power coefficient for two different pitch angle is shown in Fig. \ref{cpwithtwopitchangle}. Increasing pitch angle by $1.176^{\circ}$ decreases power coefficient by 10\%.\par
 \begin{figure}[h!]
@@ -64,23 +65,22 @@ As long as wind power is below the rated power, the wind turbine is operated in 
 It is to note that the pitch angle controller takes action as soon as the maximum generator speed is exceeded. Therefore, wind turbine operation deviates from optimal tip speed ratio. This can also be observed from the variation of power coefficient, $C_{p}$ with the wind speed for the wind turbine GE 2.75-103 used in this study. Variation of the $C_{p}$ is shown in Fig. \ref{powercoefficientge}.
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.99\linewidth]{cp_wind.pdf}
-	\caption{Power Coefficient Varion for GE 2.75-103}
+	\includegraphics[width=.9\linewidth]{cp_wind.pdf}
+	\caption{Power Coefficient Variation for GE 2.75-103}
 	\label{powercoefficientge}
 \end{figure}
 \subsection{Gearbox}  
-Variable speed PMSG wind turbines have a gearbox between turbine and generator except for direct-drive wind turbines. The gearbox increases angular speed and decreases the torque in the generator side.By decreasing the rated torque, generator size and cost can be reduced since the generator size is almost proportional to rated torque due to constant shear stress \cite{Polinder2013aa}. Moreover, turbine speed is increased to the allowable speed range of the generator which is generally much higher than that of wind turbines. Otherwise, generator should have high pole numbers. \par
-A gearbox model is depicted in Fig. \ref{gearboxmodel}. They are mainly used for speed and torque conversion. It should be noted that the gearboxes are not full efficient systems. Therefore, the output torque of the gearbox would be lower than the ratio of input torque to gearbox conversion ratio. Direct-drive systems are based on the elimination of the gearbox systems by direct connection between turbine and generator in order to increase efficiency and reliability \cite{Chen2009b}. In this study, gearbox system is modelled with 100\% efficiency. 
+Variable speed PMSG wind turbines have a gearbox between turbine and generator except for direct-drive wind turbines. The gearbox increases angular speed and decreases the torque in the generator side. By decreasing the rated torque, generator size and cost can be reduced since the generator size is almost proportional to rated torque due to constant shear stress \cite{Polinder2013aa}. Moreover, turbine speed is increased to the allowable speed range of the generator which is generally much higher than that of wind turbines. Otherwise, generator should have high pole numbers. \par
+A gearbox model is depicted in Fig. \ref{gearboxmodel}. They are mainly used for speed and torque conversion. It should be noted that the gearboxes are lossy systems. Therefore, the output torque of the gearbox would be lower than the ratio of input torque to gearbox conversion ratio. Direct-drive systems are based on the elimination of the gearbox systems by direct connection between turbine and generator in order to increase efficiency and reliability \cite{Chen2009b}. In this study, gearbox system is modelled with 100\% efficiency. 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.5\linewidth]{gearbox.pdf}
 	\caption{Gearbox Modelling}
 	\label{gearboxmodel}
 \end{figure}
-
 \subsection{Permanent Magnet Synchronous Generator}
 \label{pmsgsection}
-PMSGs are generally preferred over electrically excited synchronous generators due to high efficiency due to the fact that absence of electrical excitation on the rotor decreases losses. Besides, slip ring is not needed in the generator which also decrease the maintenance. Dynamical equations of the salient pole PMSG are projected on a reference frame which rotates synchronously with magnet flux and given in Eq. (\ref{v1d}) and (\ref{v1q}) where $R_{1}$ is stator resistance in $\Omega$, $L_{sd}$ and $L_{sq}$ are d and q axis inductances in $H$, $i_{ad}$ and $i_{aq}$ are d and q axis currents in $A$, $\omega$ is the electrical angular frequency in $rad/s$ $\psi_{f}$ is magnet flux linkage in $Vs$ \cite{Ackermann2005a}. 
+PMSGs and electrically excited generators can be employed with full-scale power electronics. However, PMSGs are generally preferred over electrically excited synchronous generators due to their high efficiency. The absence of electrical excitation on the rotor decreases losses. Besides, slip ring is not needed in the generator which also increases the reliability of the PMSG wind turbines. Dynamical equations of the salient pole PMSG are projected on a reference frame which rotates synchronously with magnet flux and given in Eq. (\ref{v1d}) and (\ref{v1q}) where $R_{1}$ is stator resistance in $\Omega$, $L_{sd}$ and $L_{sq}$ are d and q axis inductances in $H$, $i_{ad}$ and $i_{aq}$ are d and q axis currents in $A$, $\omega$ is the electrical angular frequency in $rad/s$, $\psi_{f}$ is magnet flux linkage in $Vs$ \cite{Ackermann2005a}. 
 \begin{equation}
 v_{1d}=R_{1} i_{ad}+L_{sd}\frac{di_{ad}}{dt}-L_{sq}\omega i_{sq}
 \label{v1d}
@@ -104,28 +104,26 @@ Given equations are defined for salient pole machines. If the clyndrical rotor m
 T_{e}=\frac{3}{2}p i_{aq} \psi_{f}
 \label{pmsgtorque2}
 \end{equation}
-
 \subsection{Machine Side Converter}
-Variable speed wind turbines are equipped with the Back-to-Back converters in order to decouple grid frequency and the turbine speed. This gives wind turbine degree of freedom for the rotational speed. In this way, turbine is able to capture the maximum available power from wind. Machine Side Converter (MSC) i.e. Generator Side Converter is the converter that is connected between generator and DC-bus. The three phase generator output AC voltage is converted to DC voltage.
-Conversion from AC to DC can be achieved by three-arm full bridge converters. This converter can be equipped with uncontrolled, semi-controlled and fully-controlled switches. Fully-controlled switches such as MOSFET,IGBT are commonly used in the industry and gives two control parameters to the user. \par
+Variable speed wind turbines that are equipped with the Back-to-Back converters are able to decouple grid frequency and the turbine speed. This gives wind turbine degree of freedom for the rotational speed. In this way, turbine is able to capture the maximum available power from wind. Machine Side Converter (MSC) i.e. Generator Side Converter is the converter that is connected between generator and DC-bus. The three phase generator output AC voltage is converted to DC voltage. Conversion from AC to DC can be achieved by three-leg full bridge converters. This converter can be equipped with uncontrolled, semi-controlled and fully-controlled switches. Fully-controlled switches such as MOSFET,IGBT are commonly used in the industry and gives two control parameters to the user. \par
 Voltages and currents are generally transformed into synchronously rotating reference frame or also called dq frame. Since the frame is rotating in synchronous speed, three-phase phasors are transformed to DC quantities. Therefore, its control becomes easier \cite{Kazmierkowski2002}. Proportional-integral (PI) controllers are associated with the dq control structure due to their satisfactory behaviour interaction to DC variables \cite{Blaabjerg2006a}. Hence, the control in the back-to-back converter is achieved with PI controllers in the dq frame. \par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.95\linewidth]{msc.pdf}
-	\caption{Machine Side Control Diagram}
+	\caption{Machine Side Controller Diagram}
 	\label{msc}
 \end{figure}
-The control diagram of the MSC is depicted in Fig. \ref{msc} according to the study in \cite{Chinchilla2006}. In dq frame, it is possible to control two parameters. One of these parameters is the d-axis current. It can be set zero in order to decrease the stator copper losses. The other parameter is the q-axis current that is proportional to the electromagnetic torque as it can be observed in the Eq. (\ref{pmsgtorque2}). However, q-axis current or torque is controlled in order to regulate the turbine speed. Therefore, turbine speed is adjusted such that the turbine will capture maximum available power in the wind. 
+The control diagram of the MSC is depicted in Fig. \ref{msc} according to the study in \cite{Chinchilla2006}. In dq frame, it is possible to control two parameters. One of these parameters is the d-axis current that is set zero in order to decrease the stator copper losses. The other parameter is the q-axis current that is proportional to the electromagnetic torque as it can be observed in the Eq. (\ref{pmsgtorque2}). However, q-axis current or torque is controlled in order to regulate the turbine speed. Therefore, turbine speed is adjusted such that the turbine will capture maximum available power in the wind. 
 \subsection{Grid Side Converter}
-Grid Side Converter (GSC) or Line Side Converter (LSC) is the converter that is connected between DC-link capacitance and grid. GSC works as an inverter that injects current synchronous with grid voltage. Currents and voltages are transformed into synchronously rotating frame that is aligned with the grid voltage. Therefore, d-axis current determines the amount of current which is in phase with the grid voltage meanwhile q-axis current determines amount of current that is out of phase with the grid voltage. In other words, injecting d-axis current injects active power to grid meantime q-axis current injects reactive power to grid. \par
-The responsibility of the GSC is regulating DC voltage and the reactive power injected to grid. The control diagram of the GSC is given in Fig. \ref{gsc}. As seen from the figure, DC-bus voltage is regulated by controlling the d axis current. If the DC-bus voltage increases above the reference value, d-axis current reference is increased. As a result, active power increases. Increased active power also decreases the DC-bus voltage level. Reference value of the q-axis current is set to zero in normal operation, consequently unity power factor. For Low Voltage Ride-Through studies, q-axis current is determined according to the reactive power value requirement. \cite{Orowska-Kowalska2014} \par
+Grid Side Converter (GSC) or Line Side Converter (LSC) is the converter that is connected between DC-link capacitor and grid. GSC works as an inverter that injects current synchronous to grid. Currents and voltages are transformed into synchronously rotating frame that is aligned with the grid voltage. Therefore, d-axis current determines the amount of current which is in phase with the grid voltage meanwhile q-axis current determines amount of current that is out of phase with the grid voltage. In other words, injecting d-axis current injects active power to grid meantime q-axis current injects reactive power to grid.\par
+The responsibility of the GSC is regulating DC voltage and the reactive power injected to the grid. The control diagram of the GSC is given in Fig. \ref{gsc}. As seen from the figure, DC-bus voltage is regulated by controlling the d axis current. If the DC-bus voltage increases above the reference value, d-axis current reference is increased. As a result, active power increases. Increased active power also decreases the DC-bus voltage level. Reference value of the q-axis current is set to zero in normal operation, consequently unity power factor. For Low Voltage Ride-Through studies, q-axis current is determined according to the reactive power value requirement. \cite{Orowska-Kowalska2014} \par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.98\linewidth]{gsc.pdf}
-	\caption{Grid Side Control Diagram}
+	\caption{Grid Side Controller Diagram}
 	\label{gsc}
 \end{figure}
-GSC is connected to grid through an filter. Therefore, the output voltage of the converter is not equal to the that of grid. The relation between converter voltage, grid voltage and current is derived through Eq. (\ref{crossilk}) to (\ref{crosscomp2}) where $v_{c}$ is the converter voltage, $v_{g}$ is the grid voltage and  $i_{g}$ is the grid current measured in the grid side. As it is observed in Eq (\ref{crosscomp1}) and (\ref{crosscomp2}), converter side voltage includes same axis grid voltage and a term proportional to cross axis current which is called cross-coupled term. Therefore, the outputs of the inner PI regulators are compensated and forwarded to Pulse Width Modulation after transformation to three-phase voltages.
+GSC is connected to grid through a filter. Therefore, the output voltage of the converter is not equal to the that of grid. The relation between converter voltage, grid voltage and current is derived through Eq. (\ref{crossilk}) to (\ref{crosscomp2}) where $v_{c}$ is the converter voltage, $v_{g}$ is the grid voltage and  $i_{g}$ is the grid current measured in the grid side. As it is observed in Eq (\ref{crosscomp1}) and (\ref{crosscomp2}), converter side voltage includes same axis grid voltage and a term proportional to cross axis current which is called cross-coupled term. Therefore, the outputs of the inner PI regulators are compensated and forwarded to Pulse Width Modulation after transformation to three-phase voltages.
 \begin{equation}
 \overline{v_{c}}=v_{dc}+jv_{qc}
 \label{crossilk}
@@ -150,16 +148,56 @@ v_{dc}=v_{dg}-\omega L i_{qg}
 v_{qc}=v_{qg}+\omega L i_{dg}
 \label{crosscomp2}
 \end{equation}
-The PI regulators of the wind turbine model is tuned with trial error method. In this study, the modelled wind turbine is connected to grid with an L filter even though the actual turbine is connected to grid with an LCL filter. However, the actual system would operate better than the modelled case since the the LCL filter has superior performance than L filters \cite{Brantsater2015}. Nonetheless, L filter has provided sufficient performance for the successful operation of the wind turbine in this study regardless from the power quality standards in the output current. The active power of the wind turbine under varying wind speed is given in the Fig. \ref{powerdata}. 
+The PI regulators of the wind turbine model is tuned with trial error method. In this study, the modelled wind turbine is connected to grid with an L filter even though the actual turbine is connected to grid with an LCL filter. However, the actual system would operate better than the modelled case since the the LCL filter has superior performance than L filters \cite{Brantsater2015}. Nonetheless, L filter has provided sufficient performance for the successful operation of the wind turbine in this study regardless from the power quality standards in the output current. The active power of the wind turbine under varying wind speed is given in the Fig. \ref{powerdata}. \par
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.98\linewidth]{powerdata.pdf}
+	\includegraphics[width=.9\linewidth]{powerdata.pdf}
 	\caption{Variation of the Active Power of the Wind Turbine}
 	\label{powerdata}
 \end{figure}
+The wind turbine properties used in this study belong to GE2.75-103 model. Fig. \ref{bares} shows the wind turbine from a wind farm in Balıkesir. The properties of the GE2.75-103 is listed in Table \ref{ge275}.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.9\linewidth]{bares.jpg}
+	\caption{GE2.75-103 Wind Turbine in Site}
+	\label{bares}
+\end{figure}
+\begin{table}[h]
+	
+	\centering
+	\begin{tabular}{ccc}
+		\hline
+		\textbf{Property}       & \textbf{Value} & \textbf{Unit} \\ \hline
+		Turbine Type            & GE2.75-103     & -             \\
+		Rated Turbine Power     & 2.75           & $MW$          \\
+		Converter Power Rating  & 3.04           & $MVA$         \\
+		Rotor Diameter          & 103            & $m$           \\
+		Blade Inertia           & 12600000       & $kgm^{2}$     \\
+		Generator Speed Range   & 550-1735       & $rpm$         \\
+		Rotor Speed Range       & 4.7-14.8       & $rpm$         \\
+		Cut-in Wind Speed       & 3              & $m/s$         \\
+		Cut-off Wind Speed      & 25             & $m/s$         \\
+		Air Density             & 1.225          & $kg/m^{3}$    \\
+		Gearbox Ratio           & 117.4          & -             \\
+		Generator Rated Voltage & 690            & $V$           \\
+		Generator Type          & PM Synchronous & -             \\
+		Generator Inertia       & 240            & $kgm^{2}$     \\
+		Generator Pole          & 4              & -             \\
+		Generator Flux Linkage  & 2.5            & $Vs$          \\
+		DC-Link Capacitance     & 27             & $mF$          \\
+		DC-Link Voltage         & 1200           & $V$           \\ \hline
+	\end{tabular}
+	\caption{GE2.75-103 Properties}
+	\label{ge275}
+\end{table}
 \section{Synthetic Inertia Implementation}
-As explained in Chapter \ref{chp:2} Section \ref{swing}, synchronous generators changes its speed according to the balance between input mechanical and electromechanical powers. The inverse case is also true. In other words, if the frequency changes, the electromechanical power of the generators also change. Synthetic inertia is the method that implements this behaviour on the renew able energy systems. It is possible to change the active power output of the wind turbines if these are connected to grid with full scale power electronics. The increase in the active power should be proportional to change of frequency and the inertia of the renewable energy system. Even though renewable energy system does not have inertia, inertial support with desired inertia constant can be implemented in the system as long as a stored energy exists in the system.\\
-In order to implement synthetic inertia in the system, a relation between frequency and active power of the wind turbine should be constructed. Wind turbine in this study is variable speed wind turbine with full scale power electronics. The speed of the turbine is controlled by MSC such that active power is adjusted.Inertial support modification is depicted in Fig. \ref{modifiedmsc}. The new value of the active power is determined according to the swing equation. However, the wind turbine in this study is operated with a reference speed rather than a reference power. Therefore, the assigned power value should be used in order to yield the q-axis current reference value. Reference q-axis current is derived between the Eq. (\ref{inertialsupport1}) to Eq. (\ref{inertialsupport4}).\par
+As explained Section \ref{swing}, synchronous generators change their speed according to the balance between input mechanical and electromechanical powers. Furthermore, if the frequency changes, the electromechanical power of the generators also change. Nonetheless, the renewable energy systems which are connected to grid with a power electronics interface are unresponsive to the deviations in the grid frequency.\par
+The definition of the synthetic inertia is the controlled contribution of electrical torque that is proportional to RoCoF in the unit connection terminal \cite{Eriksson2017}. Synthetic inertia (also called as 'virtual inertia') is the method that emulates the synchronous generator in the renewable energy systems. In this method, the active power output of the wind turbines are adjusted according to the Eq. (\ref{synthetic}) where $H_{syn}$ is the synthetic inertia constant in seconds and $\omega_{t}$ is the terminal angular frequency in pu. The increase in the active power is proportional to RoCoF as well as the emulated inertia constant. The emulated inertia constant can be different from the inertia constant of the renewable energy system. For instance, the solar PV systems does not have inertia. Even in these systems, an inertia constant can be emulated as long as the system includes stored energy. In the wind turbines, the additional energy can be yielded from the kinetic energy in the turbine inertia. For solar PV systems, energy storage systems or the store energy in the DC-link capacitor can be utilized.\par
+\begin{equation}
+\Delta P_{e}=-2H_{syn}\frac{d\omega_{t}}{dt}\omega_{t}
+\label{synthetic}
+\end{equation}
+In order to implement synthetic inertia in the system, a relation between frequency and active power of the wind turbine should be constructed. Wind turbine in this study is variable speed wind turbine with full scale power electronics. The speed of the turbine is controlled by MSC such that active power is adjusted. Inertial support modification is depicted in Fig. \ref{modifiedmsc}. The new value of the active power is determined according to the swing equation. However, the wind turbine in this study is operated with a reference speed rather than a reference power. Therefore, the assigned power value should be used in order to yield the q-axis current reference value. Reference q-axis current is derived between the Eq. (\ref{inertialsupport1}) to Eq. (\ref{inertialsupport4}).\par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.98\linewidth]{msc_modified.pdf}
@@ -187,18 +225,22 @@ Another issue about inertial support is the time instant to trigger synthetic in
 Second activation method is the under-frequency trigger which is the activation when the frequency decreases below a threshold value. It can be used for capturing the time instant for the inertial support. However, power grid might be in a stable point even if the frequency is 49.8Hz. Therefore, this method would be unsuccessful depending on the disturbance event. \par 
 Third activation scheme is the maximum-frequency gradient trigger. It uses a controller that is very similar to RoCoF relays and tracks the frequency gradient. Once the frequency gradient is below a threshold value, the synthetic inertia is activated. Since the severity of frequency disturbance event is related to the RoCoF, this activation scheme is the most remarkable scheme \cite{Gonzalez-longatt2015}. In this study, maximum-frequency gradient is used with a threshold value of 0.1Hz/s. 
 \subsection{Source of the Inertial Support}
-Renewable energy systems convert the energy captured from wind or sun to the electrical energy. Hence, the renewable energy systems cannot determine the amount of power in contrast the conventional systems. A thermal power plant, for instance, adjusts its power output as desired. However, the source of power in renewable energy is constant for a definite wind speed or solar radiation. This is why a spare energy is required in order to change the power output. \par
-Energy stored in DC bus capacitance is the only stored energy in PV systems. The amount of energy is given in Eq. (\ref{electrostatic}) and negligible for inertial support studies. In the wind energy systems, there exists huge amount of kinetic energy in wind turbine generator and blades in addition to electrostatic energy. The kinetic energy expression is given in Eq. (\ref{kineticenergy}). Note that $J_{total}$ is the equivalent inertia in the generator side and $\omega_{m}$ is the speed of the generator.
+The renewable energy systems cannot determine the amount of power in contrast the conventional systems. A thermal power plant, for instance, adjusts its power output as desired. However, the source of power in renewable energy is intermittent due to nature of the power source. This is why a spare energy is required in order to change the power output. \par
 \begin{equation}
 E_{electrostatic}=\frac{1}{2} C_{DC}V_{DC}^{2}
 \label{electrostatic}
+\end{equation}
+Energy stored in DC bus capacitor is the only stored energy in PV systems. The amount of energy is given in Eq. (\ref{electrostatic}) and negligible for inertial support studies. In the wind energy systems, there exists huge amount of kinetic energy in wind turbine generator and blades in addition to electrostatic energy. The kinetic energy expression is given in Eq. (\ref{kineticenergy}). It should be noted that $J_{total}$ is the equivalent inertia in the generator side as given in Eq. (\ref{totalinertia}),$n$ is the gearbox conversion ratio and $\omega_{m}$ is the speed of the generator.
+\begin{equation}
+J_{total}=\frac{J_{tur}}{n^{2}} + J_{gen}
+\label{totalinertia}
 \end{equation}
 \begin{equation}
 E_{kinetic}=\frac{1}{2} J_{total}\omega_{m}^{2}
 \label{kineticenergy}
 \end{equation}
-Note that the amount of kinetic energy is dependent on the generator speed. Therefore, the stored energy in wind turbines changes according to the generator speed. Moreover, it can also be concluded that the energy is dependent on the wind speed. However, the generator speed is kept constant if the wind speed increases above the rated wind speed. \par
-To illustrate the situation better, the electrostatic energy stored in DC bus and kinetic energy in turbine equivalent inertia are compared for GE2.75-103 wind turbine. The wind turbine has a DC bus capacitance of $27mF$ and $1200V$ DC link voltage. The corresponding electrostatic energy is calculated in Eq. (\ref{electrostatic2}). The generator speed of the corresponding generator is between $550rpm$ and $1735rpm$. The total turbine inertia is $1058.2 kgm^2$ in generator side. The minimum and maximum kinetic energy values are calculated in Eq. (\ref{kineticenergymin}) and (\ref{kineticenergymax}). These values are found out to be 90 and 900 times of the electrostatic energy stored in DC bus capacitance.
+Note that the amount of kinetic energy is dependent on the generator speed. Therefore, the stored energy in wind turbine change according to the generator speed. Moreover, it can also be concluded that the energy is dependent on the wind speed. However, the generator speed is kept constant if the wind speed increases above the rated wind speed. \par
+To illustrate the situation better, the electrostatic energy stored in DC bus and kinetic energy in turbine equivalent inertia are compared for GE2.75-103 wind turbine. The wind turbine has a DC bus capacitance of $27mF$ and $1200V$ DC link voltage. The corresponding electrostatic energy is calculated in Eq. (\ref{electrostatic2}). The generator speed of the corresponding generator is between $550rpm$ and $1735rpm$. The total turbine inertia is $1058.2 kgm^2$ in the generator side. The minimum and maximum kinetic energy values are calculated in Eq. (\ref{kineticenergymin}) and (\ref{kineticenergymax}). \par
 \begin{equation}
 E_{DC-Link}=\frac{1}{2} 27 (10^{-3}) 1200^{2}=19.44kJ
 \label{electrostatic2}
@@ -211,3 +253,7 @@ E_{kinetic,min}=\frac{1}{2} (1058.2) 57.6^{2}=1755.17kJ
 E_{kinetic,max}=\frac{1}{2} (1058.2) 181.7^{2}=17466.02kJ
 \label{kineticenergymax}
 \end{equation}
+It is obvious that the stored kinetic energy in the wind turbine is 90 times of the energy stored in DC bus capacitor even in the minimum generator speed. Therefore, utilization of the kinetic energy for inertial support studies is more efficient than using the stored energy in the capacitor. Moreover, the turbine has more than 17MJ stored kinetic energy that can be absorbed for the inertial support in the maximum generator speed case.
+\section{Conclusion}
+In this chapter, the detailed modelling for PMSG wind turbine is presented. The MSC which is responsible for adjusting the turbine speed for MPPT operation is modified such that the wind turbine provides inertial support. The additional active power is obtained with the kinetic energy extraction from the turbine inertia. \par
+The requirement of the inertial support provision is the back-to-back converter that enables the active power and speed control. Therefore, the method described in this chapter is not specific to PMSG wind turbines but the ones with full-scale power electronics. 

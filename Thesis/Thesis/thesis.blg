@@ -1,54 +1,58 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
-Repeated entry---line 22360 of file library.bib
- : @article{Chen2009b
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 23347 of file library.bib
- : @article{Zhu2013a
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 23689 of file library.bib
- : @techreport{Eto2010
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 23760 of file library.bib
- : @article{Morren2006
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 23937 of file library.bib
- : @article{Morren2006a
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 24032 of file library.bib
- : @article{Gonzalez-longatt2015
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 24174 of file library.bib
- : @article{Muljadi2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 24728 of file library.bib
- : @article{Muljadi2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 24973 of file library.bib
- : @article{Eto2010
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 25051 of file library.bib
+Repeated entry---line 8092 of file library.bib
  : @article{Conroy2008
  :                    ,
 I'm skipping whatever remains of this entry
-Warning--empty institution in States2016
+Repeated entry---line 21633 of file library.bib
+ : @unpublished{Eto2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 22843 of file library.bib
+ : @article{Chen2009b
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 23640 of file library.bib
+ : @article{Morren2006a
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 23821 of file library.bib
+ : @article{Morren2006
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 23881 of file library.bib
+ : @techreport{Eto2010
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 24149 of file library.bib
+ : @article{Muljadi2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 24500 of file library.bib
+ : @article{Gonzalez-longatt2015
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 24612 of file library.bib
+ : @article{Zhu2013a
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 24872 of file library.bib
+ : @article{Eriksson2017
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25011 of file library.bib
+ : @article{Muljadi2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Warning--empty publisher in InternationalRenewableEnergyAgencyIRENA2018
+Warning--empty publisher in InternationalRenewableEnergyAgency2017
 Warning--empty institution in EuropeanCommission2018
 Warning--empty institution in IRENA2014
 Warning--can't use both author and editor fields in Kundur
 Warning--empty year in Kundur
-Warning--empty note in Eto2010
-Warning--empty publisher in InternationalRenewableEnergyAgencyIRENA2018
-Warning--empty publisher in InternationalRenewableEnergyAgency2017
+Warning--empty journal in Eto2010
+Warning--empty institution in States2016
 Warning--empty publisher in REN212017d
 Warning--empty journal in Wang2016
 Warning--empty journal in Hernandez2017
@@ -61,4 +65,4 @@ Warning--empty journal in Gonzalez-longatt2015
 Warning--empty journal in Papathanassiou
 Warning--empty year in Papathanassiou
 Warning--empty institution in NECEnergySolutions2014
-(There were 10 error messages)
+(There were 11 error messages)
