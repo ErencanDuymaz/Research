@@ -23,10 +23,6 @@ E.~Muljadi, V.~Gevorgian, and M.~Singh, ``{Understanding Inertial and Frequency
   Response of Wind Power Plants Preprint},'' {\em 2012 IEEE Power Electronics
   and Machines in Wind Applications (PEMWA)}, no.~July, pp.~1--8, 2012.
 
-\bibitem{Kundur}
-P.~Kundur, {\em {Power System Stability and Control}}.
-\newblock McGraw-Hill,Inc.
-
 \bibitem{Eto2010}
 J.~Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
   J.~Ellis, H.~Illian, C.~Martinez, M.~O´Malley, K.~Coughlin, and
@@ -137,6 +133,15 @@ F.~Gonzalez-Longatt, A.~Bonfiglio, R.~Procopio, and D.~Bogdanov, ``{Practical
   limit of synthetic inertia in full converter wind turbine generators:
   Simulation approach},'' in {\em 2016 19th International Symposium on
   Electrical Apparatus and Technologies, SIELA 2016}, 2016.
+
+\bibitem{Kundur}
+P.~Kundur, {\em {Power System Stability and Control}}.
+\newblock McGraw-Hill,Inc.
+
+\bibitem{Machowski2011}
+J.~Machowski, J.~W. Bialek, and J.~R. Bumby, {\em {Power system dynamics:
+  stability and controlJohn Wiley {\&} Sons,}}.
+\newblock 2011.
 
 \bibitem{yasa}
 ``{ENERJİ KAYNAKLARININ ELEKTRİK ENERJİSİ {\"{U}}RETİMİ AMA{\c{C}}LI
