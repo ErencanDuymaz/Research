@@ -31,29 +31,29 @@
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Modified MSC for Inertial Support\relax }}{34}{figure.caption.29}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Active Power Flow Diagram\relax }}{39}{figure.caption.30}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Increase in the Active Power Output for Varying Wind Speeds\relax }}{41}{figure.caption.31}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Fast Inertial Support Active Power Limit for Low Wind Scenario\relax }}{43}{figure.caption.32}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Generator and Turbine Power and Generator Speed for Low Wind Speed Limit Case\relax }}{44}{figure.caption.33}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Variation of DC-bus Voltage for Low Wind Speed Limit Case\relax }}{44}{figure.caption.34}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Active Power Output of the Wind Turbine for Low Wind Scenario\relax }}{45}{figure.caption.35}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Generator Speeds of the Wind Turbine for Low Wind Scenario\relax }}{46}{figure.caption.36}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Turbine Torque, Generator Speed and Torque for 5 Seconds Support under Low Wind Speed\relax }}{46}{figure.caption.37}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Turbine Torque, Generator Speed and Torque for 20 Seconds Support under Low Wind Speed\relax }}{47}{figure.caption.38}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces DC-Link Voltage for 20 Seconds Support in Low Wind Speed\relax }}{47}{figure.caption.39}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Fast Inertial Support Active Power Limit for Medium Wind Scenario\relax }}{48}{figure.caption.40}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Generator and Turbine Power and Generator Speed for Medium Wind Speed Limit Case\relax }}{48}{figure.caption.41}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Variation of DC-bus Voltage for Medium Wind Speed Limit Case\relax }}{49}{figure.caption.42}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Active Power Output of the Wind Turbine for Medium Wind Scenario\relax }}{50}{figure.caption.43}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Generator Speed, Generator and Turbine Torques for Medium Wind Scenario for 20 Seconds Support\relax }}{50}{figure.caption.44}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces DC-Link Voltage for 20 Seconds Support in Medium Wind Speed\relax }}{51}{figure.caption.45}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Fast Inertial Support Active Power Limit for High Wind Scenario\relax }}{52}{figure.caption.46}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Turbine and Generator Powers, Generator Speed and Pitch Angle for High Wind Limit Scenario\relax }}{53}{figure.caption.47}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Variation of the DC-bus Voltage for High Wind Limit Scenario\relax }}{53}{figure.caption.48}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Active Power Output of the Wind Turbine for High Wind Scenario\relax }}{54}{figure.caption.49}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Pitch Angle, Generator Speed, Generator and Turbine Torques for High Wind Scenario for 20 Seconds Support\relax }}{55}{figure.caption.50}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Probability Density Function of Measured Wind Speeds\relax }}{56}{figure.caption.51}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Cumulative Distribution Function of Measured Wind Speeds\relax }}{57}{figure.caption.52}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Distribution of Fast Inertial Support\relax }}{58}{figure.caption.53}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Accessible Active Power Output for Varying Wind Speeds\relax }}{41}{figure.caption.31}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Probability Density Function of Measured Wind Speeds\relax }}{42}{figure.caption.32}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Cumulative Distribution Function of Measured Wind Speeds\relax }}{43}{figure.caption.33}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Distribution of Fast Inertial Support\relax }}{44}{figure.caption.34}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Fast Inertial Support Active Power Limit for Low Wind Scenario\relax }}{46}{figure.caption.35}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Generator and Turbine Power and Generator Speed for Low Wind Speed Limit Case\relax }}{47}{figure.caption.36}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Variation of DC-bus Voltage for Low Wind Speed Limit Case\relax }}{47}{figure.caption.37}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Active Power Output of the Wind Turbine for Low Wind Scenario\relax }}{48}{figure.caption.38}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Generator Speeds of the Wind Turbine for Low Wind Scenario\relax }}{48}{figure.caption.39}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Turbine Torque, Generator Speed and Torque for 5 Seconds Support under Low Wind Speed\relax }}{49}{figure.caption.40}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Turbine Torque, Generator Speed and Torque for 20 Seconds Support under Low Wind Speed\relax }}{50}{figure.caption.41}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces DC-Link Voltage for 20 Seconds Support in Low Wind Speed\relax }}{50}{figure.caption.42}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Fast Inertial Support Active Power Limit for Medium Wind Scenario\relax }}{51}{figure.caption.43}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Generator and Turbine Power and Generator Speed for Medium Wind Speed Limit Case\relax }}{51}{figure.caption.44}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Variation of DC-bus Voltage for Medium Wind Speed Limit Case\relax }}{52}{figure.caption.45}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Active Power Output of the Wind Turbine for Medium Wind Scenario\relax }}{53}{figure.caption.46}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Generator Speed, Generator and Turbine Torques for Medium Wind Scenario for 20 Seconds Support\relax }}{53}{figure.caption.47}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces DC-Link Voltage for 20 Seconds Support in Medium Wind Speed\relax }}{54}{figure.caption.48}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Fast Inertial Support Active Power Limit for High Wind Scenario\relax }}{55}{figure.caption.49}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Turbine and Generator Powers, Generator Speed and Pitch Angle for High Wind Limit Scenario\relax }}{56}{figure.caption.50}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Variation of the DC-bus Voltage for High Wind Limit Scenario\relax }}{56}{figure.caption.51}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Active Power Output of the Wind Turbine for High Wind Scenario\relax }}{57}{figure.caption.52}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Pitch Angle, Generator Speed, Generator and Turbine Torques for High Wind Scenario for 20 Seconds Support\relax }}{58}{figure.caption.53}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces P.M.Anderson Test Case\relax }}{60}{figure.caption.55}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Location of the Additional Load\relax }}{62}{figure.caption.59}

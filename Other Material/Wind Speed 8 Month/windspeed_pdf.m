@@ -6,7 +6,13 @@ xlRange = 'B2:B33160';
 
 [num,txt] = xlsread(filename,sheet,xlRange);
 windspeeds=num;
-clear vars filename shhet txt xlRange num sheet
+
+filename = 'ruzgar_hizi.xls';
+xlRange = 'E2:E33160';
+
+[num,txt] = xlsread(filename,sheet,xlRange);
+date=txt;
+
 
 %%
 % meancik=mean(windspeeds);

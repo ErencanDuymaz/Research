@@ -52,17 +52,17 @@
 \contentsline {section}{\numberline {3.3}Conclusion}{37}{section.3.3}
 \contentsline {chapter}{\numberline {4}\MakeUppercase {INVESTIGATION OF INERTIAL SUPPORT PRACTICAL LIMITS}}{39}{chapter.4}
 \contentsline {section}{\numberline {4.1}Inertial Support Limits}{39}{section.4.1}
-\contentsline {section}{\numberline {4.2}Fast Inertial Support Under Different Wind Speeds}{42}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Low Wind Scenario}{42}{subsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Fast Inertial Support Limit in Low Wind Scenario}{42}{subsubsection.4.2.1.1}
-\contentsline {subsubsection}{\numberline {4.2.1.2}Moderate Fast Inertial Support for in Low Wind Scenario}{45}{subsubsection.4.2.1.2}
-\contentsline {subsection}{\numberline {4.2.2}Medium Wind Scenario}{47}{subsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.2.1}Fast Inertial Support Limit in Medium Wind Scenario}{48}{subsubsection.4.2.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2.2}Moderate Fast Inertial Support for in Medium Wind Scenario}{49}{subsubsection.4.2.2.2}
-\contentsline {subsection}{\numberline {4.2.3}High Wind Scenario}{51}{subsection.4.2.3}
-\contentsline {subsubsection}{\numberline {4.2.3.1}Fast Inertial Support Limit in High Wind Scenario}{52}{subsubsection.4.2.3.1}
-\contentsline {subsubsection}{\numberline {4.2.3.2}Moderate Inertial Support Limit in High Wind Scenario}{54}{subsubsection.4.2.3.2}
-\contentsline {section}{\numberline {4.3}Probabilistic Approach for Fast Inertial Support}{56}{section.4.3}
+\contentsline {section}{\numberline {4.2}Probabilistic Approach for Fast Inertial Support}{42}{section.4.2}
+\contentsline {section}{\numberline {4.3}Fast Inertial Support Under Different Wind Speeds}{44}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Low Wind Scenario}{45}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Fast Inertial Support Limit in Low Wind Scenario}{45}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {4.3.1.2}Moderate Fast Inertial Support for in Low Wind Scenario}{47}{subsubsection.4.3.1.2}
+\contentsline {subsection}{\numberline {4.3.2}Medium Wind Scenario}{49}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Fast Inertial Support Limit in Medium Wind Scenario}{50}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}Moderate Fast Inertial Support for in Medium Wind Scenario}{52}{subsubsection.4.3.2.2}
+\contentsline {subsection}{\numberline {4.3.3}High Wind Scenario}{54}{subsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.1}Fast Inertial Support Limit in High Wind Scenario}{54}{subsubsection.4.3.3.1}
+\contentsline {subsubsection}{\numberline {4.3.3.2}Moderate Inertial Support Limit in High Wind Scenario}{57}{subsubsection.4.3.3.2}
 \contentsline {chapter}{\numberline {5}\MakeUppercase {EFFECTS OF SYNTHETIC INERTIA IMPLEMENTATION}}{59}{chapter.5}
 \contentsline {section}{\numberline {5.1}P.M.Anderson 9 Bus Test Case}{59}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}System Properties}{59}{subsection.5.1.1}

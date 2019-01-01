@@ -1,6 +1,7 @@
 % CHAPTER 1
 \chapter{INVESTIGATION OF INERTIAL SUPPORT PRACTICAL LIMITS}
 \label{chp:4}
+The wind turbines are expected to participate frequency regulating mechanisms in the near future. However, their full capacity for fast frequency response is unknown. This chapter focuses the inertial support practical limits to explore the wind turbine potential under different wind speed scenarios.
 \section{Inertial Support Limits}
 \label{sec:klimit}
 The source of the power in a wind turbine is the aerodynamic wind power, $P_{wind}$ which is constant for a constant wind speed, pitch angle and generator speed. In the steady state, this power is transferred through MSC as $P_{gen}$. If there is a difference between $P_{wind}$ and $P_{gen}$, the difference is either stored in or extracted from the turbine and generator inertia as in the form of kinetic energy. Grid power, $P_{grid}$ is received from MSC and injected grid. The difference between $P_{gen}$ and $P_{grid}$ is stored in or extracted from DC-bus capacitance. The active power flow diagram is depicted in Fig. \ref{power_flow}. \par
@@ -10,7 +11,7 @@ The source of the power in a wind turbine is the aerodynamic wind power, $P_{win
 	\caption{Active Power Flow Diagram}
 	\label{power_flow}
 \end{figure}
-As mentioned in Chapter \ref{chp:3}, stored energy exists in turbine and generator inertia and DC-bus capacitance. However, it is also stated that the $E_{kin}$ is much larger than $E_{DC}$ even in the lowest generator speed. Therefore, the source of additional power in the inertial support studies is the kinetic energy stored in the equivalent turbine inertia. Besides, the DC-bus voltage cannot be decreased below a threshold value that is dependent on the grid phase-to-neutral voltage.\par
+As mentioned in Chapter \ref{chp:3}, stored energy exists in turbine and generator inertia and DC-bus capacitance. However, it is also stated that the $E_{kin}$ is much larger than $E_{DC}$ even in the lowest generator speed. Therefore, the source of additional power in the inertial support studies is the kinetic energy stored in the equivalent turbine inertia. Besides, the DC-bus voltage cannot be decreased below a threshold value that is dependent on the grid phase-to-neutral voltage. Therefore, the energy stored in DC-link capacitor is not utilized in this study.\par
 Wind turbine active power can be increased by increasing the generator power $P_{gen}$ as long as that power is successfully injected to grid . This can be achieved by adjusting the generator torque since the active power is proportional to electromagnetic torque. However, the active power is also dependent on the generator rotational speed as in Eq. (\ref{genpower}). The active power can be increased by increasing the turbine torque but the increase is limited by the generator speed. Therefore, the active power increase is also dependent on the wind speed which determines MPPT speed in the steady state.
 \begin{equation}
 P_{gen}=T_{e} \omega_{m}
@@ -21,7 +22,7 @@ It is to note that the source of the additional power is the kinetic energy stor
  \int_{t_{i}}^{t_{f}}P_{wind}- \int_{t_{i}}^{t_{f}}P_{gen}=\Delta E_{kin}=\frac{1}{2}J_{tur}(\omega_{f}^2-\omega_{i}^2)
 \label{finalspeed}
 \end{equation}
-As seen from the Eq. (\ref{genpower}), the generator power is the multiplication of generator torque and speed. In the high speeds, the generator speed $\omega_{m}$, cannot be controlled with only the generator torque but also with the pitch angle. In this way, the rated power is not exceeded as in the Eq. (\ref{maxpower}) by keeping turbine at the maximum generator speed and the maximum generator torque. However, general practice is employing higher power rating converter than generator active power rating in the variable speed wind turbines \cite{Muljadi2012}.  Therefore, higher limit torque, $T_{S-lim}$ can be used in such wind turbine applications by considering the apparent power of the back-to-back converters. Therefore, the maximum power for a wind speed can be defined as in Eq. (\ref{maxxpower}).
+As seen from the Eq. (\ref{genpower}), the generator power is the multiplication of generator torque and speed. In the high speeds, the generator speed $\omega_{m}$, cannot be controlled with only the generator torque but also with the pitch angle. In this way, the rated power is not exceeded as in the Eq. (\ref{maxpower}) by keeping turbine at the maximum generator speed, $\omega_{max}$ and the maximum torque $T_{P-lim}$ that is the torque limiting the turbine output power to rated active power. However, general practice is employing higher power rating converter than generator active power rating in the variable speed wind turbines \cite{Muljadi2012}.  Therefore, higher limit torque, $T_{S-lim}$ can be used in such wind turbine applications by considering the apparent power of the back-to-back converters. Therefore, the maximum power for a wind speed can be defined as in Eq. (\ref{maxxpower}).
 \begin{equation}
 P_{rated}=T_{P-lim} \omega_{max}
 \label{maxpower}
@@ -33,11 +34,35 @@ P_{max}=T_{S-lim} \omega_{max}
 It is obvious that the maximum available active power is dependent on the generator speed, hence, the wind speed for the corresponding operation time. This is why the amount of the active power increase also depends on the wind speed. By considering the MPPT speed operation in GE 2.75-103 model variable speed wind turbine, the maximum increase in the active power is shown in Fig. \ref{increase_active_power}. The wind turbine can increase its active power by the lowest amount when the wind speed is high. Since the turbine output power is already close to converter maximum power rating, the increase in the active power is much lower than that of low wind speed operations. It is observed that the wind turbine output power can be increased by 0.45 pu when the wind speed is between 5m/s and 8m/s. \par
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.9\linewidth]{active_power_increase.pdf}
-	\caption{Increase in the Active Power Output for Varying Wind Speeds}
+	\includegraphics[width=.9\linewidth]{increaseinpower.pdf}
+	\caption{Accessible Active Power Output for Varying Wind Speeds}
 	\label{increase_active_power}
 \end{figure}
 It is already stated that power system frequency is a function of input mechanical power of conventional synchronous generators and the output active powers. Therefore, frequency disturbances occur due to the imbalance between these. Since the aim of providing inertial support in the form of fast increased active power is to arrest the frequency decline, the increase in the output power is much more important than the total active output power. 
+\section{Probabilistic Approach for Fast Inertial Support}
+In the Section \ref{sec:klimit}, the inertial support limits are investigated for different wind speeds. It is stated that the wind turbines can increase their active power outputs by highest amounts in the low and medium wind speeds. In order to increase the meaningfulness of such support, probability of different wind speeds is studied. Wind speed measurements used in this thesis are taken from a real wind farm with GE 2.75-103 model wind turbines between 01/01/2017 and 21/08/2017. Probability density function (PDF) of the measurements is given in Fig. \ref{windpdf}. The wind speed measurements have a mean of 7.13 with a standard deviation of 3.85.\par
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.8\linewidth]{pdf_wind.pdf}
+	\caption{Probability Density Function of Measured Wind Speeds}
+	\label{windpdf}
+\end{figure}
+For a defined wind speed, the active power increase can be calculated by considering the Section \ref{sec:klimit}. However, likelihood of such an increase can be calculated by integrating PDF over desired the wind speed range. This can also be calculated from the cumulative distribution function (CDF) of the measurements. In this case, CDFs of the wind speed range limits will be used. Wind Speed CDF is given in Fig. \ref{windcdf}. \par
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.8\linewidth]{cdf_wind.pdf}
+	\caption{Cumulative Distribution Function of Measured Wind Speeds}
+	\label{windcdf}
+\end{figure}
+By utilizing the wind speed measurements and the possible increase in the active output power, it is possible to define availability of the wind turbine for a possible inertial support. In other words, the increase in the active power can be united with the probability of the corresponding speed. In this way, the contribution from different wind speeds is obtained. The net power contribution for varying wind speed is given in the Fig. \ref{net_contribution}.\par
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1\linewidth]{netcontribution.pdf}
+	\caption{Distribution of Fast Inertial Support}
+	\label{net_contribution}
+\end{figure}
+First of all, the net contribution when the wind speed is below 3m/s is zero since the turbine is in the cut-off. The probability of the cut-off according to wind speed measurements is found out as 14.16 from the pdf or cdf of the measurements. The main contribution concentrates inside the wind speed range between 3 and 10. Due to the fact that this wind speed range has both higher probability and higher increase capability, the main contribution is provided inside this range. Meanwhile, the higher speed range has relatively lower contribution due to its lower probability and lower capability. \par
+Another important criteria is the net contribution from all wind speeds. Since Fig. \ref{net_contribution} is basically product of the pdf given in Fig. \ref{windpdf} and the increase in the active power given in Fig. \ref{increase_active_power}, the area under the graph gives the net contribution from a wind turbine by considering the probability of the each wind speed measurement. Therefore, it can be concluded that the wind turbine studied in this thesis subject is able to provide 0.3pu active power.
 \section{Fast Inertial Support Under Different Wind Speeds}
 Active power of the wind turbines is determined by parameters such as wind speed, pitch angle and turbine speed. Therefore, combination of these parameters have importance for a possible fast inertial support. In other words, wind turbine under high wind scenario has different potential than that under low wind scenario. Likewise, the resultant states of wind turbines for inertial support would be much different. In this section, the effect of wind speeds will be investigated for fast inertial support. Active power of wind turbines will be increased by different percentages in the fastest way independent of the grid frequency. Turbine internal parameters such as the change in generator speed, turbine and generator torques, DC-link voltage and pitch angle, if any, will be observed. Wind turbine used in this study is GE 2.75-103 model, variable speed PMSG.
 \subsection{Low Wind Scenario}
@@ -186,27 +211,3 @@ After the generator speed is arrested by the pitch angle decrease, generator spe
 	\caption{Pitch Angle, Generator Speed, Generator and Turbine Torques for High Wind Scenario for 20 Seconds Support}
 	\label{high_s20}
 \end{figure}
-\section{Probabilistic Approach for Fast Inertial Support}
-In the Section \ref{sec:klimit}, the inertial support limits are investigated for different wind speeds. It is stated that the wind turbines can increase their active power outputs by highest amounts in the low and medium wind speeds. In order to increase the meaningfulness of such support, probability of different wind speeds is studied. Wind speed measurements used in this thesis are taken from a real wind farm with GE 2.75-103 model wind turbines between 01/01/2017 and 21/08/2017. Probability density function (PDF) of the measurements is given in Fig. \ref{windpdf}. The wind speed measurements have a mean of 7.13 with a standard deviation of 3.85.\par
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=.8\linewidth]{pdf_wind.pdf}
-	\caption{Probability Density Function of Measured Wind Speeds}
-	\label{windpdf}
-\end{figure}
-For a defined wind speed, the active power increase can be calculated by considering the Section \ref{sec:klimit}. However, likelihood of such an increase can be calculated by integrating PDF over desired the wind speed range. This can also be calculated from the cumulative distribution function (CDF) of the measurements. In this case, CDFs of the wind speed range limits will be used. Wind Speed CDF is given in Fig. \ref{windcdf}. \par
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=.8\linewidth]{cdf_wind.pdf}
-	\caption{Cumulative Distribution Function of Measured Wind Speeds}
-	\label{windcdf}
-\end{figure}
-By utilizing the wind speed measurements and the possible increase in the active output power, it is possible to define availability of the wind turbine for a possible inertial support. In other words, the increase in the active power can be united with the probability of the corresponding speed. In this way, the contribution from different wind speeds is obtained. The net power contribution for varying wind speed is given in the Fig. \ref{net_contribution}.\par
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\linewidth]{netcontribution.pdf}
-	\caption{Distribution of Fast Inertial Support}
-	\label{net_contribution}
-\end{figure}
-First of all, the net contribution when the wind speed is below 3m/s is zero since the turbine is in the cut-off. The probability of the cut-off according to wind speed measurements is found out as 14.16 from the pdf or cdf of the measurements. The main contribution concentrates inside the wind speed range between 3 and 10. Due to the fact that this wind speed range has both higher probability and higher increase capability, the main contribution is provided inside this range. Meanwhile, the higher speed range has relatively lower contribution due to its lower probability and lower capability. \par
-Another important criteria is the net contribution from all wind speeds. Since Fig. \ref{net_contribution} is basically product of the pdf given in Fig. \ref{windpdf} and the increase in the active power given in Fig. \ref{increase_active_power}, the area under the graph gives the net contribution from a wind turbine by considering the probability of the each wind speed measurement. Therefore, it can be concluded that the wind turbine studied in this thesis subject is able to provide 0.3pu active power.
