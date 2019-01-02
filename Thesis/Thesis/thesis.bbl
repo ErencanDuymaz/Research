@@ -149,9 +149,9 @@ J.~Machowski, J.~W. Bialek, and J.~R. Bumby, {\em {Power system dynamics:
   2011.
 
 \bibitem{Chen2009b}
-T.~P. Chen, ``{Dual-modulator compensation technique for parallel inverters
-  using space-vector modulation},'' {\em IEEE Transactions on Industrial
-  Electronics}, vol.~56, no.~8, pp.~3004--3012, 2009.
+Z.~Chen, J.~M. Guerrero, F.~Blaabjerg, and S.~Member, ``{A Review of the State
+  of the Art of Power Electronics for Wind Turbines},'' {\em IEEE Transactions
+  on Power Electronics}, vol.~24, no.~8, pp.~1859--1875, 2009.
 
 \bibitem{Ackermann2005a}
 T.~Ackermann, {\em {Wind Power in Power Systems Wind Power in Power Systems
@@ -243,6 +243,16 @@ F.~M. Gonzalez-longatt, ``{Activation Schemes of Synthetic Inertia Controller
 
 \bibitem{Papathanassiou}
 S.~Papathanassiou, ``{Models for Variable Speed Wind Turbines},'' p.~1997.
+
+\bibitem{Gonzalez-Longatt2013}
+F.~Gonzalez-Longatt, E.~Chikuni, and E.~Rashayi, ``{Effects of the Synthetic
+  Inertia from wind power on the total system inertia after a frequency
+  disturbance},'' {\em Proceedings of the IEEE International Conference on
+  Industrial Technology}, pp.~826--832, 2013.
+
+\bibitem{Gonzalez-Longatt}
+F.~M. Gonzalez-Longatt, ``{Activation Schemes of Synthetic Inertia Controller
+  for Full Converter Wind Turbine Generators},''
 
 \bibitem{Smethurst2017}
 K.~Smethurst and V.~Walsh, ``{Testing Guidance For Providers Of Firm Frequency

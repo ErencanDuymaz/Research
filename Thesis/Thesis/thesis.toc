@@ -80,7 +80,7 @@
 \contentsline {chapter}{\numberline {6}\MakeUppercase {EVALUATION OF FAST INERTIAL RESPONSE AND SYNTHETIC INERTIA IMPLEMENTATION}}{77}{chapter.6}
 \contentsline {section}{\numberline {6.1}Fast Inertial Support}{78}{section.6.1}
 \contentsline {section}{\numberline {6.2}Synthetic Inertia Implementation}{79}{section.6.2}
-\contentsline {section}{\numberline {6.3}Economical Motivations for Energy Providers}{80}{section.6.3}
+\contentsline {section}{\numberline {6.3}Economical Motivations for Energy Providers}{81}{section.6.3}
 \contentsline {section}{\numberline {6.4}Future Work}{83}{section.6.4}
 \contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{85}{chapter*.79}
 \contentsline {chapter}{\numberline {A}\MakeUppercase {P.M. Anderson Test Case Properties}}{91}{Appendix.a.A}
