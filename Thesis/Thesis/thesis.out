@@ -42,35 +42,36 @@
 \BOOKMARK [1][-]{section.3.3}{Conclusion}{chapter.3}% 42
 \BOOKMARK [0][-]{chapter.4}{INVESTIGATION OF INERTIAL SUPPORT PRACTICAL LIMITS}{}% 43
 \BOOKMARK [1][-]{section.4.1}{Inertial Support Limits}{chapter.4}% 44
-\BOOKMARK [1][-]{section.4.2}{Probabilistic Approach for Fast Inertial Support}{chapter.4}% 45
-\BOOKMARK [1][-]{section.4.3}{Fast Inertial Support Under Different Wind Speeds}{chapter.4}% 46
-\BOOKMARK [2][-]{subsection.4.3.1}{Low Wind Scenario}{section.4.3}% 47
-\BOOKMARK [3][-]{subsubsection.4.3.1.1}{Fast Inertial Support Limit in Low Wind Scenario}{subsection.4.3.1}% 48
-\BOOKMARK [3][-]{subsubsection.4.3.1.2}{Moderate Fast Inertial Support for in Low Wind Scenario}{subsection.4.3.1}% 49
-\BOOKMARK [2][-]{subsection.4.3.2}{Medium Wind Scenario}{section.4.3}% 50
-\BOOKMARK [3][-]{subsubsection.4.3.2.1}{Fast Inertial Support Limit in Medium Wind Scenario}{subsection.4.3.2}% 51
-\BOOKMARK [3][-]{subsubsection.4.3.2.2}{Moderate Fast Inertial Support for in Medium Wind Scenario}{subsection.4.3.2}% 52
-\BOOKMARK [2][-]{subsection.4.3.3}{High Wind Scenario}{section.4.3}% 53
-\BOOKMARK [3][-]{subsubsection.4.3.3.1}{Fast Inertial Support Limit in High Wind Scenario}{subsection.4.3.3}% 54
-\BOOKMARK [3][-]{subsubsection.4.3.3.2}{Moderate Inertial Support Limit in High Wind Scenario}{subsection.4.3.3}% 55
-\BOOKMARK [0][-]{chapter.5}{EFFECTS OF SYNTHETIC INERTIA IMPLEMENTATION}{}% 56
-\BOOKMARK [1][-]{section.5.1}{P.M.Anderson 9 Bus Test Case}{chapter.5}% 57
-\BOOKMARK [2][-]{subsection.5.1.1}{System Properties}{section.5.1}% 58
-\BOOKMARK [2][-]{subsection.5.1.2}{Load Flow Analysis for Base Case}{section.5.1}% 59
-\BOOKMARK [2][-]{subsection.5.1.3}{Base Case Frequency Response for Additional Load Connection}{section.5.1}% 60
-\BOOKMARK [1][-]{section.5.2}{Modified Case}{chapter.5}% 61
-\BOOKMARK [2][-]{subsection.5.2.1}{Load Flow Analysis for Modified Case}{section.5.2}% 62
-\BOOKMARK [2][-]{subsection.5.2.2}{Modified Case Frequency Response for Additional Load Connection}{section.5.2}% 63
-\BOOKMARK [1][-]{section.5.3}{Decommissioned Case}{chapter.5}% 64
-\BOOKMARK [2][-]{subsection.5.3.1}{Load Flow Analysis for Decommissioned Case}{section.5.3}% 65
-\BOOKMARK [2][-]{subsection.5.3.2}{Decommissioned Case Frequency Response for Additional Load Connection}{section.5.3}% 66
-\BOOKMARK [1][-]{section.5.4}{Modified Case with Synthetic Inertia}{chapter.5}% 67
-\BOOKMARK [1][-]{section.5.5}{Decommissioned Case with Synthetic Inertia}{chapter.5}% 68
-\BOOKMARK [1][-]{section.5.6}{Comparison of the Synthetic Inertia and Fast Inertial Support}{chapter.5}% 69
-\BOOKMARK [0][-]{chapter.6}{EVALUATION OF FAST INERTIAL RESPONSE AND SYNTHETIC INERTIA IMPLEMENTATION}{}% 70
-\BOOKMARK [1][-]{section.6.1}{Fast Inertial Support}{chapter.6}% 71
-\BOOKMARK [1][-]{section.6.2}{Synthetic Inertia Implementation}{chapter.6}% 72
-\BOOKMARK [1][-]{section.6.3}{Economical Motivations for Energy Providers}{chapter.6}% 73
-\BOOKMARK [1][-]{section.6.4}{Future Work}{chapter.6}% 74
-\BOOKMARK [0][-]{chapter*.79}{REFERENCES}{}% 75
-\BOOKMARK [0][-]{Appendix.a.A}{P.M. Anderson Test Case Properties}{}% 76
+\BOOKMARK [1][-]{section.4.2}{Wind Turbine Properties}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.3}{Probabilistic Approach for Fast Inertial Support}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.4}{Fast Inertial Support Under Different Wind Speeds}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.4.1}{Low Wind Scenario}{section.4.4}% 48
+\BOOKMARK [3][-]{subsubsection.4.4.1.1}{Fast Inertial Support Limit in Low Wind Scenario}{subsection.4.4.1}% 49
+\BOOKMARK [3][-]{subsubsection.4.4.1.2}{Moderate Fast Inertial Support for in Low Wind Scenario}{subsection.4.4.1}% 50
+\BOOKMARK [2][-]{subsection.4.4.2}{Medium Wind Scenario}{section.4.4}% 51
+\BOOKMARK [3][-]{subsubsection.4.4.2.1}{Fast Inertial Support Limit in Medium Wind Scenario}{subsection.4.4.2}% 52
+\BOOKMARK [3][-]{subsubsection.4.4.2.2}{Moderate Fast Inertial Support for in Medium Wind Scenario}{subsection.4.4.2}% 53
+\BOOKMARK [2][-]{subsection.4.4.3}{High Wind Scenario}{section.4.4}% 54
+\BOOKMARK [3][-]{subsubsection.4.4.3.1}{Fast Inertial Support Limit in High Wind Scenario}{subsection.4.4.3}% 55
+\BOOKMARK [3][-]{subsubsection.4.4.3.2}{Moderate Inertial Support Limit in High Wind Scenario}{subsection.4.4.3}% 56
+\BOOKMARK [0][-]{chapter.5}{EFFECTS OF SYNTHETIC INERTIA IMPLEMENTATION}{}% 57
+\BOOKMARK [1][-]{section.5.1}{P.M.Anderson 9 Bus Test Case}{chapter.5}% 58
+\BOOKMARK [2][-]{subsection.5.1.1}{System Properties}{section.5.1}% 59
+\BOOKMARK [2][-]{subsection.5.1.2}{Load Flow Analysis for Base Case}{section.5.1}% 60
+\BOOKMARK [2][-]{subsection.5.1.3}{Base Case Frequency Response for Additional Load Connection}{section.5.1}% 61
+\BOOKMARK [1][-]{section.5.2}{Modified Case}{chapter.5}% 62
+\BOOKMARK [2][-]{subsection.5.2.1}{Load Flow Analysis for Modified Case}{section.5.2}% 63
+\BOOKMARK [2][-]{subsection.5.2.2}{Modified Case Frequency Response for Additional Load Connection}{section.5.2}% 64
+\BOOKMARK [1][-]{section.5.3}{Decommissioned Case}{chapter.5}% 65
+\BOOKMARK [2][-]{subsection.5.3.1}{Load Flow Analysis for Decommissioned Case}{section.5.3}% 66
+\BOOKMARK [2][-]{subsection.5.3.2}{Decommissioned Case Frequency Response for Additional Load Connection}{section.5.3}% 67
+\BOOKMARK [1][-]{section.5.4}{Modified Case with Synthetic Inertia}{chapter.5}% 68
+\BOOKMARK [1][-]{section.5.5}{Decommissioned Case with Synthetic Inertia}{chapter.5}% 69
+\BOOKMARK [1][-]{section.5.6}{Comparison of the Synthetic Inertia and Fast Inertial Support}{chapter.5}% 70
+\BOOKMARK [0][-]{chapter.6}{EVALUATION OF FAST INERTIAL RESPONSE AND SYNTHETIC INERTIA IMPLEMENTATION}{}% 71
+\BOOKMARK [1][-]{section.6.1}{Fast Inertial Support}{chapter.6}% 72
+\BOOKMARK [1][-]{section.6.2}{Synthetic Inertia Implementation}{chapter.6}% 73
+\BOOKMARK [1][-]{section.6.3}{Economical Motivations for Energy Providers}{chapter.6}% 74
+\BOOKMARK [1][-]{section.6.4}{Future Work}{chapter.6}% 75
+\BOOKMARK [0][-]{chapter*.78}{REFERENCES}{}% 76
+\BOOKMARK [0][-]{Appendix.a.A}{P.M. Anderson Test Case Properties}{}% 77

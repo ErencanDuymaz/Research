@@ -1,18 +1,32 @@
 clear all
 clc
-filename = 'wind speeds.xlsx';
+filename = 'ruzgar_hizi.xls';
 sheet = 1;
-xlRange = 'B2:B33160';
+xlRange = 'L2:L33170';
 
 [num,txt] = xlsread(filename,sheet,xlRange);
 windspeeds=num;
 
-filename = 'ruzgar_hizi.xls';
-xlRange = 'E2:E33160';
+t = datetime(2017,1,1,0,0,0) + 10*minutes(0:33158);
 
-[num,txt] = xlsread(filename,sheet,xlRange);
-date=txt;
+% filename = 'ruzgar_hizi.xls';
+% xlRange = 'E2:F33170';
+% 
+% [num,txt] = xlsread(filename,sheet,xlRange);
+% date=txt;
+plot(t,windspeeds)
+ylabel('Wind Speed (m/s)')
+ax = gca;
+ax.XGrid = 'on';
+ax.YGrid = 'on';
+ax.XColor = 'k'; % Red
+ax.YColor = 'k'; % Blue
+grid minor
+set(gca,'FontSize',14);
+xlim([736695 736928])
+saveas(gcf,'windspeeds','png')
 
+%Wind Speed Measurements
 
 %%
 % meancik=mean(windspeeds);

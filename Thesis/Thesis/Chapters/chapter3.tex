@@ -155,41 +155,6 @@ The PI regulators of the wind turbine model is tuned with trial error method. In
 	\caption{Variation of the Active Power of the Wind Turbine}
 	\label{powerdata}
 \end{figure}
-The wind turbine properties used in this study belong to GE2.75-103 model. Fig. \ref{bares} shows the wind turbine from a wind farm in Balıkesir. The properties of the GE2.75-103 is listed in Table \ref{ge275}.
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=.9\linewidth]{bares.jpg}
-	\caption{GE2.75-103 Wind Turbine in Site}
-	\label{bares}
-\end{figure}
-\begin{table}[h]
-	
-	\centering
-	\begin{tabular}{ccc}
-		\hline
-		\textbf{Property}       & \textbf{Value} & \textbf{Unit} \\ \hline
-		Turbine Type            & GE2.75-103     & -             \\
-		Rated Turbine Power     & 2.75           & $MW$          \\
-		Converter Power Rating  & 3.04           & $MVA$         \\
-		Rotor Diameter          & 103            & $m$           \\
-		Blade Inertia           & 12600000       & $kgm^{2}$     \\
-		Generator Speed Range   & 550-1735       & $rpm$         \\
-		Rotor Speed Range       & 4.7-14.8       & $rpm$         \\
-		Cut-in Wind Speed       & 3              & $m/s$         \\
-		Cut-off Wind Speed      & 25             & $m/s$         \\
-		Air Density             & 1.225          & $kg/m^{3}$    \\
-		Gearbox Ratio           & 117.4          & -             \\
-		Generator Rated Voltage & 690            & $V$           \\
-		Generator Type          & PM Synchronous & -             \\
-		Generator Inertia       & 240            & $kgm^{2}$     \\
-		Generator Pole          & 4              & -             \\
-		Generator Flux Linkage  & 2.5            & $Vs$          \\
-		DC-Link Capacitance     & 27             & $mF$          \\
-		DC-Link Voltage         & 1200           & $V$           \\ \hline
-	\end{tabular}
-	\caption{GE2.75-103 Properties}
-	\label{ge275}
-\end{table}
 \section{Synthetic Inertia Implementation}
 As explained Section \ref{swing}, synchronous generators change their speed according to the balance between input mechanical and electromechanical powers. Furthermore, if the frequency changes, the electromechanical power of the generators also change. Nonetheless, the renewable energy systems which are connected to grid with a power electronics interface are unresponsive to the deviations in the grid frequency.\par
 The definition of the synthetic inertia is the controlled contribution of electrical torque that is proportional to RoCoF in the unit connection terminal \cite{Eriksson2017}. Synthetic inertia (also called as 'virtual inertia') is the method that emulates the synchronous generator in the renewable energy systems. In this method, the active power output of the wind turbines are adjusted according to the Eq. (\ref{synthetic}) where $H_{syn}$ is the synthetic inertia constant in seconds and $\omega_{t}$ is the terminal angular frequency in pu. The increase in the active power is proportional to RoCoF as well as the emulated inertia constant. The emulated inertia constant can be different from the inertia constant of the renewable energy system. For instance, the solar PV systems does not have inertia. Even in these systems, an inertia constant can be emulated as long as the system includes stored energy. In the wind turbines, the additional energy can be yielded from the kinetic energy in the turbine inertia. For solar PV systems, energy storage systems or the store energy in the DC-link capacitor can be utilized.\par
