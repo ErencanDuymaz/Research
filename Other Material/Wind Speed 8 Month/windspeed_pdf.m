@@ -56,7 +56,7 @@ set(gca,'FontSize',12);
 % saveas(gcf,'pdf_windspeed3','pdf')
 
 % 
-Q_low = trapz(x,y2)
+% Q_low = trapz(x,y2)
 
 %%
 clear all
