@@ -125,21 +125,40 @@ Load flow analysis for the modified case is listed in Table \ref{loadflow_case2}
 	\label{loadflow_case2}
 \end{table}
 \subsection{Modified Case Frequency Response for Additional Load Connection}
-The modified base is very similar to the Base Case except for a wind farm located in Bus 5. The renewable energy system in this case can be considered as a negative load. Therefore, base case with decreased load is under discussion in this subsection. The same amount of load is taken into operation at Bus 6 and the frequency response of the modified system is shown in Fig. \ref{Case1_2_freq}. \par
+The modified base is very similar to the Base Case except for a wind farm located in Bus 5. The wind farm consisting of 20 turbines also has stored kinetic energy depending on generator speed. Wind speed of 9m/s stores 293.7MWs kinetic energy in the wind farm. By considering this stored energy, dynamical properties of the system is updated in the Table \ref{systemdynamicaldatamod}. Nonetheless, the effective kinetic energy is unchanged in the system.\par
+\begin{table}[h]
+	\centering
+	\begin{tabular}{ll}
+		\hline
+		Total System Load                      & 315 MW    \\
+		Generator Droop Settings               & 5\%       \\
+		Stored Kinetic Energy                  & 3.598 GWs \\
+		Effective Kinetic Energy               & 3.305 GWs \\
+		Gen 1 Inertia Constant                 & 9.55 s  \\
+		Gen 2 Inertia Constant                 & 3.92 s  \\
+		Gen 3 Inertia Constant                 & 2.77 s  \\ \hline
+	\end{tabular}
+	\caption{System Dynamical Properties with Wind Farm}
+	\label{systemdynamicaldatamod}
+\end{table}
+The renewable energy system in this case can be considered as a negative load of 35.7MW. Therefore, base case with decreased load is under discussion in this subsection. The same amount of load is taken into operation at Bus 6 and the frequency response of the modified system is shown in Fig. \ref{Case1_2_freq}. \par
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.85\linewidth]{Case1_2.png}
-	\caption{Comparison of Base Case and Modified Case Frequencies}
-	\label{Case1_2_freq}
+		\begin{subfigure}{0.9\textwidth} % width of right subfigure
+		\includegraphics[width=1.0\linewidth]{Case1_2_3.png}
+		\caption{Comparison of Frequencies}		
+		\label{Case1_2_freq}
+		\end{subfigure}
+		\vspace{0.1em} % here you can insert horizontal or vertical space
+	\begin{subfigure}{0.9\textwidth}
+	\includegraphics[width=1.0\linewidth]{Case1_2_rocof_3.png}
+	\caption{Comparison of RoCoFs}
+	\label{Case1_2_rocof}	
+	\end{subfigure}
+	\caption{Comparison of Base Case and Modified Case}
 \end{figure}
-Almost the same frequency response is observed in the system. The reason is that both systems have the same amount of stored kinetic energy. Another reason is that there is no congestion in the system due to under-utilized of transmission network. The same frequency response can also be observed in the rate of change of frequencies in Fig. \ref{Case1_2_rocof}. Almost the same RoCoF values are observed in the system. This concludes that renewable energy penetration does not change frequency response of the system if the only change in the system is the inclusion of renewable energy system. In other words, renewable energy systems does not affect the frequency response of the grid unless the system is replaced with a conventional generation unit. Note that the renewable energy systems are intermittent energy sources. However, in this study,the source of the renewable energy system is assumed as constant. Therefore, the reason of frequency disturbance is load connection rather than the change in active power output of renewable systems.
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=.85\linewidth]{Case1_2_rocof.png}
-	\caption{Comparison of Base Case and Modified Case Frequencies}
-	\label{Case1_2_rocof}
-\end{figure}
-\section{Decommissioned Case}
+Almost the same frequency response is observed in the system. The reason is that both systems have the same amount of stored kinetic energy. Another reason is that there is no congestion in the system due to under-utilized of transmission network. The same frequency response can also be observed in the rate of change of frequencies in Fig. \ref{Case1_2_rocof}. Almost the same RoCoF values are observed in the system. This concludes that renewable energy penetration does not change frequency response of the system if the only change in the system is the inclusion of renewable energy system. In other words, renewable energy systems does not affect the frequency response of the grid unless the system is preferred over a conventional generation unit. Note that the renewable energy systems are intermittent energy sources. However, in this study,the source of the renewable energy system is assumed as constant. Therefore, the reason of frequency disturbance is load connection rather than the change in active power output of renewable systems.
+\section{Reduced Inertia Case}
 \label{sec:kdecommissioned}
 As seen in the Modified Case, the frequency response of the system does not change with renewable energy inclusion. However, it is inevitable that renewable energy systems will replace the conventional units in future. In this case, the smallest generator, generator 3, will be decommissioned due to economical concerns. The decommissioned case diagram is shown in Fig. \ref{decommissioned_case}.\par
 \begin{figure}[h!]
@@ -148,14 +167,15 @@ As seen in the Modified Case, the frequency response of the system does not chan
 	\caption{Decommissioned Case Single Line Diagram}
 	\label{decommissioned_case}
 \end{figure}
-Since the generator 3 is out of service, the stored kinetic energy is decreased in the system. Decommissioned system dynamical properties are updated and given in Table \ref{systemdynamicaldatacase3}. Higher RoCoF value and lower frequency nadir are expected with the same additional load since the system dynamical properties are deteriorated with the removal of generator 3.
+Since the generator 3 is out of service, the stored kinetic energy is decreased in the system. Dynamical properties of the reduced inertia case are updated and given in Table \ref{systemdynamicaldatacase3}. Higher RoCoF value and lower frequency nadir are expected with the same additional load since the system dynamical properties are deteriorated with the removal of generator 3.
 \begin{table}[h]
 	\centering
 	\begin{tabular}{ll}
 		\hline
 		Total System Load                      & 315 MW    \\
 		Generator Droop Settings               & 5\%       \\
-		Stored Kinetic Energy at Nominal Speed & 3.004 GWs \\
+		Stored Kinetic Energy 				   & 3.298 GWs \\
+		Effective Kinetic Energy 			   & 3.004 GWs \\
 		Gen 1 Inertia Constant                 & 9.5515 s  \\
 		Gen 2 Inertia Constant                 & 3.9216 s  \\
 		\hline
@@ -183,22 +203,25 @@ Since the generator 3 is out of service, generator 1 loading will be increased. 
 	\label{loadflow_case3}
 \end{table}
 \subsection{Decommissioned Case Frequency Response for Additional Load Connection}
-Decommissioned system is also subjected to the same frequency disturbance which is the additional load connection from Bus 6. System frequency response is observed and compared to Base Case and Modified Case in Fig. \ref{Case1_2_3_freq}. The frequency response of the system gets worse with the generator 3 decommissioned. It results that the frequency nadir is decrease from 49.77Hz to 49.65Hz due to the decrease in the stored kinetic energy in the system. The deteriorated frequency response can also be seen from the comparison of RoCoFs that is given in Fig. \ref{Case1_2_3_rocof}. 
-\begin{figure}[h]
+Decommissioned system is also subjected to the same frequency disturbance which is the additional load connection from Bus 6. System frequency response is observed and compared to Base Case and Modified Case in Fig. \ref{Case1_2_3_freq}. The frequency response of the system gets worse with the generator 3 decommissioned. It results that the frequency nadir is decreased from 49.77Hz to 49.65Hz due to the decrease in the stored kinetic energy in the system. The deteriorated frequency response can also be seen from the comparison of RoCoFs that is given in Fig. \ref{Case1_2_3_rocof}. 
+\begin{figure}[h!]
 	\centering
-	\includegraphics[width=.85\linewidth]{Case1_2_3_freq.png}
-	\caption{Comparison of Base Case,Modified Case and Decommissioned Case Frequency Responses}
-	\label{Case1_2_3_freq}
-\end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=.85\linewidth]{Case1_2_3_rocof.png}
-	\caption{Comparison of Base Case,Modified Case and Decommissioned Case RoCoFs}
-	\label{Case1_2_3_rocof}
+	\begin{subfigure}{0.8\textwidth} % width of right subfigure
+		\includegraphics[width=1.0\linewidth]{Case1_2_3_freq.png}
+		\caption{Comparison of RoCoFs}		
+		\label{Case1_2_3_freq}
+	\end{subfigure}
+	\vspace{0.1em} % here you can insert horizontal or vertical space
+	\begin{subfigure}{0.8\textwidth}
+		\includegraphics[width=1.0\linewidth]{Case1_2_3_rocof.png}
+		\caption{Comparison of RoCoFs}
+		\label{Case1_2_3_rocof}	
+	\end{subfigure}
+	\caption{Comparison of Base Case,Modified Case and Reduced Inertia Case}
 \end{figure}
 \section{Modified Case with Synthetic Inertia}
 The frequency response of the modified system is investigated in Section \ref{sec:kmodified} and the system frequency was almost the same with test system base case. However, the response of the system can be improved by provision of synthetic inertia. The wind turbines in the system is equipped with synthetic inertia that emulates inertia constants of 5s, 10s and 15s. The system response with inertial support provision is given in the Fig. \ref{Case4_freq}.\par
-\begin{figure}[h!]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=.9\linewidth]{case4_frequencies.png}
 	\caption{Emulation of the Different Inertia Constants for the Modified Case}

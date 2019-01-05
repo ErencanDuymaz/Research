@@ -45,15 +45,15 @@
 \BOOKMARK [1][-]{section.4.2}{Wind Turbine Properties}{chapter.4}% 45
 \BOOKMARK [1][-]{section.4.3}{Probabilistic Approach for Fast Inertial Support}{chapter.4}% 46
 \BOOKMARK [1][-]{section.4.4}{Fast Inertial Support Under Different Wind Speeds}{chapter.4}% 47
-\BOOKMARK [2][-]{subsection.4.4.1}{Low Wind Scenario}{section.4.4}% 48
-\BOOKMARK [3][-]{subsubsection.4.4.1.1}{Fast Inertial Support Limit for the Low Wind Scenario}{subsection.4.4.1}% 49
-\BOOKMARK [3][-]{subsubsection.4.4.1.2}{Moderate Fast Inertial Support for the Low Wind Scenario}{subsection.4.4.1}% 50
-\BOOKMARK [2][-]{subsection.4.4.2}{Medium Wind Scenario}{section.4.4}% 51
-\BOOKMARK [3][-]{subsubsection.4.4.2.1}{Fast Inertial Support Limit for the Medium Wind Scenario}{subsection.4.4.2}% 52
-\BOOKMARK [3][-]{subsubsection.4.4.2.2}{Moderate Fast Inertial Support for the Medium Wind Scenario}{subsection.4.4.2}% 53
-\BOOKMARK [2][-]{subsection.4.4.3}{High Wind Scenario}{section.4.4}% 54
-\BOOKMARK [3][-]{subsubsection.4.4.3.1}{Fast Inertial Support Limit in High Wind Scenario}{subsection.4.4.3}% 55
-\BOOKMARK [3][-]{subsubsection.4.4.3.2}{Moderate Inertial Support Limit in High Wind Scenario}{subsection.4.4.3}% 56
+\BOOKMARK [2][-]{subsection.4.4.1}{High Wind Scenario}{section.4.4}% 48
+\BOOKMARK [3][-]{subsubsection.4.4.1.1}{Fast Inertial Support Limit in High Wind Scenario}{subsection.4.4.1}% 49
+\BOOKMARK [3][-]{subsubsection.4.4.1.2}{Moderate Inertial Support Limit in High Wind Scenario}{subsection.4.4.1}% 50
+\BOOKMARK [2][-]{subsection.4.4.2}{Low Wind Scenario}{section.4.4}% 51
+\BOOKMARK [3][-]{subsubsection.4.4.2.1}{Fast Inertial Support Limit for the Low Wind Scenario}{subsection.4.4.2}% 52
+\BOOKMARK [3][-]{subsubsection.4.4.2.2}{Moderate Fast Inertial Support for the Low Wind Scenario}{subsection.4.4.2}% 53
+\BOOKMARK [2][-]{subsection.4.4.3}{Medium Wind Scenario}{section.4.4}% 54
+\BOOKMARK [3][-]{subsubsection.4.4.3.1}{Fast Inertial Support Limit for the Medium Wind Scenario}{subsection.4.4.3}% 55
+\BOOKMARK [3][-]{subsubsection.4.4.3.2}{Moderate Fast Inertial Support for the Medium Wind Scenario}{subsection.4.4.3}% 56
 \BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 57
 \BOOKMARK [0][-]{chapter.5}{EFFECTS OF SYNTHETIC INERTIA IN A 9-BUS TEST SYSTEM}{}% 58
 \BOOKMARK [1][-]{section.5.1}{P.M.Anderson 9 Bus Test Case}{chapter.5}% 59
@@ -62,7 +62,7 @@
 \BOOKMARK [1][-]{section.5.2}{Modified Case}{chapter.5}% 62
 \BOOKMARK [2][-]{subsection.5.2.1}{Load Flow Analysis for Modified Case}{section.5.2}% 63
 \BOOKMARK [2][-]{subsection.5.2.2}{Modified Case Frequency Response for Additional Load Connection}{section.5.2}% 64
-\BOOKMARK [1][-]{section.5.3}{Decommissioned Case}{chapter.5}% 65
+\BOOKMARK [1][-]{section.5.3}{Reduced Inertia Case}{chapter.5}% 65
 \BOOKMARK [2][-]{subsection.5.3.1}{Load Flow Analysis for Decommissioned Case}{section.5.3}% 66
 \BOOKMARK [2][-]{subsection.5.3.2}{Decommissioned Case Frequency Response for Additional Load Connection}{section.5.3}% 67
 \BOOKMARK [1][-]{section.5.4}{Modified Case with Synthetic Inertia}{chapter.5}% 68
@@ -73,5 +73,5 @@
 \BOOKMARK [1][-]{section.6.2}{Synthetic Inertia Implementation}{chapter.6}% 73
 \BOOKMARK [1][-]{section.6.3}{Economical Motivations for Energy Providers}{chapter.6}% 74
 \BOOKMARK [1][-]{section.6.4}{Future Work}{chapter.6}% 75
-\BOOKMARK [0][-]{chapter*.74}{REFERENCES}{}% 76
+\BOOKMARK [0][-]{chapter*.76}{REFERENCES}{}% 76
 \BOOKMARK [0][-]{Appendix.a.A}{P.M. Anderson Test Case Properties}{}% 77

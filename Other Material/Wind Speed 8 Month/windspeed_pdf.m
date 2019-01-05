@@ -126,7 +126,7 @@ set(gca,'FontSize',20);
 %%
 filename = 'wind speeds.xlsx';
 sheet = 7;
-xlRange = 'G1:G172';
+xlRange = 'G3:G174';
 
 [num,txt] = xlsread(filename,sheet,xlRange);
 delpi=num;
@@ -134,7 +134,7 @@ clear vars filename shhet txt xlRange num sheet
 
 filename = 'wind speeds.xlsx';
 sheet = 7;
-xlRange = 'A1:A172';
+xlRange = 'A3:A174';
 
 [num,txt] = xlsread(filename,sheet,xlRange);
 windpi=num;

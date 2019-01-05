@@ -1,47 +1,51 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
-Repeated entry---line 1530 of file library.bib
+Repeated entry---line 1546 of file library.bib
  : @techreport{Eto2010
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1735 of file library.bib
- : @article{Morren2006
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5117 of file library.bib
+Repeated entry---line 5133 of file library.bib
  : @article{Muljadi2012
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8888 of file library.bib
+Repeated entry---line 8904 of file library.bib
  : @article{Zhu2013a
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13817 of file library.bib
+Repeated entry---line 13833 of file library.bib
  : @unpublished{Eto2010
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 16127 of file library.bib
+Repeated entry---line 16143 of file library.bib
  : @article{Morren2006a
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 22898 of file library.bib
+Repeated entry---line 17061 of file library.bib
+ : @article{Morren2006
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 22927 of file library.bib
  : @article{Chen2009b
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 23111 of file library.bib
+Repeated entry---line 23126 of file library.bib
  : @article{Gonzalez-longatt2015
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 23613 of file library.bib
+Repeated entry---line 23628 of file library.bib
  : @article{Eriksson2017
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 23814 of file library.bib
+Repeated entry---line 23829 of file library.bib
  : @article{Conroy2008
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 25253 of file library.bib
+Repeated entry---line 24505 of file library.bib
+ : @article{Wu2014
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25268 of file library.bib
  : @article{Muljadi2012
  :                     ,
 I'm skipping whatever remains of this entry
@@ -63,9 +67,7 @@ Warning--empty journal in Barakati2009
 Warning--empty publisher in Orowska-Kowalska2014
 Warning--can't use both volume and number fields in Brantsater2015
 Warning--empty journal in Gonzalez-longatt2015
-Warning--empty journal in Papathanassiou
-Warning--empty year in Papathanassiou
 Warning--empty journal in Gonzalez-Longatt
 Warning--empty year in Gonzalez-Longatt
 Warning--empty institution in NECEnergySolutions2014
-(There were 11 error messages)
+(There were 12 error messages)

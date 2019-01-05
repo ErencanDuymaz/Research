@@ -48,7 +48,9 @@ clear vars filename sheet txt xlRange num sheet
 
 %%
 hold on all
-plot(windspeeds,power-powerr,'k','LineWidth',2)
+plot(windspeeds,power,'k','LineWidth',2)
+plot(windspeeds,powerr,'b','LineWidth',2)
+plot(windspeeds,(power-powerr),'r','LineWidth',2)
 % plot(windspeeds,powerr,'r','LineWidth',2)
 % 
 % x2 = [windspeeds , fliplr(windspeeds)];
@@ -64,11 +66,11 @@ ax.XColor = 'k'; % Red
 ax.YColor = 'k'; % Blue
 grid minor
 xlim([3 20])
-ylim([0 10])
+ylim([0 20])
 title('')
-set(gca,'FontSize',12);
-% legend('Stored Energy','Reserved Energy','Location','southeast')
-saveas(gcf,'storedenergy1','pdf')
+set(gca,'FontSize',18);
+legend('Stored Energy','Reserved Energy','Available Energy','Location','southeast')
+saveas(gcf,'availableenergy','pdf')
 
 %%
 hold on all
@@ -87,4 +89,4 @@ ylim([0 200])
 title('')
 set(gca,'FontSize',14);
 % legend('Stored Energy','Reserved Energy','Location','southeast')
-saveas(gcf,'rotspeed','pdf')
+% saveas(gcf,'rotspeed','pdf')
