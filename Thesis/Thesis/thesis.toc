@@ -36,7 +36,7 @@
 \contentsline {subsection}{\numberline {2.5.2}Intra-Day Market}{18}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Balancing Market}{18}{subsection.2.5.3}
 \contentsline {subsection}{\numberline {2.5.4}Feed-In Tariff}{19}{subsection.2.5.4}
-\contentsline {section}{\numberline {2.6}Conclusion}{19}{section.2.6}
+\contentsline {section}{\numberline {2.6}Conclusion}{20}{section.2.6}
 \contentsline {chapter}{\numberline {3}\MakeUppercase {WIND TURBINE MODELLING}}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Wind Turbines with Full Scale Power Electronics}{21}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Aerodynamic Model}{22}{subsection.3.1.1}
