@@ -12,59 +12,60 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Installed Renewable Energy Capacity of Leading Countries \cite {InternationalRenewableEnergyAgencyIRENA2018},\cite {InternationalRenewableEnergyAgency2017}\relax }}{1}{figure.caption.9}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Wind Power Capacity of Leading Countries in 2016 \cite {InternationalRenewableEnergyAgencyIRENA2018},\cite {InternationalRenewableEnergyAgency2017}\relax }}{2}{figure.caption.10}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Wind Turbine Generator Configurations \cite {Muljadi2012}\relax }}{5}{figure.caption.11}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Control of the grid frequency in England and Wales \cite {Ekanayake2008}, \cite {Erinmez1999}\relax }}{4}{figure.caption.11}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Wind Turbine Generator Configurations \cite {Muljadi2012}\relax }}{5}{figure.caption.12}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Frequency behaviour in electric grid with the water level in a container analogy \cite {Eto2010}\relax }}{14}{figure.caption.13}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Frequency behaviour in electric grid with the water level in a container analogy \cite {Eto2010}\relax }}{14}{figure.caption.14}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Variable Speed Geared Wind Turbine Model\relax }}{20}{figure.caption.16}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Power Coefficient Variation with Tip Speed Ratio under Zero Pitch Angle\relax }}{21}{figure.caption.17}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Power Coefficient Variation for Two Different Pitch Angle\relax }}{23}{figure.caption.18}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Pitch Angle Control Diagram\relax }}{24}{figure.caption.19}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Power Coefficient Variation for GE 2.75-103\relax }}{24}{figure.caption.20}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Gearbox Modelling\relax }}{25}{figure.caption.21}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Machine Side Controller Diagram\relax }}{27}{figure.caption.22}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Grid Side Controller Diagram\relax }}{28}{figure.caption.23}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Variation of the Active Power of the Wind Turbine\relax }}{29}{figure.caption.24}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Modified MSC for Inertial Support\relax }}{31}{figure.caption.25}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Variable Speed Geared Wind Turbine Model\relax }}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Power Coefficient Variation with Tip Speed Ratio under Zero Pitch Angle\relax }}{21}{figure.caption.18}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Power Coefficient Variation for Two Different Pitch Angle\relax }}{23}{figure.caption.19}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Pitch Angle Control Diagram\relax }}{24}{figure.caption.20}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Power Coefficient Variation for GE 2.75-103\relax }}{24}{figure.caption.21}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Gearbox Modelling\relax }}{25}{figure.caption.22}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Machine Side Controller Diagram\relax }}{27}{figure.caption.23}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Grid Side Controller Diagram\relax }}{28}{figure.caption.24}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Variation of the Active Power of the Wind Turbine\relax }}{29}{figure.caption.25}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Modified MSC for Inertial Support\relax }}{31}{figure.caption.26}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Active Power Flow Diagram\relax }}{35}{figure.caption.26}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Accessible Active Power Output for Varying Wind Speeds\relax }}{37}{figure.caption.27}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces GE2.75-103 Wind Turbine in Site\relax }}{38}{figure.caption.28}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Variation of the Wind Speed in the Site\relax }}{40}{figure.caption.30}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Probability Density Function of Measured Wind Speeds\relax }}{40}{figure.caption.31}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Distribution of Fast Inertial Support\relax }}{41}{figure.caption.32}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Variation of the Rotational Speed\relax }}{43}{figure.caption.33}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Variation of the Rotational Energy\relax }}{43}{figure.caption.34}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Maximum Support Duration of Inertial Support in the Limit Case\relax }}{44}{figure.caption.35}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Fast Inertial Support Active Power Limit for High Wind Scenario\relax }}{46}{figure.caption.36}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Turbine and Generator Powers and Generator Speed for High Wind Limit Scenario\relax }}{47}{figure.caption.37}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Pitch Angle and Rate of Change of Pitch Angle for High Wind Limit Scenario\relax }}{48}{figure.caption.38}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Active Power Output of the Wind Turbine for High Wind Scenario\relax }}{48}{figure.caption.39}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Generator and Turbine Torques and Generator Speeds for High Wind Scenario for 20 Seconds Support\relax }}{49}{figure.caption.40}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Pitch Angle and Rate of Change of Pitch Angle for High Wind Scenario for 20 Seconds Support\relax }}{49}{figure.caption.41}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Fast Inertial Support Active Power Limit for Low Wind Scenario\relax }}{51}{figure.caption.42}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Active Power Output of the Wind Turbine for Low Wind Scenario\relax }}{52}{figure.caption.43}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Generator Speeds of the Wind Turbine for Low Wind Scenario\relax }}{53}{figure.caption.44}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Turbine Torque, Generator Speed and Generator Torque for 5 Seconds Support Duration under Low Wind Speed\relax }}{53}{figure.caption.45}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Turbine Torque, Generator Speed and Generator Torque for 20 Seconds Support Duration under Low Wind Speed\relax }}{54}{figure.caption.46}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Fast Inertial Support Active Power Limit for Medium Wind Scenario\relax }}{55}{figure.caption.47}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Active Power Output of the Wind Turbine for Medium Wind Scenario\relax }}{55}{figure.caption.48}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Generator Speed, Generator and Turbine Torques for Medium Wind Scenario for 20 Seconds Support\relax }}{56}{figure.caption.49}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Active Power Flow Diagram\relax }}{35}{figure.caption.27}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Accessible Active Power Output for Varying Wind Speeds\relax }}{37}{figure.caption.28}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces GE2.75-103 Wind Turbine in Site\relax }}{38}{figure.caption.29}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Variation of the Wind Speed in the Site\relax }}{40}{figure.caption.31}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Probability Density Function of Measured Wind Speeds\relax }}{40}{figure.caption.32}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Distribution of Fast Inertial Support\relax }}{41}{figure.caption.33}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Variation of the Rotational Speed\relax }}{43}{figure.caption.34}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Variation of the Rotational Energy\relax }}{43}{figure.caption.35}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Maximum Support Duration of Inertial Support in the Limit Case\relax }}{44}{figure.caption.36}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Fast Inertial Support Active Power Limit for High Wind Scenario\relax }}{46}{figure.caption.37}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Turbine and Generator Powers and Generator Speed for High Wind Limit Scenario\relax }}{47}{figure.caption.38}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Pitch Angle and Rate of Change of Pitch Angle for High Wind Limit Scenario\relax }}{48}{figure.caption.39}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Active Power Output of the Wind Turbine for High Wind Scenario\relax }}{48}{figure.caption.40}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Generator and Turbine Torques and Generator Speeds for High Wind Scenario for 20 Seconds Support\relax }}{49}{figure.caption.41}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Pitch Angle and Rate of Change of Pitch Angle for High Wind Scenario for 20 Seconds Support\relax }}{49}{figure.caption.42}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Fast Inertial Support Active Power Limit for Low Wind Scenario\relax }}{51}{figure.caption.43}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Active Power Output of the Wind Turbine for Low Wind Scenario\relax }}{52}{figure.caption.44}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Generator Speeds of the Wind Turbine for Low Wind Scenario\relax }}{53}{figure.caption.45}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Turbine Torque, Generator Speed and Generator Torque for 5 Seconds Support Duration under Low Wind Speed\relax }}{53}{figure.caption.46}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Turbine Torque, Generator Speed and Generator Torque for 20 Seconds Support Duration under Low Wind Speed\relax }}{54}{figure.caption.47}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Fast Inertial Support Active Power Limit for Medium Wind Scenario\relax }}{55}{figure.caption.48}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Active Power Output of the Wind Turbine for Medium Wind Scenario\relax }}{55}{figure.caption.49}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Generator Speed, Generator and Turbine Torques for Medium Wind Scenario for 20 Seconds Support\relax }}{56}{figure.caption.50}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces P.M.Anderson Test Case\relax }}{58}{figure.caption.51}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Location of the Additional Load\relax }}{61}{figure.caption.55}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Generator Frequencies for Frequency Disturbance in Base Case\relax }}{61}{figure.caption.56}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Frequencies in Generator 1 and Load Buses\relax }}{62}{figure.caption.57}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Modified System Single Line Diagram\relax }}{63}{figure.caption.58}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Comparison of Base Case and Modified Case\relax }}{65}{figure.caption.61}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Decommissioned Case Single Line Diagram\relax }}{66}{figure.caption.62}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparison of Base Case,Modified Case and Reduced Inertia Case\relax }}{68}{figure.caption.65}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Emulation of the Different Inertia Constants for the Modified Case\relax }}{69}{figure.caption.66}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces RoCoF of the Different Inertia Constants for the Modified Case\relax }}{70}{figure.caption.67}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces RoCoF of the Different Inertia Constants for the Decommissioned Case\relax }}{71}{figure.caption.68}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Wind Turbine Active Power for the Different Inertia Constants in the Decommissioned Case\relax }}{72}{figure.caption.69}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Wind Turbine Active Power for the Different Inertia Constants in the Decommissioned Case\relax }}{72}{figure.caption.70}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Comparison of the Frequency Responses for the Base, Fast Inertial Support and Synthetic Inertia Cases\relax }}{73}{figure.caption.71}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Comparison of the Active Power Increase in Fast Inertial Support Case and Synthetic Inertia Case\relax }}{74}{figure.caption.72}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces P.M.Anderson Test Case\relax }}{58}{figure.caption.52}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Location of the Additional Load\relax }}{61}{figure.caption.56}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Generator Frequencies for Frequency Disturbance in Base Case\relax }}{61}{figure.caption.57}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Frequencies in Generator 1 and Load Buses\relax }}{62}{figure.caption.58}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Modified System Single Line Diagram\relax }}{63}{figure.caption.59}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Comparison of Base Case and Modified Case\relax }}{65}{figure.caption.62}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Decommissioned Case Single Line Diagram\relax }}{66}{figure.caption.63}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparison of Base Case,Modified Case and Reduced Inertia Case\relax }}{68}{figure.caption.66}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Emulation of the Different Inertia Constants for the Modified Case\relax }}{69}{figure.caption.67}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces RoCoF of the Different Inertia Constants for the Modified Case\relax }}{70}{figure.caption.68}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces RoCoF of the Different Inertia Constants for the Decommissioned Case\relax }}{71}{figure.caption.69}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Wind Turbine Active Power for the Different Inertia Constants in the Decommissioned Case\relax }}{72}{figure.caption.70}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Wind Turbine Active Power for the Different Inertia Constants in the Decommissioned Case\relax }}{72}{figure.caption.71}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Comparison of the Frequency Responses for the Base, Fast Inertial Support and Synthetic Inertia Cases\relax }}{73}{figure.caption.72}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Comparison of the Active Power Increase in Fast Inertial Support Case and Synthetic Inertia Case\relax }}{74}{figure.caption.73}
 \addvspace {10pt}
 \addvspace {10pt}
