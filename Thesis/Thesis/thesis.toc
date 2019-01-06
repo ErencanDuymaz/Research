@@ -55,14 +55,14 @@
 \contentsline {section}{\numberline {4.2}Wind Turbine Properties}{40}{section.4.2}
 \contentsline {section}{\numberline {4.3}Probabilistic Approach for Fast Inertial Support}{41}{section.4.3}
 \contentsline {section}{\numberline {4.4}Fast Inertial Support Under Different Wind Speeds}{44}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}High Wind Scenario}{46}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}High Wind Scenario}{47}{subsection.4.4.1}
 \contentsline {subsubsection}{\numberline {4.4.1.1}Fast Inertial Support Limit in High Wind Scenario}{47}{subsubsection.4.4.1.1}
-\contentsline {subsubsection}{\numberline {4.4.1.2}Moderate Inertial Support Limit in High Wind Scenario}{48}{subsubsection.4.4.1.2}
-\contentsline {subsection}{\numberline {4.4.2}Low Wind Scenario}{51}{subsection.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.2.1}Fast Inertial Support Limit for the Low Wind Scenario}{51}{subsubsection.4.4.2.1}
-\contentsline {subsubsection}{\numberline {4.4.2.2}Moderate Fast Inertial Support for the Low Wind Scenario}{52}{subsubsection.4.4.2.2}
-\contentsline {subsection}{\numberline {4.4.3}Medium Wind Scenario}{55}{subsection.4.4.3}
-\contentsline {subsubsection}{\numberline {4.4.3.1}Fast Inertial Support Limit for the Medium Wind Scenario}{55}{subsubsection.4.4.3.1}
+\contentsline {subsubsection}{\numberline {4.4.1.2}Moderate Inertial Support Limit in High Wind Scenario}{49}{subsubsection.4.4.1.2}
+\contentsline {subsection}{\numberline {4.4.2}Low Wind Scenario}{52}{subsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2.1}Fast Inertial Support Limit for the Low Wind Scenario}{52}{subsubsection.4.4.2.1}
+\contentsline {subsubsection}{\numberline {4.4.2.2}Moderate Fast Inertial Support for the Low Wind Scenario}{53}{subsubsection.4.4.2.2}
+\contentsline {subsection}{\numberline {4.4.3}Medium Wind Scenario}{54}{subsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.3.1}Fast Inertial Support Limit for the Medium Wind Scenario}{54}{subsubsection.4.4.3.1}
 \contentsline {subsubsection}{\numberline {4.4.3.2}Moderate Fast Inertial Support for the Medium Wind Scenario}{56}{subsubsection.4.4.3.2}
 \contentsline {section}{\numberline {4.5}Conclusion}{57}{section.4.5}
 \contentsline {chapter}{\numberline {5}\MakeUppercase {EFFECTS OF SYNTHETIC INERTIA IN A 9-BUS TEST SYSTEM}}{59}{chapter.5}
