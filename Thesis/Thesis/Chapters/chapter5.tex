@@ -36,9 +36,12 @@ The biggest generator in the system is a hydro power plant with a power rating o
 	\label{loadproperties}
 \end{table}
 \subsection{Load Flow Analysis for Base Case}
-Successful grid operation requires a load flow analysis in order to ensure that bus voltages are inside the allowed band and power flows are below the power carrying capabilities of the lines. In a load flow, system consists of buses whose voltages and phase angles to be calculated. The buses which have a connection with a generator is called as 'PV' bus due to the fact that active power injected to system as well as bus voltage are known before the load flow. Meanwhile, the only load connected buses are called 'PQ' bus with the knowledge of the active and reactive power. For the load flow in the system, one of the buses is selected as slack bus 'SL' bus whose only the voltage is defined. The generation of the slack bus will be find out after the load flow due to the unknown losses in the system. Load flow results are tabulated in Table \ref{loadflow_case1}.
+Successful grid operation requires a load flow analysis in order to ensure that bus voltages are inside the allowed band and power flows are below the power carrying capabilities of the lines. In a load flow, system consists of buses whose voltages and phase angles to be calculated. The buses which have a connection with a generator is called as 'PV' bus due to the fact that active power injected to system as well as bus voltage are known before the load flow. Meanwhile, the only load connected buses are called 'PQ' bus with the knowledge of the active and reactive power. For the load flow in the system, one of the buses is selected as slack bus, 'SL' bus whose only the voltage is defined. The generation of the slack bus will be find out after the load flow due to the unknown losses in the system. Load flow results are tabulated in Table \ref{loadflow_case1}.
+
 \begin{table}[h!]
 	\centering
+	\resizebox{\textwidth}{!}
+	{
 	\begin{tabular}{cclccccc}
 		\hline
 		Bus \# & Bus Type & \multicolumn{1}{c}{Voltage(pu)} & Angle($^{\circ}$) & Pg(MW)& Qg(MVAr)& Pl(MW)  & Ql(MVAr) \\ \hline
@@ -52,6 +55,7 @@ Successful grid operation requires a load flow analysis in order to ensure that 
 		8      & PQ       & \multicolumn{1}{c}{1.0159}                      & 0.73  & 0     & 0      & 100 & 35 \\
 		9      & PQ       & \multicolumn{1}{c}{1.0323}                      & 1.97  & 0     & 0      & 0   & 0  \\ \hline
 	\end{tabular}
+}
 	\caption{Load Flow Results in Base Case}
 	\label{loadflow_case1}
 \end{table}
@@ -72,32 +76,32 @@ It is obvious that power system networks experience high RoCoF when either high 
 	\caption{System Dynamical Properties}
 	\label{systemdynamicaldata}
 \end{table}
-The dynamical properties of the system are listed in Table \ref{systemdynamicaldata}. The system load 315MW is supplied from three conventional generators whose inertia constants varies between 2-9 seconds. Three generators are equipped with governors with 5\% droop settings. Furthermore, the system has 3.3GWs kinetic energy which are effectively supplied from conventional synchronous generators. \par 
-Power generation references are determined based on the load flow of "powergui" toolbox. Machine initialization toolbox is also used to initiate the state of generators in the system. However, the system does not start with the steady state but reaches steady state within a few seconds. Frequency of the network is disturbed with a load connection when t=10 seconds in order to observe the frequency stability of the system. For 10\% load connection, a load of 31.5MW is connected to system from Bus 6. Location of the additional load is depicted in Fig. \ref{ieee_9_bus_load}.\par
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=.8\linewidth]{ieee_9_bus_load_position.pdf}
 	\caption{Location of the Additional Load}
 	\label{ieee_9_bus_load}
 \end{figure}
-According to the 10\% load connection to system, generator frequencies are shown in Fig. \ref{genfreqcase1}. As it can be seen from Fig. \ref{genfreqcase1}, rotor swings exists in the frequencies. However, the frequency of generator 1 is the most smooth one due to its huge inertia constant. Meanwhile, the generator 2 and generator 3 follow the frequency of generator 1 with rotor swings.\par
-\begin{figure}[h!]
+The dynamical properties of the system are listed in Table \ref{systemdynamicaldata}. The system load 315MW is supplied from three conventional generators whose inertia constants varies between 2-9 seconds. Three generators are equipped with governors with 5\% droop settings. Furthermore, the system has 3.3GWs kinetic energy which are effectively supplied from conventional synchronous generators. \par 
+Power generation references are determined based on the load flow of "powergui" toolbox. Machine initialization toolbox is also used to initiate the state of generators in the system. However, the system does not start with the steady state but reaches the steady state within a few seconds. Frequency of the network is disturbed with a load connection when t=10 seconds in order to observe the frequency stability of the system. For 10\% load connection, a load of 31.5MW is connected to system from Bus 6. Location of the additional load is depicted in Fig. \ref{ieee_9_bus_load}.\par
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=1.0\linewidth]{Case1_Generator_Freqs.png}
 	\caption{Generator Frequencies for Frequency Disturbance in Base Case}
 	\label{genfreqcase1}
 \end{figure}
-In the system, the frequencies of loads are almost the same throughout the network since the test system is small enough to assume a single frequency inside the network. This can also be observed in Fig. \ref{genfreqcase1_loadgen} which shows the frequency of the generator 1 as well as the load frequencies captured with Simulink PLL block. Another observation is that the load frequencies are also close to the frequency of the generator 1. The only difference is the instant following the load connection. The sharp frequency decline delays the PLL loop to capture the frequency. 
+According to the 10\% load connection to system, generator frequencies are shown in Fig. \ref{genfreqcase1}. As it can be seen from Fig. \ref{genfreqcase1}, rotor swings exists in the frequencies. However, the frequency of generator 1 is the most smooth one due to its huge inertia constant. Meanwhile, the generator 2 and generator 3 follow the frequency of generator 1 with rotor swings.\par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1.0\linewidth]{Case1_Load_Gen_Freqs.png}
 	\caption{Frequencies in Generator 1 and Load Buses}
 	\label{genfreqcase1_loadgen}
 \end{figure}
+In the system, the frequencies of loads are almost the same throughout the network since the test system is small enough to assume a single frequency inside the network. This can also be observed in Fig. \ref{genfreqcase1_loadgen} which shows the frequency of the generator 1 as well as the load frequencies captured with PLL (Phase-Locked Loop) block. Another observation is that the load frequencies are also close to the frequency of the generator 1. The only difference is the instant following the load connection. The sharp frequency decline delays the PLL loop to capture the frequency.
 \section{Modified Case}
 \label{sec:kmodified}
 In order to observe the effect of the renewable energy penetration to the grid, the P.M. Anderson test case is modified such that a wind farm consists of 20 wind turbine is connected to the network. The wind farm has 55MW power rating that consists of 20 GE2.75-103 model wind turbine. \par 
-Since the transmission network of the test case is under-utilized, the location of the wind farm has no effect on the frequency disturbance. Hence bus 5 is selected as the location for wind farm connection. Modified system is depicted in the Fig. \ref{ieee_9_bus_case2}. In this case, generators 2 and 3 are still assigned to same power generation references. Swing generator, i.e. reference generator production is defined according to the load flow results. Since the wind turbine also injects power to the transmission network, generator-1 decreases its generation according to the base case.
+Since the transmission network of the test case is under-utilized, the location of the wind farm has no effect on the frequency disturbance. Hence bus 5 is selected as the location for wind farm connection. Modified system is depicted in the Fig. \ref{ieee_9_bus_case2}. In this case, generators 2 and 3 are still assigned to same power generation references. However, the reference generator (generator 1) production is found according to the load flow results. Since the wind turbine also injects power to the transmission network, generator-1 decreases its generation according to the base case.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.8\linewidth]{ieee_9_bus_modified.pdf}
@@ -108,6 +112,8 @@ Since the transmission network of the test case is under-utilized, the location 
 Load flow analysis for the modified case is listed in Table \ref{loadflow_case2}. The power injected from Bus 1 is decreased as expected. This can also be seen from the phase angle between buses 1 and 4 which decreased from $2.22^{\circ}$ to $1.18^{\circ}$. Total power generation from active power from conventional generation units are also decreased. Therefore, the modified system resembles the base case with low power demand. The wind farm production cannot be shown in the Bus-5 power generation section since the corresponding bus is a PQ bus. Therefore, the wind farm power is shown in the load side as negative injection to the system. Wind farm produces 35.7MW active power at unity power factor. 
 \begin{table}[h!]
 	\centering
+	\resizebox{\textwidth}{!}
+	{
 	\begin{tabular}{cclccccc}
 		\hline
 		Bus \# & Bus Type & \multicolumn{1}{c}{Voltage(pu)} & Angle($^{\circ}$)& Pg(MW)    & Qg(MVAr)     & Pl(MW)  & Ql(MVAr)   \\ \hline
@@ -121,11 +127,12 @@ Load flow analysis for the modified case is listed in Table \ref{loadflow_case2}
 		8      & PQ       & \multicolumn{1}{c}{1.0164}  & 2.62  & 0     & 0      & 100 & 35 \\
 		9      & PQ       & \multicolumn{1}{c}{1.0326}  & 3.62  & 0     & 0      & 0   & 0  \\ \hline
 	\end{tabular}
+	}
 	\caption{Load Flow Results for Modified Case}
 	\label{loadflow_case2}
 \end{table}
 \subsection{Modified Case Frequency Response for Additional Load Connection}
-The modified base is very similar to the Base Case except for a wind farm located in Bus 5. The wind farm consisting of 20 turbines also has stored kinetic energy depending on generator speed. Wind speed of 9m/s stores 293.7MWs kinetic energy in the wind farm. By considering this stored energy, dynamical properties of the system is updated in the Table \ref{systemdynamicaldatamod}. Nonetheless, the effective kinetic energy is unchanged in the system.\par
+The modified base is very similar to the Base Case except for a wind farm located in Bus 5. The wind farm consisting of 20 turbines also has stored kinetic energy depending on generator speed. Wind speed of 9m/s stores 293.7MWs kinetic energy in the wind farm. By considering this stored energy, dynamical properties of the system is updated in the Table \ref{systemdynamicaldatamod}. Nonetheless, the effective kinetic energy is unchanged in the system due to the fact that rotor frequency is decoupled from grid frequency in the existing wind turbine model.\par
 \begin{table}[h]
 	\centering
 	\begin{tabular}{ll}
@@ -141,33 +148,34 @@ The modified base is very similar to the Base Case except for a wind farm locate
 	\caption{System Dynamical Properties with Wind Farm}
 	\label{systemdynamicaldatamod}
 \end{table}
-The renewable energy system in this case can be considered as a negative load of 35.7MW. Therefore, base case with decreased load is under discussion in this subsection. The same amount of load is taken into operation at Bus 6 and the frequency response of the modified system is shown in Fig. \ref{Case1_2_freq}. \par
+The renewable energy system in this case can be considered as a negative load of 35.7MW. Therefore, base case with decreased load is under discussion in this subsection. 10\%(31.5MW) additional load is connected to Bus 6 and the frequency response of the modified system is shown in Fig. \ref{Case1_2_freq}. \par
 \begin{figure}[h!]
 	\centering
-		\begin{subfigure}{0.9\textwidth} % width of right subfigure
-		\includegraphics[width=1.0\linewidth]{Case1_2_3.png}
+		\begin{subfigure}{0.9\textwidth} % width of right  
+			\centering
+		\includegraphics[width=0.9\linewidth]{Case1_2_3.png}
 		\caption{Comparison of Frequencies}		
 		\label{Case1_2_freq}
 		\end{subfigure}
 		\vspace{0.1em} % here you can insert horizontal or vertical space
 	\begin{subfigure}{0.9\textwidth}
-	\includegraphics[width=1.0\linewidth]{Case1_2_rocof_3.png}
+\centering	\includegraphics[width=0.9\linewidth]{Case1_2_rocof_3.png}
 	\caption{Comparison of RoCoFs}
 	\label{Case1_2_rocof}	
 	\end{subfigure}
 	\caption{Comparison of Base Case and Modified Case}
 \end{figure}
-Almost the same frequency response is observed in the system. The reason is that both systems have the same amount of stored kinetic energy. Another reason is that there is no congestion in the system due to under-utilized of transmission network. The same frequency response can also be observed in the rate of change of frequencies in Fig. \ref{Case1_2_rocof}. Almost the same RoCoF values are observed in the system. This concludes that renewable energy penetration does not change frequency response of the system if the only change in the system is the inclusion of renewable energy system. In other words, renewable energy systems does not affect the frequency response of the grid unless the system is preferred over a conventional generation unit. Note that the renewable energy systems are intermittent energy sources. However, in this study,the source of the renewable energy system is assumed as constant. Therefore, the reason of frequency disturbance is load connection rather than the change in active power output of renewable systems.
+Almost the same frequency response is observed in the system. The reason is that both systems have the same amount of stored kinetic energy. Another reason is that there is no congestion in the system due to under-utilized of transmission network. The same frequency response can also be observed in the rate of change of frequencies in Fig. \ref{Case1_2_rocof}. This concludes that renewable energy penetration does not change the frequency response of the system if the only change in the system is the inclusion of renewable energy system. In other words, renewable energy systems does not affect the frequency response of the grid unless the system is preferred over a conventional generation unit. \par
+Notice that the renewable energy systems are intermittent energy sources. Nonetheless, the wind speed is assumed as constant in this study. Assuming constant wind speed is not a disadvantage since the inertial support is based on the kinetic energy of the wind turbine. The variation of the wind speed during the support period affects only the speed recovery process. 
 \section{Reduced Inertia Case}
 \label{sec:kdecommissioned}
-As seen in the Modified Case, the frequency response of the system does not change with renewable energy inclusion. However, it is inevitable that renewable energy systems will replace the conventional units in future. In this case, the smallest generator, generator 3, will be decommissioned due to economical concerns. The decommissioned case diagram is shown in Fig. \ref{decommissioned_case}.\par
+As seen in the Modified Case, the frequency response of the system does not change with renewable energy inclusion. However, it is inevitable that renewable energy systems will replace the conventional units in future. In this case, the smallest generator, generator 3, will be decommissioned due to economical concerns. The reduced inertia case diagram is shown in Fig. \ref{decommissioned_case}.\par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.8\linewidth]{ieee_9_bus_decommissioned.pdf}
-	\caption{Decommissioned Case Single Line Diagram}
+	\caption{Reduced Inertia Case Single Line Diagram}
 	\label{decommissioned_case}
 \end{figure}
-Since the generator 3 is out of service, the stored kinetic energy is decreased in the system. Dynamical properties of the reduced inertia case are updated and given in Table \ref{systemdynamicaldatacase3}. Higher RoCoF value and lower frequency nadir are expected with the same additional load since the system dynamical properties are deteriorated with the removal of generator 3.
 \begin{table}[h]
 	\centering
 	\begin{tabular}{ll}
@@ -180,26 +188,30 @@ Since the generator 3 is out of service, the stored kinetic energy is decreased 
 		Gen 2 Inertia Constant                 & 3.9216 s  \\
 		\hline
 	\end{tabular}
-	\caption{System Dynamical Properties}
+	\caption{Reduced Inertia Case Dynamical Properties}
 	\label{systemdynamicaldatacase3}
 \end{table}
+Since the generator 3 is out of service, the stored kinetic energy is decreased in the system. Dynamical properties of the reduced inertia case are updated and given in Table \ref{systemdynamicaldatacase3}. Higher RoCoF value and lower frequency nadir are expected with the same additional load since the system dynamical properties are deteriorated with the removal of generator 3.
 \subsection{Load Flow Analysis for Decommissioned Case}
-Since the generator 3 is out of service, generator 1 loading will be increased. Load flow analysis for decommissioned case is given in Table \ref{loadflow_case3}.
+In this case, the same active power reference (163MW) is again assigned to generator 2. Besides, the wind farm generates active power, 35.7MW at unity power factor. Since the generator 3 is out of service, generator 1 loading is increased. Load flow analysis for reduced inertia case is given in Table \ref{loadflow_case3}.
 \begin{table}[h!]
 	\centering
+	\resizebox{\textwidth}{!}
+	{
 	\begin{tabular}{cclccccc}
 		\hline
-		Bus \# & Bus Type & \multicolumn{1}{c}{Voltage} & Angle & Pg    & Qg     & Pl  & Ql \\ \hline
+		Bus \# & Bus Type & \multicolumn{1}{c}{Voltage(pu)} & Angle($^{\circ}$)& Pg(MW)    & Qg(MVAr)     & Pl(MW)  & Ql(MVAr)   \\ \hline
 		1      & SL       & \multicolumn{1}{c}{1.04}    & 0     & 121.76& 16.26  & 0   & 0  \\
 		2      & PV       & \multicolumn{1}{c}{1.025}   & 4.18  & 163   & 0.65   & 0   & 0  \\
-		4      & PQ       & 1.0332                      & -3.74 & 0     & 0      & 0   & 0  \\
-		5      & PQ       & 1.0083                      & -5.63 & 0     & 0      & 125 & 50 \\
-		6      & PQ       & 1.0224                      & -7.65 & 0     & 0      & 90  & 30 \\
-		7      & PQ       & 1.0294                      & -1.36 & 0     & 0      & 0   & 0  \\
-		8      & PQ       & 1.0207                      & -5.82 & 0     & 0      & 100 & 35 \\
+		4      & PQ       & \multicolumn{1}{c}{1.0332}                      & -3.74 & 0     & 0      & 0   & 0  \\
+		5      & PQ       & \multicolumn{1}{c}{1.0083}                      & -5.63 & 0     & 0      & 125-(35.7) & 50-(0)\\
+		6      & PQ       & \multicolumn{1}{c}{1.0224}                      & -7.65 & 0     & 0      & 90  & 30 \\
+		7      & PQ       & \multicolumn{1}{c}{1.0294}                      & -1.36 & 0     & 0      & 0   & 0  \\
+		8      & PQ       & \multicolumn{1}{c}{1.0207}                      & -5.82 & 0     & 0      & 100 & 35 \\
  \hline
 	\end{tabular}
-	\caption{Load Flow Results for Decommissioned Case}
+}
+	\caption{Load Flow Results for Reduced Inertia Case}
 	\label{loadflow_case3}
 \end{table}
 \subsection{Decommissioned Case Frequency Response for Additional Load Connection}
@@ -207,13 +219,13 @@ Decommissioned system is also subjected to the same frequency disturbance which 
 \begin{figure}[h!]
 	\centering
 	\begin{subfigure}{0.8\textwidth} % width of right subfigure
-		\includegraphics[width=1.0\linewidth]{Case1_2_3_freq.png}
+	\centering	\includegraphics[width=0.8\linewidth]{Case1_2_3_freq.png}
 		\caption{Comparison of Frequencies}		
 		\label{Case1_2_3_freq}
 	\end{subfigure}
 	\vspace{0.1em} % here you can insert horizontal or vertical space
 	\begin{subfigure}{0.8\textwidth}
-		\includegraphics[width=1.0\linewidth]{Case1_2_3_rocof.png}
+	\centering	\includegraphics[width=0.8\linewidth]{Case1_2_3_rocof.png}
 		\caption{Comparison of RoCoFs}
 		\label{Case1_2_3_rocof}	
 	\end{subfigure}
