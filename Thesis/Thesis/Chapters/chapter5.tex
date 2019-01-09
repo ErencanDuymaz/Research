@@ -98,17 +98,17 @@ According to the 10\% load connection to system, generator frequencies are shown
 	\label{genfreqcase1_loadgen}
 \end{figure}
 In the system, the frequencies of loads are almost the same throughout the network since the test system is small enough to assume a single frequency inside the network. This can also be observed in Fig. \ref{genfreqcase1_loadgen} which shows the frequency of the generator 1 as well as the load frequencies captured with PLL (Phase-Locked Loop) block. Another observation is that the load frequencies are also close to the frequency of the generator 1. The only difference is the instant following the load connection. The sharp frequency decline delays the PLL loop to capture the frequency.
-\section{Modified Case}
+\section{10\% Renewable Case}
 \label{sec:kmodified}
-In order to observe the effect of the renewable energy penetration to the grid, the P.M. Anderson test case is modified such that a wind farm consists of 20 wind turbine is connected to the network. The wind farm has 55MW power rating that consists of 20 GE2.75-103 model wind turbine. \par 
+In order to observe the effect of the renewable energy penetration to the grid, the P.M. Anderson test case is modified such that a wind farm consists of 20 wind turbine is connected to the network. The wind farm has 55MW power rating that consists of 20 GE2.75-103 model wind turbine. The share of the renewable energy is selected as the 10\% of the installed capacity. Moreover, the wind speed is selected as 9m/s whose active power generation provides the 10\% of the system demand. \par 
 Since the transmission network of the test case is under-utilized, the location of the wind farm has no effect on the frequency disturbance. Hence bus 5 is selected as the location for wind farm connection. Modified system is depicted in the Fig. \ref{ieee_9_bus_case2}. In this case, generators 2 and 3 are still assigned to same power generation references. However, the reference generator (generator 1) production is found according to the load flow results. Since the wind turbine also injects power to the transmission network, generator-1 decreases its generation according to the base case.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.8\linewidth]{ieee_9_bus_modified.pdf}
-	\caption{Modified System Single Line Diagram}
+	\caption{10\% Renewable Case Single Line Diagram}
 	\label{ieee_9_bus_case2}
 \end{figure}
-\subsection{Load Flow Analysis for Modified Case}
+\subsection{Load Flow Analysis for 10\% Renewable Case}
 Load flow analysis for the modified case is listed in Table \ref{loadflow_case2}. The power injected from Bus 1 is decreased as expected. This can also be seen from the phase angle between buses 1 and 4 which decreased from $2.22^{\circ}$ to $1.18^{\circ}$. Total power generation from active power from conventional generation units are also decreased. Therefore, the modified system resembles the base case with low power demand. The wind farm production cannot be shown in the Bus-5 power generation section since the corresponding bus is a PQ bus. Therefore, the wind farm power is shown in the load side as negative injection to the system. Wind farm produces 35.7MW active power at unity power factor. 
 \begin{table}[h!]
 	\centering
@@ -169,7 +169,7 @@ Almost the same frequency response is observed in the system. The reason is that
 Notice that the renewable energy systems are intermittent energy sources. Nonetheless, the wind speed is assumed as constant in this study. Assuming constant wind speed is not a disadvantage since the inertial support is based on the kinetic energy of the wind turbine. The variation of the wind speed during the support period affects only the speed recovery process. 
 \section{Reduced Inertia Case}
 \label{sec:kdecommissioned}
-As seen in the Modified Case, the frequency response of the system does not change with renewable energy inclusion. However, it is inevitable that renewable energy systems will replace the conventional units in future. In this case, the smallest generator, generator 3, will be decommissioned due to economical concerns. The reduced inertia case diagram is shown in Fig. \ref{decommissioned_case}.\par
+As seen in the \%10 Renewable Case, the frequency response of the system does not change with renewable energy inclusion. However, it is inevitable that renewable energy systems will replace the conventional units in future. In this case, the smallest generator, generator-3, is decommissioned due to its high fuel cost. When the generator 3 is out of service, the effective inertia decreases by \%10. The reduced inertia case diagram is shown in Fig. \ref{decommissioned_case}.\par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.8\linewidth]{ieee_9_bus_decommissioned.pdf}
@@ -191,9 +191,9 @@ As seen in the Modified Case, the frequency response of the system does not chan
 	\caption{Reduced Inertia Case Dynamical Properties}
 	\label{systemdynamicaldatacase3}
 \end{table}
-Since the generator 3 is out of service, the stored kinetic energy is decreased in the system. Dynamical properties of the reduced inertia case are updated and given in Table \ref{systemdynamicaldatacase3}. Higher RoCoF value and lower frequency nadir are expected with the same additional load since the system dynamical properties are deteriorated with the removal of generator 3.
+Since the generator-3 is out of service, the stored kinetic energy is decreased in the system. Dynamical properties of the reduced inertia case are updated and given in Table \ref{systemdynamicaldatacase3}. Higher RoCoF value and lower frequency nadir are expected with the same additional load since the system dynamical properties are deteriorated with the removal of generator-3.
 \subsection{Load Flow Analysis for Decommissioned Case}
-In this case, the same active power reference (163MW) is again assigned to generator 2. Besides, the wind farm generates active power, 35.7MW at unity power factor. Since the generator 3 is out of service, generator 1 loading is increased. Load flow analysis for reduced inertia case is given in Table \ref{loadflow_case3}.
+In this case, the same active power reference (163MW) is again assigned to generator-2. Besides, the wind farm generates active power, 35.7MW at unity power factor. Since the generator-3 is out of service, generator-1 loading is increased. Load flow analysis for reduced inertia case is given in Table \ref{loadflow_case3}.
 \begin{table}[h!]
 	\centering
 	\resizebox{\textwidth}{!}
@@ -229,17 +229,17 @@ Decommissioned system is also subjected to the same frequency disturbance which 
 		\caption{Comparison of RoCoFs}
 		\label{Case1_2_3_rocof}	
 	\end{subfigure}
-	\caption{Comparison of Base Case,Modified Case and Reduced Inertia Case}
+	\caption{Comparison of Base Case, \%10 Renewable Case (Modified Case) and Reduced Inertia Case (Decommissioned Case)}
 \end{figure}
 \section{Modified Case with Synthetic Inertia}
-The frequency response of the modified system is investigated in Section \ref{sec:kmodified} and the system frequency was almost the same with test system base case. However, the response of the system can be improved by provision of synthetic inertia. The wind turbines in the system is equipped with synthetic inertia that emulates inertia constants of 5s, 10s and 15s. The system response with inertial support provision is given in the Fig. \ref{Case4_freq}.\par
+The frequency response of the modified system is investigated in Section \ref{sec:kmodified} and the system frequency was almost the same with test system base case. However, the response of the system can be improved by provision of synthetic inertia. First of all, the wind speed is 9m/s for all turbines in the farm. Secondly, wind turbine is able to increase its active power by 1MW according to the Section \ref{sec:klimit}. The wind turbines are equipped with synthetic inertia that emulates inertia constants of 5s, 10s and 15s. The inertial support is provided simultaneously in each wind turbine following the frequency disturbance. The system response with inertial support provision is given in the Fig. \ref{Case4_freq}.\par
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=.9\linewidth]{case4_frequencies.png}
 	\caption{Emulation of the Different Inertia Constants for the Modified Case}
 	\label{Case4_freq}
 \end{figure}
-Since the modified case frequency response is almost the same with the base case, the synthetic inertia implementation is improved the system frequency response. In other words, the wind turbines are integrated to the system by emulating the synchronous generator behaviour. It is to note that huge amount of kinetic energy exists in the wind turbine systems. That stored energy can be utilized with the synthetic inertia method in order to improve frequency dynamics of the system.\par
+Since the modified case frequency response is almost the same with the base case, the synthetic inertia implementation is improved the system frequency response. In other words, the wind turbines are integrated to the system by emulating the synchronous generator behaviour. It should be noted that huge amount of kinetic energy exists in the wind turbine systems. That stored energy can be utilized with the synthetic inertia method in order to improve frequency dynamics of the system.\par
 Emulation of synchronous generator behaviour is basically increasing the amount of active power depending on the RoCoF of the grid and the inertia constant to be emulated. Since the higher inertia constant requires higher active power increase, the inertia constants of 10s and 15s result in better frequency dynamics. The frequency nadir of the base case is slightly increased. The effect of the synthetic inertia provision can also be observed in the system RoCoF values that is given in Fig. \ref{Case4_rocof}.\par
 \begin{figure}[h]
 	\centering
