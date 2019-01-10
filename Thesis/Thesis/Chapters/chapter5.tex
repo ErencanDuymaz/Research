@@ -131,8 +131,8 @@ Load flow analysis for the modified case is listed in Table \ref{loadflow_case2}
 	\caption{Load Flow Results for Modified Case}
 	\label{loadflow_case2}
 \end{table}
-\subsection{Modified Case Frequency Response for Additional Load Connection}
-The modified base is very similar to the Base Case except for a wind farm located in Bus 5. The wind farm consisting of 20 turbines also has stored kinetic energy depending on generator speed. Wind speed of 9m/s stores 293.7MWs kinetic energy in the wind farm. By considering this stored energy, dynamical properties of the system is updated in the Table \ref{systemdynamicaldatamod}. Nonetheless, the effective kinetic energy is unchanged in the system due to the fact that rotor frequency is decoupled from grid frequency in the existing wind turbine model.\par
+\subsection{10\% Renewable Case Frequency Response for Additional Load Connection}
+10\% Renewable Case is very similar to the Base Case except for a wind farm located in Bus 5. The wind farm consisting of 20 turbines also has stored kinetic energy depending on generator speed. Wind speed of 9m/s stores 293.7MWs kinetic energy in the wind farm. By considering this stored energy, dynamical properties of the system is updated in the Table \ref{systemdynamicaldatamod}. Nonetheless, the effective kinetic energy is unchanged in the system due to the fact that rotor frequency is decoupled from grid frequency in the existing wind turbine model.\par
 \begin{table}[h]
 	\centering
 	\begin{tabular}{ll}
@@ -148,7 +148,7 @@ The modified base is very similar to the Base Case except for a wind farm locate
 	\caption{System Dynamical Properties with Wind Farm}
 	\label{systemdynamicaldatamod}
 \end{table}
-The renewable energy system in this case can be considered as a negative load of 35.7MW. Therefore, base case with decreased load is under discussion in this subsection. 10\%(31.5MW) additional load is connected to Bus 6 and the frequency response of the modified system is shown in Fig. \ref{Case1_2_freq}. \par
+The renewable energy system in this case can be considered as a negative load of 35.7MW. Therefore, base case with decreased load is under discussion in this subsection. 10\%(31.5MW) additional load is connected to Bus 6 and the frequency response of the 10\% Renewable Case is shown in Fig. \ref{Case1_2_freq}. \par
 \begin{figure}[h!]
 	\centering
 		\begin{subfigure}{0.9\textwidth} % width of right  
@@ -163,7 +163,7 @@ The renewable energy system in this case can be considered as a negative load of
 	\caption{Comparison of RoCoFs}
 	\label{Case1_2_rocof}	
 	\end{subfigure}
-	\caption{Comparison of Base Case and Modified Case}
+	\caption{Comparison of Base Case and 10\% Renewable Case}
 \end{figure}
 Almost the same frequency response is observed in the system. The reason is that both systems have the same amount of stored kinetic energy. Another reason is that there is no congestion in the system due to under-utilized of transmission network. The same frequency response can also be observed in the rate of change of frequencies in Fig. \ref{Case1_2_rocof}. This concludes that renewable energy penetration does not change the frequency response of the system if the only change in the system is the inclusion of renewable energy system. In other words, renewable energy systems does not affect the frequency response of the grid unless the system is preferred over a conventional generation unit. \par
 Notice that the renewable energy systems are intermittent energy sources. Nonetheless, the wind speed is assumed as constant in this study. Assuming constant wind speed is not a disadvantage since the inertial support is based on the kinetic energy of the wind turbine. The variation of the wind speed during the support period affects only the speed recovery process. 
@@ -192,7 +192,7 @@ As seen in the \%10 Renewable Case, the frequency response of the system does no
 	\label{systemdynamicaldatacase3}
 \end{table}
 Since the generator-3 is out of service, the stored kinetic energy is decreased in the system. Dynamical properties of the reduced inertia case are updated and given in Table \ref{systemdynamicaldatacase3}. Higher RoCoF value and lower frequency nadir are expected with the same additional load since the system dynamical properties are deteriorated with the removal of generator-3.
-\subsection{Load Flow Analysis for Decommissioned Case}
+\subsection{Load Flow Analysis for Reduced Inertia Case}
 In this case, the same active power reference (163MW) is again assigned to generator-2. Besides, the wind farm generates active power, 35.7MW at unity power factor. Since the generator-3 is out of service, generator-1 loading is increased. Load flow analysis for reduced inertia case is given in Table \ref{loadflow_case3}.
 \begin{table}[h!]
 	\centering
@@ -214,7 +214,7 @@ In this case, the same active power reference (163MW) is again assigned to gener
 	\caption{Load Flow Results for Reduced Inertia Case}
 	\label{loadflow_case3}
 \end{table}
-\subsection{Decommissioned Case Frequency Response for Additional Load Connection}
+\subsection{Reduced Inertia Case Frequency Response for Additional Load Connection}
 Decommissioned system is also subjected to the same frequency disturbance which is the additional load connection from Bus 6. System frequency response is observed and compared to Base Case and Modified Case in Fig. \ref{Case1_2_3_freq}. The frequency response of the system gets worse with the generator 3 decommissioned. It results that the frequency nadir is decreased from 49.77Hz to 49.65Hz due to the decrease in the stored kinetic energy in the system. The deteriorated frequency response can also be seen from the comparison of RoCoFs that is given in Fig. \ref{Case1_2_3_rocof}. 
 \begin{figure}[h!]
 	\centering
@@ -231,46 +231,74 @@ Decommissioned system is also subjected to the same frequency disturbance which 
 	\end{subfigure}
 	\caption{Comparison of Base Case, \%10 Renewable Case (Modified Case) and Reduced Inertia Case (Decommissioned Case)}
 \end{figure}
-\section{Modified Case with Synthetic Inertia}
-The frequency response of the modified system is investigated in Section \ref{sec:kmodified} and the system frequency was almost the same with test system base case. However, the response of the system can be improved by provision of synthetic inertia. First of all, the wind speed is 9m/s for all turbines in the farm. Secondly, wind turbine is able to increase its active power by 1MW according to the Section \ref{sec:klimit}. The wind turbines are equipped with synthetic inertia that emulates inertia constants of 5s, 10s and 15s. The inertial support is provided simultaneously in each wind turbine following the frequency disturbance. The system response with inertial support provision is given in the Fig. \ref{Case4_freq}.\par
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=.9\linewidth]{case4_frequencies.png}
-	\caption{Emulation of the Different Inertia Constants for the Modified Case}
-	\label{Case4_freq}
-\end{figure}
-Since the modified case frequency response is almost the same with the base case, the synthetic inertia implementation is improved the system frequency response. In other words, the wind turbines are integrated to the system by emulating the synchronous generator behaviour. It should be noted that huge amount of kinetic energy exists in the wind turbine systems. That stored energy can be utilized with the synthetic inertia method in order to improve frequency dynamics of the system.\par
-Emulation of synchronous generator behaviour is basically increasing the amount of active power depending on the RoCoF of the grid and the inertia constant to be emulated. Since the higher inertia constant requires higher active power increase, the inertia constants of 10s and 15s result in better frequency dynamics. The frequency nadir of the base case is slightly increased. The effect of the synthetic inertia provision can also be observed in the system RoCoF values that is given in Fig. \ref{Case4_rocof}.\par
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=1\linewidth]{case4_rocof.png}
-	\caption{RoCoF of the Different Inertia Constants for the Modified Case}
-	\label{Case4_rocof}
-\end{figure}
-It is obvious that the base case experience the highest RoCoF in the very first second of the frequency disturbance. While the remaining cases is subjected to lower RoCoF at first, the base case RoCoF is the lowest following seconds. The reason is that the base case active power contribution in the first second is much higher than others. Hence, the case subjected to severe conditions react higher and faster resulting quick restoration of the system. Another observation is that all cases converges to the same steady state frequency due to the fact that inertial support affects the transient rather than the steady state values. The steady state frequency is dependent on the capacity of conventional synchronous generators and their droop constants. This is why the decommissioned case steady state frequency is lower than that of modified case.
-\section{Decommissioned Case with Synthetic Inertia}
-Decommissioned case frequency response for 10\% additional load connection is studied in the Section \ref{sec:kdecommissioned}. System frequency experiences high RoCoF and lower steady state frequency because of the removal of the generator 3. In this section, synthetic inertia method  is implemented on the decommissioned case wind farm with different inertia constants. The resultant frequency responses are shown in the Fig. \ref{Case5_freq}. As in the case of modified case, base case frequency response experiences steepest decline in the frequency meanwhile the higher inertia constant synthetic inertia implementations have smoother frequency decrease.\par
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.9\linewidth]{case5_frequency.png}
-	\caption{RoCoF of the Different Inertia Constants for the Decommissioned Case}
-	\label{Case5_freq}
-\end{figure}
-The active power of the wind turbine for the different inertia constants is given in Fig. \ref{Case5_power}. It should be noted that the active power of the wind turbine is proportional with the RoCoF that is also given in Fig. \ref{Case5_rocof}. Note that 15s inertia constant is also emulated. It is stated that conventional generator inertia constants lie between 2-9s \cite{Kundur}. Nonetheless, synchronous generators have constant kinetic energy in the nominal frequency. However, the kinetic energy stored in the turbine inertia fluctuates with the generator speed. Moreover, wind turbine is able to emulate different inertia constant as soon as it has the capacity to increase its power. Even with the inertia constant of 15s, the wind turbine is far away from its maximum allowable power. Therefore, higher inertia constants can also be tested in the expense of longer speed recovery process whose resultant decreased power might also affect the RoCoF further. 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.9\linewidth]{case5_powers.png}
-	\caption{Wind Turbine Active Power for the Different Inertia Constants in the Decommissioned Case}
-	\label{Case5_power}
-\end{figure}
+\section{\%10 Renewable Case with Synthetic Inertia}
+The frequency response of the \%10 renewable case is investigated in Section \ref{sec:kmodified} and the system frequency was almost the same with test system base case. However, the response of the system can be improved by provision of synthetic inertia. By utilizing the inertial support in the wind turbines, the effective kinetic inertia of the system can be increased. To achieve this purpose, the active powers of the wind turbines are increased according to the grid RoCoF. \par
+\begin{equation}
+\label{hmax}
+2H_{max}\overline{f}_{max}\frac{d\overline{f}_{max}}{dt}=\Delta\overline{P}_{e,max}
+\end{equation}
+\begin{equation}
+\label{hmax1}
+2H_{max}\frac{0.25}{50}=\frac{1}{3.04}
+\end{equation}
+\begin{equation}
+\label{hmax2}
+H_{max}=32.9s
+\end{equation}
+Chapter \ref{chp:4} estimates the turbine capability for inertial support depending on the wind speed in the site. Since the wind speed is selected as 9m/s for all turbines in the farm, each wind turbine is able to increase its active power by 1MW according to the Section \ref{sec:klimit}. According to the maximum increase 1MW in the active power and the worst case RoCoF 0.25H/s, maximum inertia constant which can be emulated in the wind speed 9m/s is calculated in Eq. (\ref{hmax2}). However, the increase in the high speed limits the maximum inertia constant to 10s. Hence, the wind turbines are equipped with synthetic inertia that emulates inertia constants of 5s, 10s and 15s. The active power generation of the wind turbines are shown in Fig. \ref{Case4_power}. The inertial support is provided simultaneously in each wind turbine following the frequency disturbance. The increase in the active power is much lower than 1MW which implies that the turbine is under utilized. The system response with inertial support provision is given in the Fig. \ref{Case4_freq}.\par
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.9\linewidth]{case5_rocof.png}
-	\caption{Wind Turbine Active Power for the Different Inertia Constants in the Decommissioned Case}
-	\label{Case5_rocof}
+	\begin{subfigure}{0.9\textwidth} % width of right subfigure
+		\centering	\includegraphics[width=0.9\linewidth]{case4_frequencies.png}
+		\caption{Comparison of Frequencies}		
+		\label{Case4_freq}
+	\end{subfigure}
+\vspace{0.1em} % here you can insert horizontal or vertical space
+\begin{subfigure}{0.9\textwidth}
+	\centering	
+	\includegraphics[width=0.9\linewidth]{case4_powers.png}
+	\caption{Active Power Generations of the Wind Farms (wind speed=9m/s and n=1490rpm)}
+	\label{Case4_power}	
+\end{subfigure}
+	\vspace{0.1em} % here you can insert horizontal or vertical space
+	\begin{subfigure}{0.9\textwidth}
+		\centering	\includegraphics[width=0.9\linewidth]{case4_rocof.png}
+		\caption{Comparison of RoCoFs}
+		\label{Case4_rocof}	
+	\end{subfigure}
+
+	\caption{Emulation of the Different Inertia Constants in the \%10 Renewable Case}
+\end{figure}
+Since the modified case frequency response is almost the same with the base case, the synthetic inertia implementation is improved the system frequency response. In other words, the wind turbines are integrated to the system by emulating the synchronous generator behaviour. It should be noted that huge amount of kinetic energy exists in the wind turbine systems. That stored energy can be utilized with the synthetic inertia method in order to improve frequency dynamics of the system.\par
+Emulation of synchronous generator behaviour is basically increasing the amount of active power depending on the RoCoF of the grid and the inertia constant to be emulated. Since the higher inertia constant requires higher active power increase, the inertia constants of 10s and 15s result in better frequency dynamics. The frequency nadir of the base case is slightly increased. \par
+The effect of the synthetic inertia provision can also be observed in the system RoCoF values. Fig. \ref{Case4_rocof} shows that the base case experiences RoCoF up to 0.23Hz/s during the first second of the frequency disturbance. While the remaining cases is subjected to lower RoCoF at first (0.18-0.21Hz/s), the base case RoCoF is the lowest following seconds. Another observation is that all cases converges to the same steady state frequency due to the fact that inertial support affects the transient rather than the steady state values. The steady state frequency is dependent on the capacity of conventional synchronous generators and their droop constants. This is why the decommissioned case steady state frequency is lower than that of modified case. Finally, the minimum frequency value in the transition i.e. frequency nadir of the system is improved by 10mHz with the H=15s. Due to the fact that the frequency nadir of the system is very closed to the steady state frequency (the frequency where the decline in the frequency is arrested and stabilized), the improvement in the frequency nadir is small. The system frequency nadir would be improved significantly if the frequency nadir is much below the steady state frequency.
+\section{Reduced Inertia Case with Synthetic Inertia}
+Reduced Inertia case frequency response for 10\% additional load connection is studied in the Section \ref{sec:kdecommissioned}. The System frequency experiences high RoCoF up to 0.25Hz/s and frequency nadir, 49.65Hz because of the removal of the generator-3. In this section, synthetic inertia method is again implemented in the wind farm with different inertia constants 5s, 10s and 15s. The resultant frequency responses are shown in the Fig. \ref{Case5_freq}. As in the case of modified case, base case frequency response experiences steepest decline up to 0.25Hz/s meanwhile the maximum value of RoCoF decreases down to 0.19Hz/s. \par
+The active power generations of the wind farm for the different inertia constants are given in Fig. \ref{Case5_power}. It should be noted that the active power of the wind turbine is proportional with the RoCoF that is also given in Fig. \ref{Case5_rocof}. Notice that inertia constant H=15s is also emulated. It is stated that conventional generator inertia constants lie between 2-9s \cite{Kundur}. Nonetheless, synchronous generators have constant kinetic energy in the nominal frequency. However, the kinetic energy stored in the turbine inertia fluctuates with the generator speed. Moreover, wind turbine is able to emulate different inertia constant as soon as it has the capacity to increase its power. Even with the inertia constant of 15s, the wind turbine is far away from its maximum allowable power for the wind speed 9m/s. However, the turbine inertia constant is limited with H=10s for the high wind speed operation. In this way, it is ensured that wind turbine is able to emulate the inertia constant H=10s independent of the wind speed. However, the turbine is under utilized for the low and medium wind speed ranges.
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}{0.9\textwidth} % width of right subfigure
+		\centering	\includegraphics[width=0.9\linewidth]{case5_frequency.png}
+		\caption{Comparison of Frequencies}		
+		\label{Case5_freq}
+	\end{subfigure}
+	\vspace{0.1em} % here you can insert horizontal or vertical space
+	\begin{subfigure}{0.9\textwidth}
+		\centering	\includegraphics[width=0.9\linewidth]{case5_powers2.png}
+		\caption{Active Power Generations of the Wind Farms (wind speed=9m/s and n=1490rpm)}
+		\label{Case5_power}	
+	\end{subfigure}
+	\vspace{0.1em} % here you can insert horizontal or vertical space
+	\begin{subfigure}{0.9\textwidth}
+		\centering	
+		\includegraphics[width=0.9\linewidth]{case5_rocof.png}
+		\caption{Comparison of RoCoFs}
+		\label{Case5_rocof}	
+	\end{subfigure}
+	\caption{Emulation of the Different Inertia Constants in the Reduced Inertia Case}
 \end{figure}
 \section{Comparison of the Synthetic Inertia and Fast Inertial Support}
-In the Chapter \ref{chp:4}, it is stated that the wind turbines have more than sufficient capacity in order to increase its active power. The fast inertial support concept is studied with different increase rates. The exaggerated inertial supports are studied to observe the turbine internal dynamics. In this section, the fast inertial support will be compared with the synthetic inertia. In other words, increasing active power by a defined percentage will be compared to a rise in the active power proportional to RoCoF. For this reason, the same frequency disturbance is tested on the base case decommissioned case, the case where inertia constant of 10s is emulated and also the one with fast inertial support with 5\% increased power by 5 seconds. Fig. \ref{Comp_power} shows the variation of the active power. In order to increase the effectiveness of the fast inertial support, it is activated with a delay of 0.25s. In this interval, the synchronous generators take action for the upcoming disturbance. It should be underlined that the active power of the inertia emulated case is increased proportional to the RoCoF. Therefore, it declines as the RoCoF declines. Therefore, in the other half of the support time, it is below of the fast inertial support case. This phenomena can be clearly observed in the frequency response. It should be underlined that the swing equation is also used in fast inertial support recovery process in order to smooth recovery. This is why the active power of the both methods are the same in the recovery.\par
+In the Chapter \ref{chp:4}, it is shown that the wind turbines have sufficient capacity in order to increase its active power. For medium and high wind speed cases, increase up to 49\% can be achieved. This capacity in the wind turbine is utilized in Chapter \ref{chp:4} for the fast inertial support which is the fast release of active power from energy generating unit. The exaggerated inertial supports are studied to observe the turbine internal dynamics. Besides, the fast inertial support is studied for 10\% increase in the active power in different support durations. In this section, the fast inertial support will be compared with the inertial support that is proportional to grid RoCoF. In other words, increasing active power by a defined percentage will be compared to a rise in the active power proportional to RoCoF. For this reason, the same frequency disturbance is tested on the base case decommissioned case, the case where inertia constant of 10s is emulated and also the one with fast inertial support with 5\% increased power by 5 seconds. Fig. \ref{Comp_power} shows the variation of the active power. In order to increase the effectiveness of the fast inertial support, it is activated with a delay of 0.25s. In this interval, the synchronous generators take action for the upcoming disturbance. It should be underlined that the active power of the inertia emulated case is increased proportional to the RoCoF. Therefore, it declines as the RoCoF declines. Therefore, in the other half of the support time, it is below of the fast inertial support case. This phenomena can be clearly observed in the frequency response. It should be underlined that the swing equation is also used in fast inertial support recovery process in order to smooth recovery. This is why the active power of the both methods are the same in the recovery.\par
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{comparison_power.png}

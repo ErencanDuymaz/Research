@@ -60,17 +60,17 @@
 \BOOKMARK [2][-]{subsection.5.1.2}{Base Case Frequency Response for Additional Load Connection}{section.5.1}% 60
 \BOOKMARK [1][-]{section.5.2}{10\045 Renewable Case}{chapter.5}% 61
 \BOOKMARK [2][-]{subsection.5.2.1}{Load Flow Analysis for 10\045 Renewable Case}{section.5.2}% 62
-\BOOKMARK [2][-]{subsection.5.2.2}{Modified Case Frequency Response for Additional Load Connection}{section.5.2}% 63
+\BOOKMARK [2][-]{subsection.5.2.2}{10\045 Renewable Case Frequency Response for Additional Load Connection}{section.5.2}% 63
 \BOOKMARK [1][-]{section.5.3}{Reduced Inertia Case}{chapter.5}% 64
-\BOOKMARK [2][-]{subsection.5.3.1}{Load Flow Analysis for Decommissioned Case}{section.5.3}% 65
-\BOOKMARK [2][-]{subsection.5.3.2}{Decommissioned Case Frequency Response for Additional Load Connection}{section.5.3}% 66
-\BOOKMARK [1][-]{section.5.4}{Modified Case with Synthetic Inertia}{chapter.5}% 67
-\BOOKMARK [1][-]{section.5.5}{Decommissioned Case with Synthetic Inertia}{chapter.5}% 68
+\BOOKMARK [2][-]{subsection.5.3.1}{Load Flow Analysis for Reduced Inertia Case}{section.5.3}% 65
+\BOOKMARK [2][-]{subsection.5.3.2}{Reduced Inertia Case Frequency Response for Additional Load Connection}{section.5.3}% 66
+\BOOKMARK [1][-]{section.5.4}{\04510 Renewable Case with Synthetic Inertia}{chapter.5}% 67
+\BOOKMARK [1][-]{section.5.5}{Reduced Inertia Case with Synthetic Inertia}{chapter.5}% 68
 \BOOKMARK [1][-]{section.5.6}{Comparison of the Synthetic Inertia and Fast Inertial Support}{chapter.5}% 69
 \BOOKMARK [0][-]{chapter.6}{EVALUATION OF FAST INERTIAL RESPONSE AND SYNTHETIC INERTIA IMPLEMENTATION}{}% 70
 \BOOKMARK [1][-]{section.6.1}{Fast Inertial Support}{chapter.6}% 71
 \BOOKMARK [1][-]{section.6.2}{Synthetic Inertia Implementation}{chapter.6}% 72
 \BOOKMARK [1][-]{section.6.3}{Economical Motivations for Energy Providers}{chapter.6}% 73
 \BOOKMARK [1][-]{section.6.4}{Future Work}{chapter.6}% 74
-\BOOKMARK [0][-]{chapter*.75}{REFERENCES}{}% 75
+\BOOKMARK [0][-]{chapter*.72}{REFERENCES}{}% 75
 \BOOKMARK [0][-]{Appendix.a.A}{P.M. Anderson Test Case Properties}{}% 76
