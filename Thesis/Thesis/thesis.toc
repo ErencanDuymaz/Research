@@ -83,5 +83,5 @@
 \contentsline {section}{\numberline {6.2}Synthetic Inertia Implementation}{85}{section.6.2}
 \contentsline {section}{\numberline {6.3}Economical Motivations for Energy Providers}{87}{section.6.3}
 \contentsline {section}{\numberline {6.4}Future Work}{90}{section.6.4}
-\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{91}{chapter*.75}
-\contentsline {chapter}{\numberline {A}\MakeUppercase {P.M. Anderson Test Case Properties}}{97}{Appendix.a.A}
+\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{93}{chapter*.76}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {P.M. Anderson Test Case Properties}}{99}{Appendix.a.A}
