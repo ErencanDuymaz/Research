@@ -272,9 +272,17 @@ F.~Wu, P.~Zheng, Y.~Sui, B.~Yu, and P.~Wang, ``{Design and experimental
 F.~M. Gonzalez-Longatt, ``{Activation Schemes of Synthetic Inertia Controller
   for Full Converter Wind Turbine Generators},''
 
+\bibitem{NationalGridElectricityTransmission2016}
+{National Grid Electricity Transmission}, ``{Firm Frequency Response Tender
+  Rules and Standard Contract Terms},'' 2016.
+
 \bibitem{Smethurst2017}
 K.~Smethurst and V.~Walsh, ``{Testing Guidance For Providers Of Firm Frequency
   Response Balancing Service},'' {\em National Grid}, no.~November, p.~3, 2017.
+
+\bibitem{FederalEnergyRegulatoryCommission2011}
+{Federal Energy Regulatory Commission}, ``{18 CFR Part 35-Frequency Regulation
+  Compensation in the Organized Wholesale Power Markets},'' 2011.
 
 \bibitem{NECEnergySolutions2014}
 {NEC Energy Solutions}, ``{Application: Frequency Regulation (US)},'' tech.
