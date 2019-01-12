@@ -54,17 +54,17 @@
 \BOOKMARK [3][-]{subsubsection.4.4.3.1}{Fast Inertial Support Limit for the Medium Wind Scenario}{subsection.4.4.3}% 54
 \BOOKMARK [3][-]{subsubsection.4.4.3.2}{Moderate Fast Inertial Support for the Medium Wind Scenario}{subsection.4.4.3}% 55
 \BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 56
-\BOOKMARK [0][-]{chapter.5}{EFFECTS OF SYNTHETIC INERTIA IN A 9-BUS TEST SYSTEM}{}% 57
+\BOOKMARK [0][-]{chapter.5}{IMPLEMENTATION OF SYNTHETIC INERTIA IN A 9-BUS TEST SYSTEM}{}% 57
 \BOOKMARK [1][-]{section.5.1}{P.M.Anderson 9 Bus Test Case}{chapter.5}% 58
 \BOOKMARK [2][-]{subsection.5.1.1}{Load Flow Analysis for Base Case}{section.5.1}% 59
 \BOOKMARK [2][-]{subsection.5.1.2}{Base Case Frequency Response for Additional Load Connection}{section.5.1}% 60
-\BOOKMARK [1][-]{section.5.2}{10\045 Renewable Case}{chapter.5}% 61
-\BOOKMARK [2][-]{subsection.5.2.1}{Load Flow Analysis for 10\045 Renewable Case}{section.5.2}% 62
+\BOOKMARK [1][-]{section.5.2}{10\045 Renewable Generation Case}{chapter.5}% 61
+\BOOKMARK [2][-]{subsection.5.2.1}{Load Flow Analysis for 10\045 Renewable Generation Case}{section.5.2}% 62
 \BOOKMARK [2][-]{subsection.5.2.2}{10\045 Renewable Case Frequency Response for Additional Load Connection}{section.5.2}% 63
 \BOOKMARK [1][-]{section.5.3}{Reduced Inertia Case}{chapter.5}% 64
 \BOOKMARK [2][-]{subsection.5.3.1}{Load Flow Analysis for Reduced Inertia Case}{section.5.3}% 65
 \BOOKMARK [2][-]{subsection.5.3.2}{Reduced Inertia Case Frequency Response for Additional Load Connection}{section.5.3}% 66
-\BOOKMARK [1][-]{section.5.4}{\04510 Renewable Case with Synthetic Inertia}{chapter.5}% 67
+\BOOKMARK [1][-]{section.5.4}{\04510 Renewable Generation Case with Synthetic Inertia}{chapter.5}% 67
 \BOOKMARK [1][-]{section.5.5}{Reduced Inertia Case with Synthetic Inertia}{chapter.5}% 68
 \BOOKMARK [1][-]{section.5.6}{Comparison of the Synthetic Inertia and Fast Inertial Support}{chapter.5}% 69
 \BOOKMARK [1][-]{section.5.7}{Conclusion}{chapter.5}% 70
@@ -73,5 +73,5 @@
 \BOOKMARK [1][-]{section.6.2}{Synthetic Inertia Implementation}{chapter.6}% 73
 \BOOKMARK [1][-]{section.6.3}{Economical Motivations for Energy Providers}{chapter.6}% 74
 \BOOKMARK [1][-]{section.6.4}{Future Work}{chapter.6}% 75
-\BOOKMARK [0][-]{chapter*.76}{REFERENCES}{}% 76
+\BOOKMARK [0][-]{chapter*.77}{REFERENCES}{}% 76
 \BOOKMARK [0][-]{Appendix.a.A}{P.M. Anderson Test Case Properties}{}% 77
