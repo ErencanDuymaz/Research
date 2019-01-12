@@ -17,7 +17,7 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Frequency behaviour in electric grid with the water level in a container analogy \cite {Eto2010}\relax }}{14}{figure.caption.14}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Wind Turbine Topologies with Full-Scale Power Electronics\relax }}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Wind Turbine Topologies with Full-Scale Power Electronics\relax }}{21}{figure.caption.17}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Power Coefficient Variation with Tip Speed Ratio under Zero Pitch Angle\relax }}{22}{figure.caption.18}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Power Coefficient Variation for Two Different Pitch Angle\relax }}{24}{figure.caption.19}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Pitch Angle Control Diagram\relax }}{24}{figure.caption.20}
@@ -26,7 +26,7 @@
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Machine Side Controller Diagram\relax }}{28}{figure.caption.23}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Grid Side Controller Diagram\relax }}{29}{figure.caption.24}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Variation of the Active Power of the Wind Turbine\relax }}{30}{figure.caption.25}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Modified MSC for Inertial Support\relax }}{31}{figure.caption.26}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Modified MSC for Inertial Support\relax }}{32}{figure.caption.26}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Active Power Flow Diagram\relax }}{35}{figure.caption.27}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Accessible Active Power Output for Varying Wind Speeds\relax }}{37}{figure.caption.28}
@@ -61,11 +61,11 @@
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Reduced Inertia Case Single Line Diagram\relax }}{69}{figure.caption.63}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Comparison of Base Case, \%10 Renewable Case (Modified Case) and Reduced Inertia Case (Decommissioned Case)\relax }}{71}{figure.caption.66}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Emulation of the Different Inertia Constants in the \%10 Renewable Generation Case\relax }}{73}{figure.caption.67}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Emulation of the Different Inertia Constants in the Reduced Inertia Case\relax }}{75}{figure.caption.68}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Comparison of the Frequency Responses for the Base, Fast Inertial Support and Synthetic Inertia Cases\relax }}{77}{figure.caption.70}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Comparison of the Active Power Increase in Fast Inertial Support Case and Synthetic Inertia Case\relax }}{78}{figure.caption.71}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Variation of the Energy Production between 01 Jan. 2018 and 31 Dec. 2018 (hourly basis)\relax }}{80}{figure.caption.72}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Emulation of the Different Inertia Constants in the Reduced Inertia Case\relax }}{76}{figure.caption.68}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Comparison of Fast Inertial Support and Synthetic Inertia\relax }}{77}{figure.caption.70}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Comparison of the Frequency Responses for the Base, Fast Inertial Support and Synthetic Inertia Cases\relax }}{79}{figure.caption.71}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Variation of the Total and Solar+Wind Energy Production between 01 Jan. 2018 and 31 Dec. 2018 (hourly basis)\cite {TEIAS2019}\relax }}{80}{figure.caption.72}
 \contentsline {figure}{\numberline {5.14}{\ignorespaces Variation of the Aggregated Inertia Constant between 01 Jan 2018 and 31 Dec. 2018 (hourly basis)\relax }}{81}{figure.caption.73}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Variation of the Stored Kinetic Energy between 01 Jan. 2018 and 31 Dec. 2018 (hourly basis)\relax }}{90}{figure.caption.76}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Variation of the Stored Kinetic Energy between 01 Jan. 2018 and 31 Dec. 2018 (hourly basis)\relax }}{92}{figure.caption.76}
 \addvspace {10pt}
