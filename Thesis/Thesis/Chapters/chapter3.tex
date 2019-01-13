@@ -28,7 +28,7 @@ Fig. \ref{varspeedpmsg_1}, \ref{varspeedpmsg_2} and \ref{varspeedpmsg_3} show th
 \end{figure}
 \subsection{Aerodynamic Model}
 Aerodynamic model is the sub-model that captures power from the wind. The output of this block is the aerodynamic torque that rotates the turbine. However, the wind speed is not the only input. Turbine speed and pitch angle are also the inputs of the system since they affect the mechanical power that is captured from the wind.\par
-The aerodynamic power of wind is given in Eq. (\ref{windpower}) where $\rho_{air}$ is air density in $kg/cm^{3}$, $R$ is the blade radius in $m$ abd $v_{wind}$ is the wind speed in $m/s$. Note that this is the available power of the air that is striking the turbine swept area and it is not possible to extract that amount of energy. Otherwise, the air would be standstill behind the wind turbine \cite{Ackermann2005a}.
+The aerodynamic power of wind is given in Eq. (\ref{windpower}) where $\rho_{air}$ is air density in $kg/m^{3}$, $R$ is the blade radius in $m$ abd $v_{wind}$ is the wind speed in $m/s$. Note that this is the available power of the air that is striking the turbine swept area and it is not possible to extract that amount of energy. Otherwise, the air would be standstill behind the wind turbine \cite{Ackermann2005a}.
 \begin{equation}
 P_{wind}=0.5\rho_{air}\pi R^{2} v_{wind}^{3}
 \label{windpower}
@@ -110,13 +110,13 @@ P_{elm}=\frac{3}{2}\omega i_{aq} (\psi_{f}+i_{ad}(L_{sq}-L_{sd}))
 \label{pmsgpower}
 \end{equation}
 \begin{equation}
-T_{e}=\frac{P_{elm}}{w_{m}}=\frac{P_{elm}}{w/p}=\frac{3}{2}p i_{aq} (\psi_{f}+i_{ad}(L_{sq}-L_{sd}))
+T_{e}=\frac{P_{elm}}{w_{m}}=\frac{P_{elm}}{w/p_{p}}=\frac{3}{2}p_{p} i_{aq} (\psi_{f}+i_{ad}(L_{sq}-L_{sd}))
 \label{pmsgtorque}
 \end{equation}
 
 Given equations are defined for salient pole machines. If the clyndrical rotor machine is used, the torque equation reduces to the Equation \ref{pmsgtorque2}.
 \begin{equation}
-T_{e}=\frac{3}{2}p i_{aq} \psi_{f}
+T_{e}=\frac{3}{2}p_{p} i_{aq} \psi_{f}
 \label{pmsgtorque2}
 \end{equation}
 \subsection{Machine Side Converter}
@@ -193,7 +193,7 @@ T_{new} \omega_{m}=(1+\Delta P) T_{pre} \omega_{pre}
 \label{inertialsupport2}
 \end{equation}
 \begin{equation}
-\frac{3}{2} p \psi_{f} i_{q,new} \omega_{m}=(1+\Delta P) \frac{3}{2} p \psi_{f} i_{q,pre} \omega_{pre}
+\frac{3}{2} p_{p} \psi_{f} i_{q,new} \omega_{m}=(1+\Delta P) \frac{3}{2} p_{p} \psi_{f} i_{q,pre} \omega_{pre}
 \label{inertialsupport3}
 \end{equation}
 \begin{equation}
