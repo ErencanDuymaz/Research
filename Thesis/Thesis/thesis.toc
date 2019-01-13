@@ -85,4 +85,4 @@
 \contentsline {section}{\numberline {6.3}Economical Motivations for Energy Providers}{97}{section.6.3}
 \contentsline {section}{\numberline {6.4}Future Work}{100}{section.6.4}
 \contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{103}{chapter*.85}
-\contentsline {chapter}{\numberline {A}\MakeUppercase {P.M. Anderson Test Case Properties}}{109}{Appendix.a.A}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {P.M. Anderson Test Case Properties}}{111}{Appendix.a.A}
