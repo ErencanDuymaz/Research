@@ -48,7 +48,7 @@
 \contentsline {section}{\numberline {3.2}Synthetic Inertia Implementation}{36}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Synthetic Inertia Activation Schemes}{38}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Source of the Inertial Support}{39}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Conclusion}{41}{section.3.3}
+\contentsline {section}{\numberline {3.3}Conclusion}{42}{section.3.3}
 \contentsline {chapter}{\numberline {4}\MakeUppercase {INVESTIGATION OF INERTIAL SUPPORT PRACTICAL LIMITS}}{43}{chapter.4}
 \contentsline {section}{\numberline {4.1}Inertial Support Limits}{43}{section.4.1}
 \contentsline {section}{\numberline {4.2}Wind Turbine Properties}{46}{section.4.2}
@@ -84,5 +84,5 @@
 \contentsline {section}{\numberline {6.2}Synthetic Inertia Implementation}{95}{section.6.2}
 \contentsline {section}{\numberline {6.3}Economical Motivations for Energy Providers}{97}{section.6.3}
 \contentsline {section}{\numberline {6.4}Future Work}{100}{section.6.4}
-\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{103}{chapter*.84}
+\contentsline {leads}{\numberline {}\uppercase {REFERENCES}}{103}{chapter*.85}
 \contentsline {chapter}{\numberline {A}\MakeUppercase {P.M. Anderson Test Case Properties}}{109}{Appendix.a.A}
