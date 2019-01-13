@@ -21,12 +21,11 @@ E.~Muljadi, V.~Gevorgian, and M.~Singh, ``{Understanding Inertial and Frequency
   and Machines in Wind Applications (PEMWA)}, no.~July, pp.~1--8, 2012.
 
 \bibitem{Eto2010}
-J.~H. Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
-  J.~Ellis, H.~Illian, C.~Martinez, M.~O'Malley, K.~Coughlin, and K.~H.
-  LaCommare, ``{Use of Frequency Response Metrics to Assess the Planning and
-  Operating Requirements for Reliable Integration of Variable Renewable
-  Generation},'' Tech. Rep. December 2010, Lawrence Berkeley National
-  Laboratory (LBNL), Berkeley, CA (United States), dec 2010.
+J.~Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
+  J.~Ellis, H.~Illian, C.~Martinez, M.~O´Malley, K.~Coughlin, and
+  K.~Hamachi-LaCommare, ``{Use of Frequency Response Metrics to Assess the
+  Planning and Operating Requirements for Reliable Integration of Variable
+  Renewable Generation},'' no.~December 2010, pp.~LBNL--4142E, 2010.
 
 \bibitem{teiasfreq}
 TEİAŞ, ``{Y{\"{u}}k Tevzi Raporları},'' 2019.
@@ -41,12 +40,12 @@ I.~Erinmez, D.~Bickers, G.~Wood, and W.~Hung, ``{NGC experience with frequency
   generators},'' {\em IEEE Power Engineering Society. 1999 Winter Meeting (Cat.
   No.99CH36233)}, vol.~1, pp.~590--596 vol.1, 1999.
 
+\bibitem{TEIAS2019}
+TEIAS, ``{TEIAS Transparency Platfrom},'' 2019.
+
 \bibitem{P.M.1995}
 P.~M. Anderson and A.~A. Fouad, {\em {Power System Control and Stability}}.
 \newblock 2~ed., 2003.
-
-\bibitem{TEIAS2019}
-TEIAS, ``{TEIAS Transparency Platfrom},'' 2019.
 
 \bibitem{EuropeanCommission2008}
 {European Commission}, ``{Communication from the Commission to the European
@@ -178,9 +177,9 @@ J.~Machowski, J.~W. Bialek, and J.~R. Bumby, {\em {Power system dynamics:
 \newblock 2011.
 
 \bibitem{Chen2009b}
-Z.~Chen, J.~M. Guerrero, F.~Blaabjerg, and S.~Member, ``{A Review of the State
-  of the Art of Power Electronics for Wind Turbines},'' {\em IEEE Transactions
-  on Power Electronics}, vol.~24, no.~8, pp.~1859--1875, 2009.
+T.~P. Chen, ``{Dual-modulator compensation technique for parallel inverters
+  using space-vector modulation},'' {\em IEEE Transactions on Industrial
+  Electronics}, vol.~56, no.~8, pp.~3004--3012, 2009.
 
 \bibitem{Ackermann2005a}
 T.~Ackermann, {\em {Wind Power in Power Systems Wind Power in Power Systems
@@ -233,6 +232,10 @@ H.~Polinder, J.~A. Ferreira, B.~B. Jensen, A.~B. Abrahamsen, K.~Atallah, and
   Journal of Emerging and Selected Topics in Power Electronics}, vol.~1, no.~3,
   pp.~174--185, 2013.
 
+\bibitem{UKONSAARI2016}
+J.~Ukonsaari and N.~Bennstedt, ``{Wind Turbine Gearboxes: Maintenance Effect on
+  Present and Future Gearboxes for Wind Turbines},'' tech. rep., 2016.
+
 \bibitem{Kazmierkowski2002}
 M.~P. Kazmierkowski, R.~Krishnan, and F.~Blaabjerg, {\em {Control in Power
   Electronics—Selected Problems}}.
@@ -271,10 +274,9 @@ F.~M. Gonzalez-longatt, ``{Activation Schemes of Synthetic Inertia Controller
   on Full Converter Wind Turbine ( Type 4 )},'' no.~Type 4, 2015.
 
 \bibitem{Wu2014}
-L.~Wu and D.~Infield, ``{Power system frequency management challenges – a new
-  approach to assessing the potential of wind capacity to aid system frequency
-  stability},'' {\em IET Renewable Power Generation}, vol.~8, no.~7,
-  pp.~733--739, 2014.
+F.~Wu, P.~Zheng, Y.~Sui, B.~Yu, and P.~Wang, ``{Design and experimental
+  verification of a short-circuit proof six-phase permanent magnet machine for
+  safety critical applications},'' {\em IEEE Transactions on Magnetics}, 2014.
 
 \bibitem{July2018}
 {Turkish Wind Energy Association}, ``{Turkish Wind Energy Statistic Report},''

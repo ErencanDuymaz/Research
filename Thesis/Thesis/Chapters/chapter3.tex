@@ -86,7 +86,7 @@ The responsibility of the pitch angle controller is the regulation of the blade 
 \end{figure}
 \subsection{Gearbox}  
 Variable speed PMSG wind turbines have a gearbox between turbine and generator except for direct-drive wind turbines. The gearbox increases angular speed and decreases the torque in the generator side. By decreasing the rated torque, generator size and cost can be reduced since the generator size is almost proportional to rated torque due to constant shear stress \cite{Polinder2013aa}. Moreover, turbine speed is increased to the allowable speed range of the generator which is generally much higher than that of wind turbines. Otherwise, generator should have high pole numbers. \par
-A gearbox model is depicted in Fig. \ref{gearboxmodel}. They are mainly used for speed and torque conversion. It should be noted that the gearboxes are lossy systems. Therefore, the output torque of the gearbox would be lower than the ratio of input torque to gearbox conversion ratio. Direct-drive systems are based on the elimination of the gearbox systems by direct connection between turbine and generator in order to increase efficiency and reliability \cite{Chen2009b}. In this study, gearbox system is modelled with 100\% efficiency. 
+A gearbox model is depicted in Fig. \ref{gearboxmodel}. They are mainly used for speed and torque conversion. It should be noted that the gearboxes are lossy systems. Therefore, the output torque of the gearbox would be lower than the ratio of input torque to gearbox conversion ratio. Direct-drive systems are based on the elimination of the gearbox systems by direct connection between turbine and generator in order to increase efficiency and reliability \cite{Chen2009b}. In this study, 3 stage (1 planetary / 1 helical) gearbox is modelled with \%97 efficiency \cite{UKONSAARI2016}. 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.5\linewidth]{gearbox.pdf}
@@ -233,7 +233,20 @@ E_{kinetic,min}=\frac{1}{2} (1058.2) 57.6^{2}=1755.17kJ
 E_{kinetic,max}=\frac{1}{2} (1058.2) 181.7^{2}=17466.02kJ
 \label{kineticenergymax}
 \end{equation}
-It is obvious that the stored kinetic energy in the wind turbine is 90 times of the energy stored in DC bus capacitor even in the minimum generator speed. Therefore, utilization of the kinetic energy for inertial support studies is more efficient than using the stored energy in the capacitor. Moreover, the turbine has more than 17MJ stored kinetic energy that can be absorbed for the inertial support in the maximum generator speed case.
+It is obvious that the stored kinetic energy in the wind turbine is 90 times of the energy stored in DC bus capacitor even in the minimum generator speed. Therefore, utilization of the kinetic energy for inertial support studies is more efficient than using the stored energy in the capacitor. \par
+\begin{table}[h]
+	\centering
+	\begin{tabular}{ccc}
+		\hline
+		Parameters                                                           & Minimum & Maximum \\ \hline
+		\begin{tabular}[c]{@{}c@{}}Generator Speed\\ (rad/s)\end{tabular}    & 57.6    & 181.7   \\
+		\begin{tabular}[c]{@{}c@{}}Stored Kinetic Energy\\ (kJ)\end{tabular} & 1755    & 17466   \\
+		\begin{tabular}[c]{@{}c@{}}Inertia Constant\\ (s)\end{tabular}       & 0.58    & 5.75    \\ \hline
+	\end{tabular}
+	\caption{Dynamic Parameters of the Wind Turbine}
+	\label{windpar}
+\end{table}
+Dynamical parameters of the wind turbine are listed in the Table \ref{windpar}. The stored energy in the turbine equivalent inertia varies with the square of the generator speed. Therefore, the minimum stored energy is one tenth of the maximum case. As a result of this, the inertia constant of the wind turbine is dependent on the wind speed and varies between 0.58s and 5.75s. Notice that the inertia constants to be emulated by wind turbine in this thesis are not restricted to these inertia constant. Wind turbines can emulate higher inertia constants as long as they can increase the output power to desired levels.
 \section{Conclusion}
 In this chapter, the detailed modelling for PMSG wind turbine is presented. The MSC which is responsible for adjusting the turbine speed for MPPT operation is modified such that the wind turbine provides inertial support. The additional active power is obtained with the kinetic energy extraction from the turbine inertia. \par
 The requirement of the inertial support provision is the back-to-back converter that enables the active power and speed control. Therefore, the method described in this chapter is not specific to PMSG wind turbines but the ones with full-scale power electronics. 
