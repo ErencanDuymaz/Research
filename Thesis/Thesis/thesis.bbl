@@ -20,6 +20,21 @@ E.~Muljadi, V.~Gevorgian, and M.~Singh, ``{Understanding Inertial and Frequency
   Response of Wind Power Plants Preprint},'' {\em 2012 IEEE Power Electronics
   and Machines in Wind Applications (PEMWA)}, no.~July, pp.~1--8, 2012.
 
+\bibitem{Morren2006a}
+J.~Morren, J.~Pierik, and S.~W. de~Haan, ``{Inertial response of variable speed
+  wind turbines},'' {\em Electric Power Systems Research}, vol.~76, no.~11,
+  pp.~980--987, 2006.
+
+\bibitem{Gonzalez-Longatt2013}
+F.~Gonzalez-Longatt, E.~Chikuni, and E.~Rashayi, ``{Effects of the Synthetic
+  Inertia from wind power on the total system inertia after a frequency
+  disturbance},'' {\em Proceedings of the IEEE International Conference on
+  Industrial Technology}, pp.~826--832, 2013.
+
+\bibitem{Clark2009}
+K.~Clark, N.~W. Miller, and J.~J. Sanchez-gasca, ``{Modeling of GE Wind
+  Turbine-Generators for Grid Studies Prepared by :},'' tech. rep., 2010.
+
 \bibitem{Eto2010}
 J.~Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
   J.~Ellis, H.~Illian, C.~Martinez, M.~O´Malley, K.~Coughlin, and
@@ -115,23 +130,10 @@ J.~Morren, S.~de~Haan, W.~Kling, and J.~Ferreira, ``{Wind Turbines Emulating
   Inertia and Supporting Primary Frequency Control},'' {\em IEEE Transactions
   on Power Systems}, vol.~21, no.~1, pp.~433--434, 2006.
 
-\bibitem{Morren2006a}
-J.~Morren, J.~Pierik, and S.~W. de~Haan, ``{Inertial response of variable speed
-  wind turbines},'' {\em Electric Power Systems Research}, vol.~76, no.~11,
-  pp.~980--987, 2006.
-
-\bibitem{Wang2016b}
-X.~Wang, W.~Gao, J.~Wang, Z.~Wu, W.~Yan, V.~Gevorgian, Y.~Zhang, E.~Muljadi,
-  M.~Kang, M.~Hwang, and Y.~C. Kang, ``{Assessment of system frequency support
-  effect of PMSG-WTG using torque-limit-based inertial control},'' in {\em 2016
-  IEEE Energy Conversion Congress and Exposition (ECCE)}, pp.~1--6, IEEE, sep
-  2016.
-
-\bibitem{Wang2016}
-X.~Wang, S.~Member, W.~Gao, S.~Member, J.~Wang, S.~Yan, M.~Kang, S.~Member,
-  M.~Hwang, S.~Member, Y.~Kang, S.~Member, and E.~Muljadi, ``{Inertial Response
-  of Wind Power Plants : A Comparison of Frequency-based Inertial Control and
-  Stepwise Inertial Control},'' pp.~0--5, 2016.
+\bibitem{Hansen2014}
+A.~D. Hansen, M.~Altin, I.~D. Margaris, F.~Iov, and G.~C. Tarnowski,
+  ``{Analysis of the short-term overproduction capability of variable speed
+  wind turbines},'' {\em Renewable Energy}, vol.~68, pp.~326--336, 2014.
 
 \bibitem{Zhu2013a}
 J.~Zhu, C.~D. Booth, G.~P. Adam, A.~J. Roscoe, and C.~G. Bright, ``{Inertia
@@ -143,20 +145,22 @@ J.~C. Hern{\'{a}}ndez, P.~G. Bueno, and F.~Sanchez-sutil, ``{Enhanced
   utility-scale photovoltaic units with frequency support functions and dynamic
   grid support for transmission systems},'' vol.~11, pp.~361--372, 2017.
 
+\bibitem{Zhu2018a}
+J.~Zhu, J.~Hu, W.~Hung, C.~Wang, X.~Zhang, S.~Bu, Q.~Li, H.~Urdal, and C.~D.
+  Booth, ``{Synthetic Inertia Control Strategy for Doubly Fed Induction
+  Generator Wind Turbine Generators Using Lithium-Ion Supercapacitors},'' {\em
+  IEEE Transactions on Energy Conversion}, vol.~33, no.~2, pp.~773--783, 2018.
+
 \bibitem{Conroy2008}
 J.~F. Conroy and R.~Watson, ``{Frequency response capability of full converter
   wind turbine generators in comparison to conventional generation},'' {\em
   IEEE Transactions on Power Systems}, vol.~23, no.~2, pp.~649--656, 2008.
 
-\bibitem{Gonzalez-Longatt2013}
-F.~Gonzalez-Longatt, E.~Chikuni, and E.~Rashayi, ``{Effects of the Synthetic
-  Inertia from wind power on the total system inertia after a frequency
-  disturbance},'' {\em Proceedings of the IEEE International Conference on
-  Industrial Technology}, pp.~826--832, 2013.
-
-\bibitem{Clark2009}
-K.~Clark, N.~W. Miller, and J.~J. Sanchez-gasca, ``{Modeling of GE Wind
-  Turbine-Generators for Grid Studies Prepared by :},'' tech. rep., 2010.
+\bibitem{Bonfiglio2019}
+A.~Bonfiglio, M.~Invernizzi, A.~Labella, S.~Member, R.~Procopio, and S.~Member,
+  ``{Design and Implementation of a Variable Synthetic Inertia Controller for
+  Wind Turbine Generators},'' {\em IEEE Transactions on Power Systems},
+  vol.~34, no.~1, pp.~754--764, 2019.
 
 \bibitem{Enercon2018}
 Enercon, ``{Grid Integration and Wind Farm Management},'' tech. rep., 2018.
@@ -274,9 +278,10 @@ F.~M. Gonzalez-longatt, ``{Activation Schemes of Synthetic Inertia Controller
   on Full Converter Wind Turbine ( Type 4 )},'' no.~Type 4, 2015.
 
 \bibitem{Wu2014}
-F.~Wu, P.~Zheng, Y.~Sui, B.~Yu, and P.~Wang, ``{Design and experimental
-  verification of a short-circuit proof six-phase permanent magnet machine for
-  safety critical applications},'' {\em IEEE Transactions on Magnetics}, 2014.
+L.~Wu and D.~Infield, ``{Power system frequency management challenges – a new
+  approach to assessing the potential of wind capacity to aid system frequency
+  stability},'' {\em IET Renewable Power Generation}, vol.~8, no.~7,
+  pp.~733--739, 2014.
 
 \bibitem{July2018}
 {Turkish Wind Energy Association}, ``{Turkish Wind Energy Statistic Report},''

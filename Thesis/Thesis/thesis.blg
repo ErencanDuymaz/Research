@@ -1,64 +1,63 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
-Repeated entry---line 4036 of file library.bib
- : @article{Muljadi2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5275 of file library.bib
+Repeated entry---line 13754 of file library.bib
  : @unpublished{Eto2010
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5546 of file library.bib
- : @article{Wu2014
- :                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12239 of file library.bib
- : @article{Conroy2008
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 24483 of file library.bib
- : @article{Morren2006a
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 24929 of file library.bib
- : @article{Zhu2013a
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 24989 of file library.bib
- : @article{Chen2009b
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 25150 of file library.bib
- : @article{Morren2006
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 25598 of file library.bib
- : @techreport{Eto2010
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 25611 of file library.bib
- : @article{Eriksson2017
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 25672 of file library.bib
+Repeated entry---line 14395 of file library.bib
  : @article{Muljadi2012
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 26225 of file library.bib
+Repeated entry---line 15309 of file library.bib
+ : @article{Conroy2008
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 20456 of file library.bib
+ : @article{Wu2014
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 24553 of file library.bib
  : @article{Gonzalez-longatt2015
  :                              ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 24695 of file library.bib
+ : @article{Morren2006
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 24959 of file library.bib
+ : @article{Muljadi2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 24987 of file library.bib
+ : @article{Eriksson2017
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25624 of file library.bib
+ : @techreport{Eto2010
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25710 of file library.bib
+ : @article{Morren2006a
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25851 of file library.bib
+ : @article{Chen2009b
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 26336 of file library.bib
+ : @article{Zhu2013a
+ :                  ,
+I'm skipping whatever remains of this entry
 Warning--empty publisher in InternationalRenewableEnergyAgencyIRENA2018
 Warning--empty publisher in InternationalRenewableEnergyAgency2017
+Warning--empty institution in Clark2009
 Warning--empty journal in Eto2010
 Warning--empty publisher in P.M.1995
 Warning--empty institution in States2016
 Warning--empty publisher in REN212017d
 Warning--empty institution in IRENA2014
-Warning--empty journal in Wang2016
 Warning--empty journal in Hernandez2017
-Warning--empty institution in Clark2009
 Warning--empty institution in Enercon2018
 Warning--can't use both author and editor fields in Kundur
 Warning--empty year in Kundur
