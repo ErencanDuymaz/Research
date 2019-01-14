@@ -23,7 +23,7 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Grid Frequency Control in England and Wales \cite {Ekanayake2008}, \cite {Erinmez1999}\relax }}{18}{figure.caption.19}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Energy Prices on 06 Dec. 2018 \cite {TEIAS2019}\relax }}{21}{figure.caption.20}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Wind Turbine Topologies with Full-Scale Power Electronics\relax }}{27}{figure.caption.23}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Wind Turbine Topologies with Full-Scale Power Converter\relax }}{27}{figure.caption.23}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Power Coefficient Variation with Tip Speed Ratio under Zero Pitch Angle\relax }}{28}{figure.caption.24}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Power Coefficient Variation for Two Different Pitch Angle\relax }}{30}{figure.caption.25}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Pitch Angle Control Diagram\relax }}{30}{figure.caption.26}
@@ -32,7 +32,7 @@
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Machine Side Controller Diagram\relax }}{34}{figure.caption.29}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Grid Side Controller Diagram\relax }}{35}{figure.caption.30}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Variation of the Active Power of the Wind Turbine\relax }}{36}{figure.caption.31}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Modified MSC for Inertial Support\relax }}{38}{figure.caption.32}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Modified MSC for Inertial Support\relax }}{37}{figure.caption.32}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Active Power Flow Diagram\relax }}{43}{figure.caption.35}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Accessible Active Power Output for Varying Wind Speeds\relax }}{45}{figure.caption.36}

@@ -77,7 +77,7 @@
 \contentsline {section}{\numberline {5.4}\%10 Renewable Generation Case with Synthetic Inertia}{78}{section.5.4}
 \contentsline {section}{\numberline {5.5}Reduced Inertia Case with Synthetic Inertia}{82}{section.5.5}
 \contentsline {section}{\numberline {5.6}Comparison of the Synthetic Inertia and Fast Inertial Support}{83}{section.5.6}
-\contentsline {section}{\numberline {5.7}Effect of the Synthetic Inertia to Turkish Electricty System}{87}{section.5.7}
+\contentsline {section}{\numberline {5.7}Effect of the Synthetic Inertia on Turkish Electricity System}{87}{section.5.7}
 \contentsline {section}{\numberline {5.8}Conclusion}{90}{section.5.8}
 \contentsline {chapter}{\numberline {6}\MakeUppercase {EVALUATION OF FAST INERTIAL RESPONSE AND SYNTHETIC INERTIA IMPLEMENTATION}}{93}{chapter.6}
 \contentsline {section}{\numberline {6.1}Fast Inertial Support}{94}{section.6.1}
