@@ -765,9 +765,9 @@ to\hsize{\hfil\box\@tempboxa\hfil}
  \vbox{\parbox{14.25cm}{\singlespacing \expthr@@{\@dispcommitteememberv \\ \expthr@@{\@dispaffiliationv}}
  \hfill \rule{3cm}{1pt}}}
 \vskip1.5cm plus0pt minus2mm \nointerlineskip
- \vbox{\parbox{14.25cm}{\bf
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\@datelabel:
- \hfill \rule{3cm}{1pt}}}
+ \vbox{\parbox{13.65cm}{
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \hfill ~\@datelabel:
+ \hspace{1cm} 18.01.2019 } }
 \end{approvalpage}
 \gdef\@director{}\let\director\relax
 \gdef\@headofdept{}\let\headofdept\relax
