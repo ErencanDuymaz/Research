@@ -11,14 +11,14 @@
 \babel@toc {english}{}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Installed Renewable Energy Capacity of Leading Countries \cite {InternationalRenewableEnergyAgencyIRENA2018},\cite {InternationalRenewableEnergyAgency2017}\relax }}{1}{figure.caption.9}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Wind Power Capacity of Leading Countries in 2016 \cite {InternationalRenewableEnergyAgencyIRENA2018},\cite {InternationalRenewableEnergyAgency2017}\relax }}{2}{figure.caption.10}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Wind Power Capacity of Leading Countries in 2016 \cite {InternationalRenewableEnergyAgencyIRENA2018},\cite {InternationalRenewableEnergyAgency2017}\relax }}{3}{figure.caption.10}
 \contentsline {figure}{\numberline {1.3}{\ignorespaces A Generic Frequency Disturbance\relax }}{4}{figure.caption.11}
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Wind Turbine Generator Configurations \cite {Muljadi2012}\relax }}{5}{figure.caption.12}
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Inertia Controller in \cite {Morren2006a}\relax }}{7}{figure.caption.14}
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Hidden Inertia Controller in\cite {Gonzalez-Longatt2013}\relax }}{9}{figure.caption.15}
 \contentsline {figure}{\numberline {1.7}{\ignorespaces GE WindINERTIA Control Diagram in \cite {Clark2009}\relax }}{9}{figure.caption.16}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Frequency behaviour in electric grid with the water level in a container analogy \cite {Eto2010}\relax }}{16}{figure.caption.17}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Frequency Behaviour in Electric Grid with the Water Level in a Container Analogy \cite {Eto2010}\relax }}{16}{figure.caption.17}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Variation of the Frequency in a Typical Day (06 Dec 2018) \cite {teiasfreq}\relax }}{17}{figure.caption.18}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Grid Frequency Control in England and Wales \cite {Ekanayake2008}, \cite {Erinmez1999}\relax }}{18}{figure.caption.19}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Energy Prices on 06 Dec. 2018 \cite {TEIAS2019}\relax }}{21}{figure.caption.20}
@@ -58,7 +58,7 @@
 \contentsline {figure}{\numberline {4.22}{\ignorespaces Active Power Output of the Wind Turbine for Medium Wind Scenario\relax }}{63}{figure.caption.57}
 \contentsline {figure}{\numberline {4.23}{\ignorespaces Generator Speed, Generator and Turbine Torques for Medium Wind Scenario for 20 Seconds Support\relax }}{64}{figure.caption.58}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces P.M.Anderson Test Case \cite {P.M.1995}\relax }}{68}{figure.caption.60}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces P.M. Anderson Test Case \cite {P.M.1995}\relax }}{68}{figure.caption.60}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Location of the Additional Load\relax }}{70}{figure.caption.64}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Generator Frequencies for Frequency Disturbance in Base Case\relax }}{71}{figure.caption.65}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Frequencies in Generator 1 and Load Buses\relax }}{72}{figure.caption.66}
