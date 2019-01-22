@@ -55,7 +55,7 @@
 \BOOKMARK [3][-]{subsubsection.4.4.3.2}{Moderate Fast Inertial Support for the Medium Wind Scenario}{subsection.4.4.3}% 55
 \BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 56
 \BOOKMARK [0][-]{chapter.5}{IMPLEMENTATION OF SYNTHETIC INERTIA IN A 9-BUS TEST SYSTEM}{}% 57
-\BOOKMARK [1][-]{section.5.1}{P.M.Anderson 9 Bus Test Case}{chapter.5}% 58
+\BOOKMARK [1][-]{section.5.1}{P.M. Anderson 9 Bus Test Case}{chapter.5}% 58
 \BOOKMARK [2][-]{subsection.5.1.1}{Load Flow Analysis for Base Case}{section.5.1}% 59
 \BOOKMARK [2][-]{subsection.5.1.2}{Base Case Frequency Response for Additional Load Connection}{section.5.1}% 60
 \BOOKMARK [1][-]{section.5.2}{10\045 Renewable Generation Case}{chapter.5}% 61
@@ -74,5 +74,6 @@
 \BOOKMARK [1][-]{section.6.2}{Synthetic Inertia Implementation}{chapter.6}% 74
 \BOOKMARK [1][-]{section.6.3}{Economical Motivations for Energy Providers}{chapter.6}% 75
 \BOOKMARK [1][-]{section.6.4}{Future Work}{chapter.6}% 76
-\BOOKMARK [0][-]{chapter*.85}{REFERENCES}{}% 77
-\BOOKMARK [0][-]{Appendix.a.A}{P.M. Anderson Test Case Properties}{}% 78
+\BOOKMARK [0][-]{chapter.7}{CONCLUSION}{}% 77
+\BOOKMARK [0][-]{chapter*.85}{REFERENCES}{}% 78
+\BOOKMARK [0][-]{Appendix.a.A}{P.M. Anderson Test Case Properties}{}% 79
