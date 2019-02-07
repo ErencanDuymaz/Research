@@ -36,11 +36,12 @@ K.~Clark, N.~W. Miller, and J.~J. Sanchez-gasca, ``{Modeling of GE Wind
   Turbine-Generators for Grid Studies Prepared by :},'' tech. rep., 2010.
 
 \bibitem{Eto2010}
-J.~Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
-  J.~Ellis, H.~Illian, C.~Martinez, M.~O´Malley, K.~Coughlin, and
-  K.~Hamachi-LaCommare, ``{Use of Frequency Response Metrics to Assess the
-  Planning and Operating Requirements for Reliable Integration of Variable
-  Renewable Generation},'' no.~December 2010, pp.~LBNL--4142E, 2010.
+J.~H. Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
+  J.~Ellis, H.~Illian, C.~Martinez, M.~O'Malley, K.~Coughlin, and K.~H.
+  LaCommare, ``{Use of Frequency Response Metrics to Assess the Planning and
+  Operating Requirements for Reliable Integration of Variable Renewable
+  Generation},'' Tech. Rep. December 2010, Lawrence Berkeley National
+  Laboratory (LBNL), Berkeley, CA (United States), dec 2010.
 
 \bibitem{teiasfreq}
 TEİAŞ, ``{Y{\"{u}}k Tevzi Raporları},'' 2019.
@@ -63,10 +64,8 @@ P.~M. Anderson and A.~A. Fouad, {\em {Power System Control and Stability}}.
 \newblock 2~ed., 2003.
 
 \bibitem{EuropeanCommission2008}
-{European Commission}, ``{Communication from the Commission to the European
-  Parliament, the Council, the European economic and social Committee and the
-  Committee of the Regions - 20 20 by 2020 - Europe's climate change
-  opportunity},'' {\em COM (2008) 30 final}, p.~Brussels, 2008.
+{Commission of the European Communities}, ``{20 20 by 2020 - Europe's climate
+  change opportunity}.'' 2008.
 
 \bibitem{EuropeanParliament2009}
 {European Parliament}, ``{Directive 2009/28/EC of the European Parliament and
@@ -181,9 +180,9 @@ J.~Machowski, J.~W. Bialek, and J.~R. Bumby, {\em {Power system dynamics:
 \newblock 2011.
 
 \bibitem{Chen2009b}
-T.~P. Chen, ``{Dual-modulator compensation technique for parallel inverters
-  using space-vector modulation},'' {\em IEEE Transactions on Industrial
-  Electronics}, vol.~56, no.~8, pp.~3004--3012, 2009.
+Z.~Chen, J.~M. Guerrero, F.~Blaabjerg, and S.~Member, ``{A Review of the State
+  of the Art of Power Electronics for Wind Turbines},'' {\em IEEE Transactions
+  on Power Electronics}, vol.~24, no.~8, pp.~1859--1875, 2009.
 
 \bibitem{Ackermann2005a}
 T.~Ackermann, {\em {Wind Power in Power Systems Wind Power in Power Systems
@@ -286,10 +285,9 @@ S.~Seman and R.~Sakki, ``{Inertial Response – Generators and the Power
   Electronics},'' 2011.
 
 \bibitem{Wu2014}
-L.~Wu and D.~Infield, ``{Power system frequency management challenges – a new
-  approach to assessing the potential of wind capacity to aid system frequency
-  stability},'' {\em IET Renewable Power Generation}, vol.~8, no.~7,
-  pp.~733--739, 2014.
+F.~Wu, P.~Zheng, Y.~Sui, B.~Yu, and P.~Wang, ``{Design and experimental
+  verification of a short-circuit proof six-phase permanent magnet machine for
+  safety critical applications},'' {\em IEEE Transactions on Magnetics}, 2014.
 
 \bibitem{July2018}
 {Turkish Wind Energy Association}, ``{Turkish Wind Energy Statistic Report},''

@@ -619,7 +619,7 @@ to\hsize{\hfil\box\@tempboxa\hfil}
 
 \def\@proftitlename{Prof. Dr.}\def\@tproftitlename{Prof. Dr.}
 \def\@assocproftitlename{Assoc. Prof. Dr.}\def\@tassocproftitlename{Doç. Dr.}
-\def\@assistproftitlename{Assist. Prof. Dr.}\def\@tassistproftitlename{Yrd. Doç. Dr.}
+\def\@assistproftitlename{Assist. Prof. Dr.}\def\@tassistproftitlename{Dr. Öğr. Üyesi}
 \def\@drtitlename{Dr.}\def\@tdrtitlename{Dr.}
 
 \def\@director{} 
