@@ -42,24 +42,21 @@ In order to investigate the economical side of the frequency regulating mechanis
 		Supported Feed-In Tariff & 79 & \$/MWh \\
 		Additional Profit & 138 & \$ \\ \hline
 	\end{tabular}
-	\caption{Comparison of the Frequency Support Pricing Methods}
+	\caption{Comparison of the Hypothetical Frequency Support Pricing Methods}
 	\label{new_price}
 \end{table}
 Following an inertial support period, turbine will deliver lower power in order to restore its speed. Consequently, the energy injected by the turbine will be the same. Besides, the detection of the support energy is complicated for the system operator. It is not possible to distinguish the cases where the turbine injects inertial support or the wind speed increases in the site. Therefore, the grid operator cannot estimate a price from the additional energy concept.\par
+\newpage
 Second payment method is based on the availability of the wind turbine for the frequency regulation mechanisms. Notice that renewable energy systems get additional payment from the local content bonus. A similar incentive can be assigned to wind turbines for their availability for grid supporting mechanisms. For this purpose, the lowest local content bonus amount which is additional 0.6\cent/kWh for local turbine tower is used for this study. Therefore, the turbines providing synthetic inertia support is paid with 79\$/MWh. In this way, \$138 additional profit can be obtained regardless of the number of support or the additional energy. In this case, the energy provider can increase the average income by 8.2\%. Therefore, assigning incentives for the grid supporting services might be attractive for the energy providers. Moreover, system operators of the weak power grids might lean towards the inertial support by wind turbine operators even at the expense of the additional incentives to the energy providers.\par 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.9\linewidth]{storedenergyy.pdf}
+	\includegraphics[width=0.95\linewidth]{storedenergyy.pdf}
 	\caption{Variation of the Stored Kinetic Energy between 01 Jan. 2018 and 31 Dec. 2018 (hourly basis)}
 	\label{gridstored}
 \end{figure}
+\newpage
 The effect of the wind and solar energy is investigated at the end of Chapter \ref{chp:5}. It is shown that grid aggregated inertia constant depends on the wind and solar production. The variation of the kinetic energy stored in the grid is given in Fig. \ref{gridstored}. The average stored energy in the grid can be increased by 8\% with the synthetic inertia implementation. Notice that the difference between the existing stored energy and the one with synthetic inertia implementation is dependent on the share of wind and solar systems. Therefore, the difference between these energies will increase with the increasing renewable penetration. Therefore, the system operator should prepare frequency regulating regulations for the renewable energy systems. Moreover, a convincing solution should be constructed to avoid upcoming frequency stability problems. 
-\section{Future Work}
-The following issues can be further studied in detail:
-\begin{itemize}
-	\item Fast inertial support implementation has huge potential to increase the active power. However, as soon as the support ends, the reduction in the active power resembles a second load connection to system especially in the weak power systems. Therefore, the system is exposed to a secondary dip in the frequency. This is why the amount of additional power should be adjusted according to the grid frequency. Hence, an inertia support index can be developed to reshape the active power output of the wind turbine. 
-	\item The increase percentage of fast inertial support is not a function of the grid parameters. The index to be constructed should also determine the increase percentage based on the pre-determined values. 
-	\item The effects of the fast inertial support on the DC-link voltage might be better investigated with more realistic modelling. The effectiveness of the new modelling might be tested in the wind turbine emulators. 
-	\item According to \cite{Altin2018}, 30\% overproduction causes significant increases in  tower, yaw bearing and main bearing bending moments. Therefore, the effect of the inertial support in the turbine structure can be investigated in detail. 
-	\item When the support is required in the high wind speeds, support power might hit the limit of the converter power rating. The extra heat and mechanical stresses might also be tested in wind turbine emulators. 
-\end{itemize}
+\newpage
+\section{Conclusion}
+This chapter compares two inertial support methods namely; fast inertial support and synthetic inertia methods. It is stated that fast inertial support can provide increased active power that is independent from the grid RoCoF. Even though grid RoCoF is improved as long as support is sustained, a secondary frequency dip might be encountered when the support is terminated. Therefore, fast inertial support might deteriorate the frequency stability of the weak power systems. On the contrary, synthetic inertia method adjust the active power according to the grid RoCoF. Therefore, the additional active power of the wind turbine is not ceased instantaneously but changed in a smoother way due to the fact that it is proportional to grid RoCoF.\par
+Economical feasibility of the inertial support of wind turbines are also studied in this chapter. It is shown that inertial support payment based on the additional energy during frequency disturbances is not a convincing solution for the energy providers. Instead, energy provider can make additional profit with the inertial support implementation as long as they are paid with additional incentives. It should be noted that the new wind power plants that will be commissioned after 2020 will not benefit from feed-in tariff and local bonus content in Turkey. Therefore, a new incentive mechanism might be constructed with grid supporting services like wind turbine inertial support which will convince the energy providers. In this way, the reduction in grid effective inertia might be avoided and frequency stability of electricity grid is preserved.

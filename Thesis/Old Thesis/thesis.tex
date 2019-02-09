@@ -1,0 +1,181 @@
+\documentclass[chaparabic,ee,ms,12pt,oneandhalf]{metu}
+\usepackage{appendix}
+\usepackage{longtable}
+\usepackage[pdftex]{hyperref}
+\usepackage[all]{hypcap}
+\usepackage{todonotes}
+\usepackage{graphicx}
+\usepackage{ wasysym }
+%\usepackage{caption}
+\usepackage{subcaption}
+\graphicspath{ {./images/} }
+\usepackage{rotating}
+\usepackage{xy} 
+\usepackage{booktabs}
+\usepackage{pifont}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{pdfpages}
+\usepackage{array}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{lastpage}
+\usepackage{afterpage}
+\usepackage{lipsum}
+\usepackage{adjustbox}
+\usepackage{cite}
+\usepackage{enumitem}
+\usepackage[cmex10]{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage{lscape}
+\usepackage{epstopdf}
+\captionsetup{belowskip=12pt,aboveskip=8pt}
+\newcommand{\tab}{\hspace*{2em}}
+\graphicspath{{Figures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage[utf8]{inputenc}
+%\DeclareUnicodeCharacter{00A0}{~}
+
+
+% End of Latex Packages
+
+% End of personal stuff
+%
+% Personal Information 
+% ----------------------------
+%
+% Please check this part and fill in information about your thesis
+%
+% Name and Surname
+\author{Erencan Duymaz}
+% Thesis Title English and Turkish
+\title{Investigation of Inertial Support Limits in Wind Turbines and the Effects on the Power System Stability}
+\turkishtitle{Rüzgar Türbinlerinde Atalet Desteğinin Sınırlarının İncelenmesi ve Güç Sistemleri Stabilitesine Etkileri}
+
+\date{January 2019}
+ 
+% prof : Prof. Dr.
+% assocprof : Assoc. Prof. Dr.
+% assistprof : Assist. Prof. Dr.
+% dr : Dr.
+%
+% Director of Institute
+\director[prof]{Halil Kalıpçılar}
+% Head of Department
+\headofdept[prof]{Tolga Çiloğlu}
+%
+% Supervisor : English and Turkish
+\supervisor[assistprof]{Ozan Keysan}
+% \turkishsupervisor{  } %if you will hard-code the academic title
+%
+% Affiliation of Supervisor in English and possibly in Turkish
+\departmentofsupervisor{Electrical and Electronics Engineering, METU}
+%
+% Committee Members
+% In general members are sorted according to their academic titles
+%
+% Proffesors (1)
+% Associate Professors (2)
+% Assistant Professors (3)
+% Other (4)
+% 
+% IMPORTANT:  All affiliatons should fit in a single line
+% If affiliation line is broken into two lines you should shorten the affiliation by using 
+% abbrevations or any other means
+%
+% First committee member should be the chair of examining committee
+% Typically the chair is one of the highest ranked committee members
+% Ask your supervisor if you are not sure
+\committeememberi[assocprof]{Murat Göl}
+\affiliationi{Electrical and Electronics Engineering, METU}
+% Second committee member is always your supervisor
+\committeememberii[assistprof]{Ozan Keysan}
+\affiliationii{Electrical and Electronics Engineering, METU}
+% If you are an M.Sc. student and your Co-Supervisor is in your 
+% examination committee, then third committee member is always your co-supervisor
+%
+% IMPORTANT: If you are Ph.D. student your co-supervisor can not be in your 
+% examination committee.
+\committeememberiii[prof]{Oğuz Uzol}
+\affiliationiii{Aerospace Engineering, METU}
+% Fourth committee member
+\committeememberiv[assistprof]{Emine Bostancı}
+\affiliationiv{Electrical and Electronics Engineering, METU}
+% Fifth committee member
+\committeememberv[assistprof]{Tolga İnan}
+\affiliationv{Electrical and Electronics Engineering, Çankaya University}
+%
+% Keywords : English & Turkish, Comma seperated
+\keywords{Power System Frequency Stability, Inertial Support, Synthetic Inertia, Virtual Inertia, Renewable Energy}
+\anahtarklm{Güç Sistemleri Frekans Stabilitesi, Atalet Desteği, Yapay Atalet, Sanal Atalet, Yenilebilir Enerji}
+%
+% Abstract in English
+%
+\abstract{In this study, the inertial support implementation is studied for variable speed wind turbines with a full-scale power electronics. To increase the active power as desired, Machine Side Converter is modified with an additional control loop. In the first part of the thesis, active power of the wind turbine is increased to the limits and the maximum achievable active power is found out to be restricted by the wind speed. It is found that the wind turbine can increase its output power by 40\% of rated power in the low and medium wind speeds. Moreover, even though the high speed scenarios give limited increased power, it does not require any speed recovery state. The probability of the inertial support is found according to the wind speed measurement taken from field. In the second part of the thesis, the synthetic inertia implementation is presented by the provision of inertial support which is proportional to the rate of change of frequency. The effect of the implementation in the P.M.Anderson test case is observed for different inertia constants. It is discovered that the effect of renewable penetration in the frequency stability is negligible when the synchronous generators are kept in the operation. Nonetheless, frequency stability in the test system gets more vulnerable to renewable energy penetration when the conventional generators are decommissioned by the economical concerns. In this case, the synthetic inertia implementation with different inertia constants possesses the ability to lower RoCoF following a frequency disturbance. The effects of the synthetic inertia on the Turkish electricity network is also investigated. Finally, the wind turbine inertial support is evaluated in terms of economics for the energy provider perspective.}
+%
+% Turkish Abstract
+%
+\oz{Bu çalışmada, tam ölçek güç elektronikli değişken hızlı rüzgar türbinleri için atalet desteği uygulanmıştır. Aktif gücü istenildiği gibi arttırabilmek için Makine Tarafı Kontrolcüsüne kontrol döngüsü eklenmiştir. Bu tez çalışmasının ilk kısmında, rüzgar türbininin aktif gücü sınır noktalarına kadar arttırılmıştır ve ulaşılabilir maksimum gücün rüzgar hızıyla kısıtlandığı gözlenmiştir. Ayrıca, düşük ve orta rüzgar hızlarında rüzgar türbininin aktif gücünü nominal gücünün \%40 oranında arttırabildiği gözlenen bulgular arasındadır. Bunun yanında, yüksek rüzgar senaryolarında sınırlı güç artışı gözlense de, generatör hızının toparlanma evresine gerek duymadığı gözlenmiştir. Sahadan alınan rüzgar hızı verilerine göre atalet desteğinin olasılığı hesaplanmıştır. Tezin ikinci kısmında, frekansın değişim hızıyla orantılı yapay atalet desteği uygulanmıştır. Bu uygulamanın etkileri, değişik atalet sabitleri ile P.M. Anderson test düzeneğinde gözlenmiştir. Buna göre, konvansiyonel senkron makineler operasyonda olduğu sürece, yenilenebilir enerji sistemlerinin artışının frekans stabilitesine olan etkisinin ihmal edilebilir düzeyde olduğu görülmüştür. Ancak, generatörlerin ekonomik kaygılarla operasyondan alındığı durumlarda, yenilenebilir enerji sistemlerinin frekans stabilitesini zayıflattığı gözlenmiştir. Bu durumda, değişik atalet sabitleriyle uygulanabilen yapay ataletin frekans bozunumlarında sistemin frekans değişim hızını azalttığı gözlenmiştir. Yapay ataletin Türkiye elektrik şebekesine uygulanmasının etkileri ayrıca incelenmiştir. Son olarak, rüzgar türbininin atalet desteğinin ekonomik yönü enerji üretici açısından incelenmiştir.} 
+%
+% Dedication 
+\dedication{\text{To my family..}}
+%
+%
+% Acknowledgements   
+\acknowledgments{Firstly, I would like to express my greatest appreciation to my supervisor, Assist.Prof.Dr. Ozan Keysan for his faith in me. I will be grateful for his endless support, guidance and encouragement. \par
+I would like to thank examining committee members Assoc. Prof. Dr. Murat Göl, Assist. Prof. Dr. Emine Bostancı, Prof. Dr. Oğuz Uzol and Assist. Prof. Dr. Tolga İnan as the second reader of this thesis.\par
+I wish to thank my dearest friends Aysel Akgemci, Doğa Ceylan, Siamak Pourkeivannour, İlker Şahin and the rest of the PowerLab research group.\par
+I would like to thank my dearest friends Anıl Oğan, Eda Onat and Deniz Atalay for their support and understanding during the thesis writing process. \par
+I would like to share my heartfelt thanks to Ece Büber for her endless support, extreme love and thoughtfulness. She always believed in me and made me feel as special. I am grateful for the entire time that we spent together.\par
+I must also express my gratitude to my family members; Nazikar, Hüseyin and Anılcan for their faith in me, their support and encouragement. I am thankful for their endless support throughout my life.
+
+
+}
+%
+% End of Personal and Introductory Information
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\begin{document}
+% Preliminaries
+\begin{preliminaries}
+% If you are willing to use any custom stuff before Chapters, put it here
+% Such as List of Abbreviations
+% Check the abbreviations.tex for a template list of abbreviations
+
+\input{abbreviations.tex}
+\input{symbols.tex}
+% End of Preliminaries
+\end{preliminaries}
+%   
+% Latex content Goes Here 
+% 
+%
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{10pt}
+
+
+\input{Chapters/chapter1.tex}
+\input{Chapters/chapter2.tex}
+\input{Chapters/chapter3.tex}
+\input{Chapters/chapter4.tex}
+\input{Chapters/chapter5.tex}
+\input{Chapters/chapter6.tex}
+\input{Chapters/chapter7.tex}
+\input{references.tex}
+
+%
+% References in Bibtex format goes into below indicated file with .bib extension
+%\bibliography{thesis_references}
+% You can use full name of authors, however most likely some of the Bibtex entries you will find, will use abbreviated first names
+% If you don't want to correct each of them by hand, you can use abbreviated style for all of the references
+
+%\bibliographystyle{abbrv}
+
+% if you have more that one appendix, then use \appendices, otherwise use 
+\appendices
+%\input{appendix1/appendix1.tex}
+\input{appendix1/appendix2.tex}
+\end{document}

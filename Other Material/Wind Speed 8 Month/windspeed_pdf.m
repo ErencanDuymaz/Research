@@ -24,7 +24,7 @@ ax.YColor = 'k'; % Blue
 grid minor
 set(gca,'FontSize',14);
 xlim([736695 736928])
-saveas(gcf,'windspeeds','png')
+% saveas(gcf,'windspeeds','png')
 
 %Wind Speed Measurements
 
@@ -143,9 +143,9 @@ clear vars filename shhet txt xlRange num sheet
 %%
 
 delpower=interp1(windpi,delpi,x);
-% plot(x,delpower)
+% plot(x,delpower/(2.75e6))
 new_var=delpower.*y2;
-plot(x,new_var,'k','LineWidth',2)
+plot(x,new_var/(2.75e6),'k','LineWidth',2)
 xlim([min(x) max(x)])
 
 xlabel('Wind Speeds (m/s)')
@@ -157,6 +157,6 @@ ax.XColor = 'k';
 ax.YColor = 'k';
 grid minor
 xlim([min(x) max(x)])
-set(gca,'FontSize',10);
+set(gca,'FontSize',30);
 % saveas(gcf,'netcontribution','pdf')
 area=trapz(x,new_var)

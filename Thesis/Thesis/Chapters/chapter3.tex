@@ -97,7 +97,8 @@ A gearbox model is depicted in Fig. \ref{gearboxmodel}. They are mainly used for
 \end{figure}
 \subsection{Permanent Magnet Synchronous Generator}
 \label{pmsgsection}
-PMSGs and electrically excited generators can be employed with full-scale power electronics. However, PMSGs are generally preferred over electrically excited synchronous generators due to their high efficiency. The absence of electrical excitation on the rotor decreases losses. Besides, slip ring is not needed in the generator which also increases the reliability of the PMSG wind turbines. Dynamical equations of the salient pole PMSG are projected on a reference frame which rotates synchronously with magnet flux and given in Eq. (\ref{v1d}) and (\ref{v1q}) where $R_{1}$ is stator resistance in $\Omega$, $L_{sd}$ and $L_{sq}$ are d and q axis inductances in $H$, $i_{ad}$ and $i_{aq}$ are d and q axis currents in $A$, $\omega$ is the electrical angular frequency in $rad/s$, $\psi_{f}$ is magnet flux linkage in Vs \cite{Ackermann2005a}. 
+PMSGs and electrically excited generators can be employed with full-scale power electronics. However, PMSGs are generally preferred over electrically excited synchronous generators due to their high efficiency. The absence of electrical excitation on the rotor decreases losses. Besides, slip ring is not needed in the generator which also increases the reliability of the PMSG wind turbines. \par
+Dynamical equations of the salient pole PMSG are projected on a reference frame which rotates synchronously with magnet flux and given in Eq. (\ref{v1d}) and (\ref{v1q}) where $R_{1}$ is stator resistance in $\Omega$, $L_{sd}$ and $L_{sq}$ are d and q axis inductances in $H$, $i_{ad}$ and $i_{aq}$ are d and q axis currents in $A$, $\omega$ is the electrical angular frequency in $rad/s$, $\psi_{f}$ is magnet flux linkage in Vs \cite{Ackermann2005a}. 
 \begin{equation}
 v_{1d}=R_{1} i_{ad}+L_{sd}\frac{di_{ad}}{dt}-L_{sq}\omega i_{sq}
 \label{v1d}
@@ -106,6 +107,7 @@ v_{1d}=R_{1} i_{ad}+L_{sd}\frac{di_{ad}}{dt}-L_{sq}\omega i_{sq}
 v_{1q}=R_{1} i_{aq}+L_{sq}\frac{di_{aq}}{dt}+L_{sd}\omega i_{sd}+\omega \psi_{f}
 \label{v1q}
 \end{equation}
+\newpage
 Another important PMSG parameter is the power in dq frame. The power expression is given in Eq. (\ref{pmsgpower}). The electromechanical torque can be found by the relation between power and angular speed. The torque expression is also given in Eq. (\ref{pmsgtorque}) where p is the number of pole pair.
 \begin{equation}
 P_{elm}=\frac{3}{2}\omega i_{aq} (\psi_{f}+i_{ad}(L_{sq}-L_{sd}))
@@ -139,7 +141,7 @@ The responsibility of the GSC is regulating DC voltage and the reactive power in
 	\caption{Grid Side Controller Diagram}
 	\label{gsc}
 \end{figure}
-GSC is connected to grid through a filter. Therefore, the output voltage of the converter is not equal to that of grid. The relation between converter voltage, grid voltage and current is derived through Eq. (\ref{crossilk}) to (\ref{crosscomp2}) where $v_{c}$ is the converter voltage, $v_{g}$ is the grid voltage and  $i_{g}$ is the grid current measured in the grid side. As it is observed in Eq (\ref{crosscomp1}) and (\ref{crosscomp2}), converter side voltage includes same axis grid voltage and a term proportional to cross axis current which is called cross-coupled term. Therefore, the outputs of the inner PI regulators are compensated and forwarded to Pulse Width Modulation after transformation to three-phase voltages.
+GSC is connected to grid through a filter. Therefore, the output voltage of the converter is not equal to that of grid. The relation between converter voltage, grid voltage and current is derived through Eq. (\ref{crossilk}) to (\ref{crosscomp2}) where $v_{c}$ is the converter voltage, $v_{g}$ is the grid voltage and  $i_{g}$ is the grid current measured in the grid side. As it is observed in Eq (\ref{crosscomp1}) and (\ref{crosscomp2}), converter side voltage includes same axis grid voltage and a term proportional to cross axis current which is called cross-coupled term. Therefore, the outputs of the inner PI regulators are compensated and forwarded to Pulse Width Modulation after transformation to three-phase voltages.\par
 \begin{equation}
 \overline{v_{c}}=v_{dc}+jv_{qc}
 \label{crossilk}
@@ -164,7 +166,8 @@ v_{dc}=v_{dg}-\omega L i_{qg}
 v_{qc}=v_{qg}+\omega L i_{dg}
 \label{crosscomp2}
 \end{equation}
-The PI regulators of the wind turbine model is tuned with trial error method. In this study, the modelled wind turbine is connected to grid with an L filter even though the actual turbine is connected to grid with an LCL filter. However, the actual system would operate better than the modelled case since the the LCL filter has superior performance than L filters \cite{Brantsater2015}. Nonetheless, L filter has provided sufficient performance for the successful operation of the wind turbine in this study regardless from the power quality standards in the output current. The active power of the wind turbine under varying wind speed is given in the Fig. \ref{powerdata}. \par
+The PI regulators of the wind turbine model is tuned with trial error method. In this study, the modelled wind turbine is connected to grid with an L filter even though the actual turbine is connected to grid with an LCL filter. However, the actual system would operate better than the modelled case since the the LCL filter has superior performance than L filters \cite{Brantsater2015}. Nonetheless, L filter has provided sufficient performance for the successful operation of the wind turbine in this study regardless from the power quality standards in the output current. \par
+The active power of the wind turbine under varying wind speed is given in the Fig. \ref{powerdata}. Rated active power value of 2.75MW is reached in the wind speed 10.5m/s. \par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.9\linewidth]{powerdata.pdf}
@@ -257,6 +260,7 @@ E_{kinetic,min}=\frac{1}{2} (1058.2) 57.6^{2}=1755.17kJ
 E_{kinetic,max}=\frac{1}{2} (1058.2) 181.7^{2}=17466.02kJ
 \label{kineticenergymax}
 \end{equation}
+\\
 It is obvious that the stored kinetic energy in the wind turbine is 90 times of the energy stored in DC bus capacitor even in the minimum generator speed. Therefore, utilization of the kinetic energy for inertial support studies is more efficient than using the stored energy in the capacitor. \par
 \begin{table}[h]
 	\centering
@@ -270,6 +274,7 @@ It is obvious that the stored kinetic energy in the wind turbine is 90 times of 
 	\caption{Dynamic Parameters of the Wind Turbine}
 	\label{windpar}
 \end{table}
+\newpage
 Dynamical parameters of the wind turbine are listed in the Table \ref{windpar}. The stored energy in the turbine equivalent inertia varies with the square of the generator speed. Therefore, the minimum stored energy is one tenth of the maximum case. As a result of this, the inertia constant of the wind turbine is dependent on the wind speed and varies between 0.58s and 5.75s. Notice that the inertia constants to be emulated by wind turbine in this thesis are not restricted to these inertia constants. Wind turbines can emulate higher inertia constants as long as they can increase the output power to desired levels.
 \section{Conclusion}
 In this chapter, the detailed modelling for PMSG wind turbine is presented. The MSC which is responsible for adjusting the turbine speed for MPPT operation is modified such that the wind turbine provides inertial support. The additional active power is obtained with the kinetic energy extraction from the turbine inertia. \par

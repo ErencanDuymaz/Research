@@ -1,10 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{yasa}
-``{Enerji Kaynaklarının Elektrik Enerjisi {\"{U}}retimi Ama{\c{c}}lı
-  Kullanımına İlişkin Kanunda Değişiklik Yapılmasına Dair Kanun},''
-  2011.
-
 \bibitem{InternationalRenewableEnergyAgencyIRENA2018}
 {International Renewable Energy Agency (IRENA)}, {\em {IRENA (2018), Renewable
   capacity statistics 2018}}.
@@ -14,54 +9,6 @@
 {International Renewable Energy Agency}, {\em {Renewable Energy Statistics
   2017}}.
 \newblock 2017.
-
-\bibitem{Muljadi2012}
-E.~Muljadi, V.~Gevorgian, and M.~Singh, ``{Understanding Inertial and Frequency
-  Response of Wind Power Plants Preprint},'' {\em 2012 IEEE Power Electronics
-  and Machines in Wind Applications (PEMWA)}, no.~July, pp.~1--8, 2012.
-
-\bibitem{Morren2006a}
-J.~Morren, J.~Pierik, and S.~W. de~Haan, ``{Inertial response of variable speed
-  wind turbines},'' {\em Electric Power Systems Research}, vol.~76, no.~11,
-  pp.~980--987, 2006.
-
-\bibitem{Gonzalez-Longatt2013}
-F.~Gonzalez-Longatt, E.~Chikuni, and E.~Rashayi, ``{Effects of the Synthetic
-  Inertia from wind power on the total system inertia after a frequency
-  disturbance},'' {\em Proceedings of the IEEE International Conference on
-  Industrial Technology}, pp.~826--832, 2013.
-
-\bibitem{Clark2009}
-K.~Clark, N.~W. Miller, and J.~J. Sanchez-gasca, ``{Modeling of GE Wind
-  Turbine-Generators for Grid Studies Prepared by :},'' tech. rep., 2010.
-
-\bibitem{Eto2010}
-J.~H. Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
-  J.~Ellis, H.~Illian, C.~Martinez, M.~O'Malley, K.~Coughlin, and K.~H.
-  LaCommare, ``{Use of Frequency Response Metrics to Assess the Planning and
-  Operating Requirements for Reliable Integration of Variable Renewable
-  Generation},'' Tech. Rep. December 2010, Lawrence Berkeley National
-  Laboratory (LBNL), Berkeley, CA (United States), dec 2010.
-
-\bibitem{teiasfreq}
-TEİAŞ, ``{Y{\"{u}}k Tevzi Raporları},'' 2019.
-
-\bibitem{Ekanayake2008}
-J.~B. Ekanayake, N.~Jenkins, and G.~Strbac, ``{Frequency Response from Wind
-  Turbines},'' {\em Wind Engineering}, vol.~32, no.~6, pp.~573--586, 2008.
-
-\bibitem{Erinmez1999}
-I.~Erinmez, D.~Bickers, G.~Wood, and W.~Hung, ``{NGC experience with frequency
-  control in England and Wales-provision of frequency response by
-  generators},'' {\em IEEE Power Engineering Society. 1999 Winter Meeting (Cat.
-  No.99CH36233)}, vol.~1, pp.~590--596 vol.1, 1999.
-
-\bibitem{TEIAS2019}
-TEIAS, ``{TEIAS Transparency Platfrom},'' 2019.
-
-\bibitem{P.M.1995}
-P.~M. Anderson and A.~A. Fouad, {\em {Power System Control and Stability}}.
-\newblock 2~ed., 2003.
 
 \bibitem{EuropeanCommission2008}
 {Commission of the European Communities}, ``{20 20 by 2020 - Europe's climate
@@ -103,6 +50,11 @@ D.~Gautam, L.~Goel, R.~Ayyanar, V.~Vittal, and T.~Harbour, ``{Control strategy
   generators on large power systems},'' {\em IEEE Transactions on Power
   Systems}, vol.~26, no.~1, pp.~214--224, 2011.
 
+\bibitem{Muljadi2012}
+E.~Muljadi, V.~Gevorgian, and M.~Singh, ``{Understanding Inertial and Frequency
+  Response of Wind Power Plants Preprint},'' {\em 2012 IEEE Power Electronics
+  and Machines in Wind Applications (PEMWA)}, no.~July, pp.~1--8, 2012.
+
 \bibitem{VanDeVyver2016}
 J.~{Van De Vyver}, J.~D.~M. {De Kooning}, B.~Meersman, L.~Vandevelde, and T.~L.
   Vandoorn, ``{Droop Control as an Alternative Inertial Response Strategy for
@@ -128,6 +80,11 @@ J.~Ekanayake and N.~Jenkins, ``{Comparison of the response of doubly fed and
 J.~Morren, S.~de~Haan, W.~Kling, and J.~Ferreira, ``{Wind Turbines Emulating
   Inertia and Supporting Primary Frequency Control},'' {\em IEEE Transactions
   on Power Systems}, vol.~21, no.~1, pp.~433--434, 2006.
+
+\bibitem{Morren2006a}
+J.~Morren, J.~Pierik, and S.~W. de~Haan, ``{Inertial response of variable speed
+  wind turbines},'' {\em Electric Power Systems Research}, vol.~76, no.~11,
+  pp.~980--987, 2006.
 
 \bibitem{Hansen2014}
 A.~D. Hansen, M.~Altin, I.~D. Margaris, F.~Iov, and G.~C. Tarnowski,
@@ -155,11 +112,21 @@ J.~F. Conroy and R.~Watson, ``{Frequency response capability of full converter
   wind turbine generators in comparison to conventional generation},'' {\em
   IEEE Transactions on Power Systems}, vol.~23, no.~2, pp.~649--656, 2008.
 
+\bibitem{Gonzalez-Longatt2013}
+F.~Gonzalez-Longatt, E.~Chikuni, and E.~Rashayi, ``{Effects of the Synthetic
+  Inertia from wind power on the total system inertia after a frequency
+  disturbance},'' {\em Proceedings of the IEEE International Conference on
+  Industrial Technology}, pp.~826--832, 2013.
+
 \bibitem{Bonfiglio2019}
 A.~Bonfiglio, M.~Invernizzi, A.~Labella, S.~Member, R.~Procopio, and S.~Member,
   ``{Design and Implementation of a Variable Synthetic Inertia Controller for
   Wind Turbine Generators},'' {\em IEEE Transactions on Power Systems},
   vol.~34, no.~1, pp.~754--764, 2019.
+
+\bibitem{Clark2009}
+K.~Clark, N.~W. Miller, and J.~J. Sanchez-gasca, ``{Modeling of GE Wind
+  Turbine-Generators for Grid Studies Prepared by :},'' tech. rep., 2010.
 
 \bibitem{Enercon2018}
 Enercon, ``{Grid Integration and Wind Farm Management},'' tech. rep., 2018.
@@ -174,10 +141,39 @@ F.~Gonzalez-Longatt, A.~Bonfiglio, R.~Procopio, and D.~Bogdanov, ``{Practical
 P.~Kundur, {\em {Power System Stability and Control}}.
 \newblock McGraw-Hill,Inc.
 
+\bibitem{Eto2010}
+J.~H. Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
+  J.~Ellis, H.~Illian, C.~Martinez, M.~O'Malley, K.~Coughlin, and K.~H.
+  LaCommare, ``{Use of Frequency Response Metrics to Assess the Planning and
+  Operating Requirements for Reliable Integration of Variable Renewable
+  Generation},'' Tech. Rep. December 2010, Lawrence Berkeley National
+  Laboratory (LBNL), Berkeley, CA (United States), dec 2010.
+
+\bibitem{teiasfreq}
+TEİAŞ, ``{Y{\"{u}}k Tevzi Raporları},'' 2019.
+
+\bibitem{Ekanayake2008}
+J.~B. Ekanayake, N.~Jenkins, and G.~Strbac, ``{Frequency Response from Wind
+  Turbines},'' {\em Wind Engineering}, vol.~32, no.~6, pp.~573--586, 2008.
+
+\bibitem{Erinmez1999}
+I.~Erinmez, D.~Bickers, G.~Wood, and W.~Hung, ``{NGC experience with frequency
+  control in England and Wales-provision of frequency response by
+  generators},'' {\em IEEE Power Engineering Society. 1999 Winter Meeting (Cat.
+  No.99CH36233)}, vol.~1, pp.~590--596 vol.1, 1999.
+
 \bibitem{Machowski2011}
 J.~Machowski, J.~W. Bialek, and J.~R. Bumby, {\em {Power system dynamics:
   stability and controlJohn Wiley {\&} Sons,}}.
 \newblock 2011.
+
+\bibitem{TEIAS2019}
+TEIAS, ``{TEIAS Transparency Platfrom},'' 2019.
+
+\bibitem{yasa}
+``{Enerji Kaynaklarının Elektrik Enerjisi {\"{U}}retimi Ama{\c{c}}lı
+  Kullanımına İlişkin Kanunda Değişiklik Yapılmasına Dair Kanun},''
+  2011.
 
 \bibitem{Chen2009b}
 Z.~Chen, J.~M. Guerrero, F.~Blaabjerg, and S.~Member, ``{A Review of the State
@@ -288,6 +284,10 @@ S.~Seman and R.~Sakki, ``{Inertial Response – Generators and the Power
 F.~Wu, P.~Zheng, Y.~Sui, B.~Yu, and P.~Wang, ``{Design and experimental
   verification of a short-circuit proof six-phase permanent magnet machine for
   safety critical applications},'' {\em IEEE Transactions on Magnetics}, 2014.
+
+\bibitem{P.M.1995}
+P.~M. Anderson and A.~A. Fouad, {\em {Power System Control and Stability}}.
+\newblock 2~ed., 2003.
 
 \bibitem{July2018}
 {Turkish Wind Energy Association}, ``{Turkish Wind Energy Statistic Report},''

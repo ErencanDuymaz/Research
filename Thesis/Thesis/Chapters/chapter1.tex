@@ -5,7 +5,7 @@ The share of the renewable energy systems has been reached significant levels. A
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.6]{renewablecapacities.pdf}
-	\caption{Installed Renewable Energy Capacity of Leading Countries \cite{InternationalRenewableEnergyAgencyIRENA2018},\cite{InternationalRenewableEnergyAgency2017}}
+	\caption[Installed Renewable Energy Capacity of Leading Countries]{Installed Renewable Energy Capacity of Leading Countries \cite{InternationalRenewableEnergyAgencyIRENA2018},\cite{InternationalRenewableEnergyAgency2017}}
 	\label{renewablecap}
 \end{figure}
 EU countries promote the renewable energy systems from the very beginning. In 2008, two key main targets are set for 2020 by the European Council\cite{EuropeanCommission2008}: 
@@ -18,7 +18,7 @@ Wind power has the highest share among the renewable energy sources in the insta
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.55]{windcapacity.pdf}
-	\caption{Wind Power Capacity of Leading Countries in 2016 \cite{InternationalRenewableEnergyAgencyIRENA2018},\cite{InternationalRenewableEnergyAgency2017}}
+	\caption[Installed Renewable Energy Capacity of Leading Countries]{Wind Power Capacity of Leading Countries in 2016 \cite{InternationalRenewableEnergyAgencyIRENA2018},\cite{InternationalRenewableEnergyAgency2017}}
 	\label{windcap}
 \end{figure}
 The share of renewable energy is increasing continuously. Today, the discussion is about whether 100\% renewable energy is possible in the upcoming future. In \cite{REN212017d}, grid integration issues of wind and solar systems and the lack of sufficient storage technologies are considered as the main barrier for this target meanwhile the major problem seems as the existing energy industry. Nonetheless, a significant renewable share is expected even though the 100\% is realistic or not. The report published by IRENA (International Renewable Energy Agency) estimates the share of renewable energy in EU as 24\% by 2030 which is below proposed target of 27\%\cite{IRENA2014}. Nonetheless, the increase in the renewable energy share will continue in the upcoming future. \par
@@ -44,7 +44,7 @@ Different turbine topologies give different reactions to the frequency disturban
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.67]{windgentop.png}
-	\caption{Wind Turbine Generator Configurations \cite{Muljadi2012}}
+	\caption[Wind Turbine Generator Configurations]{Wind Turbine Generator Configurations \cite{Muljadi2012}}
 	\label{windtop}
 \end{figure}
 Type-4 wind turbines are connected to grid with back-to-back converters i.e. FSPC. AC/DC and DC/AC conversion decouples the grid frequency and the turbine speed. Due to the decoupling, Type-3 and Type-4 turbines can operate at the MPPT speed that capture the maximum power from air. Nonetheless, this results that Type-3 and 4 wind turbines are not affected from the grid frequency deviations. Therefore, these systems have no contribution to the grid inertia despite the fact that these systems include significant inertia. Hence, the aggregated grid inertia is reduced with the penetration of wind turbines with power electronics. \par
@@ -70,10 +70,11 @@ Studies regarding inertial support date back to early 2000s. In the study \cite{
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.65\linewidth]{inertiacontrol.png}
-	\caption{Inertia Controller in \cite{Morren2006a}}
+	\caption[Inertia Controller]{Inertia Controller in \cite{Morren2006a}}
 	\label{inertiacontrol}
 \end{figure}
 It is an undeniable fact that renewable energy systems are the most economical way of producing electrical energy due to absence of any fuel cost. Therefore, they are to be operated in their rated power. If they are required for the primary frequency control, the wind turbine active power should be curtailed. In this way they can leave a margin for droop control. Droop control by wind energy systems is also studied in the literature. In \cite{Muljadi2012}, the inertial support of different types of wind turbines is compared. It is concluded that the Type-4 wind turbines are able to perform better performance for inertial support due to the power electronics interface. Moreover, combination of inertial support and droop control produces better results in these wind turbines.\par
+\newpage
 Inertial support by utilizing the kinetic energy in the turbine is proposed in literature with two main methods. One of the methods is increasing the active power by a defined percentage and it is presented in literature with different names such as Fast
 Inertial Support, Fast Power Reserve or Stepwise Inertial Control. In this type of support, the support power is released with a step increase in the active power. In \cite{Hansen2014}, the fast inertial support is proposed with predefined increases in the active power. Nevertheless, the converter ratings and the effect of the wind speed in the fast inertial support capability are not emphasized. \par
 The second proposed method is the active power increase proportional to grid RoCoF. The method is called in literature as synthetic inertia control, hidden inertia control or
@@ -82,22 +83,22 @@ In the studies \cite{VanDeVyver2016},\cite{Conroy2008},\cite{Gonzalez-Longatt201
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.8\linewidth]{inertiacontrol2.png}
-	\caption{Hidden Inertia Controller in\cite{Gonzalez-Longatt2013}}
+	\caption[Installed Renewable Energy Capacity of Leading Countries]{Hidden Inertia Controller in\cite{Gonzalez-Longatt2013}}
 	\label{inertiacontrol2}
 \end{figure}
 The modern wind turbine manufacturers also study the inertial support capability for their wind turbines. General Electrics has active power control module called as WindINERTIA for their wind turbines in order to react the large frequency disturbances. The control module can increase the power output of the wind turbine by 5-10\% for a few seconds (10\% for 15 seconds) \cite{Clark2009}. The control diagram of the module is shown in Fig. \ref{inertiacontrolge}. Moreover, Enercon provides inertial response capability to the turbines by allowing 10\% increase in the active power\cite{Enercon2018}. Nonetheless, solutions of GE and Enercon are independent of the grid RoCoF.\par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.95\linewidth]{inertiacontrolge.png}
-	\caption{GE WindINERTIA Control Diagram in \cite{Clark2009}}
+	\caption[GE WindINERTIA Control Diagram]{GE WindINERTIA Control Diagram in \cite{Clark2009}}
 	\label{inertiacontrolge}
 \end{figure}
-However, the full capacity of the wind turbines for inertial support is not studied in literature. Practical limits of the inertial support are studied in \cite{Gonzalez-Longatt2016} by varying the inertia constant to be emulated. The study focuses the emulation of higher inertia constants without consideration of the wind speed in the support time. The practical limits in terms of maximum achievable power and turbine internal parameters are not focused in the study. Finally, the studies in literature do not investigate the practical limits of the wind turbine. By investigating full capacity of the wind turbine, the importance of the wind turbines for frequency stability studies can be emphasized. 
+However, the full capacity of the wind turbines for inertial support is not studied in literature. Practical limits of the inertial support are studied in \cite{Gonzalez-Longatt2016} by varying the inertia constant to be emulated. The study focuses the emulation of higher inertia constants without consideration of the wind speed in the support time. The practical limits in terms of maximum achievable power and turbine internal parameters are not focused in the study. Finally, the studies in literature do not investigate the practical limits of the wind turbine. By investigating full capacity of the wind turbine, the importance of the wind turbines for frequency stability studies can be emphasized. \newpage
 \section{Thesis Motivation}
 Although renewable energy systems are beneficial for environmental concerns and the absence of fuel cost, higher renewable penetration also brings operational challenges for system operators. One of the most important problems that comes with renewable energy is the deterioration on the power system frequency stability. With the high renewable penetration, grid aggregated inertia decreases. As a result, grid is exposed to high rate of change of frequency (RoCoF) for the disturbances in heavily renewable penetrated systems. This implies that the successful operation of power systems with increasing renewable energy penetration is not achievable unless the decrease in the grid inertia is prevented. Therefore, the main objective of this study is to avoid the decrease in the grid inertia arising with the renewable energy penetration. In this way, the share of renewable energy systems can be increased without the negative effects on the power system operation.
 
 %To avoid steeper frequency declines in the grid, all generation technologies should provide inertial support for the frequency disturbances.\par
-Wind energy systems, especially variable speed wind turbines with full scale power electronics are the most promising renewable energy systems that can contribute to grid frequency stability due to the high inertia in their blades and generator and also their back-to-back converters that give ability to control its active power. Wind turbine with full-scale power electronics is the key solution to be used against the decrease in the grid inertia. However, the full capability of a wind turbine with full-scale power electronics has not been discovered yet. This study will explore the full capacity of the wind turbines for the inertial support. The practical limits of the wind turbines are explored under different wind speed scenarios. Another objective of this study is revealing the effects of grid supporting functions in the wind turbines. Besides, the differences between the frequency dependent and independent inertial support mechanisms are investigated especially for weak power systems.
+Wind energy systems, especially variable speed wind turbines with full scale power electronics are the most promising renewable energy systems that can contribute to grid frequency stability due to the high inertia in their blades and generator and also their back-to-back converters that give ability to control its active power. Wind turbine with full-scale power electronics is the key solution to be used against the decrease in the grid inertia. However, the full capability of a wind turbine with full-scale power electronics has not been discovered yet. This study will explore the full capacity of the wind turbines for the inertial support. The practical limits of the wind turbines are explored under different wind speed scenarios. Another objective of this study is revealing the effects of grid supporting functions in the wind turbines. Besides, the differences between the frequency dependent and independent inertial support mechanisms are investigated especially for weak power systems.\newpage
 %The knowledge of the wind turbine inertial support capability enables the grid operator to build new frequency regulating mechanisms. In this way, the participation of turbines for these mechanisms can be encouraged. \par
 %Inertial support methods (either dependent on frequency or not) are presented in the literature. However, comparison of their performances under a weak power grid has not studied. This study aims to find out which type of inertial support is efficient for weak power grids. \par
 %In Turkey, renewable energy systems produce electricity through the feed-in tariff that is the guaranteed price to these systems. Hence, the energy providers would not be volunteer for inertial support implementation unless system operators make this service mandatory or the implementation has economical benefits. The results of this thesis will present a basis for economical analysis by the energy provider perspective.
@@ -108,21 +109,4 @@ Chapter \ref{chp:3} presents the modelling of wind turbine used in this study. S
 The limits of the active power increase are investigated in Chapter \ref{chp:4}. The ability of increasing its active power output is already presented in literature. However, the limits of support power are studied for different wind speed scenarios. The real wind speed measurements from site are utilized to find the probability of support power for different wind speeds. Wind turbine inertial support limits and turbine internal parameters are observed for the non-dynamic frequency response.\par
 Synthetic inertia implementation is the implementation of inertial support behavior on RES by establishing a relation between grid RoCoF and turbine active power output. The implementation on a wind farm is studied in Chapter \ref{chp:5}. The effect of synthetic inertia is observed in a dynamic test case with renewable penetration. Test case is modified with different combinations in which the system is penetrated with wind farm with/without generator decommission are studied in this chapter. Frequency response of the test system is tested for different grid configurations as well as different emulated inertia constants. Furthermore, the synthetic inertia implementation is evaluated for the Turkish electricity system. \par
 Chapter \ref{chp:6} evaluates the effects of the fast inertial support and synthetic inertia implementation. Moreover, an economical analysis from an energy provider perspective is given. Two hypothetical payment methods are constructed and compared to estimate which economical motive can convince the energy provider for participating grid supporting methods with renewable energy systems. \par
-Chapter \ref{chp:7} presents a basic conclusion for the inertial support implementation which is either frequency dependent or not. The contribution of the thesis study on the grid inertia reduction is emphasized by reviewing the inertial support capability of the wind turbine especially for low and medium wind speeds. Moreover, the feasibility of the inertial support implementation is investigated in terms of the payment methods.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Chapter \ref{chp:7} presents a basic conclusion for the inertial support implementation which is either frequency dependent or not. The contribution of the thesis study on the grid inertia reduction is emphasized by reviewing the inertial support capability of the wind turbine especially for low and medium wind speeds. Moreover, the future works that can be integrated with this thesis study is listed for the continuation of the thesis subject.

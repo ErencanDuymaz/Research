@@ -12,8 +12,8 @@
 \addvspace {10pt}
 \contentsline {table}{\numberline {1.1}{\ignorespaces Comparison of Different Types of Generators for Inertial Response Behaviour\relax }}{7}{table.caption.13}
 \addvspace {10pt}
-\contentsline {table}{\numberline {2.1}{\ignorespaces Feed-In Tariff for Renewable Energy Systems in Turkey \cite {yasa}\relax }}{24}{table.caption.21}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Local Content Incentives for Wind Turbines\cite {yasa}\relax }}{24}{table.caption.22}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Feed-In Tariff for Renewable Energy Systems in Turkey}}{24}{table.caption.21}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Local Content Incentives for Wind Turbines}}{24}{table.caption.22}
 \addvspace {10pt}
 \contentsline {table}{\numberline {3.1}{\ignorespaces Stored Energy Comparison for Different Drive Train Concepts\relax }}{42}{table.caption.33}
 \contentsline {table}{\numberline {3.2}{\ignorespaces Dynamic Parameters of the Wind Turbine\relax }}{44}{table.caption.34}
@@ -28,10 +28,10 @@
 \contentsline {table}{\numberline {5.6}{\ignorespaces System Dynamical Properties with Wind Farm\relax }}{76}{table.caption.69}
 \contentsline {table}{\numberline {5.7}{\ignorespaces Reduced Inertia Case Dynamical Properties\relax }}{78}{table.caption.72}
 \contentsline {table}{\numberline {5.8}{\ignorespaces Load Flow Results for Reduced Inertia Case\relax }}{79}{table.caption.73}
-\contentsline {table}{\numberline {5.9}{\ignorespaces Comparison of the Case Properties\relax }}{85}{table.caption.77}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Comparison of the Case Properties\relax }}{86}{table.caption.77}
 \contentsline {table}{\numberline {5.10}{\ignorespaces Contribution of the Synthetic Inertia Implementation to System Aggregated Inertia based on 2018 Generation Data\relax }}{92}{table.caption.82}
 \addvspace {10pt}
-\contentsline {table}{\numberline {6.1}{\ignorespaces Comparison of the Frequency Support Pricing Methods\relax }}{101}{table.caption.83}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Comparison of the Hypothetical Frequency Support Pricing Methods\relax }}{101}{table.caption.83}
 \addvspace {10pt}
 \addvspace {10pt}
 \contentsline {table}{\numberline {A.1}{\ignorespaces Load Data of the P.M. Anderson Test System\relax }}{115}{table.caption.86}

@@ -22,6 +22,7 @@ It is should be noted that the source of the additional power is the kinetic ene
  \int_{t_{i}}^{t_{f}}P_{wind}- \int_{t_{i}}^{t_{f}}P_{gen}=\Delta E_{kin}=\frac{1}{2}J_{total}(\omega_{f}^2-\omega_{i}^2)
 \label{finalspeed}
 \end{equation}
+\\
 As seen from the Eq. (\ref{genpower}), the generator power is the multiplication of generator torque and speed. In the high speeds, the generator speed $\omega_{m}$, cannot be controlled with only the generator torque but also with the pitch angle. In this way, the rated power is not exceeded as in the Eq. (\ref{maxpower}) by keeping turbine at the maximum generator speed, $\omega_{max}$ and the maximum torque $T_{P-lim}$ that is the torque limiting the turbine output power to rated active power. However, general practice is employing higher power rating converter than generator active power rating in the variable speed wind turbines \cite{Muljadi2012}.  Therefore, higher limit torque, $T_{S-lim}$ can be used in such wind turbine applications by considering the apparent power of the back-to-back converters. Therefore, the maximum power for a wind speed can be defined as in Eq. (\ref{maxxpower}).
 \begin{equation}
 P_{rated}=T_{P-lim} \omega_{max}
@@ -34,7 +35,7 @@ P_{max}=T_{S-lim} \omega_{max}
 It is obvious that the maximum available active power is dependent on the generator speed, hence, the wind speed for the corresponding operation time. This is why the amount of the active power increase also depends on the wind speed. By considering the MPPT speed operation in GE 2.75-103 model variable speed wind turbine, the maximum increase in the active power is shown in Fig. \ref{increase_active_power}. The wind turbine can increase its active power by the lowest amount when the wind speed is high. Since the turbine output power is already close to converter maximum power rating, the increase in the active power is much lower than that of low wind speed operations. It is observed that the wind turbine output power can be increased by 1.3MW (0.43pu) when the wind speed is between 5m/s and 8m/s. \par
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.9\linewidth]{increaseinpower.pdf}
+	\includegraphics[width=.85\linewidth]{increaseinpower.pdf}
 	\caption{Accessible Active Power Output for Varying Wind Speeds}
 	\label{increase_active_power}
 \end{figure}
@@ -68,15 +69,18 @@ The wind turbine properties used in this study belong to GE2.75-103 model. Fig. 
 		Generator Type          & PM Synchronous & -             \\
 		Generator Inertia       & 240            & $kgm^{2}$     \\
 		Generator Pole          & 4              & -             \\
-		Generator Flux Linkage  & 2.5            & Vs          \\
+		Generator Flux Linkage  & 2.5            & Vs            \\
+		Stator Inductance       & 0.25           & $mH$          \\
+		MSC Line Reactor        & 0.8            & $mH$          \\
 		DC-Link Capacitance     & 27             & $mF$          \\
-		DC-Link Voltage         & 1200           & $V$           \\ \hline
+		DC-Link Voltage         & 1200           & $V$           \\
+		L-filter (GSC Reactor)  & 0.2            & $mH$          \\ \hline
 	\end{tabular}
 	\caption{GE2.75-103 Properties}
 	\label{ge275}
 \end{table}
 \section{Probabilistic Approach for Fast Inertial Support}
-In the Section \ref{sec:klimit}, the inertial support limits are investigated for different wind speeds. It is stated that the wind turbines can increase their active power outputs by highest amounts in the low and medium wind speeds. In order to increase the meaningfulness of such support, probability of different wind speeds is studied. Wind speed measurements used in this thesis are taken from a real wind farm with GE 2.75-103 model wind turbines between 01/01/2017 and 21/08/2017. The variation of the wind speed in the side is depicted in Fig. \ref{windvariation}.\par
+In the Section \ref{sec:klimit}, the inertial support limits are investigated for different wind speeds. It is stated that the wind turbines can increase their active power outputs by highest amounts in the low and medium wind speeds. In this section, probability of different wind speeds is utilized based on the measurements taken from a real wind farm in Balıkesir, Turkey with GE 2.75-103 model wind turbines between 01/01/2017 and 21/08/2017. The variation of the wind speed in the side is depicted in Fig. \ref{windvariation}.\par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1.\linewidth]{windspeeds.png}
@@ -86,10 +90,11 @@ In the Section \ref{sec:klimit}, the inertial support limits are investigated fo
 Probability density function (PDF) of the measurements is given in Fig. \ref{windpdf}. The wind speed measurements have a mean of 7.13 with a standard deviation of 3.85.\par
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=.8\linewidth]{pdf_wind.pdf}
+	\includegraphics[width=.85\linewidth]{pdf_wind.pdf}
 	\caption{Probability Density Function of Measured Wind Speeds}
 	\label{windpdf}
 \end{figure}
+\newpage
 For a defined wind speed, the active power increase can be calculated by considering the Section \ref{sec:klimit}. However, likelihood of such an increase can be calculated by integrating PDF over desired the wind speed range.\par
 It is obvious that the turbine can increase its output by an amount between 10\% and 48\% depending on the wind speed. However, the average inertial support from a wind turbine is another important property for testing the reliability of the support. By utilizing the wind speed measurements and the possible increase in the active output power, it is possible to define availability of the wind turbine for a possible inertial support. In other words, the increase in the active power can be united with the probability of the corresponding speed. In this way, the contribution from different wind speeds is obtained. The net power contribution for varying wind speed is given in the Fig. \ref{net_contribution}.\par
 \begin{figure}[h!]
@@ -98,7 +103,8 @@ It is obvious that the turbine can increase its output by an amount between 10\%
 	\caption{Distribution of Fast Inertial Support}
 	\label{net_contribution}
 \end{figure}
-Since Fig. \ref{net_contribution} is basically product of the pdf given in Fig. \ref{windpdf} and the increase in the active power given in Fig. \ref{increase_active_power}, the area under the graph gives average contribution from a wind turbine by considering the probability of the each wind speed measurement. Therefore, it can be concluded that the average contribution of wind turbine studied in this study is 0.3pu. This contribution is found by the area under the Fig. \ref{increase_active_power}.\par
+\newpage
+Since Fig. \ref{net_contribution} is basically product of the pdf given in Fig. \ref{windpdf} and increase in the active power given with green line in Fig. \ref{increase_active_power}, the graph shows the average contribution from a defined wind speed by considering its probability and active power increase value. Therefore, it can be concluded that the average contribution of wind turbine can be found by calculating the area under the Fig. \ref{net_contribution}. In this study, average 0.3pu active power increase is found according to the wind speed measurements.\par
 Moreover, the net contribution when the wind speed is below 3m/s is zero since the turbine is in the cut-off. The probability of the cut-off according to wind speed measurements is found out as 14.16\%. The main contribution concentrates inside the wind speed range between 3m/s and 10m/s that is shown with a dashed arrow inside Fig. \ref{increase_active_power}. Due to the fact that this wind speed range has both higher probability and higher increase capability, the main contribution is provided inside this range. Meanwhile, the higher speed range has relatively lower contribution due to its lower probability and lower capability. \par
 
 \section{Fast Inertial Support Under Different Wind Speeds}
@@ -109,6 +115,7 @@ Active power of the wind turbines is determined by parameters such as wind speed
 	\caption{Variation of the Rotational Speed}
 	\label{rotspeed}
 \end{figure}
+\newpage
 The rotational speed for varying wind speed is given in the Fig. \ref{rotspeed}. The minimum and maximum generator speeds exist between the 3m/s and 10m/s wind speeds. The Eq. (\ref{kinetic}) can be used to find out the rotational energy according to the wind speed.\par
 \begin{equation}
 E_{kinetic}=\frac{1}{2}J_{total}\omega_{m}^{2}
@@ -120,7 +127,9 @@ E_{kinetic}=\frac{1}{2}J_{total}\omega_{m}^{2}
 	\caption{Variation of the Rotational Energy}
 	\label{rotenergy}
 \end{figure}
+\\
 The rotational energy is shown in the Fig. \ref{rotenergy}. The wind turbine stores almost 18MJ kinetic energy when the wind speed is above 10m/s. However, it stores 0.9MJ energy in the minimum generator speed. This energy can be extracted for the inertial support. However, a part of this energy is reserved for successful operation of the system such that the turbine speed deviation is limited as 30\% \cite{Wu2014}. The available energy that can be used in the inertial support is shown in Fig. \ref{rotenergy} as the difference between the stored energy and reserved energy. \par
+\newpage
 Even though 9MJ rotational energy is available for inertial support in the wind speeds above 10m/s, the turbine cannot increase its output power more than 0.1pu. Therefore, the rotational energy itself is not be meaningful without the converter capability. By considering the turbine capability for inertial support, the maximum support duration is found for the maximum power capability in the Fig. \ref{duration}. The support duration is limited with 1 second in the lowest wind speed 3m/s meanwhile the support can be sustained permanently in the wind speeds above 10.8m/s.\par 
 In the following sections, wind turbine inertial supports will be investigated by considering the high, medium and low wind speed scenarios. In the each scenario, the wind turbine power will be increased to its maximum value according to the converter capability. The duration of the support is selected as 1 second since support duration of 1 second is achievable for all wind speeds as given in Fig. \ref{duration}. Moreover, the wind turbine active power is increased by 10\% for longer time durations (5, 10 and 20 seconds). The turbine internal dynamics will be investigated under in the limit and moderate cases of each wind speed scenario.
 \begin{figure}[h!]
@@ -141,6 +150,7 @@ In the limit cases, the active powers are increased to maximum achievable value 
 	\caption{Fast Inertial Support Active Power Limit for High Wind Scenario}
 	\label{high_powers}
 \end{figure}
+\newpage
 The active power of the wind turbine can be increased by increasing the generator torque. Since the turbine torque is constant, turbine speed starts decreasing. However, the turbine torque in the high speed scenario is curtailed with the pitch angle. Therefore, a decrease in the generator speed creates a decrease in the pitch angle. Thus, in the high wind speed scenario, generator speed decrease will be arrested by the turbine torque. \par
 Turbine and generator powers and generator speed are shown in Fig. \ref{high_limit_speed}. The
 turbine power in this case rises with the inertial support that is different than low
@@ -148,14 +158,14 @@ and medium wind scenarios. Moreover, the speed starts decreasing with the suppor
 However, as the generator speed declines below the maximum generator speed,
 pitch angle of the turbine blades decreases which arrests the decrease in the generator
 speed. Furthermore, since the speed is below the maximum generator speed during support period, the pitch angle controller decreases the pitch angle causing an increase in the turbine torque. Therefore, the turbine torque goes slightly above 1.1pu and results in a small acceleration in the generator speed. \par
-The variation of the pitch angle and the rate of change of pitch angle is shown in Fig. \ref{pitch_rate}. The pitch angle is decreased from $1.4^{\circ}$ to $0.8^{\circ}/$ that avoids the speed decrease in the generator. Therefore, the fast inertial support in the high speed scenario does not require speed recovery since the speed is close to the pre-support speed. The pitch rate in the beginning of inertial support reaches to $0.8^{\circ}/s$ that is below the maximum allowable pitch rate of $5-10^{\circ}/s$ \cite{Ackermann2005a}. \par
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=1 \linewidth]{s5__.png}
 	\caption{Turbine and Generator Powers and Generator Speed for High Wind Limit Scenario}
 	\label{high_limit_speed}
 \end{figure}
-\begin{figure}[h]
+The variation of the pitch angle and the rate of change of pitch angle is shown in Fig. \ref{pitch_rate}. The pitch angle is decreased from $1.4^{\circ}$ to $0.8^{\circ}/$ that avoids the speed decrease in the generator. Therefore, the fast inertial support in the high speed scenario does not require speed recovery since the speed is close to the pre-support speed. The pitch rate in the beginning of inertial support reaches to $0.8^{\circ}/s$ that is below the maximum allowable pitch rate of $5-10^{\circ}/s$ \cite{Ackermann2005a}. \par
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=1 \linewidth]{high_pitch_rate_2.png}
 	\caption{Pitch Angle and Rate of Change of Pitch Angle for High Wind Limit Scenario}
@@ -188,6 +198,7 @@ The pitch angle variation and the rate of change of pitch angle is given in Fig.
 \subsection{Low Wind Scenario}
 \label{sec:lowwind}
 The minimum speed of the wind turbine generator in this scenario is 550 rpm (4.7 rpm in the rotor). Wind speed that will capture the maximum power from wind in this generator speed is found out to be 3.12m/s. In this scenario, the kinetic energy stored in the turbine inertia is minimum as calculated in Eq. (\ref{kineticenergymin}). This scenario investigates the case where the least amount of kinetic energy exists in the turbine equivalent inertia. By the fast inertial support provision, the wind turbine speed decreases below the minimum generator speed. However, the resultant minimum generator speed is dependent on the increase in the active power and also the support interval.
+\newpage
 \subsubsection{Fast Inertial Support Limit for the Low Wind Scenario}
 The electricity grid in the upcoming future might require sudden active power release from wind farms for short time durations to arrest steepest frequency declines. Therefore, it is important to observe the maximum achievable power for inertial support studies. The equation Eq. (\ref{maxxpower}) implies that wind turbine in the low wind speed scenario cannot reach rated power since the generator speed is much lower than the maximum generator speed. However, the electromechanical torque in steady state is much lower than the limit torque, $T_{S-lim}$. Therefore, the wind turbine in low speed scenario has the potential for increasing its active power by 0.32pu.\par
 Fig. \ref{low_limit_power} shows the active power, output torque and the speed of the generator. The increase in the active power is obtained by ensuring the limit torque, $T_{S-lim}$. In this way, wind turbine can achieve a power value of 0.35pu in the limit case. However, since the generator speed is decreasing, the active power is also decreasing due to the fact that further increase in the generator torque is not possible. \par
@@ -202,17 +213,17 @@ The support duration is chosen as 1 second according to the available kinetic en
 Wind turbines are able to increase its power by 0.32pu even in the low wind speed scenario. However, the time interval is kept as 1 second possible in order to be kept within the available kinetic energy limit. Nonetheless, the longer support periods can be achievable if the increase in the active power is decreased. Therefore, in this part, the active power of the wind turbine is increased by 10\% for three different time intervals as 5, 10 and 20 seconds. The active power output of the wind turbine is given in Fig. \ref{lowactivepowers}. It is observed that turbine power decreases below the nominal value after the support period in order to recover the generator speed. Another observation is the fact that higher support time creates higher dip in the active power in the speed recovery period.\par
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=.95\linewidth]{lowpowers2.png}
+	\includegraphics[width=1\linewidth]{lowpowers2.png}
 	\caption{Active Power Output of the Wind Turbine for Low Wind Scenario}
 	\label{lowactivepowers}
 \end{figure}
+Generator speed decreases continuously until the support is ended. The generator speeds are shown in Fig. \ref{low_speeds} for three support scenarios. The decrease in the generator speed is obtained with an increase in the generator torque. The turbine torque, generator torque and generator speed for 5 seconds support duration is given in Fig. \ref{low_torques}. The generator torque is increased at t=10s for a time duration of 5 seconds. Turbine torque increases slightly with decreasing speed. However, the increase in the turbine torque is negligible when it is compared to the increase in generator torque. Therefore, the turbine torque can be considered to be constant for the support period meanwhile the generator torque is increased. Wind speed in this scenario decreases 1.6\%. Turbine and generator torque for 20 second case is also shown in Fig. \ref{low_torques3} in which speed decreases by 4.8\%.\par
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=.95\linewidth]{lowspeeds2.png}
 	\caption{Generator Speeds of the Wind Turbine for Low Wind Scenario}
 	\label{low_speeds}
 \end{figure}
-Generator speed decreases continuously until the support is ended. The generator speeds are shown in Fig. \ref{low_speeds} for three support scenarios. The decrease in the generator speed is obtained with an increase in the generator torque. The turbine torque, generator torque and generator speed for 5 seconds support duration is given in Fig. \ref{low_torques}. The generator torque is increased at t=10s for a time duration of 5 seconds. Turbine torque increases slightly with decreasing speed. However, the increase in the turbine torque is negligible when it is compared to the increase in generator torque. Therefore, the turbine torque can be considered to be constant for the support period meanwhile the generator torque is increased. Wind speed in this scenario decreases 1.6\%. Turbine and generator torque for 20 second case is also shown in Fig. \ref{low_torques3} in which speed decreases by 4.8\%.\par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1.0\linewidth]{low_s5_2.png}
@@ -225,6 +236,7 @@ Generator speed decreases continuously until the support is ended. The generator
 	\caption{Turbine Torque, Generator Speed and Generator Torque for 20 Seconds Support Duration under Low Wind Speed}
 	\label{low_torques3}
 \end{figure}
+\newpage
 \subsection{Medium Wind Scenario}
 In the medium wind scenario, wind turbine is operated in 6m/s wind speed. This corresponds to the generator speed of 110.8rad/s (9rpm rotor speed). Wind turbine in the medium wind speed range can increase its power by 1.32MW for fast inertial support as stated in the Section \ref{sec:klimit}. Even though the wind turbine has lower kinetic energy than that of high wind scenario, it can reach higher active power values due to its higher MPPT speed. 
 \subsubsection{Fast Inertial Support Limit for the Medium Wind Scenario}
@@ -235,7 +247,7 @@ It is already mentioned that wind turbines in the medium wind speed scenario can
 	\caption{Fast Inertial Support Active Power Limit for Medium Wind Scenario}
 	\label{medium_limit_power}
 \end{figure}
- Generator speed decreases due to increased generator power while the turbine power is almost constant. Since the turbine leaves the MPP point, the turbine power declines. However, the change in the turbine power is small. Therefore, the turbine power is said to be constant for this interval. 
+ Generator speed decreases due to increased generator power while the turbine power is almost constant. Since the turbine leaves the MPP point, the turbine power declines. However, the change in the turbine power is small. 
 \subsubsection{Moderate Fast Inertial Support for the Medium Wind Scenario}
 Fast inertial support with a duration of 1 second can be evolved to moderate inertial support with longer duration of support as 5, 10 and 20 seconds and small increase in active power. Therefore, the active power of the wind turbine is increased by 10\% and it is shown in Fig. \ref{midpowers} for three different time intervals. The recovery period of shortest support case is much more smoother than the longer ones. When the support time is increased, active power of the wind turbine is almost halved that might cause also problems in frequency stability of the power systems. \par
 \begin{figure}[h!]

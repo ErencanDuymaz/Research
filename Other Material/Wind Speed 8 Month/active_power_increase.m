@@ -29,3 +29,21 @@ xlim([min(windspeeds) 12])
 grid minor
 set(gca,'FontSize',12);
 % saveas(gcf,'power_increasew2','pdf')
+
+
+%%
+plot(windspeeds,powerpu/(2.75e6),'k','LineWidth',2)
+
+xlabel('Wind Speeds (m/s)')
+% ylabel('Cumulative Probability (CDF) ')
+ylabel('Increase in Active Power (pu)')
+
+ax = gca;
+ax.XGrid = 'on';
+ax.YGrid = 'on';
+ax.XColor = 'k'; % Red
+ax.YColor = 'k'; % Blue
+xlim([min(windspeeds) 12])
+grid minor
+set(gca,'FontSize',30);
+% saveas(gcf,'power_increasew2','pdf')

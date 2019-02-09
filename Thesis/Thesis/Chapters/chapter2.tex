@@ -5,12 +5,11 @@ The increasing renewable energy penetration deteriorates the power system freque
 In this chapter, the internal dynamics of the power system will be presented in terms of frequency stability. The frequency regulation mechanisms in the grid are also given. Furthermore, the energy market is briefly explained in order to understand the role of renewable energy providers in the market.
 \section{Synchronous Generator and Synchronous Speed}
 Synchronous machines produce torque only in synchronous speed. If a transient over-speeding occurs in the rotor, the torque cannot be produced that results in a deceleration. This makes the rotor angular velocity to strictly coupled to the electrical frequency  of the stator rotating MMF. Moreover, these machines are equipped with damper windings which are basically induction machine windings. If the frequency of  grid changes, damper windings create a torque which creates a force to synchronize the speed to the grid frequency. \par
+Relation between grid frequency and the synchronous speed is given in Eq. (\ref{syncspeed}) in terms of rpm where $n_{s}$ is the synchronous speed in rpm, $f$ is the grid frequency in Hz, $p$ is the number of poles of the generator \cite{Kundur}. Since the grid frequency is proportional to synchronous speed, the generator speed of synchronous machines changes according to grid frequency. 
 \begin{equation}
 n_{s}=\frac{120f}{p}
 \label{syncspeed}
 \end{equation}
-Relation between grid frequency and the synchronous speed is given in Eq. (\ref{syncspeed}) in terms of rpm where $n_{s}$ is the synchronous speed in rpm, $f$ is the grid frequency in Hz, $p$ is the number of poles of the generator \cite{Kundur}.
-
 \section{Swing Equation}
 \label{swing}
 Rotational speed of synchronous machines changes according to the net torque acting on the rotor. Therefore, the speed is maintained constant unless there is a difference between mechanical and electromechanical torque. The equation of motion is given in Eq. (\ref{eqmotion}) where $J$ is aggravated moment of inertia of the generator and the turbine in $kgm^{2}$, $\omega_{m}$ is the rotor angular velocity in $rad/s$, $T_{m}$ and $T_{e}$ are mechanical and electromechanical torques in $Nm$. $T_{a}$ is the accelerating torque in $Nm$ which determines the acceleration or deceleration in the rotor according to its sign.
@@ -51,18 +50,18 @@ The frequency in a power system is related to the speed of the synchronous gener
 2H_{sys}\overline{f}_{sys}\frac{d\overline{f}_{sys}}{dt}=\overline{P}_{tm}-\overline{P}_{te}
 \end{equation}
 If the generators of the grid are considered as a single generator, the inertia of the equivalent generator is aggregated from each generator in the network. In this case, average frequency in the network can be found as in Eq. (\ref{systemswing}) where $P_{tm}$ is the aggravated mechanical input power of the generators meanwhile $P_{te}$ is the aggravated electromechanical output power. In other words, the system frequency depends on the balance between generation and consumption. It should be noted that generation means the input mechanical power of the generators meanwhile the demand is absorbed from the electromechanical output power of the generators. Hence, the difference between these causes either acceleration or deceleration in the grid frequency. \par
+The behaviour of the frequency in electric grid is depicted in Fig. \ref{frequencyingrid}. As it can be seen from the water level in a container analogy, the frequency of the system is dependent on the in-flow and the out-flow. Therefore, in the electricity grid, frequency increases as the aggregated input power is higher than the aggregated output power. Note that, the direction of the frequency is dictated by this balance. Having a constant 49.8Hz frequency does not mean that consumption is higher than generation. If the frequency is constant, then the input mechanical power is equal to output power.\par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.9\linewidth]{frequencypool.pdf}
-	\caption{Frequency Behaviour in Electric Grid with the Water Level in a Container Analogy \cite{Eto2010}}
+	\caption[Frequency Behaviour in Electric Grid with the Water Level in a Container Analogy]{Frequency Behaviour in Electric Grid with the Water Level in a Container Analogy \cite{Eto2010}}
 	\label{frequencyingrid}
 \end{figure}
-The behaviour of the frequency in electric grid is depicted in Fig. \ref{frequencyingrid}. As it can be seen from the water level in a container analogy, the frequency of the system is dependent on the in-flow and the out-flow. Therefore, in the electricity grid, frequency increases as the aggregated input power is higher than the aggregated output power. Note that, the direction of the frequency is dictated by this balance. Having a constant 49.8Hz frequency does not mean that consumption is higher than generation. If the frequency is constant, then the input mechanical power is equal to output power.\par
 The variation of the grid frequency is depicted for a typical day in Fig \ref{06decfreq}. The frequency deviates continuously during the day. It should be noted that there exist hourly peaks in the frequency. The peaks occur due to the change in the hourly generation shift according to the unit commitment. Since the generation level and generating units are changed for the next hour, the frequency deviates hourly in the grid.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.9\linewidth]{06decfreq.pdf}
-	\caption{Variation of the Frequency in a Typical Day (06 Dec 2018) \cite{teiasfreq}}
+	\caption[Variation of the Frequency in a Typical Day (06 Dec 2018)]{Variation of the Frequency in a Typical Day (06 Dec 2018) \cite{teiasfreq}}
 	\label{06decfreq}
 \end{figure}
 \section{Frequency Regulating Mechanisms}
@@ -71,7 +70,7 @@ The frequency control services in England and Wales are depicted in Fig. \ref{fr
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.35]{freqq.png}
-	\caption{Grid Frequency Control in England and Wales \cite{Ekanayake2008}, \cite{Erinmez1999}}
+	\caption[Grid Frequency Control in England and Wales]{Grid Frequency Control in England and Wales \cite{Ekanayake2008}, \cite{Erinmez1999}}
 	\label{freqcontrol}
 \end{figure}
 \subsection{Primary Frequency Control}
@@ -93,12 +92,12 @@ The price of the energy changes according to the market type. In Fig. \ref{marke
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.7]{marketprices.pdf}
-	\caption{Energy Prices on 06 Dec. 2018 \cite{TEIAS2019}}
+	\caption[Energy Prices on 06 Dec. 2018]{Energy Prices on 06 Dec. 2018 \cite{TEIAS2019}}
 	\label{markets}
 \end{figure}
 \subsection{Feed-In Tariff}
 \label{section-price}
-Significant amount of energy produced inside the Turkish electricity network is based on exported sources such as coal and gas. As a result of this, the energy sector is highly dependent on foreign countries. In order to decrease the dependency on the external sources, the renewable energy sources are supported by government in Turkey. The energy generated by renewable energy systems are sold with the feed-in tariff (FIT) within the pre-determined time interval according to the purchase agreement. This decreases the return of investment due to the fact that all produced energy will be sold during this period with a remarkable price. The feed-in tariff for different renewable energy systems is listed in Table \ref{price}.\par
+Significant amount of energy produced inside the Turkish electricity network is based on exported sources such as coal and gas. As a result of this, the energy sector is highly dependent on foreign countries. In order to decrease the dependency on the external sources, the renewable energy sources are supported by government in Turkey. The energy generated by renewable energy systems are sold with the feed-in tariff (FIT) within the pre-determined time interval according to the purchase agreement. This decreases the return of investment due to the fact that all produced energy will be sold during this period with a remarkable price. FIT for different renewable energy systems is listed in Table \ref{price}. It is applicable for 10 years period for the renewable energy systems that are commisioned no later than 2020. \par
 \begin{table}[h]
 	\centering
 	\begin{tabular}{cc}
@@ -110,10 +109,11 @@ Significant amount of energy produced inside the Turkish electricity network is 
 		Biomass                          & 13.3                                                                         \\
 		Solar                            & 13.3                                                                         \\ \hline
 	\end{tabular}
-\caption{Feed-In Tariff for Renewable Energy Systems in Turkey \cite{yasa}}
+\caption[Feed-In Tariff for Renewable Energy Systems in Turkey]{Feed-In Tariff for Renewable Energy Systems in Turkey \cite{yasa}}
 \label{price}
 \end{table}
-In addition to feed-in tariff, energy provider can benefit from additional incentives as long as some parts of the system is produced inside Turkey. For instance, by choosing a tower of a wind turbine which is a domestic production, an additional price is given to energy provider as local-bonus content. The local-bonus contents for wind turbines are listed in Table \ref{price2}.\par
+\newpage
+In addition to FIT, energy provider can benefit from additional incentives as long as some parts of the system is produced inside Turkey. For instance, by choosing a tower of a wind turbine which is a domestic production, an additional price is given to energy provider as local-bonus content. The local-bonus contents for wind turbines are listed in Table \ref{price2}. The renewable energy systems can benefit from local bonuc content during 5 years period. It should be noted that the plants that will be commisioned after 2020 will not benefit from FIT and local content bonus but will take place in day ahead and intra-day markets.\par
 \begin{table}[h!]
 	\centering
 	\begin{tabular}{cc}
@@ -124,7 +124,7 @@ In addition to feed-in tariff, energy provider can benefit from additional incen
 		Turbine Tower                                                                        & 0.6                                                                                   \\
 		\begin{tabular}[c]{@{}c@{}}All Mechanical Parts in \\ Rotor and Nacelle\end{tabular} & 1.3                                                                                   \\ \hline
 	\end{tabular}
-	\caption{Local Content Incentives for Wind Turbines\cite{yasa}}
+	\caption[Local Content Incentives for Wind Turbines]{Local Content Incentives for Wind Turbines\cite{yasa}}
 	\label{price2}
 \end{table}
 With the increasing renewable energy penetration, the power system stability is getting more vulnerable to the disturbances. Since the grid operators are responsible for the successful operation of the grid, they have to work in order to improve the grid stability. Meantime, maintaining power system stability is not a responsibility of the energy providers. However, participation of the renewable energy providers is also a necessity to improve frequency stability of the grid. Hence, the grid operators have to come up with a solution to be implemented by the energy providers. Nonetheless, the solution should also be beneficial for the energy providers which are already satisfied with the existing purchase agreement with additional incentives. As long as the renewable energy providers are convinced to implement the solutions, the grid stability can be maintained against the increasing renewable penetration.

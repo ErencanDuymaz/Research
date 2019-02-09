@@ -59,13 +59,12 @@ Repeated entry---line 26776 of file library.bib
 I'm skipping whatever remains of this entry
 Warning--empty publisher in InternationalRenewableEnergyAgencyIRENA2018
 Warning--empty publisher in InternationalRenewableEnergyAgency2017
-Warning--empty institution in Clark2009
-Warning--empty publisher in P.M.1995
 Warning--empty note in EuropeanCommission2008
 Warning--empty institution in States2016
 Warning--empty publisher in REN212017d
 Warning--empty institution in IRENA2014
 Warning--empty journal in Hernandez2017
+Warning--empty institution in Clark2009
 Warning--empty institution in Enercon2018
 Warning--can't use both author and editor fields in Kundur
 Warning--empty year in Kundur
@@ -78,6 +77,7 @@ Warning--empty publisher in Orowska-Kowalska2014
 Warning--can't use both volume and number fields in Brantsater2015
 Warning--empty journal in Gonzalez-longatt2015
 Warning--empty journal in ENTSO-E2016
+Warning--empty publisher in P.M.1995
 Warning--empty institution in July2018
 Warning--empty journal in Gonzalez-Longatt
 Warning--empty year in Gonzalez-Longatt
