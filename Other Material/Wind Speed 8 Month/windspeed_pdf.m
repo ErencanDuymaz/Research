@@ -14,7 +14,7 @@ t = datetime(2017,1,1,0,0,0) + 10*minutes(0:33158);
 % 
 % [num,txt] = xlsread(filename,sheet,xlRange);
 % date=txt;
-plot(t,windspeeds)
+plot(t,windspeeds,'k')
 ylabel('Wind Speed (m/s)')
 ax = gca;
 ax.XGrid = 'on';

@@ -70,11 +70,11 @@
 \contentsline {subsection}{\numberline {5.1.2}Base Case Frequency Response for Additional Load Connection}{72}{subsection.5.1.2}
 \contentsline {section}{\numberline {5.2}10\% Renewable Generation Case}{74}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Load Flow Analysis for 10\% Renewable Generation Case}{75}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}10\% Renewable Case Frequency Response for Additional Load Connection}{76}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.2}10\% Renewable Generation Case Frequency Response for Additional Load Connection}{76}{subsection.5.2.2}
 \contentsline {section}{\numberline {5.3}Reduced Inertia Case}{78}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Load Flow Analysis for Reduced Inertia Case}{79}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Reduced Inertia Case Frequency Response for Additional Load Connection}{80}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}\%10 Renewable Generation Case with Synthetic Inertia}{80}{section.5.4}
+\contentsline {section}{\numberline {5.4}10\% Renewable Generation Case with Synthetic Inertia}{80}{section.5.4}
 \contentsline {section}{\numberline {5.5}Reduced Inertia Case with Synthetic Inertia}{84}{section.5.5}
 \contentsline {section}{\numberline {5.6}Comparison of the Synthetic Inertia and Fast Inertial Support}{86}{section.5.6}
 \contentsline {section}{\numberline {5.7}Effect of the Synthetic Inertia on Turkish Electricity System}{89}{section.5.7}

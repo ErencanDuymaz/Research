@@ -1,61 +1,61 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
-Repeated entry---line 2381 of file library.bib
- : @article{Zhu2013a
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4224 of file library.bib
- : @article{Morren2006
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12751 of file library.bib
- : @article{Muljadi2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 14025 of file library.bib
- : @unpublished{Eto2010
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 14663 of file library.bib
- : @article{Gonzalez-longatt2015
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 15449 of file library.bib
- : @article{Morren2006a
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 16440 of file library.bib
- : @article{Wu2014
- :                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 19454 of file library.bib
- : @article{Eriksson2017
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 19636 of file library.bib
- : @article{Chen2009b
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26104 of file library.bib
- : @article{Muljadi2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26259 of file library.bib
- : @article{Eto2010
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26278 of file library.bib
- : @article{Altin2018
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26334 of file library.bib
+Repeated entry---line 795 of file library.bib
  : @article{ENTSO-E2016
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 26776 of file library.bib
+Repeated entry---line 915 of file library.bib
+ : @article{Altin2018
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2708 of file library.bib
+ : @techreport{Eto2010
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4455 of file library.bib
+ : @article{Eriksson2017
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4534 of file library.bib
+ : @article{Muljadi2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4923 of file library.bib
+ : @article{Chen2009b
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7190 of file library.bib
  : @article{Conroy2008
  :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10193 of file library.bib
+ : @unpublished{Eto2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12260 of file library.bib
+ : @article{Zhu2013a
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14607 of file library.bib
+ : @article{Gonzalez-longatt2015
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14638 of file library.bib
+ : @article{Wu2014
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 19991 of file library.bib
+ : @article{Morren2006a
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 23228 of file library.bib
+ : @article{Morren2006
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 26767 of file library.bib
+ : @article{Muljadi2012
+ :                     ,
 I'm skipping whatever remains of this entry
 Warning--empty publisher in InternationalRenewableEnergyAgencyIRENA2018
 Warning--empty publisher in InternationalRenewableEnergyAgency2017
@@ -68,7 +68,7 @@ Warning--empty institution in Clark2009
 Warning--empty institution in Enercon2018
 Warning--can't use both author and editor fields in Kundur
 Warning--empty year in Kundur
-Warning--empty publisher in Machowski2011
+Warning--empty journal in Eto2010
 Warning--empty publisher in Ackermann2005a
 Warning--empty publisher in Heier
 Warning--empty journal in Barakati2009
