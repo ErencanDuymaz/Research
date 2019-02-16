@@ -1,8 +1,8 @@
 \begin{thebibliography}{10}
 
 \bibitem{InternationalRenewableEnergyAgencyIRENA2018}
-{International Renewable Energy Agency (IRENA)}, {\em {IRENA (2018), Renewable
-  capacity statistics 2018}}.
+{International Renewable Energy Agency (IRENA)}, {\em {Renewable capacity
+  statistics 2018}}.
 \newblock 2018.
 
 \bibitem{InternationalRenewableEnergyAgency2017}
@@ -12,7 +12,9 @@
 
 \bibitem{EuropeanCommission2008}
 {Commission of the European Communities}, ``{20 20 by 2020 - Europe's climate
-  change opportunity}.'' 2008.
+  change opportunity}.'' Available:
+  https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52008DC0030{\&}from=EN.
+  [Accessed: 11- Jan- 2019], 2008.
 
 \bibitem{EuropeanParliament2009}
 {European Parliament}, ``{Directive 2009/28/EC of the European Parliament and
@@ -129,7 +131,10 @@ K.~Clark, N.~W. Miller, and J.~J. Sanchez-gasca, ``{Modeling of GE Wind
   Turbine-Generators for Grid Studies Prepared by :},'' tech. rep., 2010.
 
 \bibitem{Enercon2018}
-Enercon, ``{Grid Integration and Wind Farm Management},'' tech. rep., 2018.
+Enercon, ``Grid integration and wind farm management,'' tech. rep., 2018.
+\newblock Available:
+  https://www.enercon.de/fileadmin/Redakteur/Medien-Portal/broschueren/pdf/EC{\_}Netztechnologie{\_}en{\_}web.pdf.
+  [Accessed: 11- Jan- 2019].
 
 \bibitem{Gonzalez-Longatt2016}
 F.~Gonzalez-Longatt, A.~Bonfiglio, R.~Procopio, and D.~Bogdanov, ``{Practical
@@ -150,6 +155,8 @@ J.~Eto, J.~Undrill, P.~Mackin, R.~Daschmans, B.~Williams, B.~Haney, R.~Hunt,
 
 \bibitem{teiasfreq}
 TEİAŞ, ``{Y{\"{u}}k Tevzi Raporları},'' 2019.
+\newblock Available: https://www.teias.gov.tr/tr/gunluk-frekans-bilgileri.
+  [Accessed: 12- Jan- 2019].
 
 \bibitem{Ekanayake2008}
 J.~B. Ekanayake, N.~Jenkins, and G.~Strbac, ``{Frequency Response from Wind
@@ -164,15 +171,20 @@ I.~Erinmez, D.~Bickers, G.~Wood, and W.~Hung, ``{NGC experience with frequency
 \bibitem{Machowski2011}
 J.~Machowski, J.~W. Bialek, and J.~R. Bumby, {\em {Power system dynamics:
   stability and control}}.
-\newblock John Wiley{\&} Sons Ltd., 2nd~ed., 2011.
+\newblock John Wiley{\&} Sons Ltd., 2nd~ed., 2008.
 
 \bibitem{TEIAS2019}
 TEIAS, ``{TEIAS Transparency Platform},'' 2019.
+\newblock Available: https://seffaflik.epias.com.tr/transparency/. [Accessed:
+  11- Jan- 2019].
 
 \bibitem{yasa}
 ``{Enerji Kaynaklarının Elektrik Enerjisi {\"{U}}retimi Ama{\c{c}}lı
   Kullanımına İlişkin Kanunda Değişiklik Yapılmasına Dair Kanun},''
   2011.
+\newblock Available:
+  http://www.resmigazete.gov.tr/eskiler/2011/01/20110108-3.htm. [Accessed: 11-
+  Jan- 2019].
 
 \bibitem{Chen2009b}
 Z.~Chen, J.~M. Guerrero, F.~Blaabjerg, and S.~Member, ``{A Review of the State
@@ -233,6 +245,9 @@ H.~Polinder, J.~A. Ferreira, B.~B. Jensen, A.~B. Abrahamsen, K.~Atallah, and
 \bibitem{UKONSAARI2016}
 J.~Ukonsaari and N.~Bennstedt, ``{Wind Turbine Gearboxes: Maintenance Effect on
   Present and Future Gearboxes for Wind Turbines},'' tech. rep., 2016.
+\newblock Available:
+  https://energiforskmedia.blob.core.windows.net/media/21270/wind-turbine-gearboxes-energiforskrapport-2016-279.pdf.
+  [Accessed: 5- Jan- 2019].
 
 \bibitem{Kazmierkowski2002}
 M.~P. Kazmierkowski, R.~Krishnan, and F.~Blaabjerg, {\em {Control in Power
